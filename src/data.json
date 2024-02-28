@@ -1,0 +1,271 @@
+{
+    "infinitives": [
+        "bailar",
+        "cantar",
+        "hablar",
+        "aprender",
+        "beber",
+        "correr",
+        "compartir",
+        "decidir",
+        "vivir"
+    ],
+    "tenses": [
+        [
+            "Preterite",
+            [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            [
+                "é",
+                "aste",
+                "ó",
+                "amos",
+                "asteis",
+                "aron",
+                "í",
+                "iste",
+                "ió",
+                "imos",
+                "isteis",
+                "ieron",
+                "í",
+                "iste",
+                "ió",
+                "imos",
+                "isteis",
+                "ieron"
+            ]
+        ],
+        [
+            "Imperfect",
+            [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            [
+                "aba",
+                "abas",
+                "aba",
+                "ábamos",
+                "abais",
+                "aban",
+                "ía",
+                "ías",
+                "ía",
+                "íamos",
+                "íais",
+                "ían",
+                "ía",
+                "ías",
+                "ía",
+                "íamos",
+                "íais",
+                "ían"
+            ]
+        ],
+        [
+            "Perfect",
+            [
+                "he ",
+                "has ",
+                "ha ",
+                "hemos ",
+                "habéis ",
+                "han "
+            ],
+            [
+                "ado",
+                "ado",
+                "ado",
+                "ado",
+                "ado",
+                "ado",
+                "ido",
+                "ido",
+                "ido",
+                "ido",
+                "ido",
+                "ido",
+                "ido",
+                "ido",
+                "ido",
+                "ido",
+                "ido",
+                "ido"
+            ]
+        ],
+        [
+            "Present",
+            [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            [
+                "o",
+                "as",
+                "a",
+                "amos",
+                "áis",
+                "an",
+                "o",
+                "es",
+                "e",
+                "emos",
+                "éis",
+                "en",
+                "o",
+                "es",
+                "e",
+                "imos",
+                "ís",
+                "en"
+            ]
+        ],
+        [
+            "Present continuous",
+            [
+                "estoy ",
+                "estas ",
+                "está ",
+                "estamos ",
+                "estáis ",
+                "están "
+            ],
+            [
+                "ando",
+                "ando",
+                "ando",
+                "ando",
+                "ando",
+                "ando",
+                "iendo",
+                "iendo",
+                "iendo",
+                "iendo",
+                "iendo",
+                "iendo",
+                "iendo",
+                "iendo",
+                "iendo",
+                "iendo",
+                "iendo",
+                "iendo"
+            ]
+        ],
+        [
+            "Immediate future",
+            [
+                "voy a ",
+                "vas a ",
+                "va a ",
+                "vamos a ",
+                "vais a ",
+                "van a "
+            ],
+            [
+                "ar",
+                "ar",
+                "ar",
+                "ar",
+                "ar",
+                "ar",
+                "er",
+                "er",
+                "er",
+                "er",
+                "er",
+                "er",
+                "ir",
+                "ir",
+                "ir",
+                "ir",
+                "ir",
+                "ir"
+            ]
+        ],
+        [
+            "Simple Future",
+            [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            [
+                "aré",
+                "arás",
+                "ará",
+                "arémos",
+                "aréis",
+                "arán",
+                "eré",
+                "erás",
+                "erá",
+                "erémos",
+                "eréis",
+                "erán",
+                "iré",
+                "irás",
+                "irá",
+                "irémos",
+                "iréis",
+                "irán"
+            ]
+        ],
+        [
+            "Conditional",
+            [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            [
+                "aría",
+                "arías",
+                "aría",
+                "aríamos",
+                "aríais",
+                "arían",
+                "ería",
+                "erías",
+                "ería",
+                "eríamos",
+                "eríais",
+                "erían",
+                "iría",
+                "irías",
+                "iría",
+                "iríamos",
+                "iríais",
+                "irían"
+            ]
+        ]
+    ],
+    "persons": [
+        "yo → I",
+        "tú → you",
+        "él/ella → he/she",
+        "nosotros → we",
+        "vosotros → you all",
+        "ellos → they"
+    ]
+}

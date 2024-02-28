@@ -1,38 +1,235 @@
 .App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #5A5966;
+  color: #fff;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.framework {
+  width: 900px;
+  background-color: #070F2B;
+  border-radius: 2%;
+  border: 4px solid black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.row1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-top: 5px solid black;
+  border-bottom: 4px solid black;
+  height: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.info-1,
+.info-2,
+.info-3 {
+  height: 80%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  margin: 10px;
+}
+
+.info-1 p,
+.info-2 p,
+.info-3 p {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 1rem;
+  text-decoration: underline;
+  margin: 10px;
+}
+
+.infinitive-list {
+  background-color: #1B1A55;
+  width: 33%;
+}
+
+.tense-list {
+  background-color: #535C91;
+  width: 33%;
+}
+
+.person-list {
+  background-color: #9290C3;
+  width: 33%;
+}
+
+.row-selection {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 4px solid black;
+}
+
+.row-selection h3 {
+  background-color: #9290C3;
+  width: 33%;
+  height: 5vh;
+  margin: 0;
+  padding: 1vh;
+  border: 1px solid black;
+  background-color: #fff;
+  color: black;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.user-text {
+  width: 100%;
+  height: 3rem;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 0;
+  border: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+input {
+  border-bottom: 4px solid red;
+}
+
+
+#correct-answer {
+  font-weight: bold;
+  color: #00BB32;
+  background-color: #e0f7d4;
+  border: 1px solid #48bb78;
+}
+
+#incorrect-answer {
+  font-weight: bold;
+  color: #FF1500;
+  background-color: #fbd5d5;
+  border: 1px solid #f56565;
+}
+
+
+/*----------------------------- Buttons ----------------------*/
+
+.button-group {
+  height: 5vw;
+  min-height: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+}
+
+
+button {
+  background-color: #fff;
+  color: #3B3B3B;
+  border: 2px solid #1A1A1A;
+  border-radius: 10px;
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 18px;
+  font-weight: 600;
+  outline: none;
+  padding: 5px auto;
+  margin: auto;
+  text-align: center;
+  cursor: pointer;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  min-height: 40px;
+  width: 15%;
+  min-width: 100px;
+  will-change: transform;
+}
+
+
+button:hover {
+  color: #fff;
+  background-color: #1B1A55;
+  border: 2px solid #fff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+
+
+/* ---------------------- Responsiveness ---------------------*/
+
+@media (max-width: 900px) {
+  .framework {
+    max-width: 95vw;
+    border-radius: 5%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .row-selection {
+    font-size: 0.8rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  .user-text {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 500px) {
+
+  .info-1,
+  .info-2,
+  .info-3 {
+    display: none;
+  }
+
+  .row-selection {
+    font-size: 0.6rem;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  .user-text {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 750) and (orientation: landscape) and (min-aspect-ratio: 1/1) {
+
+  .framework {
+    border-radius: 2%;
+  }
+
+  .info-1,
+  .info-2,
+  .info-3 {
+    display: none;
+  }
+
+  .row-selection {
+    font-size: 0.8rem;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  .user-text {
+    font-size: 1rem;
   }
 }
