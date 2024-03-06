@@ -7,6 +7,7 @@ import Infinitives from './components/Infinitives';
 import Tenses from './components/Tenses';
 import Persons from './components/Persons';
 import RowSelection from './components/RowSelection';
+import Modal from './components/Modal';
 
 //Data file containing all verbs' info
 import data from './data.json'
@@ -38,7 +39,17 @@ function App() {
 
   const [userTries, setUserTries] = useState(3);
 
+  // Showing the modal
+  const [showModal, setShowModal] = useState(false);
+
   //-------FUNCTIONS----FUNCTIONS-------FUNCTIONS--------FUNCTIONS-------FUNCTIONS-------FUNCTIONS-----FUNCTIONS------
+
+  // Switched the value of showModal true/false
+  const handleModal = () => {
+    if (gameIsOn) {
+      setShowModal(prevValue => !prevValue)
+    }
+  }
 
   //Function that selects the random verb that the user needs to guess
   const handlePlay = () => {
@@ -105,7 +116,7 @@ function App() {
           } else if (newInput !== newFinalWord && userTries === 1) {
             setUserTries(0)
             setWrongAnswer(true);
-            setInput(`Answer was "${finalWord}"`)
+            setInput(`The answer was "${finalWord}"`)
             setGameOver(true);
           } else {
             setWrongAnswer(true);
@@ -148,12 +159,19 @@ function App() {
             disabled={gameOver}
           />
           <div className='button-group'>
-            <button role="button" onClick={handlePlay}>Play</button>
-            <button onClick={handleCheck}>Check</button>
+            <button className='main-button' role="button" onClick={handlePlay}>Play</button>
+            <button className='main-button' onClick={handleCheck}>Check</button>
+            <button className='main-button' onClick={handleModal}>Help</button>
           </div>
         </div>
 
       </div>
+      {showModal &&
+        <Modal
+          handleModal={handleModal}
+          tense={tenseToAnswer}
+        />}
+
     </div>
   );
 }

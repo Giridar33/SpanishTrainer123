@@ -12,15 +12,15 @@
   width: 900px;
   background-color: #070F2B;
   border-radius: 2%;
-  border: 4px solid black;
+  border: 2px solid black;
 }
 
 .row1 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  border-top: 5px solid black;
-  border-bottom: 4px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
   height: auto;
 }
 
@@ -66,7 +66,7 @@ h2 {
 .row-selection {
   display: flex;
   flex-direction: row;
-  border-bottom: 4px solid black;
+  border-bottom: 2px solid black;
 }
 
 .row-selection h3 {
@@ -125,7 +125,7 @@ input {
 }
 
 
-button {
+.main-button {
   background-color: #fff;
   color: #3B3B3B;
   border: 2px solid #1A1A1A;
@@ -145,18 +145,20 @@ button {
   width: 15%;
   min-width: 100px;
   will-change: transform;
+
 }
 
 
-button:hover {
+.main-button:hover {
   color: #fff;
   background-color: #1B1A55;
   border: 2px solid #fff;
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
   transform: translateY(-2px);
+  box-shadow: 5px 5px 10px #1D3DB3, 5px -5px 10px #1D3DB3, -5px -5px 10px #1D3DB3, -5px 5px 10px #1D3DB3;
 }
 
-button:active {
+.main-button:active {
   box-shadow: none;
   transform: translateY(0);
 }

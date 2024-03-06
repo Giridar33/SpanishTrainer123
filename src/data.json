@@ -40,6 +40,12 @@
                 "imos",
                 "isteis",
                 "ieron"
+            ],
+            "Used to talk about what you DID.\nTake the infinitive, delete its ending (-ar, -er, -ir) and add these endings:",
+            [
+                "bailé = I danced",
+                "aprendió = he/she learnt",
+                "decidimos = we decided"
             ]
         ],
         [
@@ -71,6 +77,12 @@
                 "íamos",
                 "íais",
                 "ían"
+            ],
+            "Used to talk about what you USED TO DO or WERE DOING.\nTake the infinitive, delete its ending (-ar, -er, -ir) and add these endings:",
+            [
+                "cantaba = I used to sing",
+                "bebías = you used to drink",
+                "vivían = they used to live"
             ]
         ],
         [
@@ -102,6 +114,12 @@
                 "ido",
                 "ido",
                 "ido"
+            ],
+            "Used to talk about what you HAVE DONE.\nTake the correct form of the verb 'haber' (see column).\nThen look at the infinitive:\nIf it ends in -ar, delete it and add -ado.\nIf it ends in -er or -ir, delete that ending and add -ido.",
+            [
+                "he hablado = I have talked",
+                "hemos corrido = we have run",
+                "habéis compartido = you all have shared"
             ]
         ],
         [
@@ -133,13 +151,19 @@
                 "imos",
                 "ís",
                 "en"
+            ],
+            "Used to talk about what you NORMALLY DO.\nTake the infinitive, delete its ending (-ar, -er, -ir) and add these endings:",
+            [
+                "hablo = I talk",
+                "aprendemos = we learn",
+                "vivís = you all live"
             ]
         ],
         [
-            "Present continuous",
+            "Present Continuous",
             [
                 "estoy ",
-                "estas ",
+                "estás ",
                 "está ",
                 "estamos ",
                 "estáis ",
@@ -164,10 +188,16 @@
                 "iendo",
                 "iendo",
                 "iendo"
+            ],
+            "Used to talk about what you ARE DOING.\nTake the correct form of 'estar' (see column) and add the gerund.\nYou form the gerund by taking the infinitive and deleting its ending.\nIf the ending was -ar add -ando.\nIf the ending was -er or -ir add -iendo",
+            [
+                "estoy bailando = I'm dancing",
+                "está bebiendo = he/she is drinking",
+                "estamos compartiendo = we are sharing"
             ]
         ],
         [
-            "Immediate future",
+            "Immediate Future",
             [
                 "voy a ",
                 "vas a ",
@@ -195,6 +225,12 @@
                 "ir",
                 "ir",
                 "ir"
+            ],
+            "Used to talk about what you ARE GOING TO DO.\nTake the correct form of the verb 'ir' (see column) + the word 'a' + the infinitive",
+            [
+                "voy a cantar = I'm going to sing",
+                "vas a aprender = you are going to learn",
+                "vamos a vivir = we are going to live"
             ]
         ],
         [
@@ -211,21 +247,27 @@
                 "aré",
                 "arás",
                 "ará",
-                "arémos",
+                "aremos",
                 "aréis",
                 "arán",
                 "eré",
                 "erás",
                 "erá",
-                "erémos",
+                "eremos",
                 "eréis",
                 "erán",
                 "iré",
                 "irás",
                 "irá",
-                "irémos",
+                "iremos",
                 "iréis",
                 "irán"
+            ],
+            "Used to talk about what you WILL DO.\nTake the infinitive, DO NOT DELETE ITS ENDING (-ar, -er, -ir) and add these endings:",
+            [
+                "hablaré = I will talk",
+                "correrás = you will run",
+                "decidirán = they will decide"
             ]
         ],
         [
@@ -257,6 +299,12 @@
                 "iríamos",
                 "iríais",
                 "irían"
+            ],
+            "Used to talk about what you WOULD DO.\nTake the infinitive, DO NOT DELETE ITS ENDING (-ar, -er, -ir) and add these endings:",
+            [
+                "cantaría = I would sing",
+                "bebería = he/she would drink",
+                "beberían = they would drink"
             ]
         ]
     ],
