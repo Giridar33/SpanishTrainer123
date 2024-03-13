@@ -1,319 +1,271 @@
 {
-    "infinitives": [
-        "bailar",
-        "cantar",
-        "hablar",
-        "aprender",
-        "beber",
-        "correr",
-        "compartir",
-        "decidir",
-        "vivir"
+  "infinitives": [
+    "bailar",
+    "cantar",
+    "hablar",
+    "aprender",
+    "beber",
+    "correr",
+    "compartir",
+    "decidir",
+    "vivir"
+  ],
+  "tenses": [
+    [
+      "Preterite",
+      ["", "", "", "", "", ""],
+      [
+        "é",
+        "aste",
+        "ó",
+        "amos",
+        "asteis",
+        "aron",
+        "í",
+        "iste",
+        "ió",
+        "imos",
+        "isteis",
+        "ieron",
+        "í",
+        "iste",
+        "ió",
+        "imos",
+        "isteis",
+        "ieron"
+      ],
+      "Used to talk about what you DID.\nTake the infinitive, delete its ending (-ar, -er, -ir) and add these endings:",
+      [
+        "bailar (to dance) → bailé = I danced",
+        "aprender (to learn) → aprendió = he/she learnt",
+        "decidir (to decide) → decidimos = we decided"
+      ],
+      true
     ],
-    "tenses": [
-        [
-            "Preterite",
-            [
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            [
-                "é",
-                "aste",
-                "ó",
-                "amos",
-                "asteis",
-                "aron",
-                "í",
-                "iste",
-                "ió",
-                "imos",
-                "isteis",
-                "ieron",
-                "í",
-                "iste",
-                "ió",
-                "imos",
-                "isteis",
-                "ieron"
-            ],
-            "Used to talk about what you DID.\nTake the infinitive, delete its ending (-ar, -er, -ir) and add these endings:",
-            [
-                "bailé = I danced",
-                "aprendió = he/she learnt",
-                "decidimos = we decided"
-            ]
-        ],
-        [
-            "Imperfect",
-            [
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            [
-                "aba",
-                "abas",
-                "aba",
-                "ábamos",
-                "abais",
-                "aban",
-                "ía",
-                "ías",
-                "ía",
-                "íamos",
-                "íais",
-                "ían",
-                "ía",
-                "ías",
-                "ía",
-                "íamos",
-                "íais",
-                "ían"
-            ],
-            "Used to talk about what you USED TO DO or WERE DOING.\nTake the infinitive, delete its ending (-ar, -er, -ir) and add these endings:",
-            [
-                "cantaba = I used to sing",
-                "bebías = you used to drink",
-                "vivían = they used to live"
-            ]
-        ],
-        [
-            "Perfect",
-            [
-                "he ",
-                "has ",
-                "ha ",
-                "hemos ",
-                "habéis ",
-                "han "
-            ],
-            [
-                "ado",
-                "ado",
-                "ado",
-                "ado",
-                "ado",
-                "ado",
-                "ido",
-                "ido",
-                "ido",
-                "ido",
-                "ido",
-                "ido",
-                "ido",
-                "ido",
-                "ido",
-                "ido",
-                "ido",
-                "ido"
-            ],
-            "Used to talk about what you HAVE DONE.\nTake the correct form of the verb 'haber' (see column).\nThen look at the infinitive:\nIf it ends in -ar, delete it and add -ado.\nIf it ends in -er or -ir, delete that ending and add -ido.",
-            [
-                "he hablado = I have talked",
-                "hemos corrido = we have run",
-                "habéis compartido = you all have shared"
-            ]
-        ],
-        [
-            "Present",
-            [
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            [
-                "o",
-                "as",
-                "a",
-                "amos",
-                "áis",
-                "an",
-                "o",
-                "es",
-                "e",
-                "emos",
-                "éis",
-                "en",
-                "o",
-                "es",
-                "e",
-                "imos",
-                "ís",
-                "en"
-            ],
-            "Used to talk about what you NORMALLY DO.\nTake the infinitive, delete its ending (-ar, -er, -ir) and add these endings:",
-            [
-                "hablo = I talk",
-                "aprendemos = we learn",
-                "vivís = you all live"
-            ]
-        ],
-        [
-            "Present Continuous",
-            [
-                "estoy ",
-                "estás ",
-                "está ",
-                "estamos ",
-                "estáis ",
-                "están "
-            ],
-            [
-                "ando",
-                "ando",
-                "ando",
-                "ando",
-                "ando",
-                "ando",
-                "iendo",
-                "iendo",
-                "iendo",
-                "iendo",
-                "iendo",
-                "iendo",
-                "iendo",
-                "iendo",
-                "iendo",
-                "iendo",
-                "iendo",
-                "iendo"
-            ],
-            "Used to talk about what you ARE DOING.\nTake the correct form of 'estar' (see column) and add the gerund.\nYou form the gerund by taking the infinitive and deleting its ending.\nIf the ending was -ar add -ando.\nIf the ending was -er or -ir add -iendo",
-            [
-                "estoy bailando = I'm dancing",
-                "está bebiendo = he/she is drinking",
-                "estamos compartiendo = we are sharing"
-            ]
-        ],
-        [
-            "Immediate Future",
-            [
-                "voy a ",
-                "vas a ",
-                "va a ",
-                "vamos a ",
-                "vais a ",
-                "van a "
-            ],
-            [
-                "ar",
-                "ar",
-                "ar",
-                "ar",
-                "ar",
-                "ar",
-                "er",
-                "er",
-                "er",
-                "er",
-                "er",
-                "er",
-                "ir",
-                "ir",
-                "ir",
-                "ir",
-                "ir",
-                "ir"
-            ],
-            "Used to talk about what you ARE GOING TO DO.\nTake the correct form of the verb 'ir' (see column) + the word 'a' + the infinitive",
-            [
-                "voy a cantar = I'm going to sing",
-                "vas a aprender = you are going to learn",
-                "vamos a vivir = we are going to live"
-            ]
-        ],
-        [
-            "Simple Future",
-            [
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            [
-                "aré",
-                "arás",
-                "ará",
-                "aremos",
-                "aréis",
-                "arán",
-                "eré",
-                "erás",
-                "erá",
-                "eremos",
-                "eréis",
-                "erán",
-                "iré",
-                "irás",
-                "irá",
-                "iremos",
-                "iréis",
-                "irán"
-            ],
-            "Used to talk about what you WILL DO.\nTake the infinitive, DO NOT DELETE ITS ENDING (-ar, -er, -ir) and add these endings:",
-            [
-                "hablaré = I will talk",
-                "correrás = you will run",
-                "decidirán = they will decide"
-            ]
-        ],
-        [
-            "Conditional",
-            [
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            [
-                "aría",
-                "arías",
-                "aría",
-                "aríamos",
-                "aríais",
-                "arían",
-                "ería",
-                "erías",
-                "ería",
-                "eríamos",
-                "eríais",
-                "erían",
-                "iría",
-                "irías",
-                "iría",
-                "iríamos",
-                "iríais",
-                "irían"
-            ],
-            "Used to talk about what you WOULD DO.\nTake the infinitive, DO NOT DELETE ITS ENDING (-ar, -er, -ir) and add these endings:",
-            [
-                "cantaría = I would sing",
-                "bebería = he/she would drink",
-                "beberían = they would drink"
-            ]
-        ]
+    [
+      "Imperfect",
+      ["", "", "", "", "", ""],
+      [
+        "aba",
+        "abas",
+        "aba",
+        "ábamos",
+        "abais",
+        "aban",
+        "ía",
+        "ías",
+        "ía",
+        "íamos",
+        "íais",
+        "ían",
+        "ía",
+        "ías",
+        "ía",
+        "íamos",
+        "íais",
+        "ían"
+      ],
+      "Used to talk about what you USED TO DO or WERE DOING.\nTake the infinitive, delete its ending (-ar, -er, -ir) and add these endings:",
+      [
+        "cantar (to sing) → cantaba = I used to sing",
+        "beber (to drink) → bebías = you used to drink",
+        "vivir (to live) → vivían = they used to live"
+      ],
+      true
     ],
-    "persons": [
-        "yo → I",
-        "tú → you",
-        "él/ella → he/she",
-        "nosotros → we",
-        "vosotros → you all",
-        "ellos → they"
+    [
+      "Perfect",
+      ["he ", "has ", "ha ", "hemos ", "habéis ", "han "],
+      [
+        "ado",
+        "ado",
+        "ado",
+        "ado",
+        "ado",
+        "ado",
+        "ido",
+        "ido",
+        "ido",
+        "ido",
+        "ido",
+        "ido",
+        "ido",
+        "ido",
+        "ido",
+        "ido",
+        "ido",
+        "ido"
+      ],
+      "Used to talk about what you HAVE DONE.\nTake the correct form of the verb 'haber' (see column).\nThen look at the infinitive:\nIf it ends in -ar, delete it and add -ado.\nIf it ends in -er or -ir, delete that ending and add -ido.",
+      [
+        "hablar (to talk) → he hablado = I have talked",
+        "correr (to run) → hemos corrido = we have run",
+        "compartir (to share) → habéis compartido = you all have shared"
+      ],
+      true
+    ],
+    [
+      "Present",
+      ["", "", "", "", "", ""],
+      [
+        "o",
+        "as",
+        "a",
+        "amos",
+        "áis",
+        "an",
+        "o",
+        "es",
+        "e",
+        "emos",
+        "éis",
+        "en",
+        "o",
+        "es",
+        "e",
+        "imos",
+        "ís",
+        "en"
+      ],
+      "Used to talk about what you NORMALLY DO.\nTake the infinitive, delete its ending (-ar, -er, -ir) and add these endings:",
+      [
+        "hablar (to talk) → hablo = I talk",
+        "aprender (to learn) → aprendemos = we learn",
+        "vivir (to live) → vivís = you all live"
+      ],
+      true
+    ],
+    [
+      "Present Continuous",
+      ["estoy ", "estás ", "está ", "estamos ", "estáis ", "están "],
+      [
+        "ando",
+        "ando",
+        "ando",
+        "ando",
+        "ando",
+        "ando",
+        "iendo",
+        "iendo",
+        "iendo",
+        "iendo",
+        "iendo",
+        "iendo",
+        "iendo",
+        "iendo",
+        "iendo",
+        "iendo",
+        "iendo",
+        "iendo"
+      ],
+      "Used to talk about what you ARE DOING.\nTake the correct form of 'estar' (see column) and add the gerund.\nYou form the gerund by taking the infinitive and deleting its ending.\nIf the ending was -ar add -ando.\nIf the ending was -er or -ir add -iendo",
+      [
+        "bailar (to dance) → estoy bailando = I'm dancing",
+        "beber (to drink) → está bebiendo = he/she is drinking",
+        "compartir (to share) → estamos compartiendo = we are sharing"
+      ],
+      true
+    ],
+    [
+      "Immediate Future",
+      ["voy a ", "vas a ", "va a ", "vamos a ", "vais a ", "van a "],
+      [
+        "ar",
+        "ar",
+        "ar",
+        "ar",
+        "ar",
+        "ar",
+        "er",
+        "er",
+        "er",
+        "er",
+        "er",
+        "er",
+        "ir",
+        "ir",
+        "ir",
+        "ir",
+        "ir",
+        "ir"
+      ],
+      "Used to talk about what you ARE GOING TO DO.\nTake the correct form of the verb 'ir' (see column) + the word 'a' + the infinitive",
+      [
+        "cantar (to sing) → voy a cantar = I'm going to sing",
+        "aprender (to learn) → vas a aprender = you are going to learn",
+        "vivir (to live) → vamos a vivir = we are going to live"
+      ],
+      true
+    ],
+    [
+      "Simple Future",
+      ["", "", "", "", "", ""],
+      [
+        "aré",
+        "arás",
+        "ará",
+        "aremos",
+        "aréis",
+        "arán",
+        "eré",
+        "erás",
+        "erá",
+        "eremos",
+        "eréis",
+        "erán",
+        "iré",
+        "irás",
+        "irá",
+        "iremos",
+        "iréis",
+        "irán"
+      ],
+      "Used to talk about what you WILL DO.\nTake the infinitive, DO NOT DELETE ITS ENDING (-ar, -er, -ir) and add these endings:",
+      [
+        "hablar (to talk) → hablaré = I will talk",
+        "correr (to run) → correrás = you will run",
+        "decidir (to decide) → decidirán = they will decide"
+      ],
+      true
+    ],
+    [
+      "Conditional",
+      ["", "", "", "", "", ""],
+      [
+        "aría",
+        "arías",
+        "aría",
+        "aríamos",
+        "aríais",
+        "arían",
+        "ería",
+        "erías",
+        "ería",
+        "eríamos",
+        "eríais",
+        "erían",
+        "iría",
+        "irías",
+        "iría",
+        "iríamos",
+        "iríais",
+        "irían"
+      ],
+      "Used to talk about what you WOULD DO.\nTake the infinitive, DO NOT DELETE ITS ENDING (-ar, -er, -ir) and add these endings:",
+      [
+        "cantar (to sing) → cantaría = I would sing",
+        "beber (to drink) → bebería = he/she would drink",
+        "compartir (to share) → compartirían = they would share"
+      ],
+      true
     ]
+  ],
+  "persons": [
+    ["yo → I", true],
+    ["tú → you", true],
+    ["él/ella → he/she", true],
+    ["nosotros → we", true],
+    ["vosotros → you all", true],
+    ["ellos → they", true]
+  ]
 }

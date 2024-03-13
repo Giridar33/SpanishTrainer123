@@ -1,5 +1,5 @@
 //Imports
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import './App.css';
 
 //React components
@@ -13,10 +13,17 @@ import Modal from './components/Modal';
 import data from './data.json'
 
 function App() {
+
+  // We create a ref for the input element (in order to have the input targeted when we click on Play)
+  const inputRef = useRef(null);
+
   //We deconstruct all information needed from the json file
   const { infinitives, tenses, persons } = data;
 
   //----STATE------STATE----------STATE--------STATE--------STATE--------STATE-------STATE--------//
+
+  const [jsonData, setJsonData] = useState(data);
+
   //These are here to store the user answer
   const [userAnswer, setUserAnswer] = useState('');
   const [input, setInput] = useState('');
@@ -42,9 +49,24 @@ function App() {
   // Showing the modal
   const [showModal, setShowModal] = useState(false);
 
+  // We store this value to true if the user has switched off all tenses, to avoid bugs
+  const [allTensesFalse, setAllTensesFalse] = useState(false);
+
+
   //-------FUNCTIONS----FUNCTIONS-------FUNCTIONS--------FUNCTIONS-------FUNCTIONS-------FUNCTIONS-----FUNCTIONS------
 
-  // Switched the value of showModal true/false
+  // Enables the functionality to toggle the tenses on or off
+  const toggleTense = (index) => {
+    const updatedTenses = [...jsonData.tenses];
+    updatedTenses[index][5] = !updatedTenses[index][5];
+    setJsonData({ ...jsonData, tenses: updatedTenses })
+
+    //We check whether all tenses have been set to false by the user
+    const allFalse = updatedTenses.every(tense => !tense[5]);
+    setAllTensesFalse(allFalse);
+  }
+
+  // Switches the value of showModal true/false
   const handleModal = () => {
     if (gameIsOn) {
       setShowModal(prevValue => !prevValue)
@@ -53,6 +75,7 @@ function App() {
 
   //Function that selects the random verb that the user needs to guess
   const handlePlay = () => {
+
     //delete previous user input
     setInput('');
     setRightAnswer(false);
@@ -65,6 +88,11 @@ function App() {
     //Restore user tries to 3
     setUserTries(3);
 
+    if (allTensesFalse) {
+      setInput('Select at least one tense!');
+      return;
+    }
+
     //choose infinitive
     let randomInfinitiveIndex = Math.floor(Math.random() * infinitives.length);
     let varInfinitiveToAnswer = infinitives[randomInfinitiveIndex];
@@ -72,6 +100,11 @@ function App() {
     //choose tense
     let randomTenseIndex = Math.floor(Math.random() * tenses.length);
     let varTenseToAnswer = tenses[randomTenseIndex];
+    //here we add a while loop to make sure we don't return a tense that has been turned off by the user
+    while (varTenseToAnswer[5] === false) {
+          randomTenseIndex = Math.floor(Math.random() * tenses.length);
+          varTenseToAnswer = tenses[randomTenseIndex];
+    }
 
     //choose person
     let randomPersonIndex = Math.floor(Math.random() * persons.length)
@@ -94,6 +127,14 @@ function App() {
     setTenseToAnswer(varTenseToAnswer);
     setPersonToAnswer(varPersonToAnswer);
     setFinalWord(varFinalWord);
+
+    // Focus the input element after setting the game
+    // It was necessary to include this on a setTimeout to make sure it happened immediately after first click
+    setTimeout(() => {
+      inputRef.current.focus();
+    }, 0);
+    
+
 
   }
 
@@ -140,7 +181,7 @@ function App() {
 
         <div className="row1">
           <Infinitives infinitives={Infinitives} />
-          <Tenses tenses={Tenses} />
+          <Tenses tenses={tenses} toggleTense={toggleTense}/>
           <Persons persons={Persons} />
         </div>
 
@@ -157,6 +198,7 @@ function App() {
             value={input}
             onChange={(e) => setInput(e.target.value)}
             disabled={gameOver}
+            ref={inputRef}
           />
           <div className='button-group'>
             <button className='main-button' role="button" onClick={handlePlay}>Play</button>
