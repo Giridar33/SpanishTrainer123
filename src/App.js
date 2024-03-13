@@ -144,7 +144,7 @@ function App() {
       if (userTries > 0) {
         if (input !== "") {
           //tidy user input (delete accents, diacritics, etc)
-          let newInput = input.normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+          let newInput = input.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
           let newFinalWord = finalWord.normalize("NFD").replace(/[\u0300-\u036f]/g, "")
 
           setUserAnswer(newInput);
