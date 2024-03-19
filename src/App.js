@@ -1,5 +1,5 @@
 //Imports
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import './App.css';
 
 //React components
@@ -143,7 +143,7 @@ function App() {
     if (gameIsOn) {
       if (userTries > 0) {
         if (input !== "") {
-          //tidy user input (delete accents, diacritics, etc)
+          //tidy user input (set to lower case, delete accents, diacritics, etc)
           let newInput = input.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
           let newFinalWord = finalWord.normalize("NFD").replace(/[\u0300-\u036f]/g, "")
 
@@ -154,6 +154,7 @@ function App() {
             setInput(finalWord);
             setGameIsOn(false);
             setGameOver(true);
+            setWrongAnswer(false);
           } else if (newInput !== newFinalWord && userTries === 1) {
             setUserTries(0)
             setWrongAnswer(true);
@@ -161,6 +162,7 @@ function App() {
             setGameOver(true);
           } else {
             setWrongAnswer(true);
+            console.log("zas");
             setInput(input);
             setUserTries(prevTries => prevTries - 1)
           }
@@ -169,7 +171,25 @@ function App() {
     }
   }
 
+    // useEffect to add event listeners to buttons
+  useEffect(() => {
+    const handleKeyDown = (event) => {
+      //Check if Control jey is pressed or Meta on Mac
+      if ((event.ctrlKey || event.metaKey) && event.key === 'Control') {
+        handlePlay();
+      }
+      else if (event.key === 'Enter') {
+        handleCheck();
+      }
+    };
+      //Add event listeners to the document for keydown events
+      document.addEventListener('keydown', handleKeyDown);
 
+      //Cleanup function to remove event listener when component unmounts
+      return() => {
+        document.removeEventListener('keydown', handleKeyDown)
+      };
+  }, []);
 
 
   return (
@@ -197,6 +217,12 @@ function App() {
             type="text"
             value={input}
             onChange={(e) => setInput(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter') {
+                e.preventDefault(); //this line avoids the enter button to trigger input form submission
+                handleCheck();
+              }
+            }}
             disabled={gameOver}
             ref={inputRef}
           />
