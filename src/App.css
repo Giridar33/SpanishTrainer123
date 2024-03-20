@@ -237,11 +237,20 @@ input {
     font-size: 0.8rem;
   }
   .row-selection h3 {
-    padding: 0.5vh;
+    padding: 0.4vh;
   }
 
   h1 {
     font-size: 1.2rem;
+    margin: 0.5vh;
+  }
+
+  .framework > p {
+    margin: 0;
+  }
+
+  h2 {
+    margin: 2px;
   }
 
   .user-text {
@@ -251,6 +260,11 @@ input {
   .main-button {
     padding: 3px auto;
     width: 80px;
+  }
+
+  .info-2, .info-3 {
+    padding: 3px;
+    margin: 3px;
   }
 
   .infinitive-list {
