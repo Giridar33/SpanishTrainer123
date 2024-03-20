@@ -202,6 +202,11 @@ input {
 /* ---------------------- Responsiveness ---------------------*/
 
 @media (max-width: 900px) {
+
+  .App {
+    align-items: flex-start;
+  }
+
   .framework {
     max-width: 95vw;
     border-radius: 5%;
@@ -238,11 +243,12 @@ input {
   }
   .row-selection h3 {
     padding: 0.4vh;
+    height: 2rem;
   }
 
   h1 {
-    font-size: 1.2rem;
-    margin: 0.5vh;
+    font-size: 1.1rem;
+    margin: 0.4vh;
   }
 
   .framework > p {
@@ -254,7 +260,8 @@ input {
   }
 
   .user-text {
-    font-size: 1.1rem;
+    font-size: 1rem;
+    height: 2rem;
   }
 
   .main-button {
