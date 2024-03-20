@@ -8,6 +8,7 @@ import Tenses from './components/Tenses';
 import Persons from './components/Persons';
 import RowSelection from './components/RowSelection';
 import Modal from './components/Modal';
+import Tutorial from './components/Tutorial';
 
 //Data file containing all verbs' info
 import data from './data.json'
@@ -46,8 +47,9 @@ function App() {
 
   const [userTries, setUserTries] = useState(3);
 
-  // Showing the modal
+  // Showing the modal or tutorial
   const [showModal, setShowModal] = useState(false);
+  const [showTutorial, setShowTutorial] = useState(false);
 
   // We store this value to true if the user has switched off all tenses, to avoid bugs
   const [allTensesFalse, setAllTensesFalse] = useState(false);
@@ -81,6 +83,11 @@ function App() {
     if (gameIsOn) {
       setShowModal(prevValue => !prevValue)
     }
+  }
+
+    // Switches the value of showTutorial true/false
+  const handleTutorial = () => {
+      setShowTutorial(prevValue => !prevValue)
   }
 
   //Function that selects the random verb that the user needs to guess
@@ -214,7 +221,12 @@ function App() {
     <div className="App">
       <div className="framework">
 
-        <h1 className="title">Spanish verbs trainer</h1>
+        <div className='title-row'>
+          <button className='top-button' onClick={handleTutorial}><span class="material-symbols-outlined">help</span></button>
+          <h1 className="title">Spanish verbs trainer</h1>
+          <button className='top-button'><span class="material-symbols-outlined">person_raised_hand</span></button>
+        </div>
+        
         <p>{`Remaining tries: ${userTries}`}</p>
 
         <div className="row1">
@@ -257,6 +269,9 @@ function App() {
           handleModal={handleModal}
           tense={tenseToAnswer}
         />}
+      {showTutorial &&
+        <Tutorial handleTutorial={handleTutorial}/>
+      }
 
     </div>
   );
