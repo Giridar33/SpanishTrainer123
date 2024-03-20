@@ -59,17 +59,31 @@ h2 {
   width: 33%;
 }
 
-
+.active-option:hover, .inactive-option:hover {
+  color: red;
+  text-shadow: -0.5px -0.5px 0.5px red,
+      0.5px -0.5px 0.5px red,
+      -0.5px 0.5px 0.5px red,
+      0.5px 0.5px 0.5px red;
+  border: 1px solid red;
+  border-radius: 5px;
+  box-shadow: -2px -2px 2px 1px rgb(0 0 0 / 10%),
+    -2px 2px 2px 1px rgb(0 0 0 / 10%),
+    2px -2px 2px 1px rgb(0 0 0 / 10%),
+    2px 2px 2px 1px rgb(0 0 0 / 10%);
+}
 
 .active-option {
-    color: #333;
-      text-shadow: -1px -1px 3px #fff,
-        1px -1px 3px #fff,
-        -1px 1px 3px #fff,
-        1px 1px 3px #fff;
+  cursor: pointer;
+  color: #333;
+  text-shadow: -1px -1px 3px #fff,
+    1px -1px 3px #fff,
+    -1px 1px 3px #fff,
+    1px 1px 3px #fff;
 }
 
 .inactive-option {
+  cursor: pointer;
   color:#333;
   text-decoration: line-through;
   font-weight: bolder;

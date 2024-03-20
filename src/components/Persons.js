@@ -1,15 +1,20 @@
 import React from 'react';
-import data from '../data.json'
 
-const Persons = () => {
-    const { persons } = data;
+const Persons = ({ persons, togglePerson }) => {
 
     return (
         <div className='person-list'>
             <h2>Person</h2>
             <div className='info-3'>
                 {persons.map((person, index) => {
-                    return <p className="info-column" key={index}>{person}</p>
+                    return (
+                        <p 
+                        className={`info-column ${person[1] ? 'active-option' : 'inactive-option'}`}
+                        key={index}
+                        onClick={() => togglePerson(index)}>
+                        {person[0]}
+                        </p>
+                    )
                 })}
             </div>
         </div>

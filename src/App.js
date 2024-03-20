@@ -51,6 +51,7 @@ function App() {
 
   // We store this value to true if the user has switched off all tenses, to avoid bugs
   const [allTensesFalse, setAllTensesFalse] = useState(false);
+  const [allPersonsFalse, setAllPersonsFalse] = useState(false);
 
 
   //-------FUNCTIONS----FUNCTIONS-------FUNCTIONS--------FUNCTIONS-------FUNCTIONS-------FUNCTIONS-----FUNCTIONS------
@@ -64,6 +65,15 @@ function App() {
     //We check whether all tenses have been set to false by the user
     const allFalse = updatedTenses.every(tense => !tense[5]);
     setAllTensesFalse(allFalse);
+  }
+
+  const togglePerson = (index) => {
+    const updatedPersons = [...jsonData.persons];
+    updatedPersons[index][1] = !updatedPersons[index][1];
+    setJsonData({ ...jsonData, persons: updatedPersons})
+
+    const allFalse = updatedPersons.every(person => !person[1]);
+    setAllPersonsFalse(allFalse);
   }
 
   // Switches the value of showModal true/false
@@ -88,8 +98,16 @@ function App() {
     //Restore user tries to 3
     setUserTries(3);
 
-    if (allTensesFalse) {
-      setInput('Select at least one tense!');
+    if (allTensesFalse || allPersonsFalse) {
+      setInput('Select at least one tense and person!');
+      return;
+    }
+
+    // We filter all active persons
+    const activePersons = persons.filter((person) => person[1])
+
+    if (activePersons.length === 0) {
+      setInput('Select at least one person!');
       return;
     }
 
@@ -107,8 +125,8 @@ function App() {
     }
 
     //choose person
-    let randomPersonIndex = Math.floor(Math.random() * persons.length)
-    let varPersonToAnswer = persons[randomPersonIndex];
+    let randomPersonIndex = Math.floor(Math.random() * activePersons.length)
+    let varPersonToAnswer = activePersons[randomPersonIndex];
 
     let begin = varTenseToAnswer[1][randomPersonIndex];
 
@@ -202,7 +220,7 @@ function App() {
         <div className="row1">
           <Infinitives infinitives={Infinitives} />
           <Tenses tenses={tenses} toggleTense={toggleTense}/>
-          <Persons persons={Persons} />
+          <Persons persons={persons} togglePerson={togglePerson}/>
         </div>
 
         <div className="row2">
