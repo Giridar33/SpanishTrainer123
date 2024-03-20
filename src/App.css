@@ -224,16 +224,20 @@ input {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 520px) {
 
-  .info-1,
-  .info-2,
-  .info-3 {
-    display: none;
+  .info-1 p,
+  .info-2 p,
+  .info-3 p {
+    margin: 2px 0;
+    font-size: 0.8rem;
   }
 
   .row-selection {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
+  }
+  .row-selection h3 {
+    padding: 0.5vh;
   }
 
   h1 {
@@ -241,13 +245,25 @@ input {
   }
 
   .user-text {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   .main-button {
     padding: 3px auto;
     width: 80px;
+  }
 
+  .infinitive-list {
+    display: none;
+  }
+
+  .person-list, .tense-list {
+    width: 50%;
+  }
+
+  .framework {
+    position: sticky;
+    top: 5px;
   }
 }
 
