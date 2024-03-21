@@ -189,7 +189,7 @@ input {
 }
 
 
-.main-button:hover {
+.main-button:hover, .top-button:hover {
   color: #fff;
   background-color: #1B1A55;
   border: 2px solid #fff;
@@ -198,7 +198,7 @@ input {
   box-shadow: 5px 5px 10px #1D3DB3, 5px -5px 10px #1D3DB3, -5px -5px 10px #1D3DB3, -5px 5px 10px #1D3DB3;
 }
 
-.main-button:active {
+.main-button:active, .top-button:active {
   box-shadow: none;
   transform: translateY(0);
 }
