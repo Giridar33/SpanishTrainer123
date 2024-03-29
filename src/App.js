@@ -9,9 +9,12 @@ import Persons from './components/Persons';
 import RowSelection from './components/RowSelection';
 import Modal from './components/Modal';
 import Tutorial from './components/Tutorial';
+import SetSeconds from './components/SetSeconds';
 
 //Data file containing all verbs' info
 import data from './data.json'
+import ModalContent from './components/ModalContent';
+
 
 function App() {
 
@@ -21,9 +24,16 @@ function App() {
   //We deconstruct all information needed from the json file
   const { infinitives, tenses, persons } = data;
 
+  let countdown;
+
   //----STATE------STATE----------STATE--------STATE--------STATE--------STATE-------STATE--------//
 
   const [jsonData, setJsonData] = useState(data);
+
+  // Sets teacher mode on or off
+  const [teacherMode, setTeacherMode] = useState(true)
+  const [secondsByUser, setSecondsByUser] = useState(5); //seconds chosen by the user
+  const [countdownInterval, setCoundownInterval] = useState(null) //countdown
 
   //These are here to store the user answer
   const [userAnswer, setUserAnswer] = useState('');
@@ -56,7 +66,19 @@ function App() {
   const [allPersonsFalse, setAllPersonsFalse] = useState(false);
 
 
+
+
   //-------FUNCTIONS----FUNCTIONS-------FUNCTIONS--------FUNCTIONS-------FUNCTIONS-------FUNCTIONS-----FUNCTIONS------
+
+  const resetState = () => {
+    setInput("");
+    setUserAnswer("");
+    setRightAnswer(false);
+    setWrongAnswer(false);
+    setUserTries(3);
+    setFinalWord("");
+    setShowModal(false);
+  }
 
   // Enables the functionality to toggle the tenses on or off
   const toggleTense = (index) => {
@@ -92,6 +114,10 @@ function App() {
 
   //Function that selects the random verb that the user needs to guess
   const handlePlay = () => {
+
+    clearInterval(countdownInterval);
+
+    resetState();
 
     //delete previous user input
     setInput('');
@@ -153,13 +179,26 @@ function App() {
     setPersonToAnswer(varPersonToAnswer);
     setFinalWord(varFinalWord);
 
-    // Focus the input element after setting the game
-    // It was necessary to include this on a setTimeout to make sure it happened immediately after first click
-    setTimeout(() => {
-      inputRef.current.focus();
-    }, 0);
-    
-
+    countdown = secondsByUser;
+    if (!teacherMode) {
+      // Focus the input element after setting the game
+      // It was necessary to include this on a setTimeout to make sure it happened immediately after first click
+      setTimeout(() => {
+        inputRef.current.focus();
+      }, 0);
+    } else {
+      setInput(secondsByUser);
+      setCoundownInterval(
+        setInterval(() => {
+          countdown--;
+          setInput(countdown.toString());
+          if (countdown <= 0) {
+            clearInterval(countdownInterval);
+            setGameIsOn(false);
+          }
+        }, 1000)
+      )
+    }
 
   }
 
@@ -187,7 +226,6 @@ function App() {
             setGameOver(true);
           } else {
             setWrongAnswer(true);
-            console.log("zas");
             setInput(input);
             setUserTries(prevTries => prevTries - 1)
           }
@@ -196,38 +234,69 @@ function App() {
     }
   }
 
-    // useEffect to add event listeners to buttons
+  // useEffect to add event listeners to buttons
   useEffect(() => {
-    const handleKeyDown = (event) => {
-      //Check if Control jey is pressed or Meta on Mac
-      if ((event.ctrlKey || event.metaKey) && event.key === 'Control') {
-        handlePlay();
-      }
-      else if (event.key === 'Enter') {
-        handleCheck();
-      }
-    };
-      //Add event listeners to the document for keydown events
-      document.addEventListener('keydown', handleKeyDown);
-
-      //Cleanup function to remove event listener when component unmounts
-      return() => {
-        document.removeEventListener('keydown', handleKeyDown)
+    if (!teacherMode) {
+      const handleKeyDown = (event) => {
+        if (event.key === '/') {
+          handlePlay();
+          event.preventDefault() //this prevents the character '/' from appearing in the input
+        } else if (event.key === 'Enter') {
+          handleCheck();
+        } 
       };
+        //Add event listeners to the document for keydown events
+        document.addEventListener('keydown', handleKeyDown);
+
+        //Cleanup function to remove event listener when component unmounts
+        return() => {
+          document.removeEventListener('keydown', handleKeyDown)
+        };
+      }
   }, []);
+
+  // This useEffect is here so that the countdown can be interrupted when clicking on showAnswer
+  useEffect(() => {
+    if (!gameIsOn) {
+      clearInterval(countdownInterval);
+    }
+  }, [gameIsOn])
+
+  // This function appears only on Teacher mode, letting the teacher show the correct answer
+  const showAnswer = () => {
+    if (finalWord) {
+      setRightAnswer(true);
+      setInput(finalWord);
+      setGameIsOn(false);
+    }
+  }
+
+  const toggleTeacherMode = () => {
+    setGameIsOn(false);
+    setGameOver(true);
+    setRightAnswer(false);
+    setWrongAnswer(false);
+    setTeacherMode(prevValue => !prevValue);
+  }
+
 
 
   return (
-    <div className="App">
+    // al final borre el estilo de la clase teacher, tal vez puedas borrarlo de la siguiente linea
+    <div className={`App ${teacherMode ? "teacher" : ""}`}>
       <div className="framework">
 
         <div className='title-row'>
           <button className='top-button' onClick={handleTutorial}><span class="material-symbols-outlined">help</span></button>
-          <h1 className="title">Spanish verbs trainer</h1>
-          <button className='top-button'><span class="material-symbols-outlined">person_raised_hand</span></button>
+          <h1 className="title">Spanish verbs trainer: {teacherMode ? "Teacher Mode" : "Student Mode"}</h1>
+          <button 
+            className='top-button'
+            onClick={toggleTeacherMode}>
+            <span class="material-symbols-outlined">person_raised_hand</span>
+          </button>
         </div>
         
-        <p>{`Remaining tries: ${userTries}`}</p>
+        {!teacherMode && <p>{`Remaining tries: ${userTries}`}</p>}
 
         <div className="row1">
           <Infinitives infinitives={Infinitives} />
@@ -258,8 +327,11 @@ function App() {
           />
           <div className='button-group'>
             <button className='main-button' role="button" onClick={handlePlay}>Play</button>
-            <button className='main-button' onClick={handleCheck}>Check</button>
-            <button className='main-button' onClick={handleModal}>Help</button>
+            {!teacherMode && <button className='main-button' onClick={handleCheck}>Check</button>}
+            {!teacherMode && <button className='main-button' onClick={handleModal}>Help</button>}
+            {teacherMode && <button className='main-button' onClick={showAnswer}>Show Answer</button>}
+            {teacherMode && <SetSeconds secondsByUser={secondsByUser} setSecondsByUser={setSecondsByUser}/>}
+            
           </div>
         </div>
 
@@ -272,7 +344,14 @@ function App() {
       {showTutorial &&
         <Tutorial handleTutorial={handleTutorial}/>
       }
-
+      {teacherMode && tenseToAnswer &&
+        <div className='modal'>
+          <ModalContent
+          handleModal={handleModal}
+          tense={tenseToAnswer}
+          teacherMode={teacherMode}
+          />
+        </div>}
     </div>
   );
 }

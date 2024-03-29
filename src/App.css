@@ -1,6 +1,7 @@
 .App {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
   height: 100vh;
   background-color: #5A5966;
@@ -165,7 +166,7 @@ input {
 }
 
 
-.main-button, .top-button {
+.main-button, .top-button, .seconds-button {
   background-color: #fff;
   color: #3B3B3B;
   border: 2px solid #1A1A1A;
@@ -210,13 +211,26 @@ input {
   border-radius: 33%;
 }
 
+/* -------------------------- Whole class mode -------------------*/
+
+.seconds-button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.small-button:hover {
+  background-color: #1B1A55;
+  color: #fff;
+}
+
+.small-button:active {
+  transform: translateY(-1px);
+}
+
 /* ---------------------- Responsiveness ---------------------*/
 
 @media (max-width: 900px) {
-
-  .App {
-    align-items: flex-start;
-  }
 
   .framework {
     max-width: 95vw;
