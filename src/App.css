@@ -1,3 +1,14 @@
+/* <uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 200 to 1000 */
+
+/* .nunito-<uniquifier> {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+
 .App {
   display: flex;
   flex-direction: column;
@@ -7,10 +18,12 @@
   background-color: #5A5966;
   color: #fff;
   text-align: center;
+  font-family: "Nunito", sans-serif;
+  padding: 1vh;
 }
 
 .framework {
-  width: 900px;
+  width: 800px;
   background-color: #070F2B;
   border-radius: 2%;
   border: 2px solid black;
@@ -20,14 +33,21 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+}
+
+h1.title {
+  margin: 0;
+}
+
+.tries {
+  margin-top: 0;
 }
 
 .row1 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
   height: auto;
   user-select: none;
 }
@@ -54,17 +74,16 @@ h2 {
   font-size: 1rem;
   text-decoration: underline;
   margin: 10px;
+  font-weight: 900;
 }
 
-.infinitive-list {
+.infinitive-list, .tense-list, .person-list {
   background-color: #1B1A55;
-  width: 33%;
+  width: 30%;
+  border-radius: 10px;
+
 }
 
-.tense-list {
-  background-color: #535C91;
-  width: 33%;
-}
 
 .active-option:hover, .inactive-option:hover {
   color: red;
@@ -82,11 +101,9 @@ h2 {
 
 .active-option {
   cursor: pointer;
-  color: #333;
-  text-shadow: -1px -1px 3px #fff,
-    1px -1px 3px #fff,
-    -1px 1px 3px #fff,
-    1px 1px 3px #fff;
+  color: #fff;
+  font-weight: 600;
+
 }
 
 .inactive-option {
@@ -98,11 +115,6 @@ h2 {
 
 
 
-.person-list {
-  background-color: #9290C3;
-  width: 33%;
-}
-
 .row-selection {
   display: flex;
   flex-direction: row;
@@ -110,17 +122,17 @@ h2 {
 }
 
 .row-selection h3 {
-  background-color: #9290C3;
   width: 33%;
   height: 5vh;
-  margin: 0;
+  margin: 1vh auto;
   padding: 1vh;
-  border: 1px solid black;
   background-color: #fff;
+  width: 30%;
+  border-radius: 10px;
   color: black;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   user-select: none;
 }
@@ -183,7 +195,7 @@ input {
   cursor: pointer;
   transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
   min-height: 40px;
-  width: 15%;
+  width: 18%;
   min-width: 50px;
   will-change: transform;
 
@@ -252,6 +264,11 @@ input {
   .user-text {
     font-size: 1.3rem;
   }
+
+  .main-button, .seconds-button {
+    width: 22%;
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 520px) {
@@ -289,9 +306,10 @@ input {
     height: 2rem;
   }
 
-  .main-button {
+  .main-button, .seconds-button {
     padding: 3px auto;
-    width: 80px;
+    width: 30%;
+    font-size: 14px;
   }
 
   .info-2, .info-3 {
@@ -327,6 +345,7 @@ input {
 
   .row-selection {
     font-size: 0.8rem;
+    background-color: red;
   }
 
   h1 {

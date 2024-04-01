@@ -31,7 +31,7 @@ function App() {
   const [jsonData, setJsonData] = useState(data);
 
   // Sets teacher mode on or off
-  const [teacherMode, setTeacherMode] = useState(true)
+  const [teacherMode, setTeacherMode] = useState(false)
   const [secondsByUser, setSecondsByUser] = useState(5); //seconds chosen by the user
   const [countdownInterval, setCoundownInterval] = useState(null) //countdown
 
@@ -77,6 +77,9 @@ function App() {
     setWrongAnswer(false);
     setUserTries(3);
     setFinalWord("");
+    setTenseToAnswer("");
+    setInfinitiveToAnswer("");
+    setPersonToAnswer("");
     setShowModal(false);
   }
 
@@ -117,12 +120,8 @@ function App() {
 
     clearInterval(countdownInterval);
 
+    //delete previous user input, delete all previous state values
     resetState();
-
-    //delete previous user input
-    setInput('');
-    setRightAnswer(false);
-    setWrongAnswer(false);
 
     //Set Game to mode ON
     setGameIsOn(true);
@@ -274,9 +273,8 @@ function App() {
   const toggleTeacherMode = () => {
     setGameIsOn(false);
     setGameOver(true);
-    setRightAnswer(false);
-    setWrongAnswer(false);
     setTeacherMode(prevValue => !prevValue);
+    resetState();
   }
 
 
@@ -296,7 +294,7 @@ function App() {
           </button>
         </div>
         
-        {!teacherMode && <p>{`Remaining tries: ${userTries}`}</p>}
+        {!teacherMode && <p className='tries'>{`Remaining tries: ${userTries}`}</p>}
 
         <div className="row1">
           <Infinitives infinitives={Infinitives} />

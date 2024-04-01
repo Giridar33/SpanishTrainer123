@@ -100,7 +100,7 @@ p {
 
 @media (max-width: 900px) {
     .modal {
-        width: 95vw;
+        max-width: 95vw;
         max-height: 90vh;
     }
 
