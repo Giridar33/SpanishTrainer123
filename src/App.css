@@ -126,7 +126,7 @@ h2 {
   height: 5vh;
   margin: 1vh auto;
   padding: 1vh;
-  background-color: #d6d6d6;
+  background-color: #e4e4e4;
   border-radius: 2rem;
   color: black;
   display: flex;
@@ -162,6 +162,20 @@ input {
   color: #FF1500;
   background-color: #fbd5d5;
   border: 1px solid #f56565;
+}
+
+.info-column {
+  transition: color 0.3s ease, border 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Apply styles to the element when it's clicked or touched */
+.info-column:active {
+  color: red;
+  border: 1px solid red;
+  box-shadow: -2px -2px 2px 1px rgba(0, 0, 0, 0.1),
+    -2px 2px 2px 1px rgba(0, 0, 0, 0.1),
+    2px -2px 2px 1px rgba(0, 0, 0, 0.1),
+    2px 2px 2px 1px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -311,9 +325,14 @@ input {
     font-size: 14px;
   }
 
+  .main-button:hover, .top-button:hover {
+    box-shadow: 3px 3px 7px #1D3DB3, 3px -3px 7px #1D3DB3, -3px -3px 7px #1D3DB3, -3px 3px 7px #1D3DB3;
+  }
+
   .small-button {
     font-size: 8px;
     margin: auto 0;
+    height: 1.5rem;
   }
 
   .info-2, .info-3 {
@@ -360,3 +379,4 @@ input {
     font-size: 1rem;
   }
 }
+
