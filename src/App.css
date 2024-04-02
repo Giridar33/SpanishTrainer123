@@ -80,7 +80,7 @@ h2 {
 .infinitive-list, .tense-list, .person-list {
   background-color: #1B1A55;
   width: 30%;
-  border-radius: 10px;
+  border-radius: 2rem;
 
 }
 
@@ -122,13 +122,12 @@ h2 {
 }
 
 .row-selection h3 {
-  width: 33%;
+  width: 27%;
   height: 5vh;
   margin: 1vh auto;
   padding: 1vh;
-  background-color: #fff;
-  width: 30%;
-  border-radius: 10px;
+  background-color: #d6d6d6;
+  border-radius: 2rem;
   color: black;
   display: flex;
   flex-direction: row;
@@ -179,7 +178,7 @@ input {
 
 
 .main-button, .top-button, .seconds-button {
-  background-color: #fff;
+  background-color: #d6d6d6;
   color: #3B3B3B;
   border: 2px solid #1A1A1A;
   border-radius: 10px;
@@ -312,6 +311,11 @@ input {
     font-size: 14px;
   }
 
+  .small-button {
+    font-size: 8px;
+    margin: auto 0;
+  }
+
   .info-2, .info-3 {
     padding: 3px;
     margin: 3px;
@@ -322,7 +326,7 @@ input {
   }
 
   .person-list, .tense-list {
-    width: 50%;
+    width: 48%;
   }
 
   .framework {

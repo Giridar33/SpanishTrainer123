@@ -16,9 +16,9 @@ export default function SetSeconds({ secondsByUser, setSecondsByUser }) {
 
   return (
     <button className='seconds-button'>
-        <button onClick={decreaseSeconds} className='small-button'>-</button>
+        <button onClick={decreaseSeconds} className='small-button'>➖</button>
         <label>{secondsByUser}</label>
-        <button onClick={increaseSeconds} className='small-button'>+</button>
+        <button onClick={increaseSeconds} className='small-button'>➕</button>
     </button>
   )
 }

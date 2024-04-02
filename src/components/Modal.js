@@ -11,8 +11,8 @@ const Modal = ({ tense, handleModal, teacherMode }) => {
                 <p>{tense[3]}</p>
                 <ModalContent 
                     handleModal={handleModal}
-                    tense={tense}/>
-                    teacherMode={teacherMode}
+                    tense={tense}
+                    teacherMode={teacherMode}/>
                 <p className='bold'>Examples</p>
                 {tense[4].map((example, index) => {
                     return <p key={index}>{example}</p>

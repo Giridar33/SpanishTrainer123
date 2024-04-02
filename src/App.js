@@ -32,7 +32,7 @@ function App() {
 
   // Sets teacher mode on or off
   const [teacherMode, setTeacherMode] = useState(false)
-  const [secondsByUser, setSecondsByUser] = useState(5); //seconds chosen by the user
+  const [secondsByUser, setSecondsByUser] = useState(20); //seconds chosen by the user
   const [countdownInterval, setCoundownInterval] = useState(null) //countdown
 
   //These are here to store the user answer
