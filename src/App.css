@@ -22,11 +22,18 @@
   padding: 1vh;
 }
 
+h1, h3, .tries, .row1, button, label {
+  user-select: none;
+}
+
 .framework {
   width: 800px;
   background-color: #070F2B;
   border-radius: 2%;
   border: 2px solid black;
+  /* delete these 3 if I get errors, this is to make sure the framework is never moved by the keypad on mobile */
+  position: fixed;
+  top: 10px;
 }
 
 .title-row {
@@ -42,6 +49,7 @@ h1.title {
 
 .tries {
   margin-top: 0;
+  color: #999;
 }
 
 .row1 {
@@ -49,7 +57,6 @@ h1.title {
   flex-direction: row;
   justify-content: space-around;
   height: auto;
-  user-select: none;
 }
 
 .info-1,
@@ -68,6 +75,7 @@ h1.title {
 .info-3 p {
   margin: 0;
   padding: 0;
+  border: 1px solid transparent;
 }
 
 h2 {
@@ -113,6 +121,20 @@ h2 {
   font-weight: bolder;
 }
 
+.tense-list .info-column, .person-list .info-column {
+  transition: color 0.3s ease, border 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Apply styles to the element when it's clicked or touched */
+.tense-list .info-column:active, .person-list .info-column:active {
+  color: red;
+  border: 1px solid red;
+  box-shadow: -2px -2px 2px 1px rgba(0, 0, 0, 0.1),
+    -2px 2px 2px 1px rgba(0, 0, 0, 0.1),
+    2px -2px 2px 1px rgba(0, 0, 0, 0.1),
+    2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
 
 
 .row-selection {
@@ -133,7 +155,6 @@ h2 {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  user-select: none;
 }
 
 .user-text {
@@ -143,6 +164,7 @@ h2 {
   font-size: 1.5rem;
   padding: 0;
   border: 0;
+  font-family: "Nunito", sans-serif;
 }
 
 input {
@@ -162,20 +184,6 @@ input {
   color: #FF1500;
   background-color: #fbd5d5;
   border: 1px solid #f56565;
-}
-
-.info-column {
-  transition: color 0.3s ease, border 0.3s ease, box-shadow 0.3s ease;
-}
-
-/* Apply styles to the element when it's clicked or touched */
-.info-column:active {
-  color: red;
-  border: 1px solid red;
-  box-shadow: -2px -2px 2px 1px rgba(0, 0, 0, 0.1),
-    -2px 2px 2px 1px rgba(0, 0, 0, 0.1),
-    2px -2px 2px 1px rgba(0, 0, 0, 0.1),
-    2px 2px 2px 1px rgba(0, 0, 0, 0.1);
 }
 
 

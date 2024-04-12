@@ -9,12 +9,11 @@ const Persons = ({ persons, togglePerson }) => {
                 {persons.map((person, index) => {
                     return (
                         <p 
-                        className={`info-column ${person[1] ? 'active-option' : 'inactive-option'}`}
-                        key={index}
-                        onClick={() => togglePerson(index)}>
-                        {person[0]}
-                        </p>
-                    )
+                            className={`info-column ${person[1] ? 'active-option' : 'inactive-option'}`}
+                            key={index}
+                            onClick={() => togglePerson(index)}>
+                            {person[0]}
+                        </p>)
                 })}
             </div>
         </div>

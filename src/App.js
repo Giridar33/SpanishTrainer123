@@ -90,22 +90,24 @@ function App() {
     setJsonData({ ...jsonData, tenses: updatedTenses })
 
     //We check whether all tenses have been set to false by the user
-    const allFalse = updatedTenses.every(tense => !tense[5]);
-    setAllTensesFalse(allFalse);
+    const allTFalse = updatedTenses.every(tense => !tense[5]);
+    setAllTensesFalse(allTFalse);
+    resetState(); // we reset the game
   }
 
   const togglePerson = (index) => {
     const updatedPersons = [...jsonData.persons];
     updatedPersons[index][1] = !updatedPersons[index][1];
-    setJsonData({ ...jsonData, persons: updatedPersons})
+    setJsonData({ ...jsonData, persons: updatedPersons })
 
-    const allFalse = updatedPersons.every(person => !person[1]);
-    setAllPersonsFalse(allFalse);
+    const allPFalse = updatedPersons.every(person => !person[1]);
+    setAllPersonsFalse(allPFalse);
+    resetState(); // we reset the game
   }
 
   // Switches the value of showModal true/false
   const handleModal = () => {
-    if (gameIsOn) {
+    if (gameIsOn && finalWord !== "") {
       setShowModal(prevValue => !prevValue)
     }
   }
@@ -127,17 +129,14 @@ function App() {
     setGameIsOn(true);
     setGameOver(false);
 
-    //Restore user tries to 3
-    setUserTries(3);
-
+    //We make sure there is at least one tense and person active
     if (allTensesFalse || allPersonsFalse) {
       setInput('Select at least one tense and person!');
       return;
     }
-
+    
     // We filter all active persons
     const activePersons = persons.filter((person) => person[1])
-
     if (activePersons.length === 0) {
       setInput('Select at least one person!');
       return;
@@ -157,8 +156,13 @@ function App() {
     }
 
     //choose person
-    let randomPersonIndex = Math.floor(Math.random() * activePersons.length)
-    let varPersonToAnswer = activePersons[randomPersonIndex];
+    let randomPersonIndex;
+    let varPersonToAnswer;
+    do {
+      randomPersonIndex = Math.floor(Math.random() * persons.length)
+      varPersonToAnswer = persons[randomPersonIndex];
+    } while (!varPersonToAnswer[1]); // We keep looping until we get a person that has not been deactivated by the user
+
 
     let begin = varTenseToAnswer[1][randomPersonIndex];
 
@@ -171,6 +175,7 @@ function App() {
 
     setFinalWord(begin + varInfinitiveToAnswer.slice(0, -2) + ending);
     let varFinalWord = begin + varInfinitiveToAnswer.slice(0, -2) + ending;
+    console.log(`finalWord is ${varFinalWord}`);
 
     //turn variables into state
     setInfinitiveToAnswer(varInfinitiveToAnswer);
@@ -204,33 +209,36 @@ function App() {
   //Function that checks whether the user was right in his guess
   const handleCheck = () => {
     if (gameIsOn) {
-      if (userTries > 0) {
-        if (input !== "") {
-          //tidy user input (set to lower case, delete accents, diacritics, etc)
-          let newInput = input.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
-          let newFinalWord = finalWord.normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+      if (input !== "Select at least one tense and person!") {
+        if (userTries > 0) {
+          if (input !== "") {
+            //tidy user input (set to lower case, delete accents, diacritics, etc)
+            let newInput = input.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+            let newFinalWord = finalWord.normalize("NFD").replace(/[\u0300-\u036f]/g, "")
 
-          setUserAnswer(newInput);
-          //setInput('');
-          if (newInput === newFinalWord) {
-            setRightAnswer(true);
-            setInput(finalWord);
-            setGameIsOn(false);
-            setGameOver(true);
-            setWrongAnswer(false);
-          } else if (newInput !== newFinalWord && userTries === 1) {
-            setUserTries(0)
-            setWrongAnswer(true);
-            setInput(`The answer was "${finalWord}"`)
-            setGameOver(true);
-          } else {
-            setWrongAnswer(true);
-            setInput(input);
-            setUserTries(prevTries => prevTries - 1)
-          }
-        } else { setInput("Type your answer!") };
+            setUserAnswer(newInput);
+            //setInput('');
+            if (newInput === newFinalWord) {
+              setRightAnswer(true);
+              setInput(finalWord);
+              setGameIsOn(false);
+              setGameOver(true);
+              setWrongAnswer(false);
+            } else if (newInput !== newFinalWord && userTries === 1) {
+              setUserTries(0)
+              setWrongAnswer(true);
+              setInput(`The answer was "${finalWord}"`)
+              setGameOver(true);
+            } else {
+              setWrongAnswer(true);
+              setInput(input);
+              setUserTries(prevTries => prevTries - 1)
+            }
+          } else { setInput("Type your answer!") };
       }
     }
+      }
+
   }
 
   // useEffect to add event listeners to buttons
