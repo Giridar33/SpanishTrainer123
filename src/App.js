@@ -30,6 +30,9 @@ function App() {
 
   const [jsonData, setJsonData] = useState(data);
 
+  // sets whether the labels and input appear or not
+  const [labelsOn, setLabelsOn] = useState(false)
+
   // Sets teacher mode on or off
   const [teacherMode, setTeacherMode] = useState(false)
   const [secondsByUser, setSecondsByUser] = useState(20); //seconds chosen by the user
@@ -47,6 +50,8 @@ function App() {
   const [infinitiveToAnswer, setInfinitiveToAnswer] = useState('');
   const [tenseToAnswer, setTenseToAnswer] = useState('');
   const [personToAnswer, setPersonToAnswer] = useState();
+  const [shortenedPersonToAnswer, setShortenedPersonToAnswer] = useState();
+  const [shortenedTenseToAnswer, setShortenedTenseToAnswer] = useState();
 
   //This is the definitive verb that the userNeeds to guess
   const [finalWord, setFinalWord] = useState('');
@@ -93,6 +98,7 @@ function App() {
     const allTFalse = updatedTenses.every(tense => !tense[5]);
     setAllTensesFalse(allTFalse);
     resetState(); // we reset the game
+    setLabelsOn(false);
   }
 
   const togglePerson = (index) => {
@@ -103,6 +109,7 @@ function App() {
     const allPFalse = updatedPersons.every(person => !person[1]);
     setAllPersonsFalse(allPFalse);
     resetState(); // we reset the game
+    setLabelsOn(false);
   }
 
   // Switches the value of showModal true/false
@@ -119,6 +126,8 @@ function App() {
 
   //Function that selects the random verb that the user needs to guess
   const handlePlay = () => {
+
+    setLabelsOn(true); // we make sure the info labels appear
 
     clearInterval(countdownInterval);
 
@@ -279,12 +288,30 @@ function App() {
   }
 
   const toggleTeacherMode = () => {
+    setLabelsOn(false);
     setGameIsOn(false);
     setGameOver(true);
     setTeacherMode(prevValue => !prevValue);
     resetState();
   }
 
+    const shortenPerson = (personToAnswer) => {
+      if (personToAnswer[0] === "yo → I"){
+        return "I";
+      } else if (personToAnswer[0] === "tú → you"){
+        return "you";
+      } else if (personToAnswer[0] === "él/ella → he/she"){
+        return "he/she";
+      } else if (personToAnswer[0] === "nosotros → we"){
+        return "we";
+      } else if (personToAnswer[0] === "vosotros → you all"){
+        return "you all";
+      } else if (personToAnswer[0] === "ellos → they"){
+        return "they";
+      } else {
+        return "";
+      }
+    }
 
 
   return (
@@ -311,12 +338,19 @@ function App() {
         </div>
 
         <div className="row2">
-          <RowSelection
-            randomInfinitive={infinitiveToAnswer}
-            randomTense={tenseToAnswer}
-            randomPerson={personToAnswer}
-          />
-          <input
+
+          <div className='button-group'>
+            {!teacherMode && labelsOn && <button className='main-button' onClick={handleCheck}>Check</button>}
+            {teacherMode && labelsOn && <button className='main-button' onClick={showAnswer}>Show Answer</button>}
+            {teacherMode && !labelsOn && <button className='main-button dummy-button'>Dummy</button>}
+
+            <button className='main-button' role="button" onClick={handlePlay}>Play</button>
+
+            {teacherMode && <SetSeconds secondsByUser={secondsByUser} setSecondsByUser={setSecondsByUser}/>}
+            {!teacherMode && labelsOn && <button className='main-button' onClick={handleModal}>Help</button>}
+          </div>
+
+          {labelsOn && <input
             className="user-text"
             id={(rightAnswer ? "correct-answer" : "") + (wrongAnswer ? "incorrect-answer" : "")}
             type="text"
@@ -330,15 +364,16 @@ function App() {
             }}
             disabled={gameOver}
             ref={inputRef}
-          />
-          <div className='button-group'>
-            <button className='main-button' role="button" onClick={handlePlay}>Play</button>
-            {!teacherMode && <button className='main-button' onClick={handleCheck}>Check</button>}
-            {!teacherMode && <button className='main-button' onClick={handleModal}>Help</button>}
-            {teacherMode && <button className='main-button' onClick={showAnswer}>Show Answer</button>}
-            {teacherMode && <SetSeconds secondsByUser={secondsByUser} setSecondsByUser={setSecondsByUser}/>}
-            
-          </div>
+          />}
+
+          {labelsOn && (
+            <RowSelection
+              randomInfinitive={infinitiveToAnswer}
+              randomTense={tenseToAnswer}
+              randomPerson={shortenPerson(personToAnswer)}
+          />)}
+
+
         </div>
 
       </div>
