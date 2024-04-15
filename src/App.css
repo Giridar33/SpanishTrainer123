@@ -32,8 +32,8 @@ h1, h3, .tries, .row1, button, label {
   border-radius: 2%;
   border: 2px solid black;
   /* delete these 3 if I get errors, this is to make sure the framework is never moved by the keypad on mobile */
-  position: fixed;
-  top: 10px;
+  position: sticky;
+  margin: 10px;
 }
 
 .title-row {
@@ -145,7 +145,7 @@ h2 {
 .row-selection h3 {
   width: 27%;
   height: 3vh;
-  margin: 2vh auto;
+  margin: 1.5vh auto;
   padding: 1vh;
   background-color: #1B1A55;
   color: #fff;
@@ -168,6 +168,7 @@ h2 {
 
 input {
   border-bottom: 4px solid red;
+  margin: auto auto 1vh auto;
 }
 
 

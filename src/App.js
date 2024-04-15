@@ -31,7 +31,8 @@ function App() {
   const [jsonData, setJsonData] = useState(data);
 
   // sets whether the labels and input appear or not
-  const [labelsOn, setLabelsOn] = useState(false)
+  const [labelsOn, setLabelsOn] = useState(false);
+  const [inputOn, setInputOn] = useState(false);
 
   // Sets teacher mode on or off
   const [teacherMode, setTeacherMode] = useState(false)
@@ -99,6 +100,7 @@ function App() {
     setAllTensesFalse(allTFalse);
     resetState(); // we reset the game
     setLabelsOn(false);
+    setInputOn(false);
   }
 
   const togglePerson = (index) => {
@@ -110,6 +112,7 @@ function App() {
     setAllPersonsFalse(allPFalse);
     resetState(); // we reset the game
     setLabelsOn(false);
+    setInputOn(false);
   }
 
   // Switches the value of showModal true/false
@@ -127,7 +130,8 @@ function App() {
   //Function that selects the random verb that the user needs to guess
   const handlePlay = () => {
 
-    setLabelsOn(true); // we make sure the info labels appear
+    setLabelsOn(true); // we make sure the info labels and input bar appear
+    setInputOn(true);
 
     clearInterval(countdownInterval);
 
@@ -141,6 +145,7 @@ function App() {
     //We make sure there is at least one tense and person active
     if (allTensesFalse || allPersonsFalse) {
       setInput('Select at least one tense and person!');
+      setLabelsOn(false);
       return;
     }
     
@@ -289,6 +294,7 @@ function App() {
 
   const toggleTeacherMode = () => {
     setLabelsOn(false);
+    setInputOn(false);
     setGameIsOn(false);
     setGameOver(true);
     setTeacherMode(prevValue => !prevValue);
@@ -350,7 +356,7 @@ function App() {
             {!teacherMode && labelsOn && <button className='main-button' onClick={handleModal}>Help</button>}
           </div>
 
-          {labelsOn && <input
+          {inputOn && <input
             className="user-text"
             id={(rightAnswer ? "correct-answer" : "") + (wrongAnswer ? "incorrect-answer" : "")}
             type="text"
