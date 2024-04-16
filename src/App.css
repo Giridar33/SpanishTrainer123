@@ -318,7 +318,7 @@ input {
   }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 540px) {
 
   .info-1 p,
   .info-2 p,
@@ -384,33 +384,15 @@ input {
 
   .framework {
     position: sticky;
-    top: 5px;
+    margin: 0px 0px 5px 0px;
   }
 }
 
-@media (max-width: 750) and (orientation: landscape) and (min-aspect-ratio: 1/1) {
 
+
+@media screen and (min-aspect-ratio: 4/3) and (max-aspect-ratio: 4/3) {
+  /* CSS rules specific to 4:3 aspect ratio, commonly used in projectors in schools */
   .framework {
-    border-radius: 2%;
-  }
-
-  .info-1,
-  .info-2,
-  .info-3 {
-    display: none;
-  }
-
-  .row-selection {
-    font-size: 0.8rem;
-    background-color: red;
-  }
-
-  h1 {
-    font-size: 1.2rem;
-  }
-
-  .user-text {
-    font-size: 1rem;
+    margin: 0px 0px 5px 0px;
   }
 }
-

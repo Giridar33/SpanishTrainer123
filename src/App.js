@@ -392,7 +392,7 @@ function App() {
         <Tutorial handleTutorial={handleTutorial}/>
       }
       {teacherMode && tenseToAnswer &&
-        <div className='modal'>
+        <div className='modal-2'>
           <ModalContent
           handleModal={handleModal}
           tense={tenseToAnswer}

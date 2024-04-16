@@ -10,6 +10,7 @@
     align-items: center;
 }
 
+/*Modal in student mode*/
 .modal {
     padding: 10px 20px;
     width: 600px;
@@ -18,6 +19,18 @@
     color: black;
     border-radius: 10px;
 }
+
+/*This is the modal in teacher mode*/
+.modal-2 {
+    padding: 0;
+    width: 600px;
+    margin: 0px;
+    background: transparent;
+    color: black;
+    border-radius: 10px;
+}
+
+
 
 p {
     white-space: pre-line;
@@ -40,11 +53,14 @@ h4 {
 .four-column-grid {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    max-width: 600px;
+    max-width: 400px;
     margin: 0 auto;
+    padding: 10px;
     border: 1px solid black;
     border-radius: 10px;
-    background-color: #D3D3E6;
+    background-color: #efefef;
+    gap: 0;
+    line-height: 0.6rem;
 }
 
 .four-column-grid p, .two-column-grid p {
@@ -89,17 +105,18 @@ h4 {
 /* Two column tables */
 
 .two-column-grid {
-    max-width: 450px;
+    max-width: 400px;
     margin: 0 auto;
     padding: 5px;
     border: 1px solid black;
     border-radius: 10px;
-    background-color: #D3D3E6;
+    background-color: #efefef;
     display: flex;
     flex-direction: row;
     gap: 4%;
     align-items: center;
     justify-content: center;
+    line-height: 0.8rem;
 }
 
 
@@ -126,10 +143,37 @@ h4 {
 
 }
 
-@media (max-width: 350px) {
+@media (max-width: 420px) {
 
     .modal p {
         font-size: x-small;
     }
+
+    .four-column-grid, .two-column-grid {
+        padding: 5px;
+        max-width: 350px;
+    }
+    
+
+}
+
+@media (max-width: 370px) {
+
+    .four-column-grid,
+    .two-column-grid {
+        padding: 2px;
+    }
+
+}
+
+@media (max-width: 290px) {
+
+    .four-column-grid,
+    .two-column-grid {
+        font-size: x-small;
+        max-width: 270px;
+        line-height: 0.5rem;
+    }
+
 
 }
