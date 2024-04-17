@@ -189,7 +189,7 @@ function App() {
 
     setFinalWord(begin + varInfinitiveToAnswer.slice(0, -2) + ending);
     let varFinalWord = begin + varInfinitiveToAnswer.slice(0, -2) + ending;
-    console.log(`finalWord is ${varFinalWord}`);
+    // console.log(`finalWord is ${varFinalWord}`);
 
     //turn variables into state
     setInfinitiveToAnswer(varInfinitiveToAnswer);
@@ -353,7 +353,7 @@ function App() {
             <button className='main-button' role="button" onClick={handlePlay}>Play</button>
 
             {teacherMode && <SetSeconds secondsByUser={secondsByUser} setSecondsByUser={setSecondsByUser}/>}
-            {!teacherMode && labelsOn && <button className='main-button' onClick={handleModal}>Help</button>}
+            {!teacherMode && labelsOn && <button className='main-button' onClick={handleModal}>Cheatsheet</button>}
           </div>
 
           {inputOn && <input
