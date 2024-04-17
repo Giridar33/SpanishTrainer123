@@ -250,27 +250,7 @@ function App() {
 
   }
 
-  // useEffect to add event listeners to buttons
-  useEffect(() => {
-    if (!teacherMode) {
-      const handleKeyDown = (event) => {
-        if (event.key === '/') {
-          event.preventDefault() //this prevents the character '/' from appearing in the input
-          handlePlay();
-        } else if (event.key === 'Enter') {
-          event.preventDefault(); //this prevents the enter key to action any previouly used button 
-          handleCheck();
-        } 
-      };
-        //Add event listeners to the document for keydown events
-        document.addEventListener('keydown', handleKeyDown);
 
-        //Cleanup function to remove event listener when component unmounts
-        return() => {
-          document.removeEventListener('keydown', handleKeyDown)
-        };
-      }
-  }, [teacherMode]);
 
   // This useEffect is here so that the countdown can be interrupted when clicking on showAnswer
   useEffect(() => {
