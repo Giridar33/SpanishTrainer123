@@ -40,7 +40,6 @@ function App() {
   const [countdownInterval, setCoundownInterval] = useState(null) //countdown
 
   //These are here to store the user answer
-  const [userAnswer, setUserAnswer] = useState('');
   const [input, setInput] = useState('');
 
   // Having the gameOn mode will avoid unwanted behaviours when clicking on the Play and Check buttons
@@ -51,8 +50,6 @@ function App() {
   const [infinitiveToAnswer, setInfinitiveToAnswer] = useState('');
   const [tenseToAnswer, setTenseToAnswer] = useState('');
   const [personToAnswer, setPersonToAnswer] = useState();
-  const [shortenedPersonToAnswer, setShortenedPersonToAnswer] = useState();
-  const [shortenedTenseToAnswer, setShortenedTenseToAnswer] = useState();
 
   //This is the definitive verb that the userNeeds to guess
   const [finalWord, setFinalWord] = useState('');
@@ -78,7 +75,6 @@ function App() {
 
   const resetState = () => {
     setInput("");
-    setUserAnswer("");
     setRightAnswer(false);
     setWrongAnswer(false);
     setUserTries(3);
@@ -230,7 +226,6 @@ function App() {
             let newInput = input.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
             let newFinalWord = finalWord.normalize("NFD").replace(/[\u0300-\u036f]/g, "")
 
-            setUserAnswer(newInput);
             //setInput('');
             if (newInput === newFinalWord) {
               setRightAnswer(true);
@@ -348,7 +343,7 @@ function App() {
           <div className='button-group'>
             {!teacherMode && labelsOn && <button className='main-button' onClick={handleCheck}>Check</button>}
             {teacherMode && labelsOn && <button className='main-button' onClick={showAnswer}>Show Answer</button>}
-            {teacherMode && !labelsOn && <button className='main-button dummy-button'>Dummy</button>}
+            {teacherMode && !labelsOn && <div className='main-button dummy-button'>Dummy</div>}
 
             <button className='main-button' role="button" onClick={handlePlay}>Play</button>
 

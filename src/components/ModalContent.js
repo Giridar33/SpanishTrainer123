@@ -197,6 +197,8 @@ let modalContent = null;
                 </div>
             );
             break;
+        default:
+            modalContent = null;
     }
 
   return modalContent

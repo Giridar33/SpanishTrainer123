@@ -1,8 +1,6 @@
 import React from 'react';
-import data from '../data.json';
 
 const RowSelection = (props) => {
-    const { infinitives, tenses, persons } = data;
 
     return (
         <div className="row-selection">
