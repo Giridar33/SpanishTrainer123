@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/spanish-verbs-trainer/static/css/main.7bbaa541.css",
-    "main.js": "/spanish-verbs-trainer/static/js/main.3cc03f5d.js",
+    "main.js": "/spanish-verbs-trainer/static/js/main.f9bd0b93.js",
     "static/js/592.2b1809d8.chunk.js": "/spanish-verbs-trainer/static/js/592.2b1809d8.chunk.js",
     "index.html": "/spanish-verbs-trainer/index.html",
     "main.7bbaa541.css.map": "/spanish-verbs-trainer/static/css/main.7bbaa541.css.map",
-    "main.3cc03f5d.js.map": "/spanish-verbs-trainer/static/js/main.3cc03f5d.js.map",
+    "main.f9bd0b93.js.map": "/spanish-verbs-trainer/static/js/main.f9bd0b93.js.map",
     "592.2b1809d8.chunk.js.map": "/spanish-verbs-trainer/static/js/592.2b1809d8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7bbaa541.css",
-    "static/js/main.3cc03f5d.js"
+    "static/js/main.f9bd0b93.js"
   ]
 }

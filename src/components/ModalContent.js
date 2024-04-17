@@ -24,7 +24,7 @@ let modalContent = null;
                         {tense[2].map((ending, index) => (
                             <React.Fragment key={index}>
 
-                                {index === -0 ? (
+                                {index === 0 ? (
                                     <>
                                         <p>-AR</p>
                                         <p>{ending}</p>
