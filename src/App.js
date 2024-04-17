@@ -250,7 +250,24 @@ function App() {
 
   }
 
+  // useEffect to add event listeners to buttons
+  useEffect(() => {
+    if (!teacherMode) {
+      const handleKeyDown = (event) => {
+        if (event.key === '/') {
+          event.preventDefault() //this prevents the character '/' from appearing in the input
+          handlePlay();
+        } 
+      };
+        //Add event listeners to the document for keydown events
+        document.addEventListener('keydown', handleKeyDown);
 
+        //Cleanup function to remove event listener when component unmounts
+        return() => {
+          document.removeEventListener('keydown', handleKeyDown)
+        };
+      }
+  }, [teacherMode, handlePlay]);
 
   // This useEffect is here so that the countdown can be interrupted when clicking on showAnswer
   useEffect(() => {
@@ -326,7 +343,7 @@ function App() {
             {teacherMode && labelsOn && <button className='main-button' onClick={showAnswer}>Show Answer</button>}
             {teacherMode && !labelsOn && <div className='main-button dummy-button'>Dummy</div>}
 
-            <button className='main-button' role="button" onClick={handlePlay}>Play</button>
+            <button className='main-button' onClick={handlePlay}>Play</button>
 
             {teacherMode && <SetSeconds secondsByUser={secondsByUser} setSecondsByUser={setSecondsByUser}/>}
             {!teacherMode && labelsOn && <button className='main-button' onClick={handleModal}>Cheatsheet</button>}
