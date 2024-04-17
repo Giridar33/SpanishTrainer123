@@ -243,7 +243,7 @@ function App() {
               setInput(input);
               setUserTries(prevTries => prevTries - 1)
             }
-          } else { setInput("Type your answer!") };
+          } else { setInput("Type your answer!") }
         }
       }
     }
