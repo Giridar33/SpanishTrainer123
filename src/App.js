@@ -1,5 +1,5 @@
 //Imports
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, useCallback } from 'react';
 import './App.css';
 
 //React components
@@ -255,9 +255,10 @@ function App() {
     if (!teacherMode) {
       const handleKeyDown = (event) => {
         if (event.key === '/') {
-          handlePlay();
           event.preventDefault() //this prevents the character '/' from appearing in the input
+          handlePlay();
         } else if (event.key === 'Enter') {
+          event.preventDefault(); //this prevents the enter key to action any previouly used button 
           handleCheck();
         } 
       };
@@ -269,14 +270,14 @@ function App() {
           document.removeEventListener('keydown', handleKeyDown)
         };
       }
-  }, []);
+  }, [teacherMode]);
 
   // This useEffect is here so that the countdown can be interrupted when clicking on showAnswer
   useEffect(() => {
     if (!gameIsOn) {
       clearInterval(countdownInterval);
     }
-  }, [gameIsOn])
+  }, [countdownInterval, gameIsOn])
 
   // This function appears only on Teacher mode, letting the teacher show the correct answer
   const showAnswer = () => {
