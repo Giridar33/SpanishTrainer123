@@ -244,19 +244,31 @@ function App() {
               setUserTries(prevTries => prevTries - 1)
             }
           } else { setInput("Type your answer!") };
+        }
       }
     }
-      }
+  }
 
+  // This function appears only on Teacher mode, letting the teacher show the correct answer
+  const showAnswer = () => {
+    if (finalWord) {
+      setRightAnswer(true);
+      setInput(finalWord);///
+      setGameIsOn(false);
+    }
   }
 
   // useEffect to add event listeners to buttons
   useEffect(() => {
-    if (!teacherMode) {
       const handleKeyDown = (event) => {
         if (event.key === '/') {
           event.preventDefault() //this prevents the character '/' from appearing in the input
           handlePlay();
+        } else if (event.key === '.') {
+          if (teacherMode) {
+            event.preventDefault() //this prevents the character '/' from appearing in the input
+            showAnswer();
+          }
         } 
       };
         //Add event listeners to the document for keydown events
@@ -266,8 +278,7 @@ function App() {
         return() => {
           document.removeEventListener('keydown', handleKeyDown)
         };
-      }
-  }, [teacherMode, handlePlay]);
+  }, [handlePlay, showAnswer, teacherMode]);
 
   // This useEffect is here so that the countdown can be interrupted when clicking on showAnswer
   useEffect(() => {
@@ -275,15 +286,6 @@ function App() {
       clearInterval(countdownInterval);
     }
   }, [countdownInterval, gameIsOn])
-
-  // This function appears only on Teacher mode, letting the teacher show the correct answer
-  const showAnswer = () => {
-    if (finalWord) {
-      setRightAnswer(true);
-      setInput(finalWord);
-      setGameIsOn(false);
-    }
-  }
 
   const toggleTeacherMode = () => {
     setLabelsOn(false);
