@@ -174,6 +174,18 @@ h4 {
         max-width: 270px;
         line-height: 0.5rem;
     }
+}
 
+@media screen and (min-aspect-ratio: 4/3) and (max-aspect-ratio: 4/3) {
+    /* CSS rules specific to 4:3 aspect ratio, commonly used in projectors in schools */
+    .four-column-grid,
+    .two-column-grid {
+        padding: 0 10px;
 
+    }
+
+    .four-column-grid{
+        line-height: 0.4rem;
+
+    }
 }
