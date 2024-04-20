@@ -15,6 +15,10 @@ import SetSeconds from './components/SetSeconds';
 import data from './data.json'
 import ModalContent from './components/ModalContent';
 
+//Sound files
+import wrongSoundFile from './sound/wrong.mp3';
+import correctSoundFile from './sound/correct.mp3';
+
 
 function App() {
 
@@ -68,8 +72,20 @@ function App() {
   const [allTensesFalse, setAllTensesFalse] = useState(false);
   const [allPersonsFalse, setAllPersonsFalse] = useState(false);
 
+  // Sound-----------Sound---------------Sound----------------Sound---------------Sound--------------Sound---------
 
+  //preload sounds to avoid delay
+  const wrongSound = new Audio(wrongSoundFile);
+  const correctSound = new Audio(correctSoundFile);
 
+  const playWrongSound = () => {
+    wrongSound.currentTime = 0;
+    wrongSound.play();
+  }
+  const playCorrectSound = () => {
+    correctSound.currentTime = 0;
+    correctSound.play();
+  }
 
   //-------FUNCTIONS----FUNCTIONS-------FUNCTIONS--------FUNCTIONS-------FUNCTIONS-------FUNCTIONS-----FUNCTIONS------
 
@@ -228,17 +244,20 @@ function App() {
 
             //setInput('');
             if (newInput === newFinalWord) {
+              playCorrectSound();
               setRightAnswer(true);
               setInput(finalWord);
               setGameIsOn(false);
               setGameOver(true);
               setWrongAnswer(false);
             } else if (newInput !== newFinalWord && userTries === 1) {
+              playWrongSound();
               setUserTries(0)
               setWrongAnswer(true);
               setInput(`The answer was "${finalWord}"`)
               setGameOver(true);
             } else {
+              playWrongSound();
               setWrongAnswer(true);
               setInput(input);
               setUserTries(prevTries => prevTries - 1)
