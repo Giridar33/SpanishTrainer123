@@ -417,6 +417,278 @@
       ["viviría", "vivirías", "viviría", "viviríamos", "viviríais", "vivirían"],
       "-ir verb",
       true
+    ],
+    [
+      "ser",
+      ["fui", "fuiste", "fue", "fuimos", "fuisteis", "fueron"],
+      ["era", "eras", "era", "éramos", "erais", "eran"],
+      [
+        "he sido",
+        "has sido",
+        "ha sido",
+        "hemos sido",
+        "habéis sido",
+        "han sido"
+      ],
+      ["soy", "eres", "es", "somos", "sois", "son"],
+      [
+        "estoy siendo",
+        "estás siendo",
+        "está siendo",
+        "estamos siendo",
+        "estáis siendo",
+        "están siendo"
+      ],
+      [
+        "voy a ser",
+        "vas a ser",
+        "va a ser",
+        "vamos a ser",
+        "vais a ser",
+        "van a ser"
+      ],
+      ["seré", "serás", "será", "seremos", "seréis", "serán"],
+      ["sería", "serías", "sería", "seríamos", "seríais", "serían"],
+      "irregular",
+      false
+    ],
+    [
+      "estar",
+      [
+        "estuve",
+        "estuviste",
+        "estuvo",
+        "estuvimos",
+        "estuvisteis",
+        "estuvieron"
+      ],
+      ["estaba", "estabas", "estaba", "estábamos", "estabais", "estaban"],
+      [
+        "he estado",
+        "has estado",
+        "ha estado",
+        "hemos estado",
+        "habéis estado",
+        "han estado"
+      ],
+      ["estoy", "estás", "está", "estamos", "estáis", "están"],
+      [
+        "estoy estando",
+        "estás estando",
+        "está estando",
+        "estamos estando",
+        "estáis estando",
+        "están estando"
+      ],
+      [
+        "voy a estar",
+        "vas a estar",
+        "va a estar",
+        "vamos a estar",
+        "vais a estar",
+        "van a estar"
+      ],
+      ["estaré", "estarás", "estará", "estaremos", "estaréis", "estarán"],
+      ["estaría", "estarías", "estaría", "estaríamos", "estaríais", "estarían"],
+      "irregular",
+      false
+    ],
+    [
+      "ir",
+      ["fui", "fuiste", "fue", "fuimos", "fuisteis", "fueron"],
+      ["iba", "ibas", "iba", "íbamos", "ibais", "iban"],
+      ["he ido", "has ido", "ha ido", "hemos ido", "habéis ido", "han ido"],
+      ["voy", "vas", "va", "vamos", "vais", "van"],
+      [
+        "estoy yendo",
+        "estás yendo",
+        "está yendo",
+        "estamos yendo",
+        "estáis yendo",
+        "están yendo"
+      ],
+      [
+        "voy a ir",
+        "vas a ir",
+        "va a ir",
+        "vamos a ir",
+        "vais a ir",
+        "van a ir"
+      ],
+      ["iré", "irás", "irá", "iremos", "iréis", "irán"],
+      ["iría", "irías", "iría", "iríamos", "iríais", "irían"],
+      "irregular",
+      false
+    ],
+    [
+      "tener",
+      ["tuve", "tuviste", "tuvo", "tuvimos", "tuvisteis", "tuvieron"],
+      ["tenía", "tenías", "tenía", "teníamos", "teníais", "tenían"],
+      [
+        "he tenido",
+        "has tenido",
+        "ha tenido",
+        "hemos tenido",
+        "habéis tenido",
+        "han tenido"
+      ],
+      ["tengo", "tienes", "tiene", "tenemos", "tenéis", "tienen"],
+      [
+        "estoy teniendo",
+        "estás teniendo",
+        "está teniendo",
+        "estamos teniendo",
+        "estáis teniendo",
+        "están teniendo"
+      ],
+      [
+        "voy a tener",
+        "vas a tener",
+        "va a tener",
+        "vamos a tener",
+        "vais a tener",
+        "van a tener"
+      ],
+      ["tendré", "tendrás", "tendrá", "tendremos", "tendréis", "tendrán"],
+      ["tendría", "tendrías", "tendría", "tendríamos", "tendríais", "tendrían"],
+      "irregular",
+      false
+    ],
+    [
+      "querer",
+      ["quise", "quisiste", "quiso", "quisimos", "quisisteis", "quisieron"],
+      ["quería", "querías", "quería", "queríamos", "queríais", "querían"],
+      [
+        "he querido",
+        "has querido",
+        "ha querido",
+        "hemos querido",
+        "habéis querido",
+        "han querido"
+      ],
+      ["quiero", "quieres", "quiere", "queremos", "queréis", "quieren"],
+      [
+        "estoy queriendo",
+        "estás queriendo",
+        "está queriendo",
+        "estamos queriendo",
+        "estáis queriendo",
+        "están queriendo"
+      ],
+      [
+        "voy a querer",
+        "vas a querer",
+        "va a querer",
+        "vamos a querer",
+        "vais a querer",
+        "van a querer"
+      ],
+      ["querré", "querrás", "querrá", "querremos", "querréis", "querrán"],
+      ["querría", "querrías", "querría", "querríamos", "querríais", "querrían"],
+      "irregular",
+      false
+    ],
+    [
+      "poder",
+      ["pude", "pudiste", "pudo", "pudimos", "pudisteis", "pudieron"],
+      ["podía", "podías", "podía", "podíamos", "podíais", "podían"],
+      [
+        "he podido",
+        "has podido",
+        "ha podido",
+        "hemos podido",
+        "habéis podido",
+        "han podido"
+      ],
+      ["puedo", "puedes", "puede", "podemos", "podéis", "pueden"],
+      [
+        "estoy pudiendo",
+        "estás pudiendo",
+        "está pudiendo",
+        "estamos pudiendo",
+        "estáis pudiendo",
+        "están pudiendo"
+      ],
+      [
+        "voy a poder",
+        "vas a poder",
+        "va a poder",
+        "vamos a poder",
+        "vais a poder",
+        "van a poder"
+      ],
+      ["podré", "podrás", "podrá", "podremos", "podréis", "podrán"],
+      ["podría", "podrías", "podría", "podríamos", "podríais", "podrían"],
+      "irregular",
+      false
+    ],
+    [
+      "hacer",
+      ["hice", "hiciste", "hizo", "hicimos", "hicisteis", "hicieron"],
+      ["hacía", "hacías", "hacía", "hacíamos", "hacíais", "hacían"],
+      [
+        "he hecho",
+        "has hecho",
+        "ha hecho",
+        "hemos hecho",
+        "habéis hecho",
+        "han hecho"
+      ],
+      ["hago", "haces", "hace", "hacemos", "hacéis", "hacen"],
+      [
+        "estoy haciendo",
+        "estás haciendo",
+        "está haciendo",
+        "estamos haciendo",
+        "estáis haciendo",
+        "están haciendo"
+      ],
+      [
+        "voy a hacer",
+        "vas a hacer",
+        "va a hacer",
+        "vamos a hacer",
+        "vais a hacer",
+        "van a hacer"
+      ],
+      ["haré", "harás", "hará", "haremos", "haréis", "harán"],
+      ["haría", "harías", "haría", "haríamos", "haríais", "harían"],
+      "irregular",
+      false
+    ],
+    [
+      "jugar",
+      ["jugué", "jugaste", "jugó", "jugamos", "jugasteis", "jugaron"],
+      ["jugaba", "jugabas", "jugaba", "jugábamos", "jugabais", "jugaban"],
+      [
+        "he jugado",
+        "has jugado",
+        "ha jugado",
+        "hemos jugado",
+        "habéis jugado",
+        "han jugado"
+      ],
+      ["juego", "juegas", "juega", "jugamos", "jugáis", "juegan"],
+      [
+        "estoy jugando",
+        "estás jugando",
+        "está jugando",
+        "estamos jugando",
+        "estáis jugando",
+        "están jugando"
+      ],
+      [
+        "voy a jugar",
+        "vas a jugar",
+        "va a jugar",
+        "vamos a jugar",
+        "vais a jugar",
+        "van a jugar"
+      ],
+      ["jugaré", "jugarás", "jugará", "jugaremos", "jugaréis", "jugarán"],
+      ["jugaría", "jugarías", "jugaría", "jugaríamos", "jugaríais", "jugarían"],
+      "irregular",
+      false
     ]
   ],
   "tenses": [
