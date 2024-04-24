@@ -1,0 +1,680 @@
+{
+  "infinitives": [
+    [
+      "bailar",
+      ["bailé", "bailaste", "bailó", "bailamos", "bailasteis", "bailaron"],
+      ["bailaba", "bailabas", "bailaba", "bailábamos", "bailabais", "bailaban"],
+      [
+        "he bailado",
+        "has bailado",
+        "ha bailado",
+        "hemos bailado",
+        "habéis bailado",
+        "han bailado"
+      ],
+      ["bailo", "bailas", "baila", "bailamos", "bailáis", "bailan"],
+      [
+        "estoy bailando",
+        "estás bailando",
+        "está bailando",
+        "estamos bailando",
+        "estáis bailando",
+        "están bailando"
+      ],
+      [
+        "voy a bailar",
+        "vas a bailar",
+        "va a bailar",
+        "vamos a bailar",
+        "vais a bailar",
+        "van a bailar"
+      ],
+      ["bailaré", "bailarás", "bailará", "bailaremos", "bailaréis", "bailarán"],
+      [
+        "bailaría",
+        "bailarías",
+        "bailaría",
+        "bailaríamos",
+        "bailaríais",
+        "bailarían"
+      ],
+      "-ar verb",
+      true
+    ],
+    [
+      "cantar",
+      ["canté", "cantaste", "cantó", "cantamos", "cantasteis", "cantaron"],
+      ["cantaba", "cantabas", "cantaba", "cantábamos", "cantabais", "cantaban"],
+      [
+        "he cantado",
+        "has cantado",
+        "ha cantado",
+        "hemos cantado",
+        "habéis cantado",
+        "han cantado"
+      ],
+      ["canto", "cantas", "canta", "cantamos", "cantáis", "cantan"],
+      [
+        "estoy cantando",
+        "estás cantando",
+        "está cantando",
+        "estamos cantando",
+        "estáis cantando",
+        "están cantando"
+      ],
+      [
+        "voy a cantar",
+        "vas a cantar",
+        "va a cantar",
+        "vamos a cantar",
+        "vais a cantar",
+        "van a cantar"
+      ],
+      ["cantaré", "cantarás", "cantará", "cantaremos", "cantaréis", "cantarán"],
+      [
+        "cantaría",
+        "cantarías",
+        "cantaría",
+        "cantaríamos",
+        "cantaríais",
+        "cantarían"
+      ],
+      "-ar verb",
+      true
+    ],
+    [
+      "hablar",
+      ["hablé", "hablaste", "habló", "hablamos", "hablasteis", "hablaron"],
+      ["hablaba", "hablabas", "hablaba", "hablábamos", "hablabais", "hablaban"],
+      [
+        "he hablado",
+        "has hablado",
+        "ha hablado",
+        "hemos hablado",
+        "habéis hablado",
+        "han hablado"
+      ],
+      ["hablo", "hablas", "habla", "hablamos", "habláis", "hablan"],
+      [
+        "estoy hablando",
+        "estás hablando",
+        "está hablando",
+        "estamos hablando",
+        "estáis hablando",
+        "están hablando"
+      ],
+      [
+        "voy a hablar",
+        "vas a hablar",
+        "va a hablar",
+        "vamos a hablar",
+        "vais a hablar",
+        "van a hablar"
+      ],
+      ["hablaré", "hablarás", "hablará", "hablaremos", "hablaréis", "hablarán"],
+      [
+        "hablaría",
+        "hablarías",
+        "hablaría",
+        "hablaríamos",
+        "hablaríais",
+        "hablarían"
+      ],
+      "-ar verb",
+      true
+    ],
+    [
+      "aprender",
+      [
+        "aprendí",
+        "aprendiste",
+        "aprendió",
+        "aprendimos",
+        "aprendisteis",
+        "aprendieron"
+      ],
+      [
+        "aprendía",
+        "aprendías",
+        "aprendía",
+        "aprendíamos",
+        "aprendíais",
+        "aprendían"
+      ],
+      [
+        "he aprendido",
+        "has aprendido",
+        "ha aprendido",
+        "hemos aprendido",
+        "habéis aprendido",
+        "han aprendido"
+      ],
+      ["aprendo", "aprendes", "aprende", "aprendemos", "aprendéis", "aprenden"],
+      [
+        "estoy aprendiendo",
+        "estás aprendiendo",
+        "está aprendiendo",
+        "estamos aprendiendo",
+        "estáis aprendiendo",
+        "están aprendiendo"
+      ],
+      [
+        "voy a aprender",
+        "vas a aprender",
+        "va a aprender",
+        "vamos a aprender",
+        "vais a aprender",
+        "van a aprender"
+      ],
+      [
+        "aprenderé",
+        "aprenderás",
+        "aprenderá",
+        "aprenderemos",
+        "aprenderéis",
+        "aprenderán"
+      ],
+      [
+        "aprendería",
+        "aprenderías",
+        "aprendería",
+        "aprenderíamos",
+        "aprenderíais",
+        "aprenderían"
+      ],
+      "-er verb",
+      true
+    ],
+    [
+      "beber",
+      ["bebí", "bebiste", "bebió", "bebimos", "bebisteis", "bebieron"],
+      ["bebía", "bebías", "bebía", "bebíamos", "bebíais", "bebían"],
+      [
+        "he bebido",
+        "has bebido",
+        "ha bebido",
+        "hemos bebido",
+        "habéis bebido",
+        "han bebido"
+      ],
+      ["bebo", "bebes", "bebe", "bebemos", "bebéis", "beben"],
+      [
+        "estoy bebiendo",
+        "estás bebiendo",
+        "está bebiendo",
+        "estamos bebiendo",
+        "estáis bebiendo",
+        "están bebiendo"
+      ],
+      [
+        "voy a beber",
+        "vas a beber",
+        "va a beber",
+        "vamos a beber",
+        "vais a beber",
+        "van a beber"
+      ],
+      ["beberé", "beberás", "beberá", "beberemos", "beberéis", "beberán"],
+      ["bebería", "beberías", "bebería", "beberíamos", "beberíais", "beberían"],
+      "-er verb",
+      true
+    ],
+    [
+      "correr",
+      ["corrí", "corriste", "corrió", "corrimos", "corristeis", "corrieron"],
+      ["corría", "corrías", "corría", "corríamos", "corríais", "corrían"],
+      [
+        "he corrido",
+        "has corrido",
+        "ha corrido",
+        "hemos corrido",
+        "habéis corrido",
+        "han corrido"
+      ],
+      ["corro", "corres", "corre", "corremos", "corréis", "corren"],
+      [
+        "estoy corriendo",
+        "estás corriendo",
+        "está corriendo",
+        "estamos corriendo",
+        "estáis corriendo",
+        "están corriendo"
+      ],
+      [
+        "voy a correr",
+        "vas a correr",
+        "va a correr",
+        "vamos a correr",
+        "vais a correr",
+        "van a correr"
+      ],
+      ["correré", "correrás", "correrá", "correremos", "correréis", "correrán"],
+      [
+        "correría",
+        "correrías",
+        "correría",
+        "correríamos",
+        "correríais",
+        "correrían"
+      ],
+      "-er verb",
+      true
+    ],
+    [
+      "compartir",
+      [
+        "compartí",
+        "compartiste",
+        "compartió",
+        "compartimos",
+        "compartisteis",
+        "compartieron"
+      ],
+      [
+        "compartía",
+        "compartías",
+        "compartía",
+        "compartíamos",
+        "compartíais",
+        "compartían"
+      ],
+      [
+        "he compartido",
+        "has compartido",
+        "ha compartido",
+        "hemos compartido",
+        "habéis compartido",
+        "han compartido"
+      ],
+      [
+        "comparto",
+        "compartes",
+        "comparte",
+        "compartimos",
+        "compartís",
+        "comparten"
+      ],
+      [
+        "estoy compartiendo",
+        "estás compartiendo",
+        "está compartiendo",
+        "estamos compartiendo",
+        "estáis compartiendo",
+        "están compartiendo"
+      ],
+      [
+        "voy a compartir",
+        "vas a compartir",
+        "va a compartir",
+        "vamos a compartir",
+        "vais a compartir",
+        "van a compartir"
+      ],
+      [
+        "compartiré",
+        "compartirás",
+        "compartirá",
+        "compartiremos",
+        "compartiréis",
+        "compartirán"
+      ],
+      [
+        "compartiría",
+        "compartirías",
+        "compartiría",
+        "compartiríamos",
+        "compartiríais",
+        "compartirían"
+      ],
+      "-ir verb",
+      true
+    ],
+    [
+      "decidir",
+      [
+        "decidí",
+        "decidiste",
+        "decidió",
+        "decidimos",
+        "decidisteis",
+        "decidieron"
+      ],
+      ["decidía", "decidías", "decidía", "decidíamos", "decidíais", "decidían"],
+      [
+        "he decidido",
+        "has decidido",
+        "ha decidido",
+        "hemos decidido",
+        "habéis decidido",
+        "han decidido"
+      ],
+      ["decido", "decides", "decide", "decidimos", "decidís", "deciden"],
+      [
+        "estoy decidiendo",
+        "estás decidiendo",
+        "está decidiendo",
+        "estamos decidiendo",
+        "estáis decidiendo",
+        "están decidiendo"
+      ],
+      [
+        "voy a decidir",
+        "vas a decidir",
+        "va a decidir",
+        "vamos a decidir",
+        "vais a decidir",
+        "van a decidir"
+      ],
+      [
+        "decidiré",
+        "decidirás",
+        "decidirá",
+        "decidiremos",
+        "decidiréis",
+        "decidirán"
+      ],
+      [
+        "decidiría",
+        "decidirías",
+        "decidiría",
+        "decidiríamos",
+        "decidiríais",
+        "decidirían"
+      ],
+      "-ir verb",
+      true
+    ],
+    [
+      "vivir",
+      ["viví", "viviste", "vivió", "vivimos", "vivisteis", "vivieron"],
+      ["vivía", "vivías", "vivía", "vivíamos", "vivíais", "vivían"],
+      [
+        "he vivido",
+        "has vivido",
+        "ha vivido",
+        "hemos vivido",
+        "habéis vivido",
+        "han vivido"
+      ],
+      ["vivo", "vives", "vive", "vivimos", "vivís", "viven"],
+      [
+        "estoy viviendo",
+        "estás viviendo",
+        "está viviendo",
+        "estamos viviendo",
+        "estáis viviendo",
+        "están viviendo"
+      ],
+      [
+        "voy a vivir",
+        "vas a vivir",
+        "va a vivir",
+        "vamos a vivir",
+        "vais a vivir",
+        "van a vivir"
+      ],
+      ["viviré", "vivirás", "vivirá", "viviremos", "viviréis", "vivirán"],
+      ["viviría", "vivirías", "viviría", "viviríamos", "viviríais", "vivirían"],
+      "-ir verb",
+      true
+    ]
+  ],
+  "tenses": [
+    [
+      "Preterite",
+      ["", "", "", "", "", ""],
+      [
+        "é",
+        "aste",
+        "ó",
+        "amos",
+        "asteis",
+        "aron",
+        "í",
+        "iste",
+        "ió",
+        "imos",
+        "isteis",
+        "ieron",
+        "í",
+        "iste",
+        "ió",
+        "imos",
+        "isteis",
+        "ieron"
+      ],
+      "Used to talk about what you DID.\nTake the infinitive, delete its ending (-ar, -er, -ir) and add these endings:",
+      [
+        "bailar (to dance) → bailé = I danced",
+        "aprender (to learn) → aprendió = he/she learnt",
+        "decidir (to decide) → decidimos = we decided"
+      ],
+      true
+    ],
+    [
+      "Imperfect",
+      ["", "", "", "", "", ""],
+      [
+        "aba",
+        "abas",
+        "aba",
+        "ábamos",
+        "abais",
+        "aban",
+        "ía",
+        "ías",
+        "ía",
+        "íamos",
+        "íais",
+        "ían",
+        "ía",
+        "ías",
+        "ía",
+        "íamos",
+        "íais",
+        "ían"
+      ],
+      "Used to talk about what you USED TO DO or WERE DOING.\nTake the infinitive, delete its ending (-ar, -er, -ir) and add these endings:",
+      [
+        "cantar (to sing) → cantaba = I used to sing",
+        "beber (to drink) → bebías = you used to drink",
+        "vivir (to live) → vivían = they used to live"
+      ],
+      true
+    ],
+    [
+      "Past Perfect",
+      ["he ", "has ", "ha ", "hemos ", "habéis ", "han "],
+      [
+        "ado",
+        "ado",
+        "ado",
+        "ado",
+        "ado",
+        "ado",
+        "ido",
+        "ido",
+        "ido",
+        "ido",
+        "ido",
+        "ido",
+        "ido",
+        "ido",
+        "ido",
+        "ido",
+        "ido",
+        "ido"
+      ],
+      "Used to talk about what you HAVE DONE.\nTake the correct form of the verb 'haber' (see column).\nThen look at the infinitive:\nIf it ends in -ar, delete it and add -ado.\nIf it ends in -er or -ir, delete that ending and add -ido.",
+      [
+        "hablar (to talk) → he hablado = I have talked",
+        "correr (to run) → hemos corrido = we have run",
+        "compartir (to share) → habéis compartido = you all have shared"
+      ],
+      true
+    ],
+    [
+      "Present",
+      ["", "", "", "", "", ""],
+      [
+        "o",
+        "as",
+        "a",
+        "amos",
+        "áis",
+        "an",
+        "o",
+        "es",
+        "e",
+        "emos",
+        "éis",
+        "en",
+        "o",
+        "es",
+        "e",
+        "imos",
+        "ís",
+        "en"
+      ],
+      "Used to talk about what you NORMALLY DO.\nTake the infinitive, delete its ending (-ar, -er, -ir) and add these endings:",
+      [
+        "hablar (to talk) → hablo = I talk",
+        "aprender (to learn) → aprendemos = we learn",
+        "vivir (to live) → vivís = you all live"
+      ],
+      true
+    ],
+    [
+      "Present Continuous",
+      ["estoy ", "estás ", "está ", "estamos ", "estáis ", "están "],
+      [
+        "ando",
+        "ando",
+        "ando",
+        "ando",
+        "ando",
+        "ando",
+        "iendo",
+        "iendo",
+        "iendo",
+        "iendo",
+        "iendo",
+        "iendo",
+        "iendo",
+        "iendo",
+        "iendo",
+        "iendo",
+        "iendo",
+        "iendo"
+      ],
+      "Used to talk about what you ARE DOING.\nTake the correct form of 'estar' (see column) and add the gerund.\nYou form the gerund by taking the infinitive and deleting its ending.\nIf the ending was -ar add -ando.\nIf the ending was -er or -ir add -iendo",
+      [
+        "bailar (to dance) → estoy bailando = I'm dancing",
+        "beber (to drink) → está bebiendo = he/she is drinking",
+        "compartir (to share) → estamos compartiendo = we are sharing"
+      ],
+      true
+    ],
+    [
+      "Immediate Future",
+      ["voy a ", "vas a ", "va a ", "vamos a ", "vais a ", "van a "],
+      [
+        "ar",
+        "ar",
+        "ar",
+        "ar",
+        "ar",
+        "ar",
+        "er",
+        "er",
+        "er",
+        "er",
+        "er",
+        "er",
+        "ir",
+        "ir",
+        "ir",
+        "ir",
+        "ir",
+        "ir"
+      ],
+      "Used to talk about what you ARE GOING TO DO.\nTake the correct form of the verb 'ir' (see column) + the word 'a' + the infinitive",
+      [
+        "cantar (to sing) → voy a cantar = I'm going to sing",
+        "aprender (to learn) → vas a aprender = you are going to learn",
+        "vivir (to live) → vamos a vivir = we are going to live"
+      ],
+      true
+    ],
+    [
+      "Simple Future",
+      ["", "", "", "", "", ""],
+      [
+        "aré",
+        "arás",
+        "ará",
+        "aremos",
+        "aréis",
+        "arán",
+        "eré",
+        "erás",
+        "erá",
+        "eremos",
+        "eréis",
+        "erán",
+        "iré",
+        "irás",
+        "irá",
+        "iremos",
+        "iréis",
+        "irán"
+      ],
+      "Used to talk about what you WILL DO.\nTake the infinitive, DO NOT DELETE ITS ENDING (-ar, -er, -ir) and add these endings:",
+      [
+        "hablar (to talk) → hablaré = I will talk",
+        "correr (to run) → correrás = you will run",
+        "decidir (to decide) → decidirán = they will decide"
+      ],
+      true
+    ],
+    [
+      "Conditional",
+      ["", "", "", "", "", ""],
+      [
+        "aría",
+        "arías",
+        "aría",
+        "aríamos",
+        "aríais",
+        "arían",
+        "ería",
+        "erías",
+        "ería",
+        "eríamos",
+        "eríais",
+        "erían",
+        "iría",
+        "irías",
+        "iría",
+        "iríamos",
+        "iríais",
+        "irían"
+      ],
+      "Used to talk about what you WOULD DO.\nTake the infinitive, DO NOT DELETE ITS ENDING (-ar, -er, -ir) and add these endings:",
+      [
+        "cantar (to sing) → cantaría = I would sing",
+        "beber (to drink) → bebería = he/she would drink",
+        "compartir (to share) → compartirían = they would share"
+      ],
+      true
+    ]
+  ],
+  "persons": [
+    ["yo → I", true],
+    ["tú → you", true],
+    ["él/ella → he/she", true],
+    ["nosotros → we", true],
+    ["vosotros → you all", true],
+    ["ellos → they", true]
+  ]
+}

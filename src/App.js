@@ -12,7 +12,7 @@ import Tutorial from './components/Tutorial';
 import SetSeconds from './components/SetSeconds';
 
 //Data file containing all verbs' info
-import data from './data.json'
+import data from './data2.json'
 import ModalContent from './components/ModalContent';
 
 //Sound files
@@ -145,7 +145,8 @@ function App() {
     setLabelsOn(true); // we make sure the info labels and input bar appear
     setInputOn(true);
 
-    clearInterval(countdownInterval);
+    //we clear the interval of the countdown so there are no more than one running at the same time, creating bugs
+    clearInterval(countdownInterval); 
 
     //delete previous user input, delete all previous state values
     resetState();
@@ -158,13 +159,6 @@ function App() {
     if (allTensesFalse || allPersonsFalse) {
       setInput('Select at least one tense and person!');
       setLabelsOn(false);
-      return;
-    }
-    
-    // We filter all active persons
-    const activePersons = persons.filter((person) => person[1])
-    if (activePersons.length === 0) {
-      setInput('Select at least one person!');
       return;
     }
 
@@ -189,18 +183,9 @@ function App() {
       varPersonToAnswer = persons[randomPersonIndex];
     } while (!varPersonToAnswer[1]); // We keep looping until we get a person that has not been deactivated by the user
 
-
-    let begin = varTenseToAnswer[1][randomPersonIndex];
-
-    if (varInfinitiveToAnswer.slice(-2) === 'er') {
-      randomPersonIndex += 6;
-    } else if (varInfinitiveToAnswer.slice(-2) === 'ir') {
-      randomPersonIndex += 12;
-    }
-    let ending = varTenseToAnswer[2][randomPersonIndex]
-
-    setFinalWord(begin + varInfinitiveToAnswer.slice(0, -2) + ending);
-    let varFinalWord = begin + varInfinitiveToAnswer.slice(0, -2) + ending;
+    // setFinalWord(begin + varInfinitiveToAnswer.slice(0, -2) + ending);
+    console.log(varInfinitiveToAnswer[randomTenseIndex + 1][randomPersonIndex]);
+    let varFinalWord = varInfinitiveToAnswer[randomTenseIndex + 1][randomPersonIndex];
     // console.log(`finalWord is ${varFinalWord}`);
 
     //turn variables into state
@@ -229,7 +214,6 @@ function App() {
         }, 1000)
       )
     }
-
   }
 
   //Function that checks whether the user was right in his guess

@@ -1,5 +1,5 @@
 import React from 'react';
-import data from '../data.json';
+import data from '../data2.json';
 
 const Infinitives = () => {
     const { infinitives } = data;
@@ -9,7 +9,7 @@ const Infinitives = () => {
             <h2>Infinitive</h2>
             <div className='info-1'>
                 {infinitives.map((infinitive, index) => (
-                    <p className="info-column" key={index}>{infinitive}</p>
+                    <p className="info-column" key={index}>{infinitive[0]}</p>
                 ))}
             </div>
         </div>
