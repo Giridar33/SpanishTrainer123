@@ -124,6 +124,130 @@
       true
     ],
     [
+      "estudiar",
+      [
+        "estudié",
+        "estudiaste",
+        "estudió",
+        "estudiamos",
+        "estudiasteis",
+        "estudiaron"
+      ],
+      [
+        "estudiaba",
+        "estudiabas",
+        "estudiaba",
+        "estudiábamos",
+        "estudiabais",
+        "estudiaban"
+      ],
+      [
+        "he estudiado",
+        "has estudiado",
+        "ha estudiado",
+        "hemos estudiado",
+        "habéis estudiado",
+        "han estudiado"
+      ],
+      ["estudio", "estudias", "estudia", "estudiamos", "estudiáis", "estudian"],
+      [
+        "estoy estudiando",
+        "estás estudiando",
+        "está estudiando",
+        "estamos estudiando",
+        "estáis estudiando",
+        "están estudiando"
+      ],
+      [
+        "voy a estudiar",
+        "vas a estudiar",
+        "va a estudiar",
+        "vamos a estudiar",
+        "vais a estudiar",
+        "van a estudiar"
+      ],
+      [
+        "estudiaré",
+        "estudiarás",
+        "estudiará",
+        "estudiaremos",
+        "estudiaréis",
+        "estudiarán"
+      ],
+      [
+        "estudiaría",
+        "estudiarías",
+        "estudiaría",
+        "estudiaríamos",
+        "estudiaríais",
+        "estudiarían"
+      ],
+      "-ar verb",
+      true
+    ],
+    [
+      "trabajar",
+      [
+        "trabajé",
+        "trabajaste",
+        "trabajó",
+        "trabajamos",
+        "trabajasteis",
+        "trabajaron"
+      ],
+      [
+        "trabajaba",
+        "trabajabas",
+        "trabajaba",
+        "trabajábamos",
+        "trabajabais",
+        "trabajaban"
+      ],
+      [
+        "he trabajado",
+        "has trabajado",
+        "ha trabajado",
+        "hemos trabajado",
+        "habéis trabajado",
+        "han trabajado"
+      ],
+      ["trabajo", "trabajas", "trabaja", "trabajamos", "trabajáis", "trabajan"],
+      [
+        "estoy trabajando",
+        "estás trabajando",
+        "está trabajando",
+        "estamos trabajando",
+        "estáis trabajando",
+        "están trabajando"
+      ],
+      [
+        "voy a trabajar",
+        "vas a trabajar",
+        "va a trabajar",
+        "vamos a trabajar",
+        "vais a trabajar",
+        "van a trabajar"
+      ],
+      [
+        "trabajaré",
+        "trabajarás",
+        "trabajará",
+        "trabajaremos",
+        "trabajaréis",
+        "trabajarán"
+      ],
+      [
+        "trabajaría",
+        "trabajarías",
+        "trabajaría",
+        "trabajaríamos",
+        "trabajaríais",
+        "trabajarían"
+      ],
+      "-ar verb",
+      true
+    ],
+    [
       "aprender",
       [
         "aprendí",
@@ -220,6 +344,40 @@
       true
     ],
     [
+      "comer",
+      ["comí", "comiste", "comió", "comimos", "comisteis", "comieron"],
+      ["comía", "comías", "comía", "comíamos", "comíais", "comían"],
+      [
+        "he comido",
+        "has comido",
+        "ha comido",
+        "hemos comido",
+        "habéis comido",
+        "han comido"
+      ],
+      ["como", "comes", "come", "comemos", "coméis", "comen"],
+      [
+        "estoy comiendo",
+        "estás comiendo",
+        "está comiendo",
+        "estamos comiendo",
+        "estáis comiendo",
+        "están comiendo"
+      ],
+      [
+        "voy a comer",
+        "vas a comer",
+        "va a comer",
+        "vamos a comer",
+        "vais a comer",
+        "van a comer"
+      ],
+      ["comeré", "comerás", "comerá", "comeremos", "comeréis", "comerán"],
+      ["comería", "comerías", "comería", "comeríamos", "comeríais", "comerían"],
+      "-er verb",
+      true
+    ],
+    [
       "correr",
       ["corrí", "corriste", "corrió", "corrimos", "corristeis", "corrieron"],
       ["corría", "corrías", "corría", "corríamos", "corríais", "corrían"],
@@ -256,6 +414,47 @@
         "correríamos",
         "correríais",
         "correrían"
+      ],
+      "-er verb",
+      true
+    ],
+    [
+      "vender",
+      ["vendí", "vendiste", "vendió", "vendimos", "vendisteis", "vendieron"],
+      ["vendía", "vendías", "vendía", "vendíamos", "vendíais", "vendían"],
+      [
+        "he vendido",
+        "has vendido",
+        "ha vendido",
+        "hemos vendido",
+        "habéis vendido",
+        "han vendido"
+      ],
+      ["vendo", "vendes", "vende", "vendemos", "vendéis", "venden"],
+      [
+        "estoy vendiendo",
+        "estás vendiendo",
+        "está vendiendo",
+        "estamos vendiendo",
+        "estáis vendiendo",
+        "están vendiendo"
+      ],
+      [
+        "voy a vender",
+        "vas a vender",
+        "va a vender",
+        "vamos a vender",
+        "vais a vender",
+        "van a vender"
+      ],
+      ["venderé", "venderás", "venderá", "venderemos", "venderéis", "venderán"],
+      [
+        "vendería",
+        "venderías",
+        "vendería",
+        "venderíamos",
+        "venderíais",
+        "venderían"
       ],
       "-er verb",
       true
@@ -417,6 +616,440 @@
       ["viviría", "vivirías", "viviría", "viviríamos", "viviríais", "vivirían"],
       "-ir verb",
       true
+    ],
+    [
+      "recibir",
+      [
+        "recibí",
+        "recibiste",
+        "recibió",
+        "recibimos",
+        "recibisteis",
+        "recibieron"
+      ],
+      ["recibía", "recibías", "recibía", "recibíamos", "recibíais", "recibían"],
+      [
+        "he recibido",
+        "has recibido",
+        "ha recibido",
+        "hemos recibido",
+        "habéis recibido",
+        "han recibido"
+      ],
+      ["recibo", "recibes", "recibe", "recibimos", "recibís", "reciben"],
+      [
+        "estoy recibiendo",
+        "estás recibiendo",
+        "está recibiendo",
+        "estamos recibiendo",
+        "estáis recibiendo",
+        "están recibiendo"
+      ],
+      [
+        "voy a recibir",
+        "vas a recibir",
+        "va a recibir",
+        "vamos a recibir",
+        "vais a recibir",
+        "van a recibir"
+      ],
+      [
+        "recibiré",
+        "recibirás",
+        "recibirá",
+        "recibiremos",
+        "recibiréis",
+        "recibirán"
+      ],
+      [
+        "recibiría",
+        "recibirías",
+        "recibiría",
+        "recibiríamos",
+        "recibiríais",
+        "recibirían"
+      ],
+      "-ir verb",
+      true
+    ],
+    [
+      "pulir",
+      ["pulí", "puliste", "pulió", "pulimos", "pulisteis", "pulieron"],
+      ["pulía", "pulías", "pulía", "pulíamos", "pulíais", "pulían"],
+      [
+        "he pulido",
+        "has pulido",
+        "ha pulido",
+        "hemos pulido",
+        "habéis pulido",
+        "han pulido"
+      ],
+      ["pulo", "pules", "pule", "pulimos", "pulís", "pulen"],
+      [
+        "estoy puliendo",
+        "estás puliendo",
+        "está puliendo",
+        "estamos puliendo",
+        "estáis puliendo",
+        "están puliendo"
+      ],
+      [
+        "voy a pulir",
+        "vas a pulir",
+        "va a pulir",
+        "vamos a pulir",
+        "vais a pulir",
+        "van a pulir"
+      ],
+      ["puliré", "pulirás", "pulirá", "puliremos", "puliréis", "pulirán"],
+      ["puliría", "pulirías", "puliría", "puliríamos", "puliríais", "pulirían"],
+      "-ir verb",
+      true
+    ],
+    [
+      "levantarse",
+      [
+        "me levanté",
+        "te levantaste",
+        "se levantó",
+        "nos levantamos",
+        "os levantasteis",
+        "se levantaron"
+      ],
+      [
+        "me levantaba",
+        "te levantabas",
+        "se levantaba",
+        "nos levantábamos",
+        "os levantabais",
+        "se levantaban"
+      ],
+      [
+        "me he levantado",
+        "te has levantado",
+        "se ha levantado",
+        "nos hemos levantado",
+        "os habéis levantado",
+        "se han levantado"
+      ],
+      [
+        "me levanto",
+        "te levantas",
+        "se levanta",
+        "nos levantamos",
+        "os levantáis",
+        "se levantan"
+      ],
+      [
+        "me estoy levantando",
+        "te estás levantando",
+        "se está levantando",
+        "nos estamos levantando",
+        "os estáis levantando",
+        "se están levantando"
+      ],
+      [
+        "me voy a levantar",
+        "te vas a levantar",
+        "se va a levantar",
+        "nos vamos a levantar",
+        "os vais a levantar",
+        "se van a levantar"
+      ],
+      [
+        "me levantaré",
+        "te levantarás",
+        "se levantará",
+        "nos levantaremos",
+        "os levantaréis",
+        "se levantarán"
+      ],
+      [
+        "me levantaría",
+        "te levantarías",
+        "se levantaría",
+        "nos levantaríamos",
+        "os levantaríais",
+        "se levantarían"
+      ],
+      "reflexive",
+      false
+    ],
+    [
+      "peinarse",
+      [
+        "me peiné",
+        "te peinaste",
+        "se peinó",
+        "nos peinamos",
+        "os peinasteis",
+        "se peinaron"
+      ],
+      [
+        "me peinaba",
+        "te peinabas",
+        "se peinaba",
+        "nos peinábamos",
+        "os peinabais",
+        "se peinaban"
+      ],
+      [
+        "me he peinado",
+        "te has peinado",
+        "se ha peinado",
+        "nos hemos peinado",
+        "os habéis peinado",
+        "se han peinado"
+      ],
+      [
+        "me peino",
+        "te peinas",
+        "se peina",
+        "nos peinamos",
+        "os peináis",
+        "se peinan"
+      ],
+      [
+        "me estoy peinando",
+        "te estás peinando",
+        "se está peinando",
+        "nos estamos peinando",
+        "os estáis peinando",
+        "se están peinando"
+      ],
+      [
+        "me voy a peinar",
+        "te vas a peinar",
+        "se va a peinar",
+        "nos vamos a peinar",
+        "os vais a peinar",
+        "se van a peinar"
+      ],
+      [
+        "me peinaré",
+        "te peinarás",
+        "se peinará",
+        "nos peinaremos",
+        "os peinaréis",
+        "se peinarán"
+      ],
+      [
+        "me peinaría",
+        "te peinarías",
+        "se peinaría",
+        "nos peinaríamos",
+        "os peinaríais",
+        "se peinarían"
+      ],
+      "reflexive",
+      false
+    ],
+    [
+      "ducharse",
+      [
+        "me duché",
+        "te duchaste",
+        "se duchó",
+        "nos duchamos",
+        "os duchasteis",
+        "se ducharon"
+      ],
+      [
+        "me duchaba",
+        "te duchabas",
+        "se duchaba",
+        "nos duchábamos",
+        "os duchabais",
+        "se duchaban"
+      ],
+      [
+        "me he duchado",
+        "te has duchado",
+        "se ha duchado",
+        "nos hemos duchado",
+        "os habéis duchado",
+        "se han duchado"
+      ],
+      [
+        "me ducho",
+        "te duchas",
+        "se ducha",
+        "nos duchamos",
+        "os ducháis",
+        "se duchan"
+      ],
+      [
+        "me estoy duchando",
+        "te estás duchando",
+        "se está duchando",
+        "nos estamos duchando",
+        "os estáis duchando",
+        "se están duchando"
+      ],
+      [
+        "me voy a duchar",
+        "te vas a duchar",
+        "se va a duchar",
+        "nos vamos a duchar",
+        "os vais a duchar",
+        "se van a duchar"
+      ],
+      [
+        "me ducharé",
+        "te ducharás",
+        "se duchará",
+        "nos ducharemos",
+        "os ducharéis",
+        "se ducharán"
+      ],
+      [
+        "me ducharía",
+        "te ducharías",
+        "se ducharía",
+        "nos ducharíamos",
+        "os ducharíais",
+        "se ducharían"
+      ],
+      "reflexive",
+      false
+    ],
+    [
+      "lavarse",
+      [
+        "me lavé",
+        "te lavaste",
+        "se lavó",
+        "nos lavamos",
+        "os lavasteis",
+        "se lavaron"
+      ],
+      [
+        "me lavaba",
+        "te lavabas",
+        "se lavaba",
+        "nos lavábamos",
+        "os lavabais",
+        "se lavaban"
+      ],
+      [
+        "me he lavado",
+        "te has lavado",
+        "se ha lavado",
+        "nos hemos lavado",
+        "os habéis lavado",
+        "se han lavado"
+      ],
+      [
+        "me lavo",
+        "te lavas",
+        "se lava",
+        "nos lavamos",
+        "os laváis",
+        "se lavan"
+      ],
+      [
+        "me estoy lavando",
+        "te estás lavando",
+        "se está lavando",
+        "nos estamos lavando",
+        "os estáis lavando",
+        "se están lavando"
+      ],
+      [
+        "me voy a lavar",
+        "te vas a lavar",
+        "se va a lavar",
+        "nos vamos a lavar",
+        "os vais a lavar",
+        "se van a lavar"
+      ],
+      [
+        "me lavaré",
+        "te lavarás",
+        "se lavará",
+        "nos lavaremos",
+        "os lavaréis",
+        "se lavarán"
+      ],
+      [
+        "me lavaría",
+        "te lavarías",
+        "se lavaría",
+        "nos lavaríamos",
+        "os lavaríais",
+        "se lavarían"
+      ],
+      "reflexive",
+      false
+    ],
+    [
+      "vestirse",
+      [
+        "me vestí",
+        "te vestiste",
+        "se vistió",
+        "nos vestimos",
+        "os vestisteis",
+        "se vistieron"
+      ],
+      [
+        "me vestía",
+        "te vestías",
+        "se vestía",
+        "nos vestíamos",
+        "os vestíais",
+        "se vestían"
+      ],
+      [
+        "me he vestido",
+        "te has vestido",
+        "se ha vestido",
+        "nos hemos vestido",
+        "os habéis vestido",
+        "se han vestido"
+      ],
+      [
+        "me visto",
+        "te vistes",
+        "se viste",
+        "nos vestimos",
+        "os vestís",
+        "se visten"
+      ],
+      [
+        "me estoy vistiendo",
+        "te estás vistiendo",
+        "se está vistiendo",
+        "nos estamos vistiendo",
+        "os estáis vistiendo",
+        "se están vistiendo"
+      ],
+      [
+        "me voy a vestir",
+        "te vas a vestir",
+        "se va a vestir",
+        "nos vamos a vestir",
+        "os vais a vestir",
+        "se van a vestir"
+      ],
+      [
+        "me vestiré",
+        "te vestirás",
+        "se vestirá",
+        "nos vestiremos",
+        "os vestiréis",
+        "se vestirán"
+      ],
+      [
+        "me vestiría",
+        "te vestirías",
+        "se vestiría",
+        "nos vestiríamos",
+        "os vestiríais",
+        "se vestirían"
+      ],
+      "reflexive",
+      false
     ],
     [
       "ser",
@@ -721,6 +1354,7 @@
         "aprender (to learn) → aprendió = he/she learnt",
         "decidir (to decide) → decidimos = we decided"
       ],
+      "The preterite has many irregular verbs:\n such as 'ser' (fui), 'ir' (fui), 'querer' (quise), 'hacer' (hice), 'estar' (estuve), 'tener' (tuve), 'poder' (pude), 'jugar' (jugué), etc.",
       true
     ],
     [
@@ -752,6 +1386,7 @@
         "beber (to drink) → bebías = you used to drink",
         "vivir (to live) → vivían = they used to live"
       ],
+      "The imperfect has only 3 irregular verbs:\n'ir' (iba), 'ser' (era) and 'ver' (veía).",
       true
     ],
     [
@@ -783,6 +1418,7 @@
         "correr (to run) → hemos corrido = we have run",
         "compartir (to share) → habéis compartido = you all have shared"
       ],
+      "Some irregulars include:\n'hacer' (he hecho), 'escribir' (he escrito) and 'ver' (he visto)",
       true
     ],
     [
@@ -814,6 +1450,7 @@
         "aprender (to learn) → aprendemos = we learn",
         "vivir (to live) → vivís = you all live"
       ],
+      "Some irregulars include@\n'ser' (soy), 'ir' (voy), 'querer' (quiero), 'hacer' (hago), 'estar' (estoy), 'tener' (tengo), 'poder' (puedo) or 'jugar' (juego).",
       true
     ],
     [
@@ -845,6 +1482,7 @@
         "beber (to drink) → está bebiendo = he/she is drinking",
         "compartir (to share) → estamos compartiendo = we are sharing"
       ],
+      "There are very few irregulars in this tense:\nExamples: 'ir' (estoy yendo), 'decir' (estoy diciendo)",
       true
     ],
     [
@@ -876,6 +1514,7 @@
         "aprender (to learn) → vas a aprender = you are going to learn",
         "vivir (to live) → vamos a vivir = we are going to live"
       ],
+      "There are no irregular verbs in this tense!",
       true
     ],
     [
@@ -907,6 +1546,7 @@
         "correr (to run) → correrás = you will run",
         "decidir (to decide) → decidirán = they will decide"
       ],
+      "A few verbs change the root but keep the same endings.\nSome examples are 'querer' (querré), 'hacer' (haré), 'tener' (tendré) or 'poder' (podré)",
       true
     ],
     [
@@ -938,6 +1578,7 @@
         "beber (to drink) → bebería = he/she would drink",
         "compartir (to share) → compartirían = they would share"
       ],
+      "A few verbs change the root but keep the same endings.\nSome examples are 'querer' (querría), 'hacer' (haría), 'tener' (tendría) or 'poder' (podría)",
       true
     ]
   ],

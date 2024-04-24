@@ -2,7 +2,7 @@ import React from 'react';
 import './Modal.css'
 import ModalContent from './ModalContent';
 
-const Modal = ({ tense, handleModal, teacherMode }) => {
+const Modal = ({ tense, handleModal, teacherMode, isReflexive }) => {
 
     return (
         <div className='modal-backdrop' onClick={handleModal}>
@@ -17,6 +17,14 @@ const Modal = ({ tense, handleModal, teacherMode }) => {
                 {tense[4].map((example, index) => {
                     return <p key={index}>{example}</p>
                 })}
+                <p className='bold'>Irregulars</p>
+                <p>{tense[5]}</p>
+                {isReflexive && 
+                <>
+                    <p className='bold'>Reflexive verbs</p>
+                    <p>Remember you need to add the reflexive particle before the verb!</p>
+                    <p>These endings are 'me', 'te', 'se', 'nos', 'os', 'se'</p>
+                </>}
             </div>
         </div>
     )

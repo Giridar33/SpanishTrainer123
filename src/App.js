@@ -18,6 +18,7 @@ import ModalContent from './components/ModalContent';
 //Sound files
 import wrongSoundFile from './sound/wrong.mp3';
 import correctSoundFile from './sound/correct.mp3';
+import ReflexiveModal from './components/ReflexiveModal';
 
 
 function App() {
@@ -58,6 +59,9 @@ function App() {
   //This is the definitive verb that the userNeeds to guess
   const [finalWord, setFinalWord] = useState('');
 
+  //This will become true if the infinitive to guess happens to be a reflexive one
+  const [isReflexive, setIsReflexive] = useState(false);
+
   //This state changes the style of the text when you give the right/wrong answer
   const [rightAnswer, setRightAnswer] = useState(false);
   const [wrongAnswer, setWrongAnswer] = useState(false);
@@ -69,6 +73,8 @@ function App() {
   const [showTutorial, setShowTutorial] = useState(false);
 
   // We store this value to true if the user has switched off all tenses, to avoid bugs
+  const [allInfinitivesFalse, setAllInfinitivesFalse] = useState(false);
+  const [allIrregularsFalse, setAllIrregularsFalse] = useState(false);
   const [allTensesFalse, setAllTensesFalse] = useState(false);
   const [allPersonsFalse, setAllPersonsFalse] = useState(false);
 
@@ -99,16 +105,17 @@ function App() {
     setInfinitiveToAnswer("");
     setPersonToAnswer("");
     setShowModal(false);
+    setIsReflexive(false);
   }
 
   // Enables the functionality to toggle the tenses on or off
   const toggleTense = (index) => {
     const updatedTenses = [...jsonData.tenses];
-    updatedTenses[index][5] = !updatedTenses[index][5];
+    updatedTenses[index][6] = !updatedTenses[index][6];
     setJsonData({ ...jsonData, tenses: updatedTenses })
 
     //We check whether all tenses have been set to false by the user
-    const allTFalse = updatedTenses.every(tense => !tense[5]);
+    const allTFalse = updatedTenses.every(tense => !tense[6]);
     setAllTensesFalse(allTFalse);
     resetState(); // we reset the game
     setLabelsOn(false);
@@ -126,6 +133,121 @@ function App() {
     setLabelsOn(false);
     setInputOn(false);
   }
+
+  // ----------------------------Functions to toggle the infinitives on and off------------------------------
+  const toggle_ar = () => {
+    const updatedInfinitives = jsonData.infinitives.map(infinitive => {
+      //check if the infinitive is an -ar verb
+      if (infinitive[9] === "-ar verb") {
+        //set the 10th value to its opposite (true or false)
+        infinitive[10] = !infinitive[10];
+      }
+      return infinitive
+    })
+    // update jsonData with modified values
+    setJsonData({ ... jsonData, infinitives: updatedInfinitives})
+    //We check whether all infinitives have been set to false by the user
+    const allInfFalse = updatedInfinitives.every(infinitive => !infinitive[10]);
+    setAllInfinitivesFalse(allInfFalse);
+    resetState(); // we reset the game
+    setLabelsOn(false);
+    setInputOn(false);
+  }
+
+  const toggle_er = () => {
+    const updatedInfinitives = jsonData.infinitives.map(infinitive => {
+      //check if the infinitive is an -er verb
+      if (infinitive[9] === "-er verb") {
+        //set the 10th value to its opposite (true or false)
+        infinitive[10] = !infinitive[10];
+      }
+      return infinitive
+    })
+    // update jsonData with modified values
+    setJsonData({ ... jsonData, infinitives: updatedInfinitives})
+    //We check whether all infinitives have been set to false by the user
+    const allInfFalse = updatedInfinitives.every(infinitive => !infinitive[10]);
+    setAllInfinitivesFalse(allInfFalse);
+    resetState(); // we reset the game
+    setLabelsOn(false);
+    setInputOn(false);
+  }
+
+  const toggle_ir = () => {
+    const updatedInfinitives = jsonData.infinitives.map(infinitive => {
+      //check if the infinitive is an -ir verb
+      if (infinitive[9] === "-ir verb") {
+        //set the 10th value to its opposite (true or false)
+        infinitive[10] = !infinitive[10];
+      }
+      return infinitive
+    })
+    // update jsonData with modified values
+    setJsonData({ ... jsonData, infinitives: updatedInfinitives})
+    //We check whether all infinitives have been set to false by the user
+    const allInfFalse = updatedInfinitives.every(infinitive => !infinitive[10]);
+    setAllInfinitivesFalse(allInfFalse);
+    resetState(); // we reset the game
+    setLabelsOn(false);
+    setInputOn(false);
+  }
+
+  const toggle_reflexive = () => {
+    const updatedInfinitives = jsonData.infinitives.map(infinitive => {
+      if (infinitive[9] === "reflexive") {
+        infinitive[10] = !infinitive[10];
+      }
+      return infinitive
+    })
+    setJsonData({ ... jsonData, infinitives: updatedInfinitives})
+    const allInfFalse = updatedInfinitives.every(infinitive => !infinitive[10]);
+    setAllInfinitivesFalse(allInfFalse);
+    resetState(); //
+    setLabelsOn(false);
+    setInputOn(false);
+  }
+
+  const toggle_all_irregulars = () => {
+    const updatedInfinitives = jsonData.infinitives.map(infinitive => {
+      if (infinitive[9] === "irregular"){
+        if (infinitives[27][10] === false) {
+          infinitive[10] = true;
+          setAllIrregularsFalse(true);
+        } else if (infinitives[27][10] === true){
+          infinitive[10] = false;
+          setAllIrregularsFalse(false);
+        }  
+      }
+      return infinitive
+    })
+    
+    console.log(updatedInfinitives[20]);
+    setJsonData({ ... jsonData, infinitives: updatedInfinitives})
+    const allInfFalse = updatedInfinitives.every(infinitive => !infinitive[10]);
+    setAllInfinitivesFalse(allInfFalse);
+    resetState();
+    setLabelsOn(false);
+    setInputOn(false);
+  }
+
+  const toggle_individual_irregulars = (index) => {
+    console.log(index);
+    const updatedInfinitives = [...jsonData.infinitives];
+    updatedInfinitives[index+20][10] = !updatedInfinitives[index+20][10];
+    setJsonData({ ... jsonData, infinitives: updatedInfinitives})
+    //here we check whether we have set all verbs to false
+    const allInfFalse = updatedInfinitives.every(infinitive => !infinitive[10]);
+    setAllInfinitivesFalse(allInfFalse);
+    //here we check whether we have set all irregulars to false
+    const allIrregularsFalse = updatedInfinitives.filter(infinitive => infinitive[9] === "irregular").every(infinitive => !infinitive[10])
+    setAllIrregularsFalse(!allIrregularsFalse)
+
+    resetState();
+    setLabelsOn(false);
+    setInputOn(false);
+  }
+
+
 
   // Switches the value of showModal true/false
   const handleModal = () => {
@@ -156,8 +278,8 @@ function App() {
     setGameOver(false);
 
     //We make sure there is at least one tense and person active
-    if (allTensesFalse || allPersonsFalse) {
-      setInput('Select at least one tense and person!');
+    if (allInfinitivesFalse || allTensesFalse || allPersonsFalse) {
+      setInput('Select at least one infinitive, tense and person!');
       setLabelsOn(false);
       return;
     }
@@ -165,12 +287,20 @@ function App() {
     //choose infinitive
     let randomInfinitiveIndex = Math.floor(Math.random() * infinitives.length);
     let varInfinitiveToAnswer = infinitives[randomInfinitiveIndex];
+    //keep looping until we get a value that has not been switched off
+    while (varInfinitiveToAnswer[10] === false) {
+        randomInfinitiveIndex = Math.floor(Math.random() * infinitives.length);
+        varInfinitiveToAnswer = infinitives[randomInfinitiveIndex];
+    }
+    if (varInfinitiveToAnswer[9] === "reflexive") {
+      setIsReflexive(true);
+    }
 
     //choose tense
     let randomTenseIndex = Math.floor(Math.random() * tenses.length);
     let varTenseToAnswer = tenses[randomTenseIndex];
     //here we add a while loop to make sure we don't return a tense that has been turned off by the user
-    while (varTenseToAnswer[5] === false) {
+    while (varTenseToAnswer[6] === false) {
           randomTenseIndex = Math.floor(Math.random() * tenses.length);
           varTenseToAnswer = tenses[randomTenseIndex];
     }
@@ -183,10 +313,8 @@ function App() {
       varPersonToAnswer = persons[randomPersonIndex];
     } while (!varPersonToAnswer[1]); // We keep looping until we get a person that has not been deactivated by the user
 
-    // setFinalWord(begin + varInfinitiveToAnswer.slice(0, -2) + ending);
     console.log(varInfinitiveToAnswer[randomTenseIndex + 1][randomPersonIndex]);
     let varFinalWord = varInfinitiveToAnswer[randomTenseIndex + 1][randomPersonIndex];
-    // console.log(`finalWord is ${varFinalWord}`);
 
     //turn variables into state
     setInfinitiveToAnswer(varInfinitiveToAnswer);
@@ -336,7 +464,16 @@ function App() {
         {!teacherMode && <p className='tries'>{`Remaining tries: ${userTries}`}</p>}
 
         <div className="row1">
-          <Infinitives infinitives={Infinitives} />
+          <Infinitives 
+            infinitives={Infinitives} 
+            toggle_ar={toggle_ar} 
+            toggle_er={toggle_er} 
+            toggle_ir={toggle_ir}
+            toggle_reflexive={toggle_reflexive}
+            toggle_all_irregulars={toggle_all_irregulars} 
+            toggle_individual_irregulars={toggle_individual_irregulars} 
+            allIrregularsFalse={allIrregularsFalse}
+            />
           <Tenses tenses={tenses} toggleTense={toggleTense}/>
           <Persons persons={persons} togglePerson={togglePerson}/>
         </div>
@@ -385,12 +522,14 @@ function App() {
         <Modal
           handleModal={handleModal}
           tense={tenseToAnswer}
+          isReflexive={isReflexive}
         />}
       {showTutorial &&
         <Tutorial handleTutorial={handleTutorial}/>
       }
       {teacherMode && tenseToAnswer &&
         <div className='modal-2'>
+          {isReflexive && <ReflexiveModal />}
           <ModalContent
           handleModal={handleModal}
           tense={tenseToAnswer}

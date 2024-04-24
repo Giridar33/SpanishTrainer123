@@ -121,6 +121,11 @@ h2 {
   font-weight: bolder;
 }
 
+.irregular-verbs-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .tense-list .info-column, .person-list .info-column {
   transition: color 0.3s ease, border 0.3s ease, box-shadow 0.3s ease;
 }

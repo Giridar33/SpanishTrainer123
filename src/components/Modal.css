@@ -22,12 +22,12 @@
 
 /*This is the modal in teacher mode*/
 .modal-2 {
-    padding: 0;
-    width: 600px;
-    margin: 0px;
+    width: 800px;
     background: transparent;
     color: black;
-    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+
 }
 
 
@@ -50,6 +50,18 @@ h4 {
 
 /* Four column tables */
 
+.column-table-reflexive {
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+    line-height: 0.6rem;
+}
+
 .four-column-grid {
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -63,7 +75,7 @@ h4 {
     line-height: 0.6rem;
 }
 
-.four-column-grid p, .two-column-grid p {
+.four-column-grid p, .two-column-grid p, .column-table-reflexive p {
     margin: 5px;
     padding: 5px;
 }
@@ -105,7 +117,7 @@ h4 {
 /* Two column tables */
 
 .two-column-grid {
-    max-width: 400px;
+    max-width: 500px;
     margin: 0 auto;
     padding: 5px;
     border: 1px solid black;
@@ -114,8 +126,8 @@ h4 {
     display: flex;
     flex-direction: row;
     gap: 4%;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     line-height: 0.8rem;
 }
 
