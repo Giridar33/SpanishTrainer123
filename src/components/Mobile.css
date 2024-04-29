@@ -1,0 +1,64 @@
+@media (min-width: 541px) {
+
+    .mobile-row {
+        display: none;
+    }
+
+}
+
+
+
+@media (max-width: 540px) {
+
+
+
+}
+
+.mobile-row h2 {
+    cursor: pointer;
+}
+
+.mobile-row h2:hover {
+    color: red;
+}
+
+.mobile-row .mobile-infinitives, .mobile-row .mobile-tenses, .mobile-row .mobile-persons{
+    background-color: #1B1A55;
+    width: 95%;
+    border-radius: 2rem;
+    padding: 0.5rem 0;
+    margin: 0.5rem;
+}
+
+.mobile-regular-infinitives-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.irregular-verbs-list-mobile {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.info-2-mobile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.info-2-mobile p, .info-3-mobile {
+    margin: 2px 0;
+    font-size: 0.8rem;
+}
+
+.info-3-mobile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.info-column-mobile {
+    width: calc(50% - 5px);
+    margin: 2px 0;
+    font-size: 0.8rem;
+}

@@ -72,7 +72,7 @@ h1.title {
 
 .info-1 p,
 .info-2 p,
-.info-3 p {
+.info-3 p, .info-1-mobile p , .info-2-mobile p , .info-3-mobile p {
   margin: 0;
   padding: 0;
   border: 1px solid transparent;
@@ -89,7 +89,6 @@ h2 {
   background-color: #1B1A55;
   width: 30%;
   border-radius: 2rem;
-
 }
 
 
@@ -330,6 +329,10 @@ input {
   .info-3 p {
     margin: 2px 0;
     font-size: 0.8rem;
+  }
+
+  .row1 {
+    display: none;
   }
 
   .row-selection {

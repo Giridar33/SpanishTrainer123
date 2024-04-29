@@ -1,6 +1,7 @@
 //Imports
 import { useState, useRef, useEffect } from 'react';
 import './App.css';
+import './components/Mobile.css'
 
 //React components
 import Infinitives from './components/Infinitives';
@@ -10,6 +11,9 @@ import RowSelection from './components/RowSelection';
 import Modal from './components/Modal';
 import Tutorial from './components/Tutorial';
 import SetSeconds from './components/SetSeconds';
+import MobileInfinitives from './components/MobileInfinitives';
+import MobileTenses from './components/MobileTenses';
+import MobilePersons from './components/MobilePersons';
 
 //Data file containing all verbs' info
 import data from './data2.json'
@@ -19,6 +23,7 @@ import ModalContent from './components/ModalContent';
 import wrongSoundFile from './sound/wrong.mp3';
 import correctSoundFile from './sound/correct.mp3';
 import ReflexiveModal from './components/ReflexiveModal';
+
 
 
 function App() {
@@ -77,6 +82,11 @@ function App() {
   const [allIrregularsFalse, setAllIrregularsFalse] = useState(false);
   const [allTensesFalse, setAllTensesFalse] = useState(false);
   const [allPersonsFalse, setAllPersonsFalse] = useState(false);
+
+  // State that controls the mobile version of the info row
+  const [showMobileInfinitives, setShowMobileInfinitives] = useState(false);
+  const [showMobileTenses, setShowMobileTenses] = useState(false);
+  const [showMobilePersons, setShowMobilePersons] = useState(false);
 
   // Sound-----------Sound---------------Sound----------------Sound---------------Sound--------------Sound---------
 
@@ -277,6 +287,11 @@ function App() {
     setGameIsOn(true);
     setGameOver(false);
 
+    //We make sure all verb options are closed on mobile
+    setShowMobileInfinitives(false)
+    setShowMobilePersons(false);
+    setShowMobileTenses(false);
+
     //We make sure there is at least one tense and person active
     if (allInfinitivesFalse || allTensesFalse || allPersonsFalse) {
       setInput('Select at least one infinitive, tense and person!');
@@ -476,6 +491,48 @@ function App() {
             />
           <Tenses tenses={tenses} toggleTense={toggleTense}/>
           <Persons persons={persons} togglePerson={togglePerson}/>
+        </div>
+
+        <div className="mobile-row">
+          <MobileInfinitives 
+            showMobileInfinitives={showMobileInfinitives} 
+            setShowMobileInfinitives={setShowMobileInfinitives}
+            setShowMobileTenses={setShowMobileTenses}
+            setShowMobilePersons={setShowMobilePersons}
+            infinitives={Infinitives} 
+            toggle_ar={toggle_ar} 
+            toggle_er={toggle_er} 
+            toggle_ir={toggle_ir}
+            toggle_reflexive={toggle_reflexive}
+            toggle_all_irregulars={toggle_all_irregulars} 
+            toggle_individual_irregulars={toggle_individual_irregulars} 
+            allIrregularsFalse={allIrregularsFalse}
+            resetState={resetState}
+            setLabelsOn={setLabelsOn}
+            setInputOn={setInputOn}
+            />
+          <MobileTenses 
+            showMobileTenses={showMobileTenses}
+            setShowMobileTenses={setShowMobileTenses}
+            setShowMobileInfinitives={setShowMobileInfinitives}
+            setShowMobilePersons={setShowMobilePersons}
+            tenses={tenses} 
+            toggleTense={toggleTense}
+            resetState={resetState}
+            setLabelsOn={setLabelsOn}
+            setInputOn={setInputOn}
+            />
+          <MobilePersons 
+            showMobilePersons={showMobilePersons}
+            setShowMobilePersons={setShowMobilePersons}
+            setShowMobileInfinitives={setShowMobileInfinitives}
+            setShowMobileTenses={setShowMobileTenses}
+            persons={persons} 
+            togglePerson={togglePerson}
+            resetState={resetState}
+            setLabelsOn={setLabelsOn}
+            setInputOn={setInputOn}
+          />
         </div>
 
         <div className="row2">
