@@ -70,6 +70,8 @@ h1.title {
   margin: 10px;
 }
 
+
+
 .info-1 p,
 .info-2 p,
 .info-3 p, .info-1-mobile p , .info-2-mobile p , .info-3-mobile p {
@@ -398,10 +400,11 @@ input {
 
 
 
-@media screen and (min-aspect-ratio: 4/3) and (max-aspect-ratio: 4/3) {
+@media screen and (min-width: 1020px) and (max-width: 1030px) and (min-height: 600px) and (max-height: 768px) {
+
   /* CSS rules specific to 4:3 aspect ratio, commonly used in projectors in schools */
   .framework {
-    margin: 0;
+    margin: 5px 5px 2px 5px;
     padding: 0;
   }
 
@@ -414,6 +417,20 @@ input {
     font-size: 1.3rem;
     margin: 0.4vh;
   }
+
+  h2 {
+    margin: 2px;
+  }
+
+
+  .info-2 p {
+    padding-bottom: 0;
+  }
+
+  .info-1 {
+    padding-bottom: 0;
+  }
+
   .top-button {
     padding: 5px auto;
     margin: 0.2rem 1rem;
@@ -428,22 +445,28 @@ input {
   }
 
   .main-button {
-      font-size: 18px;
-      font-weight: 600;
-      margin: 0 auto;
-      min-height: 40px;
-      width: 18%;
-      min-width: 50px;
-      will-change: transform;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 auto;
+    min-height: 40px;
+    width: 18%;
+    min-width: 50px;
+    will-change: transform;
   }
 
   .user-text {
-      height: 2rem;
-      text-align: center;
-      font-size: 1.5rem;
-      padding: 0;
-      border: 0;
-      font-family: "Nunito", sans-serif;
+    height: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0;
+    border: 0;
+    font-family: "Nunito", sans-serif;
   }
 
+  .info-1,
+  .info-2,
+  .info-3 {
+    margin: 0 auto;
+    padding: 0 auto;
+  }
 }

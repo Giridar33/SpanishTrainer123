@@ -61,8 +61,9 @@ function App() {
   const [tenseToAnswer, setTenseToAnswer] = useState('');
   const [personToAnswer, setPersonToAnswer] = useState();
 
-  //This is the definitive verb that the userNeeds to guess
+  //This is the definitive verb that the userNeeds to guess, and its translation
   const [finalWord, setFinalWord] = useState('');
+  const [englishFinalWord, setEnglishFinalWord] = useState('');
 
   //This will become true if the infinitive to guess happens to be a reflexive one
   const [isReflexive, setIsReflexive] = useState(false);
@@ -111,6 +112,7 @@ function App() {
     setWrongAnswer(false);
     setUserTries(3);
     setFinalWord("");
+    setEnglishFinalWord("");
     setTenseToAnswer("");
     setInfinitiveToAnswer("");
     setPersonToAnswer("");
@@ -328,14 +330,18 @@ function App() {
       varPersonToAnswer = persons[randomPersonIndex];
     } while (!varPersonToAnswer[1]); // We keep looping until we get a person that has not been deactivated by the user
 
-    console.log(varInfinitiveToAnswer[randomTenseIndex + 1][randomPersonIndex]);
-    let varFinalWord = varInfinitiveToAnswer[randomTenseIndex + 1][randomPersonIndex];
+ 
+    let varFinalWord = varInfinitiveToAnswer[randomTenseIndex + 1][randomPersonIndex][0];
+    let varEnglishFinalWord = varInfinitiveToAnswer[randomTenseIndex + 1][randomPersonIndex][1];
+    console.log(varFinalWord);
+    console.log(varEnglishFinalWord);
 
     //turn variables into state
     setInfinitiveToAnswer(varInfinitiveToAnswer);
     setTenseToAnswer(varTenseToAnswer);
     setPersonToAnswer(varPersonToAnswer);
     setFinalWord(varFinalWord);
+    setEnglishFinalWord(varEnglishFinalWord);
 
     countdown = secondsByUser;
     if (!teacherMode) {
@@ -548,21 +554,25 @@ function App() {
             {!teacherMode && labelsOn && <button className='main-button' onClick={handleModal}>Cheatsheet</button>}
           </div>
 
-          {inputOn && <input
-            className="user-text"
-            id={(rightAnswer ? "correct-answer" : "") + (wrongAnswer ? "incorrect-answer" : "")}
-            type="text"
-            value={input}
-            onChange={(e) => setInput(e.target.value)}
-            onKeyDown={(e) => {
-              if (e.key === 'Enter') {
-                e.preventDefault(); //this line avoids the enter button to trigger input form submission
-                handleCheck();
-              }
-            }}
-            disabled={gameOver}
-            ref={inputRef}
-          />}
+          {inputOn && 
+          <>
+            <input
+              className="user-text"
+              id={(rightAnswer ? "correct-answer" : "") + (wrongAnswer ? "incorrect-answer" : "")}
+              type="text"
+              value={input}
+              onChange={(e) => setInput(e.target.value)}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter') {
+                  e.preventDefault(); //this line avoids the enter button to trigger input form submission
+                  handleCheck();
+                }
+              }}
+              disabled={gameOver}
+              ref={inputRef}
+            />
+            <label>{`The meaning is: ${englishFinalWord}`}</label>
+          </>}
 
           {labelsOn && (
             <RowSelection
