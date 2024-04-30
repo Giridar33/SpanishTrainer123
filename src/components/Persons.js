@@ -1,10 +1,11 @@
 import React from 'react';
 
-const Persons = ({ persons, togglePerson }) => {
+const Persons = ({ persons, togglePerson, showMobilePersons, toggleAllVerbOptions, shortenPerson, personToAnswer }) => {
 
     return (
         <div className='person-list'>
-            <h2>Person</h2>
+            <h2 onClick={toggleAllVerbOptions}>{personToAnswer ? shortenPerson(personToAnswer) : "Select Person"}</h2>
+            {showMobilePersons &&
             <div className='info-3'>
                 {persons.map((person, index) => {
                     return (
@@ -16,6 +17,8 @@ const Persons = ({ persons, togglePerson }) => {
                         </p>)
                 })}
             </div>
+            }
+
         </div>
     )
 }

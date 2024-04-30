@@ -21,7 +21,7 @@ const toggleMobileTenses = () => {
 
   return (
     <div className='mobile-tenses'>
-      <h2 onClick={toggleMobileTenses}>Tense</h2>
+      <h2 onClick={toggleMobileTenses}>Select Tense</h2>
       {showMobileTenses && 
         <div className='info-2-mobile'>
             {tenses.map((tense, index) => {

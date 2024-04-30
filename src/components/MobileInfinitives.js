@@ -30,7 +30,7 @@ export default function MobileInfinitives({ showMobileInfinitives,
 
   return (
     <div className="mobile-infinitives">
-      <h2 onClick={toggleMobileInfinitives}>Infinitive</h2>
+      <h2 onClick={toggleMobileInfinitives}>Select Verb</h2>
       {showMobileInfinitives && 
       <div className='info-1'>
 
@@ -53,19 +53,21 @@ export default function MobileInfinitives({ showMobileInfinitives,
                     onClick={() => toggle_reflexive()}>
                     Reflexive verbs
                 </p>
-                <p className={`info-column ${allIrregularsFalse ? 'active-option' : 'inactive-option'}`}
-                    onClick={() => toggle_all_irregulars()}>
-                    Irregular verbs
-                </p>
-                <div className='irregular-verbs-list-mobile'>
-                    {irreg_infinitives.map((irreg_infinitive, index) => (
-                        <p 
-                            className={`info-column ${irreg_infinitive[10] ? 'active-option' : 'inactive-option'}`} 
-                            key={index}
-                            onClick={() => toggle_individual_irregulars(index)}>
-                            {irreg_infinitive[0]}
-                        </p>
-                    ))}
+                <div className={`${allIrregularsFalse ? 'active-option' : 'inactive-option'}`}>
+                    <p className='info-column'
+                        onClick={() => toggle_all_irregulars()}>
+                        Irregular verbs
+                    </p>
+                    <div className='irregular-verbs-list-mobile'>
+                        {irreg_infinitives.map((irreg_infinitive, index) => (
+                            <p 
+                                className={`info-column ${irreg_infinitive[10] ? 'active-option' : 'inactive-option'}`} 
+                                key={index}
+                                onClick={() => toggle_individual_irregulars(index)}>
+                                {irreg_infinitive[0]}
+                            </p>
+                        ))}
+                    </div>
                 </div>
             </div>}
 

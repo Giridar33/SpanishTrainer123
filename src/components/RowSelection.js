@@ -1,5 +1,7 @@
 import React from 'react';
 
+/*esto esta inutilizado, tal vez puedas llegar a borrarlo*/
+
 const RowSelection = (props) => {
 
     return (

@@ -1,11 +1,12 @@
 import React from 'react';
 
-const Tenses = ({ tenses, toggleTense }) => {
+const Tenses = ({ tenses, toggleTense, showMobileTenses, toggleAllVerbOptions, tenseToAnswer }) => {
 
     return (
         <div className='tense-list'>
-            <h2>Tense</h2>
-            <div className='info-2'>
+            <h2 onClick={toggleAllVerbOptions}>{tenseToAnswer ? tenseToAnswer[0] : "Select Tense"}</h2>
+            {showMobileTenses &&
+                <div className='info-2'>
                 {tenses.map((tense, index) => {
                     return (
                         <p 
@@ -15,7 +16,8 @@ const Tenses = ({ tenses, toggleTense }) => {
                             {tense[0]}
                         </p>)
                 })}
-            </div>
+                </div>
+            }
         </div>
     )
 }

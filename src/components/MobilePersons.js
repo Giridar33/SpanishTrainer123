@@ -21,7 +21,7 @@ export default function MobilePersons({ showMobilePersons,
 
   return (
     <div className='mobile-persons'>
-      <h2 onClick={toggleMobilePersons}>Person</h2>
+      <h2 onClick={toggleMobilePersons}>Select Person</h2>
       {showMobilePersons && 
             <div className='info-3-mobile'>
                 {persons.map((person, index) => {

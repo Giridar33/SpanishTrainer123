@@ -7,7 +7,7 @@ import './components/Mobile.css'
 import Infinitives from './components/Infinitives';
 import Tenses from './components/Tenses';
 import Persons from './components/Persons';
-import RowSelection from './components/RowSelection';
+//import RowSelection from './components/RowSelection';
 import Modal from './components/Modal';
 import Tutorial from './components/Tutorial';
 import SetSeconds from './components/SetSeconds';
@@ -146,6 +146,17 @@ function App() {
     setInputOn(false);
   }
 
+  // -------------------------Function to show all verb options on or off---------------------------------*/
+
+  const toggleAllVerbOptions = () => {
+    setShowMobileInfinitives(prevValue => !prevValue);
+    setShowMobileTenses(prevValue => !prevValue);
+    setShowMobilePersons(prevValue => !prevValue);
+    resetState(); // we reset the game
+    setLabelsOn(false);
+    setInputOn(false);
+  }
+
   // ----------------------------Functions to toggle the infinitives on and off------------------------------
   const toggle_ar = () => {
     const updatedInfinitives = jsonData.infinitives.map(infinitive => {
@@ -233,7 +244,6 @@ function App() {
       return infinitive
     })
     
-    console.log(updatedInfinitives[20]);
     setJsonData({ ... jsonData, infinitives: updatedInfinitives})
     const allInfFalse = updatedInfinitives.every(infinitive => !infinitive[10]);
     setAllInfinitivesFalse(allInfFalse);
@@ -243,7 +253,6 @@ function App() {
   }
 
   const toggle_individual_irregulars = (index) => {
-    console.log(index);
     const updatedInfinitives = [...jsonData.infinitives];
     updatedInfinitives[index+20][10] = !updatedInfinitives[index+20][10];
     setJsonData({ ... jsonData, infinitives: updatedInfinitives})
@@ -333,8 +342,6 @@ function App() {
  
     let varFinalWord = varInfinitiveToAnswer[randomTenseIndex + 1][randomPersonIndex][0];
     let varEnglishFinalWord = varInfinitiveToAnswer[randomTenseIndex + 1][randomPersonIndex][1];
-    console.log(varFinalWord);
-    console.log(varEnglishFinalWord);
 
     //turn variables into state
     setInfinitiveToAnswer(varInfinitiveToAnswer);
@@ -494,9 +501,25 @@ function App() {
             toggle_all_irregulars={toggle_all_irregulars} 
             toggle_individual_irregulars={toggle_individual_irregulars} 
             allIrregularsFalse={allIrregularsFalse}
+            infinitiveToAnswer={infinitiveToAnswer}
+            showMobileInfinitives={showMobileInfinitives}
+            toggleAllVerbOptions={toggleAllVerbOptions}
             />
-          <Tenses tenses={tenses} toggleTense={toggleTense}/>
-          <Persons persons={persons} togglePerson={togglePerson}/>
+          <Tenses 
+            tenses={tenses} 
+            toggleTense={toggleTense}
+            showMobileTenses={showMobileTenses}
+            toggleAllVerbOptions={toggleAllVerbOptions}
+            tenseToAnswer={tenseToAnswer}
+            />
+          <Persons 
+            persons={persons} 
+            togglePerson={togglePerson}
+            showMobilePersons={showMobilePersons}
+            toggleAllVerbOptions={toggleAllVerbOptions}
+            shortenPerson={shortenPerson}
+            personToAnswer={personToAnswer}
+            />
         </div>
 
         <div className="mobile-row">
@@ -544,18 +567,17 @@ function App() {
         <div className="row2">
 
           <div className='button-group'>
-            {!teacherMode && labelsOn && <button className='main-button' onClick={handleCheck}>Check</button>}
-            {teacherMode && labelsOn && <button className='main-button' onClick={showAnswer}>Show Answer</button>}
-            {teacherMode && !labelsOn && <div className='main-button dummy-button'>Dummy</div>}
+            {!teacherMode && labelsOn && <button className='main-button squiggle' onClick={handleCheck}>Check</button>}
+            {teacherMode && labelsOn && <button className='main-button squiggle' onClick={showAnswer}>Show Answer</button>}
+            {teacherMode && !labelsOn && <div className='main-button dummy-button squiggle'>Dummy</div>}
 
             <button className='main-button' onClick={handlePlay}>Play</button>
 
             {teacherMode && <SetSeconds secondsByUser={secondsByUser} setSecondsByUser={setSecondsByUser}/>}
-            {!teacherMode && labelsOn && <button className='main-button' onClick={handleModal}>Cheatsheet</button>}
+            {!teacherMode && labelsOn && <button className='main-button squiggle' onClick={handleModal}>Cheatsheet</button>}
           </div>
 
           {inputOn && 
-          <>
             <input
               className="user-text"
               id={(rightAnswer ? "correct-answer" : "") + (wrongAnswer ? "incorrect-answer" : "")}
@@ -570,19 +592,22 @@ function App() {
               }}
               disabled={gameOver}
               ref={inputRef}
-            />
-            <label>{`The meaning is: ${englishFinalWord}`}</label>
-          </>}
+            />}
 
-          {labelsOn && (
+          {/* {labelsOn && (
             <RowSelection
               randomInfinitive={infinitiveToAnswer}
               randomTense={tenseToAnswer}
               randomPerson={shortenPerson(personToAnswer)}
-          />)}
+          />)} */}
+
 
 
         </div>
+
+          {inputOn && finalWord &&
+            <label className='translation-label'>{`The meaning is: ${englishFinalWord}`}</label>
+          }
 
       </div>
       {showModal &&
@@ -603,6 +628,7 @@ function App() {
           teacherMode={teacherMode}
           />
         </div>}
+        
     </div>
   );
 }

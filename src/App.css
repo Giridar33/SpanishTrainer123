@@ -29,11 +29,12 @@ h1, h3, .tries, .row1, button, label {
 .framework {
   width: 800px;
   background-color: #070F2B;
-  border-radius: 2%;
+  border-radius: 1rem;
   border: 2px solid black;
   /* delete these 3 if I get errors, this is to make sure the framework is never moved by the keypad on mobile */
   position: sticky;
   margin: 10px;
+  padding: 1rem 0;
 }
 
 .title-row {
@@ -41,10 +42,12 @@ h1, h3, .tries, .row1, button, label {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin: 0 0 0.5rem 0;
 }
 
 h1.title {
   margin: 0;
+  font-size: 1.8rem;
 }
 
 .tries {
@@ -59,6 +62,17 @@ h1.title {
   height: auto;
 }
 
+.infinitive-list h2, .tense-list h2, .person-list h2 {
+  cursor: pointer;
+}
+
+.infinitive-list h2:hover,
+.tense-list h2:hover,
+.person-list h2:hover {
+  background-color: #262475;
+  border-radius: 1rem;
+}
+
 .info-1,
 .info-2,
 .info-3 {
@@ -68,9 +82,8 @@ h1.title {
   justify-content: space-between;
   padding-bottom: 10px;
   margin: 10px;
+  font-size: 1.1rem;
 }
-
-
 
 .info-1 p,
 .info-2 p,
@@ -81,37 +94,38 @@ h1.title {
 }
 
 h2 {
-  font-size: 1rem;
-  text-decoration: underline;
+  font-size: 1.3rem;
   margin: 10px;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .infinitive-list, .tense-list, .person-list {
   background-color: #1B1A55;
   width: 30%;
-  border-radius: 2rem;
+  border-radius: 1rem;
 }
 
 
 .active-option:hover, .inactive-option:hover {
   color: red;
+  background-color: #262475;
   text-shadow: -0.5px -0.5px 0.5px red,
       0.5px -0.5px 0.5px red,
       -0.5px 0.5px 0.5px red,
       0.5px 0.5px 0.5px red;
-  border: 1px solid red;
-  border-radius: 5px;
+  border: 1px solid transparent;
+  border-radius: 1rem;
   box-shadow: -2px -2px 2px 1px rgb(0 0 0 / 10%),
     -2px 2px 2px 1px rgb(0 0 0 / 10%),
     2px -2px 2px 1px rgb(0 0 0 / 10%),
     2px 2px 2px 1px rgb(0 0 0 / 10%);
 }
 
+
 .active-option {
   cursor: pointer;
   color: #fff;
-  font-weight: 600;
+  font-weight: bolder;
 
 }
 
@@ -119,7 +133,14 @@ h2 {
   cursor: pointer;
   color:#333;
   text-decoration: line-through;
-  font-weight: bolder;
+}
+
+.active-option:hover {
+  color: #fff;
+}
+
+.irregulars-container {
+  border: 1px solid transparent;
 }
 
 .irregular-verbs-list {
@@ -162,7 +183,7 @@ h2 {
   align-items: center;
 }
 
-.user-text {
+.user-text, .translation-label {
   width: 100%;
   height: 3rem;
   text-align: center;
@@ -170,12 +191,11 @@ h2 {
   padding: 0;
   border: 0;
   font-family: "Nunito", sans-serif;
+  margin: 0.1rem auto 0.5rem auto;
 }
 
-input {
-  border-bottom: 4px solid red;
-  margin: auto auto 1vh auto;
-}
+
+
 
 
 #correct-answer {
@@ -201,7 +221,7 @@ input {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin: auto;
+  margin: 1rem auto;
 }
 
 
@@ -217,7 +237,7 @@ input {
   font-weight: 600;
   outline: none;
   padding: 5px auto;
-  margin: auto;
+  margin: 0.5rem auto;
   text-align: center;
   cursor: pointer;
   transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
@@ -252,7 +272,7 @@ input {
   font-size: 18px;
   font-weight: 600;
   padding: 5px auto;
-  margin: auto;
+  margin: 1rem auto;
   text-align: center;
   cursor: initial;
   min-height: 40px;
@@ -275,6 +295,8 @@ input {
   margin: 1vw;
   border-radius: 33%;
 }
+
+
 
 /* -------------------------- Whole class mode -------------------*/
 
@@ -299,7 +321,6 @@ input {
 
   .framework {
     max-width: 95vw;
-    border-radius: 5%;
   }
 
   .row-selection {
@@ -404,8 +425,8 @@ input {
 
   /* CSS rules specific to 4:3 aspect ratio, commonly used in projectors in schools */
   .framework {
-    margin: 5px 5px 2px 5px;
-    padding: 0;
+    margin: 0.5rem;
+    padding: 1rem 0;
   }
 
   .App {
@@ -418,55 +439,29 @@ input {
     margin: 0.4vh;
   }
 
-  h2 {
-    margin: 2px;
-  }
 
-
-  .info-2 p {
-    padding-bottom: 0;
-  }
-
-  .info-1 {
-    padding-bottom: 0;
-  }
-
-  .top-button {
-    padding: 5px auto;
-    margin: 0.2rem 1rem;
-  }
-
-  .row-selection h3 {
+  /* .row-selection h3 {
     height: 2vh;
     margin: 1vh auto;
     padding: 1vh;
     background-color: #1B1A55;
     color: #fff;
-  }
+  } */
 
   .main-button {
-    font-size: 18px;
-    font-weight: 600;
-    margin: 0 auto;
     min-height: 40px;
     width: 18%;
     min-width: 50px;
-    will-change: transform;
   }
 
   .user-text {
-    height: 2rem;
-    text-align: center;
-    font-size: 1.5rem;
-    padding: 0;
-    border: 0;
-    font-family: "Nunito", sans-serif;
+    margin: 1rem auto;
   }
 
   .info-1,
   .info-2,
   .info-3 {
-    margin: 0 auto;
-    padding: 0 auto;
+    margin: 1rem auto;
+    padding: 1rem auto;
   }
 }
