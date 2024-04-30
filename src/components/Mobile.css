@@ -10,7 +10,15 @@
 
 @media (max-width: 540px) {
 
+.mobile-infinitives h2, .mobile-tenses h2, .mobile-persons h2 {
+    font-size: 1.2rem;
+}
 
+.mobile-infinitives p,
+.mobile-tenses p,
+.mobile-persons p {
+    font-size: 1.1rem;
+}
 
 }
 

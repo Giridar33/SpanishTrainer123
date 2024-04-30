@@ -28,7 +28,6 @@
     display: flex;
     justify-content: center;
     align-items: end;
-    
 }
 
 .modal-2 div {
@@ -153,24 +152,37 @@ h4 {
         font-size: small;
     }
 
+
+    .four-column-grid,
     .two-column-grid {
-        gap: 2%;
+        padding: 5px;
+        max-width: 400px;
+        grid-column-gap: 0;
     }
 
 }
 
-@media (max-width: 420px) {
+@media (max-width: 430px) {
 
     .modal p {
         font-size: x-small;
     }
-
-    .four-column-grid, .two-column-grid {
-        padding: 5px;
-        max-width: 350px;
-    }
     
+    .modal-2 {
+        width: 95%;
+        margin: 0 5px;
+    }
 
+    .modal-2 div {
+        margin: 0 0.2rem;
+    }
+
+    .four-column-grid p,
+    .two-column-grid p,
+    .column-table-reflexive p {
+        margin: 3px 0px;
+        padding: 3px 0px;
+    }
 }
 
 @media (max-width: 370px) {

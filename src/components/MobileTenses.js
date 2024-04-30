@@ -8,7 +8,8 @@ export default function MobileTenses({ showMobileTenses,
                                         toggleTense,
                                         resetState,
                                         setLabelsOn,
-                                        setInputOn }) {
+                                        setInputOn,
+                                        tenseToAnswer }) {
 
 const toggleMobileTenses = () => {
     resetState();
@@ -21,7 +22,7 @@ const toggleMobileTenses = () => {
 
   return (
     <div className='mobile-tenses'>
-      <h2 onClick={toggleMobileTenses}>Select Tense</h2>
+      <h2 onClick={toggleMobileTenses}>{tenseToAnswer ? tenseToAnswer[0] : "Select Tense"}</h2>
       {showMobileTenses && 
         <div className='info-2-mobile'>
             {tenses.map((tense, index) => {

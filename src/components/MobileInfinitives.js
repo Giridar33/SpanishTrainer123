@@ -14,7 +14,8 @@ export default function MobileInfinitives({ showMobileInfinitives,
                                             allIrregularsFalse,
                                             resetState,
                                             setLabelsOn,
-                                            setInputOn }) {
+                                            setInputOn,
+                                            infinitiveToAnswer }) {
 
     const { infinitives } = data;
     let irreg_infinitives = infinitives.filter(irreg_infinitive => irreg_infinitive[9] === "irregular")                                          
@@ -30,7 +31,7 @@ export default function MobileInfinitives({ showMobileInfinitives,
 
   return (
     <div className="mobile-infinitives">
-      <h2 onClick={toggleMobileInfinitives}>Select Verb</h2>
+      <h2 onClick={toggleMobileInfinitives}>{infinitiveToAnswer ? infinitiveToAnswer[0] : "Select Verb"}</h2>
       {showMobileInfinitives && 
       <div className='info-1'>
 

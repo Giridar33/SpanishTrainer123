@@ -8,7 +8,9 @@ export default function MobilePersons({ showMobilePersons,
                                         togglePerson,
                                         resetState,
                                         setLabelsOn,
-                                        setInputOn }) {
+                                        setInputOn,
+                                        personToAnswer,
+                                        shortenPerson }) {
 
     const toggleMobilePersons = () => {
         resetState();
@@ -21,7 +23,7 @@ export default function MobilePersons({ showMobilePersons,
 
   return (
     <div className='mobile-persons'>
-      <h2 onClick={toggleMobilePersons}>Select Person</h2>
+      <h2 onClick={toggleMobilePersons}>{personToAnswer ? shortenPerson(personToAnswer) : "Select Person"}</h2>
       {showMobilePersons && 
             <div className='info-3-mobile'>
                 {persons.map((person, index) => {

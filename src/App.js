@@ -539,6 +539,7 @@ function App() {
             resetState={resetState}
             setLabelsOn={setLabelsOn}
             setInputOn={setInputOn}
+            infinitiveToAnswer={infinitiveToAnswer}
             />
           <MobileTenses 
             showMobileTenses={showMobileTenses}
@@ -550,6 +551,7 @@ function App() {
             resetState={resetState}
             setLabelsOn={setLabelsOn}
             setInputOn={setInputOn}
+            tenseToAnswer={tenseToAnswer}
             />
           <MobilePersons 
             showMobilePersons={showMobilePersons}
@@ -561,6 +563,8 @@ function App() {
             resetState={resetState}
             setLabelsOn={setLabelsOn}
             setInputOn={setInputOn}
+            shortenPerson={shortenPerson}
+            personToAnswer={personToAnswer}
           />
         </div>
 
@@ -606,7 +610,7 @@ function App() {
         </div>
 
           {inputOn && finalWord &&
-            <label className='translation-label'>{`The meaning is: ${englishFinalWord}`}</label>
+            <div className='translation-label'>{`The meaning is: ${englishFinalWord}`}</div>
           }
 
       </div>

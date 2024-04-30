@@ -30,11 +30,10 @@ h1, h3, .tries, .row1, button, label {
   width: 800px;
   background-color: #070F2B;
   border-radius: 1rem;
-  border: 2px solid black;
   /* delete these 3 if I get errors, this is to make sure the framework is never moved by the keypad on mobile */
   position: sticky;
   margin: 10px;
-  padding: 1rem 0;
+  padding: 0;
 }
 
 .title-row {
@@ -187,13 +186,21 @@ h2 {
   width: 100%;
   height: 3rem;
   text-align: center;
+  justify-content: center;
   font-size: 1.5rem;
   padding: 0;
   border: 0;
   font-family: "Nunito", sans-serif;
-  margin: 0.1rem auto 0.5rem auto;
+  margin: 0;
 }
 
+.translation-label {
+  background-color: #1B1A55;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  display: flex;
+  align-items: center;
+}
 
 
 
@@ -327,15 +334,15 @@ h2 {
     font-size: 0.8rem;
   }
 
-  h1 {
-    font-size: 1.5rem;
-  }
+h1.title {
+  font-size: 1.5rem;
+}
 
   h2 {
     font-size: 1rem;
   }
 
-  .user-text {
+  .user-text, .translation-label {
     font-size: 1.3rem;
   }
 
@@ -346,6 +353,10 @@ h2 {
 }
 
 @media (max-width: 540px) {
+
+  .title-row {
+      align-items: flex-start;
+    }
 
   .info-1 p,
   .info-2 p,
@@ -366,8 +377,8 @@ h2 {
     height: 2rem;
   }
 
-  h1 {
-    font-size: 1.1rem;
+  h1.title {
+    font-size: 1.3rem;
     margin: 0.4vh;
   }
 
@@ -379,10 +390,14 @@ h2 {
     margin: 2px;
   }
 
-  .user-text {
-    font-size: 1rem;
+  .user-text, .translation-label {
+    font-size: 1.1rem;
     height: 2rem;
   }
+
+.button-group {
+  margin: 0.3rem auto;
+}
 
   .main-button, .seconds-button {
     padding: 3px auto;
@@ -419,6 +434,12 @@ h2 {
   }
 }
 
+@media (max-width: 540px) {
+  .user-text,
+  .translation-label {
+    font-size: 1rem;
+  }
+}
 
 
 @media screen and (min-width: 1020px) and (max-width: 1030px) and (min-height: 600px) and (max-height: 768px) {
@@ -426,7 +447,6 @@ h2 {
   /* CSS rules specific to 4:3 aspect ratio, commonly used in projectors in schools */
   .framework {
     margin: 0.5rem;
-    padding: 1rem 0;
   }
 
   .App {
@@ -440,14 +460,6 @@ h2 {
   }
 
 
-  /* .row-selection h3 {
-    height: 2vh;
-    margin: 1vh auto;
-    padding: 1vh;
-    background-color: #1B1A55;
-    color: #fff;
-  } */
-
   .main-button {
     min-height: 40px;
     width: 18%;
@@ -455,7 +467,7 @@ h2 {
   }
 
   .user-text {
-    margin: 1rem auto;
+    margin: 0 auto;
   }
 
   .info-1,
