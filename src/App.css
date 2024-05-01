@@ -8,6 +8,49 @@
   font-style: normal;
 } */
 
+.spanish-flag, .french-flag {
+  height: 50px;
+  width: 75px;
+  cursor: pointer;
+  border: 10px solid transparent;
+}
+.spanish-flag:hover,
+.french-flag:hover {
+  height: 60px;
+  width: 85px;
+  border: none;
+}
+
+.spanish-flag .one, .spanish-flag .three{
+  height: 33%;
+  background-color: #FF0000;
+}
+
+.spanish-flag .two {
+  height: 33%;
+  background-color: #FFC400;
+}
+
+.french-flag .one {
+  height: 33%;
+  background-color: #0055A4;
+}
+
+.french-flag .two {
+  height: 33%;
+  background-color: #ffffff;
+}
+
+.french-flag .three {
+  height: 33%;
+  background-color: #ED2939;
+}
+
+.flag-container {
+  display: flex;
+  gap: 10px;
+}
+
 
 .App {
   display: flex;

@@ -1,0 +1,2563 @@
+{
+  "infinitives": [
+    [
+      "manger",
+      [
+        [["J'ai mangé"], ["I ate"]],
+        [["Tu as mangé"], ["You ate"]],
+        [["Il a mangé"], ["He ate"]],
+        [["Elle a mangé"], ["She ate"]],
+        [["On a mangé"], ["We ate"]],
+        [["Nous avons mangé"], ["We ate"]],
+        [["Vous avez mangé"], ["You ate"]],
+        [["Ils ont mangé"], ["They ate"]],
+        [["Elles ont mangé"], ["They ate"]]
+      ],
+      [
+        [["Je mangeais"], ["I used to eat"]],
+        [["Tu mangeais"], ["You used to eat"]],
+        [["Il mangeait"], ["He used to eat"]],
+        [["Elle mangeait"], ["She used to eat"]],
+        [["On mangeait"], ["We used to eat"]],
+        [["Nous mangions"], ["We used to eat"]],
+        [["Vous mangiez"], ["You used to eat"]],
+        [["Ils mangeaient"], ["They used to eat"]],
+        [["Elles mangeaient"], ["They used to eat"]]
+      ],
+      [
+        [["Je mange"], ["I eat"]],
+        [["Tu manges"], ["You eat"]],
+        [["Il mange"], ["He eats"]],
+        [["Elle mange"], ["She eats"]],
+        [["On mange"], ["We eat"]],
+        [["Nous mangeons"], ["We eat"]],
+        [["Vous mangez"], ["You eat"]],
+        [["Ils mangent"], ["They eat"]],
+        [["Elles mangent"], ["They eat"]]
+      ],
+      [
+        [["Je vais manger"], ["I am going to eat"]],
+        [["Tu vas manger"], ["You are going to eat"]],
+        [["Il va manger"], ["He is going to eat"]],
+        [["Elle va manger"], ["She is going to eat"]],
+        [["On va manger"], ["We are going to eat"]],
+        [["Nous allons manger"], ["We are going to eat"]],
+        [["Vous allez manger"], ["You are going to eat"]],
+        [["Ils vont manger"], ["They are going to eat"]],
+        [["Elles vont manger"], ["They are going to eat"]]
+      ],
+      [
+        [["Je mangerai"], ["I will eat"]],
+        [["Tu mangeras"], ["You will eat"]],
+        [["Il mangera"], ["He will eat"]],
+        [["Elle mangera"], ["She will eat"]],
+        [["On mangera"], ["We will eat"]],
+        [["Nous mangerons"], ["We will eat"]],
+        [["Vous mangerez"], ["You will eat"]],
+        [["Ils mangeront"], ["They will eat"]],
+        [["Elles mangeront"], ["They will eat"]]
+      ],
+      [
+        [["Je mangerais"], ["I would eat"]],
+        [["Tu mangerais"], ["You would eat"]],
+        [["Il mangerait"], ["He would eat"]],
+        [["Elle mangerait"], ["She would eat"]],
+        [["On mangerait"], ["We would eat"]],
+        [["Nous mangerions"], ["We would eat"]],
+        [["Vous mangeriez"], ["You would eat"]],
+        [["Ils mangeraient"], ["They would eat"]],
+        [["Elles mangeraient"], ["They would eat"]]
+      ],
+      "-er verb",
+      true
+    ],
+    [
+      "jouer",
+      [
+        [["J'ai joué"], ["I played"]],
+        [["Tu as joué"], ["You played"]],
+        [["Il a joué"], ["He played"]],
+        [["Elle a joué"], ["She played"]],
+        [["On a joué"], ["We played"]],
+        [["Nous avons joué"], ["We played"]],
+        [["Vous avez joué"], ["You played"]],
+        [["Ils ont joué"], ["They played"]],
+        [["Elles ont joué"], ["They played"]]
+      ],
+      [
+        [["Je jouais"], ["I used to play"]],
+        [["Tu jouais"], ["You used to play"]],
+        [["Il jouait"], ["He used to play"]],
+        [["Elle jouait"], ["She used to play"]],
+        [["On jouait"], ["We used to play"]],
+        [["Nous jouions"], ["We used to play"]],
+        [["Vous jouiez"], ["You used to play"]],
+        [["Ils jouaient"], ["They used to play"]],
+        [["Elles jouaient"], ["They used to play"]]
+      ],
+      [
+        [["Je joue"], ["I play"]],
+        [["Tu joues"], ["You play"]],
+        [["Il joue"], ["He plays"]],
+        [["Elle joue"], ["She plays"]],
+        [["On joue"], ["We play"]],
+        [["Nous jouons"], ["We play"]],
+        [["Vous jouez"], ["You play"]],
+        [["Ils jouent"], ["They play"]],
+        [["Elles jouent"], ["They play"]]
+      ],
+      [
+        [["Je vais jouer"], ["I am going to play"]],
+        [["Tu vas jouer"], ["You are going to play"]],
+        [["Il va jouer"], ["He is going to play"]],
+        [["Elle va jouer"], ["She is going to play"]],
+        [["On va jouer"], ["We are going to play"]],
+        [["Nous allons jouer"], ["We are going to play"]],
+        [["Vous allez jouer"], ["You are going to play"]],
+        [["Ils vont jouer"], ["They are going to play"]],
+        [["Elles vont jouer"], ["They are going to play"]]
+      ],
+      [
+        [["Je jouerai"], ["I will play"]],
+        [["Tu joueras"], ["You will play"]],
+        [["Il jouera"], ["He will play"]],
+        [["Elle jouera"], ["She will play"]],
+        [["On jouera"], ["We will play"]],
+        [["Nous jouerons"], ["We will play"]],
+        [["Vous jouerez"], ["You will play"]],
+        [["Ils joueront"], ["They will play"]],
+        [["Elles joueront"], ["They will play"]]
+      ],
+      [
+        [["Je jouerais"], ["I would play"]],
+        [["Tu jouerais"], ["You would play"]],
+        [["Il jouerait"], ["He would play"]],
+        [["Elle jouerait"], ["She would play"]],
+        [["On jouerait"], ["We would play"]],
+        [["Nous jouerions"], ["We would play"]],
+        [["Vous joueriez"], ["You would play"]],
+        [["Ils joueraient"], ["They would play"]],
+        [["Elles joueraient"], ["They would play"]]
+      ],
+      "-er verb",
+      true
+    ],
+    [
+      "visiter",
+      [
+        [["J'ai visité"], ["I visited"]],
+        [["Tu as visité"], ["You visited"]],
+        [["Il a visité"], ["He visited"]],
+        [["Elle a visité"], ["She visited"]],
+        [["On a visité"], ["We visited"]],
+        [["Nous avons visité"], ["We visited"]],
+        [["Vous avez visité"], ["You visited"]],
+        [["Ils ont visité"], ["They visited"]],
+        [["Elles ont visité"], ["They visited"]]
+      ],
+      [
+        [["Je visitais"], ["I used to visit"]],
+        [["Tu visitais"], ["You used to visit"]],
+        [["Il visitait"], ["He used to visit"]],
+        [["Elle visitait"], ["She used to visit"]],
+        [["On visitait"], ["We used to visit"]],
+        [["Nous visitions"], ["We used to visit"]],
+        [["Vous visitiez"], ["You used to visit"]],
+        [["Ils visitaient"], ["They used to visit"]],
+        [["Elles visitaient"], ["They used to visit"]]
+      ],
+      [
+        [["Je visite"], ["I visit"]],
+        [["Tu visites"], ["You visit"]],
+        [["Il visite"], ["He visits"]],
+        [["Elle visite"], ["She visits"]],
+        [["On visite"], ["We visit"]],
+        [["Nous visitons"], ["We visit"]],
+        [["Vous visitez"], ["You visit"]],
+        [["Ils visitent"], ["They visit"]],
+        [["Elles visitent"], ["They visit"]]
+      ],
+      [
+        [["Je vais visiter"], ["I am going to visit"]],
+        [["Tu vas visiter"], ["You are going to visit"]],
+        [["Il va visiter"], ["He is going to visit"]],
+        [["Elle va visiter"], ["She is going to visit"]],
+        [["On va visiter"], ["We are going to visit"]],
+        [["Nous allons visiter"], ["We are going to visit"]],
+        [["Vous allez visiter"], ["You are going to visit"]],
+        [["Ils vont visiter"], ["They are going to visit"]],
+        [["Elles vont visiter"], ["They are going to visit"]]
+      ],
+      [
+        [["Je visiterai"], ["I will visit"]],
+        [["Tu visiteras"], ["You will visit"]],
+        [["Il visitera"], ["He will visit"]],
+        [["Elle visitera"], ["She will visit"]],
+        [["On visitera"], ["We will visit"]],
+        [["Nous visiterons"], ["We will visit"]],
+        [["Vous visiterez"], ["You will visit"]],
+        [["Ils visiteront"], ["They will visit"]],
+        [["Elles visiteront"], ["They will visit"]]
+      ],
+      [
+        [["Je visiterais"], ["I would visit"]],
+        [["Tu visiterais"], ["You would visit"]],
+        [["Il visiterait"], ["He would visit"]],
+        [["Elle visiterait"], ["She would visit"]],
+        [["On visiterait"], ["We would visit"]],
+        [["Nous visiterions"], ["We would visit"]],
+        [["Vous visiteriez"], ["You would visit"]],
+        [["Ils visiteraient"], ["They would visit"]],
+        [["Elles visiteraient"], ["They would visit"]]
+      ],
+      "-er verb",
+      true
+    ],
+    [
+      "aimer",
+      [
+        [["J'ai aimé"], ["I liked"]],
+        [["Tu as aimé"], ["You liked"]],
+        [["Il a aimé"], ["He liked"]],
+        [["Elle a aimé"], ["She liked"]],
+        [["On a aimé"], ["We liked"]],
+        [["Nous avons aimé"], ["We liked"]],
+        [["Vous avez aimé"], ["You liked"]],
+        [["Ils ont aimé"], ["They liked"]],
+        [["Elles ont aimé"], ["They liked"]]
+      ],
+      [
+        [["J'aimais"], ["I used to like"]],
+        [["Tu aimais"], ["You used to like"]],
+        [["Il aimait"], ["He used to like"]],
+        [["Elle aimait"], ["She used to like"]],
+        [["On aimait"], ["We used to like"]],
+        [["Nous aimions"], ["We used to like"]],
+        [["Vous aimiez"], ["You used to like"]],
+        [["Ils aimaient"], ["They used to like"]],
+        [["Elles aimaient"], ["They used to like"]]
+      ],
+      [
+        [["J'aime"], ["I like"]],
+        [["Tu aimes"], ["You like"]],
+        [["Il aime"], ["He likes"]],
+        [["Elle aime"], ["She likes"]],
+        [["On aime"], ["We like"]],
+        [["Nous aimons"], ["We like"]],
+        [["Vous aimez"], ["You like"]],
+        [["Ils aiment"], ["They like"]],
+        [["Elles aiment"], ["They like"]]
+      ],
+      [
+        [["Je vais aimer"], ["I am going to like"]],
+        [["Tu vas aimer"], ["You are going to like"]],
+        [["Il va aimer"], ["He is going to like"]],
+        [["Elle va aimer"], ["She is going to like"]],
+        [["On va aimer"], ["We are going to like"]],
+        [["Nous allons aimer"], ["We are going to like"]],
+        [["Vous allez aimer"], ["You are going to like"]],
+        [["Ils vont aimer"], ["They are going to like"]],
+        [["Elles vont aimer"], ["They are going to like"]]
+      ],
+      [
+        [["J'aimerai"], ["I will like"]],
+        [["Tu aimeras"], ["You will like"]],
+        [["Il aimera"], ["He will like"]],
+        [["Elle aimera"], ["She will like"]],
+        [["On aimera"], ["We will like"]],
+        [["Nous aimerons"], ["We will like"]],
+        [["Vous aimerez"], ["You will like"]],
+        [["Ils aimeront"], ["They will like"]],
+        [["Elles aimeront"], ["They will like"]]
+      ],
+      [
+        [["J'aimerais"], ["I would like"]],
+        [["Tu aimerais"], ["You would like"]],
+        [["Il aimerait"], ["He would like"]],
+        [["Elle aimerait"], ["She would like"]],
+        [["On aimerait"], ["We would like"]],
+        [["Nous aimerions"], ["We would like"]],
+        [["Vous aimeriez"], ["You would like"]],
+        [["Ils aimeraient"], ["They would like"]],
+        [["Elles aimeraient"], ["They would like"]]
+      ],
+      "-er verb",
+      true
+    ],
+    [
+      "parler",
+      [
+        [["J'ai parlé"], ["I spoke"]],
+        [["Tu as parlé"], ["You spoke"]],
+        [["Il a parlé"], ["He spoke"]],
+        [["Elle a parlé"], ["She spoke"]],
+        [["On a parlé"], ["We spoke"]],
+        [["Nous avons parlé"], ["We spoke"]],
+        [["Vous avez parlé"], ["You spoke"]],
+        [["Ils ont parlé"], ["They spoke"]],
+        [["Elles ont parlé"], ["They spoke"]]
+      ],
+      [
+        [["Je parlais"], ["I used to speak"]],
+        [["Tu parlais"], ["You used to speak"]],
+        [["Il parlait"], ["He used to speak"]],
+        [["Elle parlait"], ["She used to speak"]],
+        [["On parlait"], ["We used to speak"]],
+        [["Nous parlions"], ["We used to speak"]],
+        [["Vous parliez"], ["You used to speak"]],
+        [["Ils parlaient"], ["They used to speak"]],
+        [["Elles parlaient"], ["They used to speak"]]
+      ],
+      [
+        [["Je parle"], ["I speak"]],
+        [["Tu parles"], ["You speak"]],
+        [["Il parle"], ["He speaks"]],
+        [["Elle parle"], ["She speaks"]],
+        [["On parle"], ["We speak"]],
+        [["Nous parlons"], ["We speak"]],
+        [["Vous parlez"], ["You speak"]],
+        [["Ils parlent"], ["They speak"]],
+        [["Elles parlent"], ["They speak"]]
+      ],
+      [
+        [["Je vais parler"], ["I am going to speak"]],
+        [["Tu vas parler"], ["You are going to speak"]],
+        [["Il va parler"], ["He is going to speak"]],
+        [["Elle va parler"], ["She is going to speak"]],
+        [["On va parler"], ["We are going to speak"]],
+        [["Nous allons parler"], ["We are going to speak"]],
+        [["Vous allez parler"], ["You are going to speak"]],
+        [["Ils vont parler"], ["They are going to speak"]],
+        [["Elles vont parler"], ["They are going to speak"]]
+      ],
+      [
+        [["Je parlerai"], ["I will speak"]],
+        [["Tu parleras"], ["You will speak"]],
+        [["Il parlera"], ["He will speak"]],
+        [["Elle parlera"], ["She will speak"]],
+        [["On parlera"], ["We will speak"]],
+        [["Nous parlerons"], ["We will speak"]],
+        [["Vous parlerez"], ["You will speak"]],
+        [["Ils parleront"], ["They will speak"]],
+        [["Elles parleront"], ["They will speak"]]
+      ],
+      [
+        [["Je parlerais"], ["I would speak"]],
+        [["Tu parlerais"], ["You would speak"]],
+        [["Il parlerait"], ["He would speak"]],
+        [["Elle parlerait"], ["She would speak"]],
+        [["On parlerait"], ["We would speak"]],
+        [["Nous parlerions"], ["We would speak"]],
+        [["Vous parleriez"], ["You would speak"]],
+        [["Ils parleraient"], ["They would speak"]],
+        [["Elles parleraient"], ["They would speak"]]
+      ],
+      "-er verb",
+      true
+    ],
+    [
+      "choisir",
+      [
+        [["J'ai choisi"], ["I chose"]],
+        [["Tu as choisi"], ["You chose"]],
+        [["Il a choisi"], ["He chose"]],
+        [["Elle a choisi"], ["She chose"]],
+        [["On a choisi"], ["We chose"]],
+        [["Nous avons choisi"], ["We chose"]],
+        [["Vous avez choisi"], ["You chose"]],
+        [["Ils ont choisi"], ["They chose"]],
+        [["Elles ont choisi"], ["They chose"]]
+      ],
+      [
+        [["Je choisissais"], ["I used to choose"]],
+        [["Tu choisissais"], ["You used to choose"]],
+        [["Il choisissait"], ["He used to choose"]],
+        [["Elle choisissait"], ["She used to choose"]],
+        [["On choisissait"], ["We used to choose"]],
+        [["Nous choisissions"], ["We used to choose"]],
+        [["Vous choisissiez"], ["You used to choose"]],
+        [["Ils choisissaient"], ["They used to choose"]],
+        [["Elles choisissaient"], ["They used to choose"]]
+      ],
+      [
+        [["Je choisis"], ["I choose"]],
+        [["Tu choisis"], ["You choose"]],
+        [["Il choisit"], ["He chooses"]],
+        [["Elle choisit"], ["She chooses"]],
+        [["On choisit"], ["We choose"]],
+        [["Nous choisissons"], ["We choose"]],
+        [["Vous choisissez"], ["You choose"]],
+        [["Ils choisissent"], ["They choose"]],
+        [["Elles choisissent"], ["They choose"]]
+      ],
+      [
+        [["Je vais choisir"], ["I am going to choose"]],
+        [["Tu vas choisir"], ["You are going to choose"]],
+        [["Il va choisir"], ["He is going to choose"]],
+        [["Elle va choisir"], ["She is going to choose"]],
+        [["On va choisir"], ["We are going to choose"]],
+        [["Nous allons choisir"], ["We are going to choose"]],
+        [["Vous allez choisir"], ["You are going to choose"]],
+        [["Ils vont choisir"], ["They are going to choose"]],
+        [["Elles vont choisir"], ["They are going to choose"]]
+      ],
+      [
+        [["Je choisirai"], ["I will choose"]],
+        [["Tu choisiras"], ["You will choose"]],
+        [["Il choisira"], ["He will choose"]],
+        [["Elle choisira"], ["She will choose"]],
+        [["On choisira"], ["We will choose"]],
+        [["Nous choisirons"], ["We will choose"]],
+        [["Vous choisirez"], ["You will choose"]],
+        [["Ils choisiront"], ["They will choose"]],
+        [["Elles choisiront"], ["They will choose"]]
+      ],
+      [
+        [["Je choisirais"], ["I would choose"]],
+        [["Tu choisiras"], ["You would choose"]],
+        [["Il choisirait"], ["He would choose"]],
+        [["Elle choisirait"], ["She would choose"]],
+        [["On choisirait"], ["We would choose"]],
+        [["Nous choisirions"], ["We would choose"]],
+        [["Vous choisiriez"], ["You would choose"]],
+        [["Ils choisiraient"], ["They would choose"]],
+        [["Elles choisiraient"], ["They would choose"]]
+      ],
+      "-ir verb",
+      true
+    ],
+    [
+      "finir",
+      [
+        [["J'ai fini"], ["I finished"]],
+        [["Tu as fini"], ["You finished"]],
+        [["Il a fini"], ["He finished"]],
+        [["Elle a fini"], ["She finished"]],
+        [["On a fini"], ["We finished"]],
+        [["Nous avons fini"], ["We finished"]],
+        [["Vous avez fini"], ["You finished"]],
+        [["Ils ont fini"], ["They finished"]],
+        [["Elles ont fini"], ["They finished"]]
+      ],
+      [
+        [["Je finissais"], ["I used to finish"]],
+        [["Tu finissais"], ["You used to finish"]],
+        [["Il finissait"], ["He used to finish"]],
+        [["Elle finissait"], ["She used to finish"]],
+        [["On finissait"], ["We used to finish"]],
+        [["Nous finissions"], ["We used to finish"]],
+        [["Vous finissiez"], ["You used to finish"]],
+        [["Ils finissaient"], ["They used to finish"]],
+        [["Elles finissaient"], ["They used to finish"]]
+      ],
+      [
+        [["Je finis"], ["I finish"]],
+        [["Tu finis"], ["You finish"]],
+        [["Il finit"], ["He finishes"]],
+        [["Elle finit"], ["She finishes"]],
+        [["On finit"], ["We finish"]],
+        [["Nous finissons"], ["We finish"]],
+        [["Vous finissez"], ["You finish"]],
+        [["Ils finissent"], ["They finish"]],
+        [["Elles finissent"], ["They finish"]]
+      ],
+      [
+        [["Je vais finir"], ["I am going to finish"]],
+        [["Tu vas finir"], ["You are going to finish"]],
+        [["Il va finir"], ["He is going to finish"]],
+        [["Elle va finir"], ["She is going to finish"]],
+        [["On va finir"], ["We are going to finish"]],
+        [["Nous allons finir"], ["We are going to finish"]],
+        [["Vous allez finir"], ["You are going to finish"]],
+        [["Ils vont finir"], ["They are going to finish"]],
+        [["Elles vont finir"], ["They are going to finish"]]
+      ],
+      [
+        [["Je finirai"], ["I will finish"]],
+        [["Tu finiras"], ["You will finish"]],
+        [["Il finira"], ["He will finish"]],
+        [["Elle finira"], ["She will finish"]],
+        [["On finira"], ["We will finish"]],
+        [["Nous finirons"], ["We will finish"]],
+        [["Vous finirez"], ["You will finish"]],
+        [["Ils finiront"], ["They will finish"]],
+        [["Elles finiront"], ["They will finish"]]
+      ],
+      [
+        [["Je finirais"], ["I would finish"]],
+        [["Tu finirais"], ["You would finish"]],
+        [["Il finirait"], ["He would finish"]],
+        [["Elle finirait"], ["She would finish"]],
+        [["On finirait"], ["We would finish"]],
+        [["Nous finirions"], ["We would finish"]],
+        [["Vous finiriez"], ["You would finish"]],
+        [["Ils finiraient"], ["They would finish"]],
+        [["Elles finiraient"], ["They would finish"]]
+      ],
+      "-ir verb",
+      true
+    ],
+    [
+      "remplir",
+      [
+        [["J'ai rempli"], ["I filled"]],
+        [["Tu as rempli"], ["You filled"]],
+        [["Il a rempli"], ["He filled"]],
+        [["Elle a rempli"], ["She filled"]],
+        [["On a rempli"], ["We filled"]],
+        [["Nous avons rempli"], ["We filled"]],
+        [["Vous avez rempli"], ["You filled"]],
+        [["Ils ont rempli"], ["They filled"]],
+        [["Elles ont rempli"], ["They filled"]]
+      ],
+      [
+        [["Je remplissais"], ["I used to fill"]],
+        [["Tu remplissais"], ["You used to fill"]],
+        [["Il remplissait"], ["He used to fill"]],
+        [["Elle remplissait"], ["She used to fill"]],
+        [["On remplissait"], ["We used to fill"]],
+        [["Nous remplissions"], ["We used to fill"]],
+        [["Vous remplissiez"], ["You used to fill"]],
+        [["Ils remplissaient"], ["They used to fill"]],
+        [["Elles remplissaient"], ["They used to fill"]]
+      ],
+      [
+        [["Je remplis"], ["I fill"]],
+        [["Tu remplis"], ["You fill"]],
+        [["Il remplit"], ["He fills"]],
+        [["Elle remplit"], ["She fills"]],
+        [["On remplit"], ["We fill"]],
+        [["Nous remplissons"], ["We fill"]],
+        [["Vous remplissez"], ["You fill"]],
+        [["Ils remplissent"], ["They fill"]],
+        [["Elles remplissent"], ["They fill"]]
+      ],
+      [
+        [["Je vais remplir"], ["I am going to fill"]],
+        [["Tu vas remplir"], ["You are going to fill"]],
+        [["Il va remplir"], ["He is going to fill"]],
+        [["Elle va remplir"], ["She is going to fill"]],
+        [["On va remplir"], ["We are going to fill"]],
+        [["Nous allons remplir"], ["We are going to fill"]],
+        [["Vous allez remplir"], ["You are going to fill"]],
+        [["Ils vont remplir"], ["They are going to fill"]],
+        [["Elles vont remplir"], ["They are going to fill"]]
+      ],
+      [
+        [["Je remplirai"], ["I will fill"]],
+        [["Tu rempliras"], ["You will fill"]],
+        [["Il remplira"], ["He will fill"]],
+        [["Elle remplira"], ["She will fill"]],
+        [["On remplira"], ["We will fill"]],
+        [["Nous remplirons"], ["We will fill"]],
+        [["Vous remplirez"], ["You will fill"]],
+        [["Ils rempliront"], ["They will fill"]],
+        [["Elles rempliront"], ["They will fill"]]
+      ],
+      [
+        [["Je remplirais"], ["I would fill"]],
+        [["Tu remplirais"], ["You would fill"]],
+        [["Il remplirait"], ["He would fill"]],
+        [["Elle remplirait"], ["She would fill"]],
+        [["On remplirait"], ["We would fill"]],
+        [["Nous remplirions"], ["We would fill"]],
+        [["Vous rempliriez"], ["You would fill"]],
+        [["Ils rempliraient"], ["They would fill"]],
+        [["Elles rempliraient"], ["They would fill"]]
+      ],
+      "-ir verb",
+      true
+    ],
+    [
+      "investir",
+      [
+        [["J'ai investi"], ["I invested"]],
+        [["Tu as investi"], ["You invested"]],
+        [["Il a investi"], ["He invested"]],
+        [["Elle a investi"], ["She invested"]],
+        [["On a investi"], ["We invested"]],
+        [["Nous avons investi"], ["We invested"]],
+        [["Vous avez investi"], ["You invested"]],
+        [["Ils ont investi"], ["They invested"]],
+        [["Elles ont investi"], ["They invested"]]
+      ],
+      [
+        [["Je investissais"], ["I used to invest"]],
+        [["Tu investissais"], ["You used to invest"]],
+        [["Il investissait"], ["He used to invest"]],
+        [["Elle investissait"], ["She used to invest"]],
+        [["On investissait"], ["We used to invest"]],
+        [["Nous investissions"], ["We used to invest"]],
+        [["Vous investissiez"], ["You used to invest"]],
+        [["Ils investissaient"], ["They used to invest"]],
+        [["Elles investissaient"], ["They used to invest"]]
+      ],
+      [
+        [["Je investis"], ["I invest"]],
+        [["Tu investis"], ["You invest"]],
+        [["Il investit"], ["He invests"]],
+        [["Elle investit"], ["She invests"]],
+        [["On investit"], ["We invest"]],
+        [["Nous investissons"], ["We invest"]],
+        [["Vous investissez"], ["You invest"]],
+        [["Ils investissent"], ["They invest"]],
+        [["Elles investissent"], ["They invest"]]
+      ],
+      [
+        [["Je vais investir"], ["I am going to invest"]],
+        [["Tu vas investir"], ["You are going to invest"]],
+        [["Il va investir"], ["He is going to invest"]],
+        [["Elle va investir"], ["She is going to invest"]],
+        [["On va investir"], ["We are going to invest"]],
+        [["Nous allons investir"], ["We are going to invest"]],
+        [["Vous allez investir"], ["You are going to invest"]],
+        [["Ils vont investir"], ["They are going to invest"]],
+        [["Elles vont investir"], ["They are going to invest"]]
+      ],
+      [
+        [["Je investirai"], ["I will invest"]],
+        [["Tu investiras"], ["You will invest"]],
+        [["Il investira"], ["He will invest"]],
+        [["Elle investira"], ["She will invest"]],
+        [["On investira"], ["We will invest"]],
+        [["Nous investirons"], ["We will invest"]],
+        [["Vous investirez"], ["You will invest"]],
+        [["Ils investiront"], ["They will invest"]],
+        [["Elles investiront"], ["They will invest"]]
+      ],
+      [
+        [["Je investirais"], ["I would invest"]],
+        [["Tu investirais"], ["You would invest"]],
+        [["Il investirait"], ["He would invest"]],
+        [["Elle investirait"], ["She would invest"]],
+        [["On investirait"], ["We would invest"]],
+        [["Nous investirions"], ["We would invest"]],
+        [["Vous investiriez"], ["You would invest"]],
+        [["Ils investiraient"], ["They would invest"]],
+        [["Elles investiraient"], ["They would invest"]]
+      ],
+      "-ir verb",
+      true
+    ],
+    [
+      "repartir",
+      [
+        [["Je suis reparti", "Je suis repartie"], ["I left"]],
+        [["Tu es reparti", "Tu es repartie"], ["You left"]],
+        [["Il est reparti"], ["He left"]],
+        [["Elle est repartie"], ["She left"]],
+        [["On est reparti"], ["We left"]],
+        [["Nous sommes repartis", "Nous sommes reparties"], ["We left"]],
+        [
+          [
+            "Vous êtes reparti",
+            "Vous êtes repartie",
+            "Vous êtes repartis",
+            "Vous êtes reparties"
+          ],
+          ["You left"]
+        ],
+        [["Ils sont repartis"], ["They left"]],
+        [["Elles sont reparties"], ["They left"]]
+      ],
+      [
+        [["Je repartais"], ["I used to leave"]],
+        [["Tu repartais"], ["You used to leave"]],
+        [["Il repartait"], ["He used to leave"]],
+        [["Elle repartait"], ["She used to leave"]],
+        [["On repartait"], ["We used to leave"]],
+        [["Nous repartions"], ["We used to leave"]],
+        [["Vous repartiez"], ["You used to leave"]],
+        [["Ils repartaient"], ["They used to leave"]],
+        [["Elles repartaient"], ["They used to leave"]]
+      ],
+      [
+        [["Je repars"], ["I leave"]],
+        [["Tu repars"], ["You leave"]],
+        [["Il repart"], ["He leaves"]],
+        [["Elle repart"], ["She leaves"]],
+        [["On repart"], ["We leave"]],
+        [["Nous repartons"], ["We leave"]],
+        [["Vous repartez"], ["You leave"]],
+        [["Ils repartent"], ["They leave"]],
+        [["Elles repartent"], ["They leave"]]
+      ],
+      [
+        [["Je vais repartir"], ["I am going to leave"]],
+        [["Tu vas repartir"], ["You are going to leave"]],
+        [["Il va repartir"], ["He is going to leave"]],
+        [["Elle va repartir"], ["She is going to leave"]],
+        [["On va repartir"], ["We are going to leave"]],
+        [["Nous allons repartir"], ["We are going to leave"]],
+        [["Vous allez repartir"], ["You are going to leave"]],
+        [["Ils vont repartir"], ["They are going to leave"]],
+        [["Elles vont repartir"], ["They are going to leave"]]
+      ],
+      [
+        [["Je repartirai"], ["I will leave"]],
+        [["Tu repartiras"], ["You will leave"]],
+        [["Il repartira"], ["He will leave"]],
+        [["Elle repartira"], ["She will leave"]],
+        [["On repartira"], ["We will leave"]],
+        [["Nous repartirons"], ["We will leave"]],
+        [["Vous repartirez"], ["You will leave"]],
+        [["Ils repartiront"], ["They will leave"]],
+        [["Elles repartiront"], ["They will leave"]]
+      ],
+      [
+        [["Je repartirais"], ["I would leave"]],
+        [["Tu repartirais"], ["You would leave"]],
+        [["Il repartirait"], ["He would leave"]],
+        [["Elle repartirait"], ["She would leave"]],
+        [["On repartirait"], ["We would leave"]],
+        [["Nous repartirions"], ["We would leave"]],
+        [["Vous repartiriez"], ["You would leave"]],
+        [["Ils repartiraient"], ["They would leave"]],
+        [["Elles repartiraient"], ["They would leave"]]
+      ],
+      "-ir verb",
+      true
+    ],
+    [
+      "attendre",
+      [
+        [["J'ai attendu"], ["I waited"]],
+        [["Tu as attendu"], ["You waited"]],
+        [["Il a attendu"], ["He waited"]],
+        [["Elle a attendu"], ["She waited"]],
+        [["On a attendu"], ["We waited"]],
+        [["Nous avons attendu"], ["We waited"]],
+        [["Vous avez attendu"], ["You waited"]],
+        [["Ils ont attendu"], ["They waited"]],
+        [["Elles ont attendu"], ["They waited"]]
+      ],
+      [
+        [["Je attendais"], ["I used to wait"]],
+        [["Tu attendais"], ["You used to wait"]],
+        [["Il attendait"], ["He used to wait"]],
+        [["Elle attendait"], ["She used to wait"]],
+        [["On attendait"], ["We used to wait"]],
+        [["Nous attendions"], ["We used to wait"]],
+        [["Vous attendiez"], ["You used to wait"]],
+        [["Ils attendaient"], ["They used to wait"]],
+        [["Elles attendaient"], ["They used to wait"]]
+      ],
+      [
+        [["Je attends"], ["I wait"]],
+        [["Tu attends"], ["You wait"]],
+        [["Il attend"], ["He waits"]],
+        [["Elle attend"], ["She waits"]],
+        [["On attend"], ["We wait"]],
+        [["Nous attendons"], ["We wait"]],
+        [["Vous attendez"], ["You wait"]],
+        [["Ils attendent"], ["They wait"]],
+        [["Elles attendent"], ["They wait"]]
+      ],
+      [
+        [["Je vais attendre"], ["I am going to wait"]],
+        [["Tu vas attendre"], ["You are going to wait"]],
+        [["Il va attendre"], ["He is going to wait"]],
+        [["Elle va attendre"], ["She is going to wait"]],
+        [["On va attendre"], ["We are going to wait"]],
+        [["Nous allons attendre"], ["We are going to wait"]],
+        [["Vous allez attendre"], ["You are going to wait"]],
+        [["Ils vont attendre"], ["They are going to wait"]],
+        [["Elles vont attendre"], ["They are going to wait"]]
+      ],
+      [
+        [["Je attendrai"], ["I will wait"]],
+        [["Tu attendras"], ["You will wait"]],
+        [["Il attendra"], ["He will wait"]],
+        [["Elle attendra"], ["She will wait"]],
+        [["On attendra"], ["We will wait"]],
+        [["Nous attendrons"], ["We will wait"]],
+        [["Vous attendrez"], ["You will wait"]],
+        [["Ils attendront"], ["They will wait"]],
+        [["Elles attendront"], ["They will wait"]]
+      ],
+      [
+        [["Je attendrais"], ["I would wait"]],
+        [["Tu attendrais"], ["You would wait"]],
+        [["Il attendrait"], ["He would wait"]],
+        [["Elle attendrait"], ["She would wait"]],
+        [["On attendrait"], ["We would wait"]],
+        [["Nous attendrions"], ["We would wait"]],
+        [["Vous attendriez"], ["You would wait"]],
+        [["Ils attendraient"], ["They would wait"]],
+        [["Elles attendraient"], ["They would wait"]]
+      ],
+      "-re verb",
+      true
+    ],
+    [
+      "vendre",
+      [
+        [["J'ai vendu"], ["I sold"]],
+        [["Tu as vendu"], ["You sold"]],
+        [["Il a vendu"], ["He sold"]],
+        [["Elle a vendu"], ["She sold"]],
+        [["On a vendu"], ["We sold"]],
+        [["Nous avons vendu"], ["We sold"]],
+        [["Vous avez vendu"], ["You sold"]],
+        [["Ils ont vendu"], ["They sold"]],
+        [["Elles ont vendu"], ["They sold"]]
+      ],
+      [
+        [["Je vendais"], ["I used to sell"]],
+        [["Tu vendais"], ["You used to sell"]],
+        [["Il vendait"], ["He used to sell"]],
+        [["Elle vendait"], ["She used to sell"]],
+        [["On vendait"], ["We used to sell"]],
+        [["Nous vendions"], ["We used to sell"]],
+        [["Vous vendiez"], ["You used to sell"]],
+        [["Ils vendaient"], ["They used to sell"]],
+        [["Elles vendaient"], ["They used to sell"]]
+      ],
+      [
+        [["Je vends"], ["I sell"]],
+        [["Tu vends"], ["You sell"]],
+        [["Il vend"], ["He sells"]],
+        [["Elle vend"], ["She sells"]],
+        [["On vend"], ["We sell"]],
+        [["Nous vendons"], ["We sell"]],
+        [["Vous vendez"], ["You sell"]],
+        [["Ils vendent"], ["They sell"]],
+        [["Elles vendent"], ["They sell"]]
+      ],
+      [
+        [["Je vais vendre"], ["I am going to sell"]],
+        [["Tu vas vendre"], ["You are going to sell"]],
+        [["Il va vendre"], ["He is going to sell"]],
+        [["Elle va vendre"], ["She is going to sell"]],
+        [["On va vendre"], ["We are going to sell"]],
+        [["Nous allons vendre"], ["We are going to sell"]],
+        [["Vous allez vendre"], ["You are going to sell"]],
+        [["Ils vont vendre"], ["They are going to sell"]],
+        [["Elles vont vendre"], ["They are going to sell"]]
+      ],
+      [
+        [["Je vendrai"], ["I will sell"]],
+        [["Tu vendras"], ["You will sell"]],
+        [["Il vendra"], ["He will sell"]],
+        [["Elle vendra"], ["She will sell"]],
+        [["On vendra"], ["We will sell"]],
+        [["Nous vendrons"], ["We will sell"]],
+        [["Vous vendrez"], ["You will sell"]],
+        [["Ils vendront"], ["They will sell"]],
+        [["Elles vendront"], ["They will sell"]]
+      ],
+      [
+        [["Je vendrais"], ["I would sell"]],
+        [["Tu vendrais"], ["You would sell"]],
+        [["Il vendrait"], ["He would sell"]],
+        [["Elle vendrait"], ["She would sell"]],
+        [["On vendrait"], ["We would sell"]],
+        [["Nous vendrions"], ["We would sell"]],
+        [["Vous vendriez"], ["You would sell"]],
+        [["Ils vendraient"], ["They would sell"]],
+        [["Elles vendraient"], ["They would sell"]]
+      ],
+      "-re verb",
+      true
+    ],
+    [
+      "entendre",
+      [
+        [["J'ai entendu"], ["I heard"]],
+        [["Tu as entendu"], ["You heard"]],
+        [["Il a entendu"], ["He heard"]],
+        [["Elle a entendu"], ["She heard"]],
+        [["On a entendu"], ["We heard"]],
+        [["Nous avons entendu"], ["We heard"]],
+        [["Vous avez entendu"], ["You heard"]],
+        [["Ils ont entendu"], ["They heard"]],
+        [["Elles ont entendu"], ["They heard"]]
+      ],
+      [
+        [["Je entendais"], ["I used to hear"]],
+        [["Tu entendais"], ["You used to hear"]],
+        [["Il entendait"], ["He used to hear"]],
+        [["Elle entendait"], ["She used to hear"]],
+        [["On entendait"], ["We used to hear"]],
+        [["Nous entendions"], ["We used to hear"]],
+        [["Vous entendiez"], ["You used to hear"]],
+        [["Ils entendaient"], ["They used to hear"]],
+        [["Elles entendaient"], ["They used to hear"]]
+      ],
+      [
+        [["Je entends"], ["I hear"]],
+        [["Tu entends"], ["You hear"]],
+        [["Il entend"], ["He hears"]],
+        [["Elle entend"], ["She hears"]],
+        [["On entend"], ["We hear"]],
+        [["Nous entendons"], ["We hear"]],
+        [["Vous entendez"], ["You hear"]],
+        [["Ils entendent"], ["They hear"]],
+        [["Elles entendent"], ["They hear"]]
+      ],
+      [
+        [["Je vais entendre"], ["I am going to hear"]],
+        [["Tu vas entendre"], ["You are going to hear"]],
+        [["Il va entendre"], ["He is going to hear"]],
+        [["Elle va entendre"], ["She is going to hear"]],
+        [["On va entendre"], ["We are going to hear"]],
+        [["Nous allons entendre"], ["We are going to hear"]],
+        [["Vous allez entendre"], ["You are going to hear"]],
+        [["Ils vont entendre"], ["They are going to hear"]],
+        [["Elles vont entendre"], ["They are going to hear"]]
+      ],
+      [
+        [["Je entendrai"], ["I will hear"]],
+        [["Tu entendras"], ["You will hear"]],
+        [["Il entendra"], ["He will hear"]],
+        [["Elle entendra"], ["She will hear"]],
+        [["On entendra"], ["We will hear"]],
+        [["Nous entendrons"], ["We will hear"]],
+        [["Vous entendrez"], ["You will hear"]],
+        [["Ils entendront"], ["They will hear"]],
+        [["Elles entendront"], ["They will hear"]]
+      ],
+      [
+        [["Je entendrais"], ["I would hear"]],
+        [["Tu entendrais"], ["You would hear"]],
+        [["Il entendrait"], ["He would hear"]],
+        [["Elle entendrait"], ["She would hear"]],
+        [["On entendrait"], ["We would hear"]],
+        [["Nous entendrions"], ["We would hear"]],
+        [["Vous entendriez"], ["You would hear"]],
+        [["Ils entendraient"], ["They would hear"]],
+        [["Elles entendraient"], ["They would hear"]]
+      ],
+      "-re verb",
+      true
+    ],
+    [
+      "perdre",
+      [
+        [["J'ai perdu"], ["I lost"]],
+        [["Tu as perdu"], ["You lost"]],
+        [["Il a perdu"], ["He lost"]],
+        [["Elle a perdu"], ["She lost"]],
+        [["On a perdu"], ["We lost"]],
+        [["Nous avons perdu"], ["We lost"]],
+        [["Vous avez perdu"], ["You lost"]],
+        [["Ils ont perdu"], ["They lost"]],
+        [["Elles ont perdu"], ["They lost"]]
+      ],
+      [
+        [["Je perdais"], ["I used to lose"]],
+        [["Tu perdais"], ["You used to lose"]],
+        [["Il perdait"], ["He used to lose"]],
+        [["Elle perdait"], ["She used to lose"]],
+        [["On perdait"], ["We used to lose"]],
+        [["Nous perdions"], ["We used to lose"]],
+        [["Vous perdiez"], ["You used to lose"]],
+        [["Ils perdaient"], ["They used to lose"]],
+        [["Elles perdaient"], ["They used to lose"]]
+      ],
+      [
+        [["Je perds"], ["I lose"]],
+        [["Tu perds"], ["You lose"]],
+        [["Il perd"], ["He loses"]],
+        [["Elle perd"], ["She loses"]],
+        [["On perd"], ["We lose"]],
+        [["Nous perdons"], ["We lose"]],
+        [["Vous perdez"], ["You lose"]],
+        [["Ils perdent"], ["They lose"]],
+        [["Elles perdent"], ["They lose"]]
+      ],
+      [
+        [["Je vais perdre"], ["I am going to lose"]],
+        [["Tu vas perdre"], ["You are going to lose"]],
+        [["Il va perdre"], ["He is going to lose"]],
+        [["Elle va perdre"], ["She is going to lose"]],
+        [["On va perdre"], ["We are going to lose"]],
+        [["Nous allons perdre"], ["We are going to lose"]],
+        [["Vous allez perdre"], ["You are going to lose"]],
+        [["Ils vont perdre"], ["They are going to lose"]],
+        [["Elles vont perdre"], ["They are going to lose"]]
+      ],
+      [
+        [["Je perdrai"], ["I will lose"]],
+        [["Tu perdras"], ["You will lose"]],
+        [["Il perdra"], ["He will lose"]],
+        [["Elle perdra"], ["She will lose"]],
+        [["On perdra"], ["We will lose"]],
+        [["Nous perdrons"], ["We will lose"]],
+        [["Vous perdrez"], ["You will lose"]],
+        [["Ils perdront"], ["They will lose"]],
+        [["Elles perdront"], ["They will lose"]]
+      ],
+      [
+        [["Je perdrais"], ["I would lose"]],
+        [["Tu perdrais"], ["You would lose"]],
+        [["Il perdrait"], ["He would lose"]],
+        [["Elle perdrait"], ["She would lose"]],
+        [["On perdrait"], ["We would lose"]],
+        [["Nous perdrions"], ["We would lose"]],
+        [["Vous perdriez"], ["You would lose"]],
+        [["Ils perdraient"], ["They would lose"]],
+        [["Elles perdraient"], ["They would lose"]]
+      ],
+      "-re verb",
+      true
+    ],
+    [
+      "rendre",
+      [
+        [["J'ai rendu"], ["I returned"]],
+        [["Tu as rendu"], ["You returned"]],
+        [["Il a rendu"], ["He returned"]],
+        [["Elle a rendu"], ["She returned"]],
+        [["On a rendu"], ["We returned"]],
+        [["Nous avons rendu"], ["We returned"]],
+        [["Vous avez rendu"], ["You returned"]],
+        [["Ils ont rendu"], ["They returned"]],
+        [["Elles ont rendu"], ["They returned"]]
+      ],
+      [
+        [["Je rendais"], ["I used to return"]],
+        [["Tu rendais"], ["You used to return"]],
+        [["Il rendait"], ["He used to return"]],
+        [["Elle rendait"], ["She used to return"]],
+        [["On rendait"], ["We used to return"]],
+        [["Nous rendions"], ["We used to return"]],
+        [["Vous rendiez"], ["You used to return"]],
+        [["Ils rendaient"], ["They used to return"]],
+        [["Elles rendaient"], ["They used to return"]]
+      ],
+      [
+        [["Je rends"], ["I return"]],
+        [["Tu rends"], ["You return"]],
+        [["Il rend"], ["He returns"]],
+        [["Elle rend"], ["She returns"]],
+        [["On rend"], ["We return"]],
+        [["Nous rendons"], ["We return"]],
+        [["Vous rendez"], ["You return"]],
+        [["Ils rendent"], ["They return"]],
+        [["Elles rendent"], ["They return"]]
+      ],
+      [
+        [["Je vais rendre"], ["I am going to return"]],
+        [["Tu vas rendre"], ["You are going to return"]],
+        [["Il va rendre"], ["He is going to return"]],
+        [["Elle va rendre"], ["She is going to return"]],
+        [["On va rendre"], ["We are going to return"]],
+        [["Nous allons rendre"], ["We are going to return"]],
+        [["Vous allez rendre"], ["You are going to return"]],
+        [["Ils vont rendre"], ["They are going to return"]],
+        [["Elles vont rendre"], ["They are going to return"]]
+      ],
+      [
+        [["Je rendrai"], ["I will return"]],
+        [["Tu rendras"], ["You will return"]],
+        [["Il rendra"], ["He will return"]],
+        [["Elle rendra"], ["She will return"]],
+        [["On rendra"], ["We will return"]],
+        [["Nous rendrons"], ["We will return"]],
+        [["Vous rendrez"], ["You will return"]],
+        [["Ils rendront"], ["They will return"]],
+        [["Elles rendront"], ["They will return"]]
+      ],
+      [
+        [["Je rendrais"], ["I would return"]],
+        [["Tu rendrais"], ["You would return"]],
+        [["Il rendrait"], ["He would return"]],
+        [["Elle rendrait"], ["She would return"]],
+        [["On rendrait"], ["We would return"]],
+        [["Nous rendrions"], ["We would return"]],
+        [["Vous rendriez"], ["You would return"]],
+        [["Ils rendraient"], ["They would return"]],
+        [["Elles rendraient"], ["They would return"]]
+      ],
+      "-re verb",
+      true
+    ],
+    [
+      "pouvoir",
+      [
+        [["J'ai pu manger"], ["I have been able to eat"]],
+        [["Tu as pu jouer"], ["You have been able to play"]],
+        [["Il a pu regarder"], ["He have been able to watch"]],
+        [["Elle a pu regarder"], ["She have been able to watch"]],
+        [["On a pu regarder"], ["We have been able to watch"]],
+        [["Nous avons pu repartir"], ["We have been able to leave"]],
+        [["Vous avez pu visiter"], ["You have been able to visit"]],
+        [["Ils ont pu investir"], ["They have been able to invest"]],
+        [["Elles ont pu investir"], ["They have been able to invest"]]
+      ],
+      [
+        [["Je pouvais parler"], ["I was able to speak"]],
+        [["Tu pouvais finir"], ["You were able to finish"]],
+        [["Il pouvait manger"], ["He was able to eat"]],
+        [["Elle pouvait manger"], ["She was able to eat"]],
+        [["On pouvait manger"], ["We were be able to eat"]],
+        [["Nous pouvions jouer"], ["We were able to play"]],
+        [["Vous pouviez visiter"], ["You were able to visit"]],
+        [["Ils pouvaient regarder"], ["They were able to watch"]],
+        [["Elles pouvaient regarder"], ["They were able to watch"]]
+      ],
+      [
+        [["Je peux vendre"], ["I can sell"]],
+        [["Tu peux investir"], ["You can invest"]],
+        [["Il peut étudier"], ["He can study"]],
+        [["Elle peut étudier"], ["She can study"]],
+        [["On peut étudier"], ["We can study"]],
+        [["Nous pouvons repartir"], ["We can leave"]],
+        [["Vous pouvez parler"], ["You can speak"]],
+        [["Ils peuvent jouer"], ["They can play"]],
+        [["Elles peuvent jouer"], ["They can play"]]
+      ],
+      [
+        [["Je vais pouvoir regarder"], ["I am going to be able to watch"]],
+        [["Tu vas pouvoir manger"], ["You are going to be able to eat"]],
+        [["Il va pouvoir jouer"], ["He is going to be able to play"]],
+        [["Elle va pouvoir jouer"], ["She is going to be able to play"]],
+        [["On va pouvoir jouer"], ["We are going to be able to play"]],
+        [["Nous allons pouvoir visiter"], ["We are going to be able to visit"]],
+        [["Vous allez pouvoir parler"], ["You are going to be able to speak"]],
+        [["Ils vont pouvoir finir"], ["They are going to be able to finish"]],
+        [["Elles vont pouvoir finir"], ["They are going to be able to finish"]]
+      ],
+      [
+        [["Je pourrai repartir"], ["I will be able to leave"]],
+        [["Tu pourras visiter"], ["You will be able to visit"]],
+        [["Il pourra regarder"], ["He will be able to watch"]],
+        [["Elle pourra regarder"], ["She will be able to watch"]],
+        [["On pourra regarder"], ["We will be able to watch"]],
+        [["Nous pourrons investir"], ["We will be able to invest"]],
+        [["Vous pourrez parler"], ["You will be able to speak"]],
+        [["Ils pourront manger"], ["They will be able to eat"]],
+        [["Elles pourront manger"], ["They will be able to eat"]]
+      ],
+      [
+        [["Je pourrais jouer"], ["I could play"]],
+        [["Tu pourrais investir"], ["You could invest"]],
+        [["Il pourrait parler"], ["He could speak"]],
+        [["Elle pourrait parler"], ["She could speak"]],
+        [["On pourrait parler"], ["We could speak"]],
+        [["Nous pourrions manger"], ["We could eat"]],
+        [["Vous pourriez visiter"], ["You could visit"]],
+        [["Ils pourraient finir"], ["They could finish"]],
+        [["Elles pourraient finir"], ["They could finish"]]
+      ],
+      "modal verb",
+      false
+    ],
+    [
+      "devoir",
+      [
+        [["J'ai dû manger"], ["I have had to eat"]],
+        [["Tu as dû jouer"], ["You have had to play"]],
+        [["Il a dû regarder"], ["He has had to watch"]],
+        [["Elle a dû regarder"], ["She has had to watch"]],
+        [["On a dû regarder"], ["We have had to watch"]],
+        [["Nous avons dû repartir"], ["We have had to leave"]],
+        [["Vous avez dû visiter"], ["You have had to visit"]],
+        [["Ils ont dû investir"], ["They have had to invest"]],
+        [["Elles ont dû investir"], ["They have had to invest"]]
+      ],
+      [
+        [["Je devais parler"], ["I had to speak"]],
+        [["Tu devais finir"], ["You had to finish"]],
+        [["Il devait manger"], ["He had to eat"]],
+        [["Elle devait manger"], ["She had to eat"]],
+        [["On devait manger"], ["We had to eat"]],
+        [["Nous devions jouer"], ["We had to play"]],
+        [["Vous deviez visiter"], ["You had to visit"]],
+        [["Ils devaient regarder"], ["They had to watch"]],
+        [["Elles devaient regarder"], ["They had to watch"]]
+      ],
+      [
+        [["Je dois vendre"], ["I must sell"]],
+        [["Tu dois investir"], ["You must invest"]],
+        [["Il doit étudier"], ["He must study"]],
+        [["Elle doit étudier"], ["She must study"]],
+        [["On doit étudier"], ["We must study"]],
+        [["Nous devons repartir"], ["We must leave"]],
+        [["Vous devez parler"], ["You must speak"]],
+        [["Ils doivent jouer"], ["They must play"]],
+        [["Elles doivent jouer"], ["They must play"]]
+      ],
+      [
+        [["Je vais devoir regarder"], ["I am going to have to watch"]],
+        [["Tu vas devoir manger"], ["You are going to have to eat"]],
+        [["Il va devoir jouer"], ["He is going to have to play"]],
+        [["Elle va devoir jouer"], ["She is going to have to play"]],
+        [["On va devoir jouer"], ["We are going to have to play"]],
+        [["Nous allons devoir visiter"], ["We are going to have to visit"]],
+        [["Vous allez devoir parler"], ["You are going to have to speak"]],
+        [["Ils vont devoir finir"], ["They are going to have to finish"]],
+        [["Elles vont devoir finir"], ["They are going to have to finish"]]
+      ],
+      [
+        [["Je devrai repartir"], ["I will have to leave"]],
+        [["Tu devras visiter"], ["You will have to visit"]],
+        [["Il devra regarder"], ["He will have to watch"]],
+        [["Elle devra regarder"], ["She will have to watch"]],
+        [["On devra regarder"], ["We will have to watch"]],
+        [["Nous devrons investir"], ["We will have to invest"]],
+        [["Vous devrez parler"], ["You will have to speak"]],
+        [["Ils devront manger"], ["They will have to eat"]],
+        [["Elles devront manger"], ["They will have to eat"]]
+      ],
+      [
+        [["Je devrais jouer"], ["I should play"]],
+        [["Tu devrais investir"], ["You should invest"]],
+        [["Il devrait parler"], ["He should speak"]],
+        [["Elle devrait parler"], ["She should speak"]],
+        [["On devrait parler"], ["We should speak"]],
+        [["Nous devrions manger"], ["We should eat"]],
+        [["Vous devriez visiter"], ["You should visit"]],
+        [["Ils devraient finir"], ["They should finish"]],
+        [["Elles devraient finir"], ["They should finish"]]
+      ],
+      "modal verb",
+      true
+    ],
+    [
+      "vouloir",
+      [
+        [["J'ai voulu manger"], ["I wanted to eat"]],
+        [["Tu as voulu jouer"], ["You wanted to play"]],
+        [["Il a voulu regarder"], ["He wanted to watch"]],
+        [["Elle a voulu regarder"], ["She wanted to watch"]],
+        [["On a voulu regarder"], ["We wanted to watch"]],
+        [["Nous avons voulu repartir"], ["We wanted to leave"]],
+        [["Vous avez voulu visiter"], ["You wanted to visit"]],
+        [["Ils ont voulu investir"], ["They wanted to invest"]],
+        [["Elles ont voulu investir"], ["They wanted to invest"]]
+      ],
+      [
+        [["Je voulais parler"], ["I used to want to speak"]],
+        [["Tu voulais finir"], ["You used to want to finish"]],
+        [["Il voulait manger"], ["He used to want to eat"]],
+        [["Elle voulait manger"], ["She used to want to eat"]],
+        [["On voulait manger"], ["We used to want to eat"]],
+        [["Nous voulions jouer"], ["We used to want to play"]],
+        [["Vous vouliez visiter"], ["You used to want to visit"]],
+        [["Ils voulaient regarder"], ["They used to want to watch"]],
+        [["Elles voulaient regarder"], ["They used to want to watch"]]
+      ],
+      [
+        [["Je veux vendre"], ["I want to sell"]],
+        [["Tu veux investir"], ["You want to invest"]],
+        [["Il veut étudier"], ["He wants to study"]],
+        [["Elle veut étudier"], ["She wants to study"]],
+        [["On veut étudier"], ["We want to study"]],
+        [["Nous voulons repartir"], ["We want to leave"]],
+        [["Vous voulez parler"], ["You want to speak"]],
+        [["Ils veulent jouer"], ["They want to play"]],
+        [["Elles veulent jouer"], ["They want to play"]]
+      ],
+      [
+        [["Je vais vouloir regarder"], ["I am going to want to watch"]],
+        [["Tu vas vouloir manger"], ["You are going to want to eat"]],
+        [["Il va vouloir jouer"], ["He is going to want to play"]],
+        [["Elle va vouloir jouer"], ["She is going to want to play"]],
+        [["On va vouloir jouer"], ["We are going to want to play"]],
+        [["Nous allons vouloir visiter"], ["We are going to want to visit"]],
+        [["Vous allez vouloir parler"], ["You are going to want to speak"]],
+        [["Ils vont vouloir finir"], ["They are going to want to finish"]],
+        [["Elles vont vouloir finir"], ["They are going to want to finish"]]
+      ],
+      [
+        [["Je voudrai repartir"], ["I will want to leave"]],
+        [["Tu voudras visiter"], ["You will want to visit"]],
+        [["Il voudra regarder"], ["He will want to watch"]],
+        [["Elle voudra regarder"], ["She will want to watch"]],
+        [["On voudra regarder"], ["We will want to watch"]],
+        [["Nous voudrons investir"], ["We will want to invest"]],
+        [["Vous voudrez parler"], ["You will want to speak"]],
+        [["Ils voudront manger"], ["They will want to eat"]],
+        [["Elles voudront manger"], ["They will want to eat"]]
+      ],
+      [
+        [["Je voudrais jouer"], ["I would like to play"]],
+        [["Tu voudrais investir"], ["You would like to invest"]],
+        [["Il voudrait parler"], ["He would like to speak"]],
+        [["Elle voudrait parler"], ["She would like to speak"]],
+        [["On voudrait parler"], ["We would like to speak"]],
+        [["Nous voudrions manger"], ["We would like to eat"]],
+        [["Vous voudriez visiter"], ["You would like to visit"]],
+        [["Ils voudraient finir"], ["They would like to finish"]],
+        [["Elles voudraient finir"], ["They would like to finish"]]
+      ],
+      "modal verb",
+      true
+    ],
+    [
+      "se disputer",
+      [
+        [["Je me suis disputé"], ["I argued"]],
+        [["Tu t'es disputé"], ["You argued"]],
+        [["Il s'est disputé"], ["He argued"]],
+        [["Elle s'est disputée"], ["She argued"]],
+        [["On s'est disputé"], ["We argued"]],
+        [["Nous nous sommes disputés"], ["We argued"]],
+        [["Vous vous êtes disputé"], ["You argued"]],
+        [["Ils se sont disputés"], ["They argued"]],
+        [["Elles se sont disputées"], ["They argued"]]
+      ],
+      [
+        [["Je me disputais"], ["I used to argue"]],
+        [["Tu te disputais"], ["You used to argue"]],
+        [["Il se disputait"], ["He used to argue"]],
+        [["Elle se disputait"], ["She used to argue"]],
+        [["On se disputait"], ["We used to argue"]],
+        [["Nous nous disputions"], ["We used to argue"]],
+        [["Vous vous disputiez"], ["You used to argue"]],
+        [["Ils se disputaient"], ["They used to argue"]],
+        [["Elles se disputaient"], ["They used to argue"]]
+      ],
+      [
+        [["Je me dispute"], ["I argue"]],
+        [["Tu te disputes"], ["You argue"]],
+        [["Il se dispute"], ["He argues"]],
+        [["Elle se dispute"], ["She argues"]],
+        [["On se dispute"], ["We argue"]],
+        [["Nous nous disputons"], ["We argue"]],
+        [["Vous vous disputez"], ["You argue"]],
+        [["Ils se disputent"], ["They argue"]],
+        [["Elles se disputent"], ["They argue"]]
+      ],
+      [
+        [["Je vais me disputer"], ["I am going to argue"]],
+        [["Tu vas te disputer"], ["You are going to argue"]],
+        [["Il va se disputer"], ["He is going to argue"]],
+        [["Elle va se disputer"], ["She is going to argue"]],
+        [["On va se disputer"], ["We are going to argue"]],
+        [["Nous allons nous disputer"], ["We are going to argue"]],
+        [["Vous allez vous disputer"], ["You are going to argue"]],
+        [["Ils vont se disputer"], ["They are going to argue"]],
+        [["Elles vont se disputer"], ["They are going to argue"]]
+      ],
+      [
+        [["Je me disputerai"], ["I will argue"]],
+        [["Tu te disputeras"], ["You will argue"]],
+        [["Il se disputera"], ["He will argue"]],
+        [["Elle se disputera"], ["She will argue"]],
+        [["On se disputera"], ["We will argue"]],
+        [["Nous nous disputerons"], ["We will argue"]],
+        [["Vous vous disputerez"], ["You will argue"]],
+        [["Ils se disputeront"], ["They will argue"]],
+        [["Elles se disputeront"], ["They will argue"]]
+      ],
+      [
+        [["Je me disputerais"], ["I would argue"]],
+        [["Tu te disputerais"], ["You would argue"]],
+        [["Il se disputerait"], ["He would argue"]],
+        [["Elle se disputerait"], ["She would argue"]],
+        [["On se disputerait"], ["We would argue"]],
+        [["Nous nous disputerions"], ["We would argue"]],
+        [["Vous vous disputeriez"], ["You would argue"]],
+        [["Ils se disputeraient"], ["They would argue"]],
+        [["Elles se disputeraient"], ["They would argue"]]
+      ],
+      "reflexive verb",
+      false
+    ],
+    [
+      "se fâcher",
+      [
+        [["Je me suis fâché"], ["I got angry"]],
+        [["Tu t'es fâché"], ["You got angry"]],
+        [["Il s'est fâché"], ["He got angry"]],
+        [["Elle s'est fâchée"], ["She got angry"]],
+        [["On s'est fâché"], ["We got angry"]],
+        [["Nous nous sommes fâchés"], ["We got angry"]],
+        [["Vous vous êtes fâché"], ["You got angry"]],
+        [["Ils se sont fâchés"], ["They got angry"]],
+        [["Elles se sont fâchées"], ["They got angry"]]
+      ],
+      [
+        [["Je me fâchais"], ["I used to get angry"]],
+        [["Tu te fâchais"], ["You used to get angry"]],
+        [["Il se fâchait"], ["He used to get angry"]],
+        [["Elle se fâchait"], ["She used to get angry"]],
+        [["On se fâchait"], ["We used to get angry"]],
+        [["Nous nous fâchions"], ["We used to get angry"]],
+        [["Vous vous fâchiez"], ["You used to get angry"]],
+        [["Ils se fâchaient"], ["They used to get angry"]],
+        [["Elles se fâchaient"], ["They used to get angry"]]
+      ],
+      [
+        [["Je me fâche"], ["I get angry"]],
+        [["Tu te fâches"], ["You get angry"]],
+        [["Il se fâche"], ["He gets angry"]],
+        [["Elle se fâche"], ["She gets angry"]],
+        [["On se fâche"], ["We get angry"]],
+        [["Nous nous fâchons"], ["We get angry"]],
+        [["Vous vous fâchez"], ["You get angry"]],
+        [["Ils se fâchent"], ["They get angry"]],
+        [["Elles se fâchent"], ["They get angry"]]
+      ],
+      [
+        [["Je vais me fâcher"], ["I am going to get angry"]],
+        [["Tu vas te fâcher"], ["You are going to get angry"]],
+        [["Il va se fâcher"], ["He is going to get angry"]],
+        [["Elle va se fâcher"], ["She is going to get angry"]],
+        [["On va se fâcher"], ["We are going to get angry"]],
+        [["Nous allons nous fâcher"], ["We are going to get angry"]],
+        [["Vous allez vous fâcher"], ["You are going to get angry"]],
+        [["Ils vont se fâcher"], ["They are going to get angry"]],
+        [["Elles vont se fâcher"], ["They are going to get angry"]]
+      ],
+      [
+        [["Je me fâcherai"], ["I will get angry"]],
+        [["Tu te fâcheras"], ["You will get angry"]],
+        [["Il se fâchera"], ["He will get angry"]],
+        [["Elle se fâchera"], ["She will get angry"]],
+        [["On se fâchera"], ["We will get angry"]],
+        [["Nous nous fâcherons"], ["We will get angry"]],
+        [["Vous vous fâcherez"], ["You will get angry"]],
+        [["Ils se fâcheront"], ["They will get angry"]],
+        [["Elles se fâcheront"], ["They will get angry"]]
+      ],
+      [
+        [["Je me fâcherais"], ["I would get angry"]],
+        [["Tu te fâcherais"], ["You would get angry"]],
+        [["Il se fâcherait"], ["He would get angry"]],
+        [["Elle se fâcherait"], ["She would get angry"]],
+        [["On se fâcherait"], ["We would get angry"]],
+        [["Nous nous fâcherions"], ["We would get angry"]],
+        [["Vous vous fâcheriez"], ["You would get angry"]],
+        [["Ils se fâcheraient"], ["They would get angry"]],
+        [["Elles se fâcheraient"], ["They would get angry"]]
+      ],
+      "reflexive verb",
+      false
+    ],
+    [
+      "s'amuser",
+      [
+        [["Je me suis amusé"], ["I had fun"]],
+        [["Tu t'es amusé"], ["You had fun"]],
+        [["Il s'est amusé"], ["He had fun"]],
+        [["Elle s'est amusée"], ["She had fun"]],
+        [["On s'est amusé"], ["We had fun"]],
+        [["Nous nous sommes amusés"], ["We had fun"]],
+        [["Vous vous êtes amusé"], ["You had fun"]],
+        [["Ils se sont amusés"], ["They had fun"]],
+        [["Elles se sont amusées"], ["They had fun"]]
+      ],
+      [
+        [["Je m'amusais"], ["I used to have fun"]],
+        [["Tu t'amusais"], ["You used to have fun"]],
+        [["Il s'amusait"], ["He used to have fun"]],
+        [["Elle s'amusait"], ["She used to have fun"]],
+        [["On s'amusait"], ["We used to have fun"]],
+        [["Nous nous amusions"], ["We used to have fun"]],
+        [["Vous vous amusiez"], ["You used to have fun"]],
+        [["Ils s'amusaient"], ["They used to have fun"]],
+        [["Elles s'amusaient"], ["They used to have fun"]]
+      ],
+      [
+        [["Je m'amuse"], ["I have fun"]],
+        [["Tu t'amuses"], ["You have fun"]],
+        [["Il s'amuse"], ["He has fun"]],
+        [["Elle s'amuse"], ["She has fun"]],
+        [["On s'amuse"], ["We have fun"]],
+        [["Nous nous amusons"], ["We have fun"]],
+        [["Vous vous amusez"], ["You have fun"]],
+        [["Ils s'amusent"], ["They have fun"]],
+        [["Elles s'amusent"], ["They have fun"]]
+      ],
+      [
+        [["Je vais m'amuser"], ["I am going to have fun"]],
+        [["Tu vas t'amuser"], ["You are going to have fun"]],
+        [["Il va s'amuser"], ["He is going to have fun"]],
+        [["Elle va s'amuser"], ["She is going to have fun"]],
+        [["On va s'amuser"], ["We are going to have fun"]],
+        [["Nous allons nous amuser"], ["We are going to have fun"]],
+        [["Vous allez vous amuser"], ["You are going to have fun"]],
+        [["Ils vont s'amuser"], ["They are going to have fun"]],
+        [["Elles vont s'amuser"], ["They are going to have fun"]]
+      ],
+      [
+        [["Je m'amuserai"], ["I will have fun"]],
+        [["Tu t'amuseras"], ["You will have fun"]],
+        [["Il s'amusera"], ["He will have fun"]],
+        [["Elle s'amusera"], ["She will have fun"]],
+        [["On s'amusera"], ["We will have fun"]],
+        [["Nous nous amuserons"], ["We will have fun"]],
+        [["Vous vous amuserez"], ["You will have fun"]],
+        [["Ils s'amuseront"], ["They will have fun"]],
+        [["Elles s'amuseront"], ["They will have fun"]]
+      ],
+      [
+        [["Je m'amuserais"], ["I would have fun"]],
+        [["Tu t'amuserais"], ["You would have fun"]],
+        [["Il s'amuserait"], ["He would have fun"]],
+        [["Elle s'amuserait"], ["She would have fun"]],
+        [["On s'amuserait"], ["We would have fun"]],
+        [["Nous nous amuserions"], ["We would have fun"]],
+        [["Vous vous amuseriez"], ["You would have fun"]],
+        [["Ils s'amuseraient"], ["They would have fun"]],
+        [["Elles s'amuseraient"], ["They would have fun"]]
+      ],
+      "reflexive verb",
+      false
+    ],
+    [
+      "se doucher",
+      [
+        [["Je me suis douché"], ["I showered"]],
+        [["Tu t'es douché"], ["You showered"]],
+        [["Il s'est douché"], ["He showered"]],
+        [["Elle s'est douchée"], ["She showered"]],
+        [["On s'est douché"], ["We showered"]],
+        [["Nous nous sommes douchés"], ["We showered"]],
+        [["Vous vous êtes douché"], ["You showered"]],
+        [["Ils se sont douchés"], ["They showered"]],
+        [["Elles se sont douchées"], ["They showered"]]
+      ],
+      [
+        [["Je me douchais"], ["I used to shower"]],
+        [["Tu te douchais"], ["You used to shower"]],
+        [["Il se douchait"], ["He used to shower"]],
+        [["Elle se douchait"], ["She used to shower"]],
+        [["On se douchait"], ["We used to shower"]],
+        [["Nous nous douchions"], ["We used to shower"]],
+        [["Vous vous douchiez"], ["You used to shower"]],
+        [["Ils se douchaient"], ["They used to shower"]],
+        [["Elles se douchaient"], ["They used to shower"]]
+      ],
+      [
+        [["Je me douche"], ["I shower"]],
+        [["Tu te douches"], ["You shower"]],
+        [["Il se douche"], ["He showers"]],
+        [["Elle se douche"], ["She showers"]],
+        [["On se douche"], ["We shower"]],
+        [["Nous nous douchons"], ["We shower"]],
+        [["Vous vous douchez"], ["You shower"]],
+        [["Ils se douchent"], ["They shower"]],
+        [["Elles se douchent"], ["They shower"]]
+      ],
+      [
+        [["Je vais me doucher"], ["I am going to shower"]],
+        [["Tu vas te doucher"], ["You are going to shower"]],
+        [["Il va se doucher"], ["He is going to shower"]],
+        [["Elle va se doucher"], ["She is going to shower"]],
+        [["On va se doucher"], ["We are going to shower"]],
+        [["Nous allons nous doucher"], ["We are going to shower"]],
+        [["Vous allez vous doucher"], ["You are going to shower"]],
+        [["Ils vont se doucher"], ["They are going to shower"]],
+        [["Elles vont se doucher"], ["They are going to shower"]]
+      ],
+      [
+        [["Je me doucherai"], ["I will shower"]],
+        [["Tu te doucheras"], ["You will shower"]],
+        [["Il se douchera"], ["He will shower"]],
+        [["Elle se douchera"], ["She will shower"]],
+        [["On se douchera"], ["We will shower"]],
+        [["Nous nous doucherons"], ["We will shower"]],
+        [["Vous vous doucherez"], ["You will shower"]],
+        [["Ils se doucheront"], ["They will shower"]],
+        [["Elles se doucheront"], ["They will shower"]]
+      ],
+      [
+        [["Je me doucherais"], ["I would shower"]],
+        [["Tu te doucherais"], ["You would shower"]],
+        [["Il se doucherait"], ["He would shower"]],
+        [["Elle se doucherait"], ["She would shower"]],
+        [["On se doucherait"], ["We would shower"]],
+        [["Nous nous doucherions"], ["We would shower"]],
+        [["Vous vous doucheriez"], ["You would shower"]],
+        [["Ils se doucheraient"], ["They would shower"]],
+        [["Elles se doucheraient"], ["They would shower"]]
+      ],
+      "reflexive verb",
+      false
+    ],
+    [
+      "s'habiller",
+      [
+        [["Je me suis habillé"], ["I dressed"]],
+        [["Tu t'es habillé"], ["You dressed"]],
+        [["Il s'est habillé"], ["He dressed"]],
+        [["Elle s'est habillée"], ["She dressed"]],
+        [["On s'est habillé"], ["We dressed"]],
+        [["Nous nous sommes habillés"], ["We dressed"]],
+        [["Vous vous êtes habillé"], ["You dressed"]],
+        [["Ils se sont habillés"], ["They dressed"]],
+        [["Elles se sont habillées"], ["They dressed"]]
+      ],
+      [
+        [["Je m'habillais"], ["I used to dress"]],
+        [["Tu t'habillais"], ["You used to dress"]],
+        [["Il s'habillait"], ["He used to dress"]],
+        [["Elle s'habillait"], ["She used to dress"]],
+        [["On s'habillait"], ["We used to dress"]],
+        [["Nous nous habillions"], ["We used to dress"]],
+        [["Vous vous habilliez"], ["You used to dress"]],
+        [["Ils s'habillaient"], ["They used to dress"]],
+        [["Elles s'habillaient"], ["They used to dress"]]
+      ],
+      [
+        [["Je m'habille"], ["I dress"]],
+        [["Tu t'habilles"], ["You dress"]],
+        [["Il s'habille"], ["He dresses"]],
+        [["Elle s'habille"], ["She dresses"]],
+        [["On s'habille"], ["We dress"]],
+        [["Nous nous habillons"], ["We dress"]],
+        [["Vous vous habillez"], ["You dress"]],
+        [["Ils s'habillent"], ["They dress"]],
+        [["Elles s'habillent"], ["They dress"]]
+      ],
+      [
+        [["Je vais m'habiller"], ["I am going to dress"]],
+        [["Tu vas t'habiller"], ["You are going to dress"]],
+        [["Il va s'habiller"], ["He is going to dress"]],
+        [["Elle va s'habiller"], ["She is going to dress"]],
+        [["On va s'habiller"], ["We are going to dress"]],
+        [["Nous allons nous habiller"], ["We are going to dress"]],
+        [["Vous allez vous habiller"], ["You are going to dress"]],
+        [["Ils vont s'habiller"], ["They are going to dress"]],
+        [["Elles vont s'habiller"], ["They are going to dress"]]
+      ],
+      [
+        [["Je m'habillerai"], ["I will dress"]],
+        [["Tu t'habilleras"], ["You will dress"]],
+        [["Il s'habillera"], ["He will dress"]],
+        [["Elle s'habillera"], ["She will dress"]],
+        [["On s'habillera"], ["We will dress"]],
+        [["Nous nous habillerons"], ["We will dress"]],
+        [["Vous vous habillerez"], ["You will dress"]],
+        [["Ils s'habilleront"], ["They will dress"]],
+        [["Elles s'habilleront"], ["They will dress"]]
+      ],
+      [
+        [["Je m'habillerais"], ["I would dress"]],
+        [["Tu t'habillerais"], ["You would dress"]],
+        [["Il s'habillerait"], ["He would dress"]],
+        [["Elle s'habillerait"], ["She would dress"]],
+        [["On s'habillerait"], ["We would dress"]],
+        [["Nous nous habillerions"], ["We would dress"]],
+        [["Vous vous habilleriez"], ["You would dress"]],
+        [["Ils s'habilleraient"], ["They would dress"]],
+        [["Elles s'habilleraient"], ["They would dress"]]
+      ],
+      "reflexive verb",
+      false
+    ],
+    [
+      "se connecter",
+      [
+        [["Je me suis connecté"], ["I connected"]],
+        [["Tu t'es connecté"], ["You connected"]],
+        [["Il s'est connecté"], ["He connected"]],
+        [["Elle s'est connectée"], ["She connected"]],
+        [["On s'est connecté"], ["We connected"]],
+        [["Nous nous sommes connectés"], ["We connected"]],
+        [["Vous vous êtes connecté"], ["You connected"]],
+        [["Ils se sont connectés"], ["They connected"]],
+        [["Elles se sont connectées"], ["They connected"]]
+      ],
+      [
+        [["Je me connectais"], ["I used to connect"]],
+        [["Tu te connectais"], ["You used to connect"]],
+        [["Il se connectait"], ["He used to connect"]],
+        [["Elle se connectait"], ["She used to connect"]],
+        [["On se connectait"], ["We used to connect"]],
+        [["Nous nous connections"], ["We used to connect"]],
+        [["Vous vous connectiez"], ["You used to connect"]],
+        [["Ils se connectaient"], ["They used to connect"]],
+        [["Elles se connectaient"], ["They used to connect"]]
+      ],
+      [
+        [["Je me connecte"], ["I connect"]],
+        [["Tu te connectes"], ["You connect"]],
+        [["Il se connecte"], ["He connects"]],
+        [["Elle se connecte"], ["She connects"]],
+        [["On se connecte"], ["We connect"]],
+        [["Nous nous connectons"], ["We connect"]],
+        [["Vous vous connectez"], ["You connect"]],
+        [["Ils se connectent"], ["They connect"]],
+        [["Elles se connectent"], ["They connect"]]
+      ],
+      [
+        [["Je vais me connecter"], ["I am going to connect"]],
+        [["Tu vas te connecter"], ["You are going to connect"]],
+        [["Il va se connecter"], ["He is going to connect"]],
+        [["Elle va se connecter"], ["She is going to connect"]],
+        [["On va se connecter"], ["We are going to connect"]],
+        [["Nous allons nous connecter"], ["We are going to connect"]],
+        [["Vous allez vous connecter"], ["You are going to connect"]],
+        [["Ils vont se connecter"], ["They are going to connect"]],
+        [["Elles vont se connecter"], ["They are going to connect"]]
+      ],
+      [
+        [["Je me connecterai"], ["I will connect"]],
+        [["Tu te connecteras"], ["You will connect"]],
+        [["Il se connectera"], ["He will connect"]],
+        [["Elle se connectera"], ["She will connect"]],
+        [["On se connectera"], ["We will connect"]],
+        [["Nous nous connecterons"], ["We will connect"]],
+        [["Vous vous connecterez"], ["You will connect"]],
+        [["Ils se connecteront"], ["They will connect"]],
+        [["Elles se connecteront"], ["They will connect"]]
+      ],
+      [
+        [["Je me connecterais"], ["I would connect"]],
+        [["Tu te connecterais"], ["You would connect"]],
+        [["Il se connecterait"], ["He would connect"]],
+        [["Elle se connecterait"], ["She would connect"]],
+        [["On se connecterait"], ["We would connect"]],
+        [["Nous nous connecterions"], ["We would connect"]],
+        [["Vous vous connecteriez"], ["You would connect"]],
+        [["Ils se connecteraient"], ["They would connect"]],
+        [["Elles se connecteraient"], ["They would connect"]]
+      ],
+      "reflexive verb",
+      false
+    ],
+    [
+      "être",
+      [
+        [["J'ai été"], ["I have been"]],
+        [["Tu as été"], ["You have been"]],
+        [["Il a été"], ["He has been"]],
+        [["Elle a été"], ["She has been"]],
+        [["On a été"], ["We have been"]],
+        [["Nous avons été"], ["We have been"]],
+        [["Vous avez été"], ["You have been"]],
+        [["Ils ont été"], ["They have been"]],
+        [["Elles ont été"], ["They have been"]]
+      ],
+      [
+        [["J'étais"], ["I was"]],
+        [["Tu étais"], ["You were"]],
+        [["Il était"], ["He was"]],
+        [["Elle était"], ["She was"]],
+        [["On était"], ["We were"]],
+        [["Nous étions"], ["We were"]],
+        [["Vous étiez"], ["You were"]],
+        [["Ils étaient"], ["They were"]],
+        [["Elles étaient"], ["They were"]]
+      ],
+      [
+        [["Je suis"], ["I am"]],
+        [["Tu es"], ["You are"]],
+        [["Il est"], ["He is"]],
+        [["Elle est"], ["She is"]],
+        [["On est"], ["We are"]],
+        [["Nous sommes"], ["We are"]],
+        [["Vous êtes"], ["You are"]],
+        [["Ils sont"], ["They are"]],
+        [["Elles sont"], ["They are"]]
+      ],
+      [
+        [["Je vais être"], ["I am going to be"]],
+        [["Tu vas être"], ["You are going to be"]],
+        [["Il va être"], ["He is going to be"]],
+        [["Elle va être"], ["She is going to be"]],
+        [["On va être"], ["We are going to be"]],
+        [["Nous allons être"], ["We are going to be"]],
+        [["Vous allez être"], ["You are going to be"]],
+        [["Ils vont être"], ["They are going to be"]],
+        [["Elles vont être"], ["They are going to be"]]
+      ],
+      [
+        [["Je serai"], ["I will be"]],
+        [["Tu seras"], ["You will be"]],
+        [["Il sera"], ["He will be"]],
+        [["Elle sera"], ["She will be"]],
+        [["On sera"], ["We will be"]],
+        [["Nous serons"], ["We will be"]],
+        [["Vous serez"], ["You will be"]],
+        [["Ils seront"], ["They will be"]],
+        [["Elles seront"], ["They will be"]]
+      ],
+      [
+        [["Je serais"], ["I would be"]],
+        [["Tu serais"], ["You would be"]],
+        [["Il serait"], ["He would be"]],
+        [["Elle serait"], ["She would be"]],
+        [["On serait"], ["We would be"]],
+        [["Nous serions"], ["We would be"]],
+        [["Vous seriez"], ["You would be"]],
+        [["Ils seraient"], ["They would be"]],
+        [["Elles seraient"], ["They would be"]]
+      ],
+      "irregular verb",
+      false
+    ],
+    [
+      "avoir",
+      [
+        [["J'ai eu"], ["I have had"]],
+        [["Tu as eu"], ["You have had"]],
+        [["Il a eu"], ["He has had"]],
+        [["Elle a eu"], ["She has had"]],
+        [["On a eu"], ["We have had"]],
+        [["Nous avons eu"], ["We have had"]],
+        [["Vous avez eu"], ["You have had"]],
+        [["Ils ont eu"], ["They have had"]],
+        [["Elles ont eu"], ["They have had"]]
+      ],
+      [
+        [["J'avais"], ["I had"]],
+        [["Tu avais"], ["You had"]],
+        [["Il avait"], ["He had"]],
+        [["Elle avait"], ["She had"]],
+        [["On avait"], ["We had"]],
+        [["Nous avions"], ["We had"]],
+        [["Vous aviez"], ["You had"]],
+        [["Ils avaient"], ["They had"]],
+        [["Elles avaient"], ["They had"]]
+      ],
+      [
+        [["J'ai"], ["I have"]],
+        [["Tu as"], ["You have"]],
+        [["Il a"], ["He has"]],
+        [["Elle a"], ["She has"]],
+        [["On a"], ["We have"]],
+        [["Nous avons"], ["We have"]],
+        [["Vous avez"], ["You have"]],
+        [["Ils ont"], ["They have"]],
+        [["Elles ont"], ["They have"]]
+      ],
+      [
+        [["Je vais avoir"], ["I am going to have"]],
+        [["Tu vas avoir"], ["You are going to have"]],
+        [["Il va avoir"], ["He is going to have"]],
+        [["Elle va avoir"], ["She is going to have"]],
+        [["On va avoir"], ["We are going to have"]],
+        [["Nous allons avoir"], ["We are going to have"]],
+        [["Vous allez avoir"], ["You are going to have"]],
+        [["Ils vont avoir"], ["They are going to have"]],
+        [["Elles vont avoir"], ["They are going to have"]]
+      ],
+      [
+        [["J'aurai"], ["I will have"]],
+        [["Tu auras"], ["You will have"]],
+        [["Il aura"], ["He will have"]],
+        [["Elle aura"], ["She will have"]],
+        [["On aura"], ["We will have"]],
+        [["Nous aurons"], ["We will have"]],
+        [["Vous aurez"], ["You will have"]],
+        [["Ils auront"], ["They will have"]],
+        [["Elles auront"], ["They will have"]]
+      ],
+      [
+        [["J'aurais"], ["I would have"]],
+        [["Tu aurais"], ["You would have"]],
+        [["Il aurait"], ["He would have"]],
+        [["Elle aurait"], ["She would have"]],
+        [["On aurait"], ["We would have"]],
+        [["Nous aurions"], ["We would have"]],
+        [["Vous auriez"], ["You would have"]],
+        [["Ils auraient"], ["They would have"]],
+        [["Elles auraient"], ["They would have"]]
+      ],
+      "irregular verb",
+      false
+    ],
+    [
+      "aller",
+      [
+        [["Je suis allé"], ["I went"]],
+        [["Tu es allé"], ["You went"]],
+        [["Il est allé"], ["He went"]],
+        [["Elle est allée"], ["She went"]],
+        [["On est allé"], ["We went"]],
+        [["Nous sommes allés"], ["We went"]],
+        [["Vous êtes allé"], ["You went"]],
+        [["Ils sont allés"], ["They went"]],
+        [["Elles sont allées"], ["They went"]]
+      ],
+      [
+        [["J'allais"], ["I used to go"]],
+        [["Tu allais"], ["You used to go"]],
+        [["Il allait"], ["He used to go"]],
+        [["Elle allait"], ["She used to go"]],
+        [["On allait"], ["We used to go"]],
+        [["Nous allions"], ["We used to go"]],
+        [["Vous alliez"], ["You used to go"]],
+        [["Ils allaient"], ["They used to go"]],
+        [["Elles allaient"], ["They used to go"]]
+      ],
+      [
+        [["Je vais"], ["I go"]],
+        [["Tu vas"], ["You go"]],
+        [["Il va"], ["He goes"]],
+        [["Elle va"], ["She goes"]],
+        [["On va"], ["We go"]],
+        [["Nous allons"], ["We go"]],
+        [["Vous allez"], ["You go"]],
+        [["Ils vont"], ["They go"]],
+        [["Elles vont"], ["They go"]]
+      ],
+      [
+        [["Je vais aller"], ["I am going to go"]],
+        [["Tu vas aller"], ["You are going to go"]],
+        [["Il va aller"], ["He is going to go"]],
+        [["Elle va aller"], ["She is going to go"]],
+        [["On va aller"], ["We are going to go"]],
+        [["Nous allons aller"], ["We are going to go"]],
+        [["Vous allez aller"], ["You are going to go"]],
+        [["Ils vont aller"], ["They are going to go"]],
+        [["Elles vont aller"], ["They are going to go"]]
+      ],
+      [
+        [["J'irai"], ["I will go"]],
+        [["Tu iras"], ["You will go"]],
+        [["Il ira"], ["He will go"]],
+        [["Elle ira"], ["She will go"]],
+        [["On ira"], ["We will go"]],
+        [["Nous irons"], ["We will go"]],
+        [["Vous irez"], ["You will go"]],
+        [["Ils iront"], ["They will go"]],
+        [["Elles iront"], ["They will go"]]
+      ],
+      [
+        [["J'irais"], ["I would go"]],
+        [["Tu irais"], ["You would go"]],
+        [["Il irait"], ["He would go"]],
+        [["Elle irait"], ["She would go"]],
+        [["On irait"], ["We would go"]],
+        [["Nous irions"], ["We would go"]],
+        [["Vous iriez"], ["You would go"]],
+        [["Ils iraient"], ["They would go"]],
+        [["Elles iraient"], ["They would go"]]
+      ],
+      "irregular verb",
+      false
+    ],
+    [
+      "faire",
+      [
+        [["J'ai fait"], ["I have done", "I have made"]],
+        [["Tu as fait"], ["You have done", "You have made"]],
+        [["Il a fait"], ["He has done", "He has made"]],
+        [["Elle a fait"], ["She has done", "She has made"]],
+        [["On a fait"], ["We have done", "We have made"]],
+        [["Nous avons fait"], ["We have done", "We have made"]],
+        [["Vous avez fait"], ["You have done", "You have made"]],
+        [["Ils ont fait"], ["They have done", "They have made"]],
+        [["Elles ont fait"], ["They have done", "They have made"]]
+      ],
+      [
+        [["Je faisais"], ["I was doing", "I was making"]],
+        [["Tu faisais"], ["You were doing", "You were making"]],
+        [["Il faisait"], ["He was doing", "He was making"]],
+        [["Elle faisait"], ["She was doing", "She was making"]],
+        [["On faisait"], ["We were doing", "We were making"]],
+        [["Nous faisions"], ["We were doing", "We were making"]],
+        [["Vous faisiez"], ["You were doing", "You were making"]],
+        [["Ils faisaient"], ["They were doing", "They were making"]],
+        [["Elles faisaient"], ["They were doing", "They were making"]]
+      ],
+      [
+        [["Je fais"], ["I do", "I make"]],
+        [["Tu fais"], ["You do", "You make"]],
+        [["Il fait"], ["He does", "He makes"]],
+        [["Elle fait"], ["She does", "She makes"]],
+        [["On fait"], ["We do", "We make"]],
+        [["Nous faisons"], ["We do", "We make"]],
+        [["Vous faites"], ["You do", "You make"]],
+        [["Ils font"], ["They do", "They make"]],
+        [["Elles font"], ["They do", "They make"]]
+      ],
+      [
+        [["Je vais faire"], ["I am going to do", "I am going to make"]],
+        [["Tu vas faire"], ["You are going to do", "You are going to make"]],
+        [["Il va faire"], ["He is going to do", "He is going to make"]],
+        [["Elle va faire"], ["She is going to do", "She is going to make"]],
+        [["On va faire"], ["We are going to do", "We are going to make"]],
+        [["Nous allons faire"], ["We are going to do", "We are going to make"]],
+        [
+          ["Vous allez faire"],
+          ["You are going to do", "You are going to make"]
+        ],
+        [
+          ["Ils vont faire"],
+          ["They are going to do", "They are going to make"]
+        ],
+        [
+          ["Elles vont faire"],
+          ["They are going to do", "They are going to make"]
+        ]
+      ],
+      [
+        [["Je ferai"], ["I will do", "I will make"]],
+        [["Tu feras"], ["You will do", "You will make"]],
+        [["Il fera"], ["He will do", "He will make"]],
+        [["Elle fera"], ["She will do", "She will make"]],
+        [["On fera"], ["We will do", "We will make"]],
+        [["Nous ferons"], ["We will do", "We will make"]],
+        [["Vous ferez"], ["You will do", "You will make"]],
+        [["Ils feront"], ["They will do", "They will make"]],
+        [["Elles feront"], ["They will do", "They will make"]]
+      ],
+      [
+        [["Je ferais"], ["I would do", "I would make"]],
+        [["Tu ferais"], ["You would do", "You would make"]],
+        [["Il ferait"], ["He would do", "He would make"]],
+        [["Elle ferait"], ["She would do", "She would make"]],
+        [["On ferait"], ["We would do", "We would make"]],
+        [["Nous ferions"], ["We would do", "We would make"]],
+        [["Vous feriez"], ["You would do", "You would make"]],
+        [["Ils feraient"], ["They would do", "They would make"]],
+        [["Elles feraient"], ["They would do", "They would make"]]
+      ],
+      "irregular verb",
+      false
+    ],
+    [
+      "boire",
+      [
+        [["J'ai bu"], ["I drank"]],
+        [["Tu as bu"], ["You drank"]],
+        [["Il a bu"], ["He drank"]],
+        [["Elle a bu"], ["She drank"]],
+        [["On a bu"], ["We drank"]],
+        [["Nous avons bu"], ["We drank"]],
+        [["Vous avez bu"], ["You drank"]],
+        [["Ils ont bu"], ["They drank"]],
+        [["Elles ont bu"], ["They drank"]]
+      ],
+      [
+        [["Je buvais"], ["I used to drink"]],
+        [["Tu buvais"], ["You used to drink"]],
+        [["Il buvait"], ["He used to drink"]],
+        [["Elle buvait"], ["She used to drink"]],
+        [["On buvait"], ["We used to drink"]],
+        [["Nous buvions"], ["We used to drink"]],
+        [["Vous buviez"], ["You used to drink"]],
+        [["Ils buvaient"], ["They used to drink"]],
+        [["Elles buvaient"], ["They used to drink"]]
+      ],
+      [
+        [["Je bois"], ["I drink"]],
+        [["Tu bois"], ["You drink"]],
+        [["Il boit"], ["He drinks"]],
+        [["Elle boit"], ["She drinks"]],
+        [["On boit"], ["We drink"]],
+        [["Nous buvons"], ["We drink"]],
+        [["Vous buvez"], ["You drink"]],
+        [["Ils boivent"], ["They drink"]],
+        [["Elles boivent"], ["They drink"]]
+      ],
+      [
+        [["Je vais boire"], ["I am going to drink"]],
+        [["Tu vas boire"], ["You are going to drink"]],
+        [["Il va boire"], ["He is going to drink"]],
+        [["Elle va boire"], ["She is going to drink"]],
+        [["On va boire"], ["We are going to drink"]],
+        [["Nous allons boire"], ["We are going to drink"]],
+        [["Vous allez boire"], ["You are going to drink"]],
+        [["Ils vont boire"], ["They are going to drink"]],
+        [["Elles vont boire"], ["They are going to drink"]]
+      ],
+      [
+        [["Je boirai"], ["I will drink"]],
+        [["Tu boiras"], ["You will drink"]],
+        [["Il boira"], ["He will drink"]],
+        [["Elle boira"], ["She will drink"]],
+        [["On boira"], ["We will drink"]],
+        [["Nous boirons"], ["We will drink"]],
+        [["Vous boirez"], ["You will drink"]],
+        [["Ils boiront"], ["They will drink"]],
+        [["Elles boiront"], ["They will drink"]]
+      ],
+      [
+        [["Je boirais"], ["I would drink"]],
+        [["Tu boirais"], ["You would drink"]],
+        [["Il boirait"], ["He would drink"]],
+        [["Elle boirait"], ["She would drink"]],
+        [["On boirait"], ["We would drink"]],
+        [["Nous boirions"], ["We would drink"]],
+        [["Vous boiriez"], ["You would drink"]],
+        [["Ils boiraient"], ["They would drink"]],
+        [["Elles boiraient"], ["They would drink"]]
+      ],
+      "irregular verb",
+      false
+    ],
+    [
+      "dire",
+      [
+        [["J'ai dit"], ["I said", "I told"]],
+        [["Tu as dit"], ["You said", "You told"]],
+        [["Il a dit"], ["He said", "He told"]],
+        [["Elle a dit"], ["She said", "She told"]],
+        [["On a dit"], ["We said", "We told"]],
+        [["Nous avons dit"], ["We said", "We told"]],
+        [["Vous avez dit"], ["You said", "You told"]],
+        [["Ils ont dit"], ["They said", "They told"]],
+        [["Elles ont dit"], ["They said", "They told"]]
+      ],
+      [
+        [["Je disais"], ["I used to say", "I used to tell"]],
+        [["Tu disais"], ["You used to say", "You used to tell"]],
+        [["Il disait"], ["He used to say", "He used to tell"]],
+        [["Elle disait"], ["She used to say", "She used to tell"]],
+        [["On disait"], ["We used to say", "We used to tell"]],
+        [["Nous disions"], ["We used to say", "We used to tell"]],
+        [["Vous disiez"], ["You used to say", "You used to tell"]],
+        [["Ils disaient"], ["They used to say", "They used to tell"]],
+        [["Elles disaient"], ["They used to say", "They used to tell"]]
+      ],
+      [
+        [["Je dis"], ["I say", "I tell"]],
+        [["Tu dis"], ["You say", "You tell"]],
+        [["Il dit"], ["He says", "He tells"]],
+        [["Elle dit"], ["She says", "She tells"]],
+        [["On dit"], ["We say", "We tell"]],
+        [["Nous disons"], ["We say", "We tell"]],
+        [["Vous dites"], ["You say", "You tell"]],
+        [["Ils disent"], ["They say", "They tell"]],
+        [["Elles disent"], ["They say", "They tell"]]
+      ],
+      [
+        [["Je vais dire"], ["I am going to say", "I am going to tell"]],
+        [["Tu vas dire"], ["You are going to say", "You are going to tell"]],
+        [["Il va dire"], ["He is going to say", "He is going to tell"]],
+        [["Elle va dire"], ["She is going to say", "She is going to tell"]],
+        [["On va dire"], ["We are going to say", "We are going to tell"]],
+        [["Nous allons dire"], ["We are going to say", "We are going to tell"]],
+        [
+          ["Vous allez dire"],
+          ["You are going to say", "You are going to tell"]
+        ],
+        [
+          ["Ils vont dire"],
+          ["They are going to say", "They are going to tell"]
+        ],
+        [
+          ["Elles vont dire"],
+          ["They are going to say", "They are going to tell"]
+        ]
+      ],
+      [
+        [["Je dirai"], ["I will say", "I will tell"]],
+        [["Tu diras"], ["You will say", "You will tell"]],
+        [["Il dira"], ["He will say", "He will tell"]],
+        [["Elle dira"], ["She will say", "She will tell"]],
+        [["On dira"], ["We will say", "We will tell"]],
+        [["Nous dirons"], ["We will say", "We will tell"]],
+        [["Vous direz"], ["You will say", "You will tell"]],
+        [["Ils diront"], ["They will say", "They will tell"]],
+        [["Elles diront"], ["They will say", "They will tell"]]
+      ],
+      [
+        [["Je dirais"], ["I would say", "I would tell"]],
+        [["Tu dirais"], ["You would say", "You would tell"]],
+        [["Il dirait"], ["He would say", "He would tell"]],
+        [["Elle dirait"], ["She would say", "She would tell"]],
+        [["On dirait"], ["We would say", "We would tell"]],
+        [["Nous dirions"], ["We would say", "We would tell"]],
+        [["Vous diriez"], ["You would say", "You would tell"]],
+        [["Ils diraient"], ["They would say", "They would tell"]],
+        [["Elles diraient"], ["They would say", "They would tell"]]
+      ],
+      "irregular verb",
+      false
+    ],
+    [
+      "partir",
+      [
+        [["Je suis parti"], ["I left"]],
+        [["Tu es parti"], ["You left"]],
+        [["Il est parti"], ["He left"]],
+        [["Elle est partie"], ["She left"]],
+        [["On est parti"], ["We left"]],
+        [["Nous sommes partis"], ["We left"]],
+        [["Vous êtes parti"], ["You left"]],
+        [["Ils sont partis"], ["They left"]],
+        [["Elles sont parties"], ["They left"]]
+      ],
+      [
+        [["Je partais"], ["I used to leave"]],
+        [["Tu partais"], ["You used to leave"]],
+        [["Il partait"], ["He used to leave"]],
+        [["Elle partait"], ["She used to leave"]],
+        [["On partait"], ["We used to leave"]],
+        [["Nous partions"], ["We used to leave"]],
+        [["Vous partiez"], ["You used to leave"]],
+        [["Ils partaient"], ["They used to leave"]],
+        [["Elles partaient"], ["They used to leave"]]
+      ],
+      [
+        [["Je pars"], ["I leave"]],
+        [["Tu pars"], ["You leave"]],
+        [["Il part"], ["He leaves"]],
+        [["Elle part"], ["She leaves"]],
+        [["On part"], ["We leave"]],
+        [["Nous partons"], ["We leave"]],
+        [["Vous partez"], ["You leave"]],
+        [["Ils partent"], ["They leave"]],
+        [["Elles partent"], ["They leave"]]
+      ],
+      [
+        [["Je vais partir"], ["I am going to leave"]],
+        [["Tu vas partir"], ["You are going to leave"]],
+        [["Il va partir"], ["He is going to leave"]],
+        [["Elle va partir"], ["She is going to leave"]],
+        [["On va partir"], ["We are going to leave"]],
+        [["Nous allons partir"], ["We are going to leave"]],
+        [["Vous allez partir"], ["You are going to leave"]],
+        [["Ils vont partir"], ["They are going to leave"]],
+        [["Elles vont partir"], ["They are going to leave"]]
+      ],
+      [
+        [["Je partirai"], ["I will leave"]],
+        [["Tu partiras"], ["You will leave"]],
+        [["Il partira"], ["He will leave"]],
+        [["Elle partira"], ["She will leave"]],
+        [["On partira"], ["We will leave"]],
+        [["Nous partirons"], ["We will leave"]],
+        [["Vous partirez"], ["You will leave"]],
+        [["Ils partiront"], ["They will leave"]],
+        [["Elles partiront"], ["They will leave"]]
+      ],
+      [
+        [["Je partirais"], ["I would leave"]],
+        [["Tu partirais"], ["You would leave"]],
+        [["Il partirait"], ["He would leave"]],
+        [["Elle partirait"], ["She would leave"]],
+        [["On partirait"], ["We would leave"]],
+        [["Nous partirions"], ["We would leave"]],
+        [["Vous partiriez"], ["You would leave"]],
+        [["Ils partiraient"], ["They would leave"]],
+        [["Elles partiraient"], ["They would leave"]]
+      ],
+      "irregular verb",
+      false
+    ],
+    [
+      "venir",
+      [
+        [["Je suis venu"], ["I came"]],
+        [["Tu es venu"], ["You came"]],
+        [["Il est venu"], ["He came"]],
+        [["Elle est venue"], ["She came"]],
+        [["On est venu"], ["We came"]],
+        [["Nous sommes venus"], ["We came"]],
+        [["Vous êtes venu"], ["You came"]],
+        [["Ils sont venus"], ["They came"]],
+        [["Elles sont venues"], ["They came"]]
+      ],
+      [
+        [["Je venais"], ["I used to come"]],
+        [["Tu venais"], ["You used to come"]],
+        [["Il venait"], ["He used to come"]],
+        [["Elle venait"], ["She used to come"]],
+        [["On venait"], ["We used to come"]],
+        [["Nous venions"], ["We used to come"]],
+        [["Vous veniez"], ["You used to come"]],
+        [["Ils venaient"], ["They used to come"]],
+        [["Elles venaient"], ["They used to come"]]
+      ],
+      [
+        [["Je viens"], ["I come"]],
+        [["Tu viens"], ["You come"]],
+        [["Il vient"], ["He comes"]],
+        [["Elle vient"], ["She comes"]],
+        [["On vient"], ["We come"]],
+        [["Nous venons"], ["We come"]],
+        [["Vous venez"], ["You come"]],
+        [["Ils viennent"], ["They come"]],
+        [["Elles viennent"], ["They come"]]
+      ],
+      [
+        [["Je vais venir"], ["I am going to come"]],
+        [["Tu vas venir"], ["You are going to come"]],
+        [["Il va venir"], ["He is going to come"]],
+        [["Elle va venir"], ["She is going to come"]],
+        [["On va venir"], ["We are going to come"]],
+        [["Nous allons venir"], ["We are going to come"]],
+        [["Vous allez venir"], ["You are going to come"]],
+        [["Ils vont venir"], ["They are going to come"]],
+        [["Elles vont venir"], ["They are going to come"]]
+      ],
+      [
+        [["Je viendrai"], ["I will come"]],
+        [["Tu viendras"], ["You will come"]],
+        [["Il viendra"], ["He will come"]],
+        [["Elle viendra"], ["She will come"]],
+        [["On viendra"], ["We will come"]],
+        [["Nous viendrons"], ["We will come"]],
+        [["Vous viendrez"], ["You will come"]],
+        [["Ils viendront"], ["They will come"]],
+        [["Elles viendront"], ["They will come"]]
+      ],
+      [
+        [["Je viendrais"], ["I would come"]],
+        [["Tu viendrais"], ["You would come"]],
+        [["Il viendrait"], ["He would come"]],
+        [["Elle viendrait"], ["She would come"]],
+        [["On viendrait"], ["We would come"]],
+        [["Nous viendrions"], ["We would come"]],
+        [["Vous viendriez"], ["You would come"]],
+        [["Ils viendraient"], ["They would come"]],
+        [["Elles viendraient"], ["They would come"]]
+      ],
+      "irregular verb",
+      false
+    ],
+    [
+      "voir",
+      [
+        [["J'ai vu"], ["I have seen"]],
+        [["Tu as vu"], ["You have seen"]],
+        [["Il a vu", "Elle a vu", "On a vu"], ["He/She/We have seen"]],
+        [["Nous avons vu"], ["We have seen"]],
+        [["Vous avez vu"], ["You have seen"]],
+        [["Ils ont vu", "Elles ont vu"], ["They have seen"]]
+      ],
+      [
+        [["Je voyais"], ["I used to see"]],
+        [["Tu voyais"], ["You used to see"]],
+        [["Il voyait", "Elle voyait", "On voyait"], ["He/She/We used to see"]],
+        [["Nous voyions"], ["We used to see"]],
+        [["Vous voyiez"], ["You used to see"]],
+        [["Ils voyaient", "Elles voyaient"], ["They used to see"]]
+      ],
+      [
+        [["Je vois"], ["I see"]],
+        [["Tu vois"], ["You see"]],
+        [["Il voit", "Elle voit", "On voit"], ["He/She/We see"]],
+        [["Nous voyons"], ["We see"]],
+        [["Vous voyez"], ["You see"]],
+        [["Ils voient", "Elles voient"], ["They see"]]
+      ],
+      [
+        [["Je vais voir"], ["I am going to see"]],
+        [["Tu vas voir"], ["You are going to see"]],
+        [
+          ["Il va voir", "Elle va voir", "On va voir"],
+          ["He/She/We are going to see"]
+        ],
+        [["Nous allons voir"], ["We are going to see"]],
+        [["Vous allez voir"], ["You are going to see"]],
+        [["Ils vont voir", "Elles vont voir"], ["They are going to see"]]
+      ],
+      [
+        [["Je verrai"], ["I will see"]],
+        [["Tu verras"], ["You will see"]],
+        [["Il verra", "Elle verra", "On verra"], ["He/She/We will see"]],
+        [["Nous verrons"], ["We will see"]],
+        [["Vous verrez"], ["You will see"]],
+        [["Ils verront", "Elles verront"], ["They will see"]]
+      ],
+      [
+        [["Je verrais"], ["I would see"]],
+        [["Tu verrais"], ["You would see"]],
+        [["Il verrait", "Elle verrait", "On verrait"], ["He/She/We would see"]],
+        [["Nous verrions"], ["We would see"]],
+        [["Vous verriez"], ["You would see"]],
+        [["Ils verraient", "Elles verraient"], ["They would see"]]
+      ],
+      "irregular",
+      false
+    ]
+  ],
+  "tenses": [
+    [
+      "Past Perfect",
+      ["J'ai/Je suis", "Il/Elle/on a/ ", "ha ", "hemos ", "habéis ", "han "],
+      [
+        "ado",
+        "ado",
+        "ado",
+        "ado",
+        "ado",
+        "ado",
+        "ido",
+        "ido",
+        "ido",
+        "ido",
+        "ido",
+        "ido",
+        "ido",
+        "ido",
+        "ido",
+        "ido",
+        "ido",
+        "ido"
+      ],
+      "Used to talk about what you HAVE DONE.\nTake the correct form of the verb 'haber' (see column).\nThen look at the infinitive:\nIf it ends in -ar, delete it and add -ado.\nIf it ends in -er or -ir, delete that ending and add -ido.",
+      [
+        "hablar (to talk) → he hablado = I have talked",
+        "correr (to run) → hemos corrido = we have run",
+        "compartir (to share) → habéis compartido = you all have shared"
+      ],
+      "Some irregulars include:\n'hacer' (he hecho), 'escribir' (he escrito) and 'ver' (he visto)",
+      true
+    ],
+    [
+      "Imperfect",
+      ["", "", "", "", "", ""],
+      [
+        "aba",
+        "abas",
+        "aba",
+        "ábamos",
+        "abais",
+        "aban",
+        "ía",
+        "ías",
+        "ía",
+        "íamos",
+        "íais",
+        "ían",
+        "ía",
+        "ías",
+        "ía",
+        "íamos",
+        "íais",
+        "ían"
+      ],
+      "Used to talk about what you USED TO DO or WERE DOING.\nTake the infinitive, delete its ending (-ar, -er, -ir) and add these endings:",
+      [
+        "cantar (to sing) → cantaba = I used to sing",
+        "beber (to drink) → bebías = you used to drink",
+        "vivir (to live) → vivían = they used to live"
+      ],
+      "The imperfect has only 3 irregular verbs:\n'ir' (iba), 'ser' (era) and 'ver' (veía).",
+      true
+    ],
+    [
+      "Present",
+      ["", "", "", "", "", ""],
+      [
+        "o",
+        "as",
+        "a",
+        "amos",
+        "áis",
+        "an",
+        "o",
+        "es",
+        "e",
+        "emos",
+        "éis",
+        "en",
+        "o",
+        "es",
+        "e",
+        "imos",
+        "ís",
+        "en"
+      ],
+      "Used to talk about what you NORMALLY DO.\nTake the infinitive, delete its ending (-ar, -er, -ir) and add these endings:",
+      [
+        "hablar (to talk) → hablo = I talk",
+        "aprender (to learn) → aprendemos = we learn",
+        "vivir (to live) → vivís = you all live"
+      ],
+      "Some irregulars include:\n'ser' (soy), 'ir' (voy), 'querer' (quiero), 'hacer' (hago), 'estar' (estoy), 'tener' (tengo), 'poder' (puedo) or 'jugar' (juego).",
+      true
+    ],
+    [
+      "Immediate Future",
+      ["voy a ", "vas a ", "va a ", "vamos a ", "vais a ", "van a "],
+      [
+        "ar",
+        "ar",
+        "ar",
+        "ar",
+        "ar",
+        "ar",
+        "er",
+        "er",
+        "er",
+        "er",
+        "er",
+        "er",
+        "ir",
+        "ir",
+        "ir",
+        "ir",
+        "ir",
+        "ir"
+      ],
+      "Used to talk about what you ARE GOING TO DO.\nTake the correct form of the verb 'ir' (see column) + the word 'a' + the infinitive",
+      [
+        "cantar (to sing) → voy a cantar = I'm going to sing",
+        "aprender (to learn) → vas a aprender = you are going to learn",
+        "vivir (to live) → vamos a vivir = we are going to live"
+      ],
+      "There are no irregular verbs in this tense!",
+      true
+    ],
+    [
+      "Simple Future",
+      ["", "", "", "", "", ""],
+      [
+        "aré",
+        "arás",
+        "ará",
+        "aremos",
+        "aréis",
+        "arán",
+        "eré",
+        "erás",
+        "erá",
+        "eremos",
+        "eréis",
+        "erán",
+        "iré",
+        "irás",
+        "irá",
+        "iremos",
+        "iréis",
+        "irán"
+      ],
+      "Used to talk about what you WILL DO.\nTake the infinitive, DO NOT DELETE ITS ENDING (-ar, -er, -ir) and add these endings:",
+      [
+        "hablar (to talk) → hablaré = I will talk",
+        "correr (to run) → correrás = you will run",
+        "decidir (to decide) → decidirán = they will decide"
+      ],
+      "A few verbs change the root but keep the same endings.\nSome examples are 'querer' (querré), 'hacer' (haré), 'tener' (tendré) or 'poder' (podré)",
+      true
+    ],
+    [
+      "Conditional",
+      ["", "", "", "", "", ""],
+      [
+        "aría",
+        "arías",
+        "aría",
+        "aríamos",
+        "aríais",
+        "arían",
+        "ería",
+        "erías",
+        "ería",
+        "eríamos",
+        "eríais",
+        "erían",
+        "iría",
+        "irías",
+        "iría",
+        "iríamos",
+        "iríais",
+        "irían"
+      ],
+      "Used to talk about what you WOULD DO.\nTake the infinitive, DO NOT DELETE ITS ENDING (-ar, -er, -ir) and add these endings:",
+      [
+        "cantar (to sing) → cantaría = I would sing",
+        "beber (to drink) → bebería = he/she would drink",
+        "compartir (to share) → compartirían = they would share"
+      ],
+      "A few verbs change the root but keep the same endings.\nSome examples are 'querer' (querría), 'hacer' (haría), 'tener' (tendría) or 'poder' (podría)",
+      true
+    ]
+  ],
+  "persons": [
+    ["Je → I", true],
+    ["tu → you", true],
+    ["il → he", true],
+    ["elle → she", true],
+    ["on → we", true],
+    ["nous → we", true],
+    ["vous → you all", true],
+    ["ils → they", true],
+    ["elles → they", true]
+  ]
+}

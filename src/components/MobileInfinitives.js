@@ -1,5 +1,5 @@
 import React from 'react';
-import data from '../data2.json';
+import data from '../spanish-data.json';
 
 export default function MobileInfinitives({ showMobileInfinitives, 
                                             setShowMobileInfinitives, 

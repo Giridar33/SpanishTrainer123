@@ -1,5 +1,5 @@
 import React from 'react';
-import data from '../data2.json';
+import data from '../spanish-data.json';
 
 const Infinitives = ({ toggle_ar, 
                         toggle_er, toggle_ir, 
