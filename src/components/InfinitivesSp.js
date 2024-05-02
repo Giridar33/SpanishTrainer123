@@ -12,7 +12,6 @@ const Infinitives = ({ toggle_ar,
                         infinitiveToAnswer }) => {
     const { infinitives } = data;
     let irreg_infinitives = infinitives.filter(irreg_infinitive => irreg_infinitive[9] === "irregular")
-    console.log(infinitiveToAnswer);
 
     return (
         <div className="infinitive-list">

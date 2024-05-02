@@ -169,7 +169,7 @@ function App() {
     // update jsonData with modified values
     setJsonData({ ... jsonData, infinitives: updatedInfinitives})
     //We check whether all infinitives have been set to false by the user
-    const allInfFalse = updatedInfinitives.every(infinitive => !infinitive[10]);
+    const allInfFalse = updatedInfinitives.every(infinitive => !infinitive[8]);
     setAllInfinitivesFalse(allInfFalse);
     resetState(); // we reset the game
     setLabelsOn(false);
@@ -188,7 +188,7 @@ function App() {
     // update jsonData with modified values
     setJsonData({ ... jsonData, infinitives: updatedInfinitives})
     //We check whether all infinitives have been set to false by the user
-    const allInfFalse = updatedInfinitives.every(infinitive => !infinitive[10]);
+    const allInfFalse = updatedInfinitives.every(infinitive => !infinitive[8]);
     setAllInfinitivesFalse(allInfFalse);
     resetState(); // we reset the game
     setLabelsOn(false);
@@ -207,22 +207,37 @@ function App() {
     // update jsonData with modified values
     setJsonData({ ... jsonData, infinitives: updatedInfinitives})
     //We check whether all infinitives have been set to false by the user
-    const allInfFalse = updatedInfinitives.every(infinitive => !infinitive[10]);
+    const allInfFalse = updatedInfinitives.every(infinitive => !infinitive[8]);
     setAllInfinitivesFalse(allInfFalse);
     resetState(); // we reset the game
     setLabelsOn(false);
     setInputOn(false);
   }
 
-  const toggle_reflexive = () => {
+    const toggle_modal = () => {
     const updatedInfinitives = jsonData.infinitives.map(infinitive => {
-      if (infinitive[9] === "reflexive") {
-        infinitive[10] = !infinitive[10];
+      if (infinitive[7] === "modal verb") {
+        infinitive[8] = !infinitive[8];
       }
       return infinitive
     })
     setJsonData({ ... jsonData, infinitives: updatedInfinitives})
-    const allInfFalse = updatedInfinitives.every(infinitive => !infinitive[10]);
+    const allInfFalse = updatedInfinitives.every(infinitive => !infinitive[8]);
+    setAllInfinitivesFalse(allInfFalse);
+    resetState(); //
+    setLabelsOn(false);
+    setInputOn(false);
+  }
+
+  const toggle_reflexive = () => {
+    const updatedInfinitives = jsonData.infinitives.map(infinitive => {
+      if (infinitive[7] === "reflexive verb") {
+        infinitive[8] = !infinitive[8];
+      }
+      return infinitive
+    })
+    setJsonData({ ... jsonData, infinitives: updatedInfinitives})
+    const allInfFalse = updatedInfinitives.every(infinitive => !infinitive[8]);
     setAllInfinitivesFalse(allInfFalse);
     resetState(); //
     setLabelsOn(false);
@@ -231,12 +246,12 @@ function App() {
 
   const toggle_all_irregulars = () => {
     const updatedInfinitives = jsonData.infinitives.map(infinitive => {
-      if (infinitive[9] === "irregular"){
-        if (infinitives[27][10] === false) {
-          infinitive[10] = true;
+      if (infinitive[7] === "irregular verb"){
+        if (infinitives[33][8] === false) {
+          infinitive[8] = true;
           setAllIrregularsFalse(true);
-        } else if (infinitives[27][10] === true){
-          infinitive[10] = false;
+        } else if (infinitives[33][8] === true){
+          infinitive[8] = false;
           setAllIrregularsFalse(false);
         }  
       }
@@ -244,7 +259,7 @@ function App() {
     })
     
     setJsonData({ ... jsonData, infinitives: updatedInfinitives})
-    const allInfFalse = updatedInfinitives.every(infinitive => !infinitive[10]);
+    const allInfFalse = updatedInfinitives.every(infinitive => !infinitive[8]);
     setAllInfinitivesFalse(allInfFalse);
     resetState();
     setLabelsOn(false);
@@ -253,13 +268,13 @@ function App() {
 
   const toggle_individual_irregulars = (index) => {
     const updatedInfinitives = [...jsonData.infinitives];
-    updatedInfinitives[index+20][10] = !updatedInfinitives[index+20][10];
+    updatedInfinitives[index+24][8] = !updatedInfinitives[index+24][8];
     setJsonData({ ... jsonData, infinitives: updatedInfinitives})
     //here we check whether we have set all verbs to false
-    const allInfFalse = updatedInfinitives.every(infinitive => !infinitive[10]);
+    const allInfFalse = updatedInfinitives.every(infinitive => !infinitive[8]);
     setAllInfinitivesFalse(allInfFalse);
     //here we check whether we have set all irregulars to false
-    const allIrregularsFalse = updatedInfinitives.filter(infinitive => infinitive[9] === "irregular").every(infinitive => !infinitive[10])
+    const allIrregularsFalse = updatedInfinitives.filter(infinitive => infinitive[7] === "irregular").every(infinitive => !infinitive[8])
     setAllIrregularsFalse(!allIrregularsFalse)
 
     resetState();
@@ -515,6 +530,7 @@ function App() {
             toggle_er={toggle_er} 
             toggle_ir={toggle_ir}
             toggle_re={toggle_re} 
+            toggle_modal={toggle_modal}
             toggle_reflexive={toggle_reflexive}
             toggle_all_irregulars={toggle_all_irregulars} 
             toggle_individual_irregulars={toggle_individual_irregulars} 

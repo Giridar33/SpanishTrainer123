@@ -1213,7 +1213,7 @@
         [["Elles devraient finir"], ["They should finish"]]
       ],
       "modal verb",
-      true
+      false
     ],
     [
       "vouloir",
@@ -1284,7 +1284,7 @@
         [["Elles voudraient finir"], ["They would like to finish"]]
       ],
       "modal verb",
-      true
+      false
     ],
     [
       "se disputer",

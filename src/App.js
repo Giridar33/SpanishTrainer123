@@ -5,7 +5,7 @@ import './App.css';
 
 function App() {
 
-    const [language, setLanguage] = useState(null);
+    const [language, setLanguage] = useState("French");
 
   return (
     <div className="App">

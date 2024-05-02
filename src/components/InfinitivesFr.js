@@ -4,6 +4,7 @@ import data from '../french-data.json';
 const Infinitives = ({  toggle_er, 
                         toggle_ir, 
                         toggle_re, 
+                        toggle_modal,
                         toggle_reflexive, 
                         toggle_all_irregulars, 
                         toggle_individual_irregulars, 
@@ -12,7 +13,7 @@ const Infinitives = ({  toggle_er,
                         toggleAllVerbOptions,
                         infinitiveToAnswer }) => {
     const { infinitives } = data;
-    let irreg_infinitives = infinitives.filter(irreg_infinitive => irreg_infinitive[7] === "irregular")
+    let irreg_infinitives = infinitives.filter(irreg_infinitive => irreg_infinitive[7] === "irregular verb")
 
     return (
         <div className="infinitive-list">
@@ -33,7 +34,7 @@ const Infinitives = ({  toggle_er,
                 </p>
 
                 <p className={`info-column ${infinitives[15][8] ? 'active-option' : 'inactive-option'}`}
-                    onClick={() => toggle_reflexive()}>
+                    onClick={() => toggle_modal()}>
                     Modal verbs
                 </p>
 
@@ -50,7 +51,7 @@ const Infinitives = ({  toggle_er,
                     <div className='irregular-verbs-list'>
                         {irreg_infinitives.map((irreg_infinitive, index) => (
                             <p 
-                                className={`info-column ${irreg_infinitive[10] ? 'active-option' : 'inactive-option'}`} 
+                                className={`info-column ${irreg_infinitive[8] ? 'active-option' : 'inactive-option'}`} 
                                 key={index}
                                 onClick={() => toggle_individual_irregulars(index)}>
                                 {irreg_infinitive[0]}
