@@ -2351,7 +2351,7 @@
         [["Vous verriez"], ["You would see"]],
         [["Ils verraient", "Elles verraient"], ["They would see"]]
       ],
-      "irregular",
+      "irregular verb",
       false
     ]
   ],
@@ -2391,31 +2391,12 @@
     [
       "Imperfect",
       ["", "", "", "", "", ""],
+      ["ais", "ais", "ait", "ions", "iez", "aient"],
+      "Used to talk about what you USED TO DO or WERE DOING.\n1. Take 'nous' part of the present tense (e.g. nous faisons)\n2. Remove the -ons → e.g. nous fais\n3. Add these endings:",
       [
-        "aba",
-        "abas",
-        "aba",
-        "ábamos",
-        "abais",
-        "aban",
-        "ía",
-        "ías",
-        "ía",
-        "íamos",
-        "íais",
-        "ían",
-        "ía",
-        "ías",
-        "ía",
-        "íamos",
-        "íais",
-        "ían"
-      ],
-      "Used to talk about what you USED TO DO or WERE DOING.\nTake the infinitive, delete its ending (-ar, -er, -ir) and add these endings:",
-      [
-        "cantar (to sing) → cantaba = I used to sing",
-        "beber (to drink) → bebías = you used to drink",
-        "vivir (to live) → vivían = they used to live"
+        "habiter (to live) → J'habitais en France = I used to live in France",
+        "manger (to eat) → tu mangeais = you used to eat",
+        "écouter (to listen) → il écoutait = he was listening"
       ],
       "The imperfect has only 3 irregular verbs:\n'ir' (iba), 'ser' (era) and 'ver' (veía).",
       true
@@ -2424,30 +2405,30 @@
       "Present",
       ["", "", "", "", "", ""],
       [
-        "o",
-        "as",
-        "a",
-        "amos",
-        "áis",
-        "an",
-        "o",
+        "e",
         "es",
         "e",
-        "emos",
-        "éis",
-        "en",
-        "o",
-        "es",
-        "e",
-        "imos",
-        "ís",
-        "en"
+        "ons",
+        "ez",
+        "ent",
+        "is",
+        "is",
+        "it",
+        "issons",
+        "issez",
+        "issent",
+        "s",
+        "s",
+        "",
+        "ons",
+        "ez",
+        "ent"
       ],
-      "Used to talk about what you NORMALLY DO.\nTake the infinitive, delete its ending (-ar, -er, -ir) and add these endings:",
+      "Used to talk about what you NORMALLY DO.\nTake the infinitive, delete its ending (-er, -ir, -re) and add these endings:",
       [
-        "hablar (to talk) → hablo = I talk",
-        "aprender (to learn) → aprendemos = we learn",
-        "vivir (to live) → vivís = you all live"
+        "parlet (to talk) → je parle = I talk",
+        "finir (to finish) → finissons = we finish",
+        "vendre (to sell) → elles vendent = they (fem) sell"
       ],
       "Some irregulars include:\n'ser' (soy), 'ir' (voy), 'querer' (quiero), 'hacer' (hago), 'estar' (estoy), 'tener' (tengo), 'poder' (puedo) or 'jugar' (juego).",
       true

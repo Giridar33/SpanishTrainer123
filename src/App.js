@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import Spanish from './Spanish';
-import French from './French';
+import Spanish from './SpanishApp';
+import French from './FrenchApp';
 import './App.css';
 
 function App() {

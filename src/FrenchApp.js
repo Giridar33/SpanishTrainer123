@@ -7,16 +7,16 @@ import './components/Mobile.css'
 import Infinitives from './components/InfinitivesFr';
 import Tenses from './components/Tenses';
 import PersonsFr from './components/PersonsFr';
-import Modal from './components/Modal';
+import Modal from './components/ModalFr';
 import Tutorial from './components/Tutorial';
 import SetSeconds from './components/SetSeconds';
-import MobileInfinitives from './components/MobileInfinitives';
+import MobileInfinitives from './components/MobileInfinitivesFr';
 import MobileTenses from './components/MobileTenses';
 import MobilePersonsFr from './components/MobilePersonsFr';
 
 //Data file containing all verbs' info
 import data from './french-data.json';
-import ModalContent from './components/ModalContent';
+import ModalContent from './components/ModalContentSp';
 
 //Sound files
 import wrongSoundFile from './sound/wrong.mp3';
@@ -25,7 +25,7 @@ import ReflexiveModal from './components/ReflexiveModal';
 
 
 
-function App() {
+function FrenchApp() {
 
   // We create a ref for the input element (in order to have the input targeted when we click on Play)
   const inputRef = useRef(null);
@@ -247,10 +247,10 @@ function App() {
   const toggle_all_irregulars = () => {
     const updatedInfinitives = jsonData.infinitives.map(infinitive => {
       if (infinitive[7] === "irregular verb"){
-        if (infinitives[33][8] === false) {
+        if (infinitives[30][8] === false) {
           infinitive[8] = true;
           setAllIrregularsFalse(true);
-        } else if (infinitives[33][8] === true){
+        } else if (infinitives[30][8] === true){
           infinitive[8] = false;
           setAllIrregularsFalse(false);
         }  
@@ -566,6 +566,7 @@ function App() {
             toggle_er={toggle_er} 
             toggle_ir={toggle_ir}
             toggle_re={toggle_re} 
+            toggle_modal={toggle_modal}
             toggle_reflexive={toggle_reflexive}
             toggle_all_irregulars={toggle_all_irregulars} 
             toggle_individual_irregulars={toggle_individual_irregulars} 
@@ -573,7 +574,7 @@ function App() {
             resetState={resetState}
             setLabelsOn={setLabelsOn}
             setInputOn={setInputOn}
-            infinitiveToAnswer={infinitiveToAnswer}
+            infinitiveToAnswer={infinitiveToAnswer}z
             />
           <MobileTenses 
             showMobileTenses={showMobileTenses}
@@ -662,4 +663,4 @@ function App() {
   );
 }
 
-export default App;
+export default FrenchApp;

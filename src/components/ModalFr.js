@@ -1,6 +1,6 @@
 import React from 'react';
 import './Modal.css'
-import ModalContent from './ModalContent';
+import ModalContent from './ModalContentSp';
 
 const Modal = ({ tense, handleModal, teacherMode, isReflexive }) => {
 
@@ -23,7 +23,7 @@ const Modal = ({ tense, handleModal, teacherMode, isReflexive }) => {
                 <>
                     <p className='bold'>Reflexive verbs</p>
                     <p>Remember you need to add the reflexive particle before the verb!</p>
-                    <p>These endings are 'me', 'te', 'se', 'nos', 'os', 'se'</p>
+                    <p>These endings are 'me', 'te', 'se', 'nous', 'vous', 'se'</p>
                 </>}
             </div>
         </div>

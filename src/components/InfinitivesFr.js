@@ -14,6 +14,7 @@ const Infinitives = ({  toggle_er,
                         infinitiveToAnswer }) => {
     const { infinitives } = data;
     let irreg_infinitives = infinitives.filter(irreg_infinitive => irreg_infinitive[7] === "irregular verb")
+    console.log(infinitives[29]);
 
     return (
         <div className="infinitive-list">
@@ -33,10 +34,10 @@ const Infinitives = ({  toggle_er,
                     Regular -re verbs
                 </p>
 
-                <p className={`info-column ${infinitives[15][8] ? 'active-option' : 'inactive-option'}`}
+                {/* <p className={`info-column ${infinitives[15][8] ? 'active-option' : 'inactive-option'}`}
                     onClick={() => toggle_modal()}>
                     Modal verbs
-                </p>
+                </p> */}
 
                 <p className={`info-column ${infinitives[18][8] ? 'active-option' : 'inactive-option'}`}
                     onClick={() => toggle_reflexive()}>

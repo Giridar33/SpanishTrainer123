@@ -7,16 +7,16 @@ import './components/Mobile.css'
 import Infinitives from './components/InfinitivesSp';
 import Tenses from './components/Tenses';
 import Persons from './components/PersonsSp';
-import Modal from './components/Modal';
+import Modal from './components/ModalSp';
 import Tutorial from './components/Tutorial';
 import SetSeconds from './components/SetSeconds';
-import MobileInfinitives from './components/MobileInfinitives';
+import MobileInfinitives from './components/MobileInfinitivesSp';
 import MobileTenses from './components/MobileTenses';
 import MobilePersons from './components/MobilePersonsSp';
 
 //Data file containing all verbs' info
 import data from './spanish-data.json'
-import ModalContent from './components/ModalContent';
+import ModalContent from './components/ModalContentSp';
 
 //Sound files
 import wrongSoundFile from './sound/wrong.mp3';
@@ -25,7 +25,7 @@ import ReflexiveModal from './components/ReflexiveModal';
 
 
 
-function App() {
+function SpanishApp() {
 
   // We create a ref for the input element (in order to have the input targeted when we click on Play)
   const inputRef = useRef(null);
@@ -627,4 +627,4 @@ function App() {
   );
 }
 
-export default App;
+export default SpanishApp;
