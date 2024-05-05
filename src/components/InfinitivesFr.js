@@ -11,14 +11,24 @@ const Infinitives = ({  toggle_er,
                         allIrregularsFalse,
                         showMobileInfinitives, 
                         toggleAllVerbOptions,
-                        infinitiveToAnswer }) => {
+                        infinitiveToAnswer,
+                        finalWord }) => {
     const { infinitives } = data;
     let irreg_infinitives = infinitives.filter(irreg_infinitive => irreg_infinitive[7] === "irregular verb")
-    console.log(infinitives[29]);
 
     return (
         <div className="infinitive-list">
-            <h2 onClick={toggleAllVerbOptions}>{infinitiveToAnswer ? infinitiveToAnswer[0] : "Select Verb"}</h2>
+            {infinitiveToAnswer[7] === "modal verb" && 
+                <h2 onClick={toggleAllVerbOptions}>
+                {infinitiveToAnswer ? infinitiveToAnswer[0] + " + " + finalWord[0].substring(finalWord[0].lastIndexOf(" ") + 1) : "Select Verb"}
+                </h2>
+            }
+            {infinitiveToAnswer[7] != "modal verb" &&
+                <h2 onClick={toggleAllVerbOptions}>
+                {infinitiveToAnswer ? infinitiveToAnswer[0] : "Select Verb"}
+            </h2>
+            }
+
             {showMobileInfinitives &&
             <div className='info-1'>
                 <p className={`info-column ${infinitives[0][8] ? 'active-option' : 'inactive-option'}`}
@@ -34,10 +44,10 @@ const Infinitives = ({  toggle_er,
                     Regular -re verbs
                 </p>
 
-                {/* <p className={`info-column ${infinitives[15][8] ? 'active-option' : 'inactive-option'}`}
+                <p className={`info-column ${infinitives[15][8] ? 'active-option' : 'inactive-option'}`}
                     onClick={() => toggle_modal()}>
                     Modal verbs
-                </p> */}
+                </p>
 
                 <p className={`info-column ${infinitives[18][8] ? 'active-option' : 'inactive-option'}`}
                     onClick={() => toggle_reflexive()}>

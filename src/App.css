@@ -21,6 +21,11 @@
   border: none;
 }
 
+.french-flag {
+  display: flex;
+
+}
+
 .spanish-flag .one, .spanish-flag .three{
   height: 33%;
   background-color: #FF0000;
@@ -32,17 +37,17 @@
 }
 
 .french-flag .one {
-  height: 33%;
+  width: 33%;
   background-color: #0055A4;
 }
 
 .french-flag .two {
-  height: 33%;
+  width: 33%;
   background-color: #ffffff;
 }
 
 .french-flag .three {
-  height: 33%;
+  width: 33%;
   background-color: #ED2939;
 }
 

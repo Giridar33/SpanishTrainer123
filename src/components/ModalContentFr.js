@@ -1,11 +1,31 @@
 import React from 'react'
 
-const ModalContent = ({ tense, teacherMode }) => {
+const ModalContentFr = ({ tense, teacherMode }) => {
 
 let modalContent = null;
-
     switch (tense[0]) {
         case "Imperfect":
+            modalContent = (
+                <div className='two-column-grid'>
+                    <div className='column-table'>
+                        <>
+                            <p className='bold'>Je</p>
+                            <p className='bold'>tu</p>
+                            <p className='bold'>il/elle/on</p>
+                            <p className='bold'>nous</p>
+                            <p className='bold'>vous</p>
+                            <p className='bold'>ils/elles</p>
+                        </>
+                    </div>
+                    <div className='column-table'>
+                        {tense[2].map((ending, index) => {
+                            return <p key={index}>-{ending}</p>
+                        })}
+                    </div>
+                </div>
+            );
+            break;
+
         case "Present":
             modalContent = (
                 <div className='four-column-grid'>
@@ -54,12 +74,12 @@ let modalContent = null;
                 <div className='two-column-grid'>
                     <div className='column-table'>
                         <>
-                            <p className='bold'>Je</p>
-                            <p className='bold'>tu</p>
-                            <p className='bold'>il/elle/on</p>
-                            <p className='bold'>nous</p>
-                            <p className='bold'>vous</p>
-                            <p className='bold'>ils/elles</p>
+                            <p className='bold'>I</p>
+                            <p className='bold'>you</p>
+                            <p className='bold'>he/she/we</p>
+                            <p className='bold'>we</p>
+                            <p className='bold'>you all</p>
+                            <p className='bold'>they</p>
                         </>
                     </div>
                     <div className='column-table'>
@@ -68,29 +88,10 @@ let modalContent = null;
                         })}
                     </div>
                     <div className='column-table center'>
-                        <p>➕</p>
-                    </div>
-                    <div className='column-table center'>
-                        <p>-ado / -ido</p>
-                    </div>
-                </div>
-            );
-            break;
-        case "Present Continuous":
-            modalContent = (
-                <div className='two-column-grid'>
-                    <div className='column-table'>
-                        <>
-                            <p className='bold'>Je</p>
-                            <p className='bold'>tu</p>
-                            <p className='bold'>il/elle/on</p>
-                            <p className='bold'>nous</p>
-                            <p className='bold'>vous</p>
-                            <p className='bold'>ils/elles</p>
-                        </>
+                        <p>OR</p>
                     </div>
                     <div className='column-table'>
-                        {tense[1].map((ending, index) => {
+                        {tense[2].map((ending, index) => {
                             return <p key={index}>{ending}</p>
                         })}
                     </div>
@@ -98,34 +99,29 @@ let modalContent = null;
                         <p>➕</p>
                     </div>
                     <div className='column-table center'>
-                        <p>-ando / -iendo</p>
+                        <p>-é / -i / -u</p>
                     </div>
                 </div>
             );
             break;
+       
         case "Immediate Future":
             modalContent = (
                 <div className='two-column-grid'>
                     <div className='column-table'>
                         <>
-                            <p className='bold'>Je</p>
-                            <p className='bold'>tu</p>
-                            <p className='bold'>il/elle/on</p>
-                            <p className='bold'>nous</p>
-                            <p className='bold'>vous</p>
-                            <p className='bold'>ils/elles</p>
+                            <p className='bold'>I</p>
+                            <p className='bold'>you</p>
+                            <p className='bold'>he/she/we</p>
+                            <p className='bold'>we</p>
+                            <p className='bold'>you all</p>
+                            <p className='bold'>they</p>
                         </>
                     </div>
                     <div className='column-table'>
                         {tense[1].map((ending, index) => {
-                            return <p key={index}>{ending.slice(0, -2)}</p>
+                            return <p key={index}>{ending}</p>
                         })}
-                    </div>
-                    <div className='column-table center'>
-                        <p>➕</p>
-                    </div>
-                    <div className='column-table center'>
-                        <p>a</p>
                     </div>
                     <div className='column-table center'>
                         <p>➕</p>
@@ -156,11 +152,11 @@ let modalContent = null;
                     <div className='column-table'>
                         <>
                             <p className='bold'>I</p>
-                            <p className='bold'>You</p>
-                            <p className='bold'>He/She</p>
-                            <p className='bold'>We</p>
-                            <p className='bold'>You all</p>
-                            <p className='bold'>They</p>
+                            <p className='bold'>you</p>
+                            <p className='bold'>he/she/we</p>
+                            <p className='bold'>we</p>
+                            <p className='bold'>you all</p>
+                            <p className='bold'>they</p>
                         </>
                     </div>
                 </div>
@@ -203,4 +199,4 @@ let modalContent = null;
   return modalContent
 }
 
-export default ModalContent;
+export default ModalContentFr;

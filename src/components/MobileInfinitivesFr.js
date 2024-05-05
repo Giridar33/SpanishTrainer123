@@ -16,7 +16,8 @@ export default function MobileInfinitives({ showMobileInfinitives,
                                             resetState,
                                             setLabelsOn,
                                             setInputOn,
-                                            infinitiveToAnswer }) {
+                                            infinitiveToAnswer,
+                                            finalWord }) {
 
     const { infinitives } = data;
     let irreg_infinitives = infinitives.filter(irreg_infinitive => irreg_infinitive[7] === "irregular verb")                                          
@@ -32,7 +33,19 @@ export default function MobileInfinitives({ showMobileInfinitives,
 
   return (
     <div className="mobile-infinitives">
-      <h2 onClick={toggleMobileInfinitives}>{infinitiveToAnswer ? infinitiveToAnswer[0] : "Select Verb"}</h2>
+      
+        {/* If we are working with modal verbs we show the modal verb plus the extra infinitive */}
+        {infinitiveToAnswer[7] === "modal verb" && 
+            <h2 onClick={toggleMobileInfinitives}>
+            {infinitiveToAnswer ? infinitiveToAnswer[0] + " + " + finalWord[0].substring(finalWord[0].lastIndexOf(" ") + 1) : "Select Verb"}
+            </h2>
+        }
+        {infinitiveToAnswer[7] != "modal verb" &&
+            <h2 onClick={toggleMobileInfinitives}>
+            {infinitiveToAnswer ? infinitiveToAnswer[0] : "Select Verb"}
+        </h2>
+        }
+      
       {showMobileInfinitives && 
       <div className='info-1'>
 

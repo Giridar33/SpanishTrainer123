@@ -1,72 +1,72 @@
 {
   "infinitives": [
     [
-      "manger",
+      "recycler",
       [
-        [["J'ai mangé"], ["I ate"]],
-        [["Tu as mangé"], ["You ate"]],
-        [["Il a mangé"], ["He ate"]],
-        [["Elle a mangé"], ["She ate"]],
-        [["On a mangé"], ["We ate"]],
-        [["Nous avons mangé"], ["We ate"]],
-        [["Vous avez mangé"], ["You ate"]],
-        [["Ils ont mangé"], ["They ate"]],
-        [["Elles ont mangé"], ["They ate"]]
+        [["J'ai recyclé"], ["I recycled"]],
+        [["Tu as recyclé"], ["You recycled"]],
+        [["Il a recyclé"], ["He recycled"]],
+        [["Elle a recyclé"], ["She recycled"]],
+        [["On a recyclé"], ["We recycled"]],
+        [["Nous avons recyclé"], ["We recycled"]],
+        [["Vous avez recyclé"], ["You recycled"]],
+        [["Ils ont recyclé"], ["They recycled"]],
+        [["Elles ont recyclé"], ["They recycled"]]
       ],
       [
-        [["Je mangeais"], ["I used to eat"]],
-        [["Tu mangeais"], ["You used to eat"]],
-        [["Il mangeait"], ["He used to eat"]],
-        [["Elle mangeait"], ["She used to eat"]],
-        [["On mangeait"], ["We used to eat"]],
-        [["Nous mangions"], ["We used to eat"]],
-        [["Vous mangiez"], ["You used to eat"]],
-        [["Ils mangeaient"], ["They used to eat"]],
-        [["Elles mangeaient"], ["They used to eat"]]
+        [["Je recyclais"], ["I used to recycle"]],
+        [["Tu recyclais"], ["You used to recycle"]],
+        [["Il recyclait"], ["He used to recycle"]],
+        [["Elle recyclait"], ["She used to recycle"]],
+        [["On recyclait"], ["We used to recycle"]],
+        [["Nous recyclions"], ["We used to recycle"]],
+        [["Vous recycliez"], ["You used to recycle"]],
+        [["Ils recyclaient"], ["They used to recycle"]],
+        [["Elles recyclaient"], ["They used to recycle"]]
       ],
       [
-        [["Je mange"], ["I eat"]],
-        [["Tu manges"], ["You eat"]],
-        [["Il mange"], ["He eats"]],
-        [["Elle mange"], ["She eats"]],
-        [["On mange"], ["We eat"]],
-        [["Nous mangeons"], ["We eat"]],
-        [["Vous mangez"], ["You eat"]],
-        [["Ils mangent"], ["They eat"]],
-        [["Elles mangent"], ["They eat"]]
+        [["Je recycle"], ["I recycle"]],
+        [["Tu recycles"], ["You recycle"]],
+        [["Il recycle"], ["He recycles"]],
+        [["Elle recycle"], ["She recycles"]],
+        [["On recycle"], ["We recycle"]],
+        [["Nous recyclons"], ["We recycle"]],
+        [["Vous recyclez"], ["You recycle"]],
+        [["Ils recyclent"], ["They recycle"]],
+        [["Elles recyclent"], ["They recycle"]]
       ],
       [
-        [["Je vais manger"], ["I am going to eat"]],
-        [["Tu vas manger"], ["You are going to eat"]],
-        [["Il va manger"], ["He is going to eat"]],
-        [["Elle va manger"], ["She is going to eat"]],
-        [["On va manger"], ["We are going to eat"]],
-        [["Nous allons manger"], ["We are going to eat"]],
-        [["Vous allez manger"], ["You are going to eat"]],
-        [["Ils vont manger"], ["They are going to eat"]],
-        [["Elles vont manger"], ["They are going to eat"]]
+        [["Je vais recycler"], ["I am going to recycle"]],
+        [["Tu vas recycler"], ["You are going to recycle"]],
+        [["Il va recycler"], ["He is going to recycle"]],
+        [["Elle va recycler"], ["She is going to recycle"]],
+        [["On va recycler"], ["We are going to recycle"]],
+        [["Nous allons recycler"], ["We are going to recycle"]],
+        [["Vous allez recycler"], ["You are going to recycle"]],
+        [["Ils vont recycler"], ["They are going to recycle"]],
+        [["Elles vont recycler"], ["They are going to recycle"]]
       ],
       [
-        [["Je mangerai"], ["I will eat"]],
-        [["Tu mangeras"], ["You will eat"]],
-        [["Il mangera"], ["He will eat"]],
-        [["Elle mangera"], ["She will eat"]],
-        [["On mangera"], ["We will eat"]],
-        [["Nous mangerons"], ["We will eat"]],
-        [["Vous mangerez"], ["You will eat"]],
-        [["Ils mangeront"], ["They will eat"]],
-        [["Elles mangeront"], ["They will eat"]]
+        [["Je recyclerai"], ["I will recycle"]],
+        [["Tu recycleras"], ["You will recycle"]],
+        [["Il recyclera"], ["He will recycle"]],
+        [["Elle recyclera"], ["She will recycle"]],
+        [["On recyclera"], ["We will recycle"]],
+        [["Nous recyclerons"], ["We will recycle"]],
+        [["Vous recyclerez"], ["You will recycle"]],
+        [["Ils recycleront"], ["They will recycle"]],
+        [["Elles recycleront"], ["They will recycle"]]
       ],
       [
-        [["Je mangerais"], ["I would eat"]],
-        [["Tu mangerais"], ["You would eat"]],
-        [["Il mangerait"], ["He would eat"]],
-        [["Elle mangerait"], ["She would eat"]],
-        [["On mangerait"], ["We would eat"]],
-        [["Nous mangerions"], ["We would eat"]],
-        [["Vous mangeriez"], ["You would eat"]],
-        [["Ils mangeraient"], ["They would eat"]],
-        [["Elles mangeraient"], ["They would eat"]]
+        [["Je recyclerais"], ["I would recycle"]],
+        [["Tu recyclerais"], ["You would recycle"]],
+        [["Il recyclerait"], ["He would recycle"]],
+        [["Elle recyclerait"], ["She would recycle"]],
+        [["On recyclerait"], ["We would recycle"]],
+        [["Nous recyclerions"], ["We would recycle"]],
+        [["Vous recycleriez"], ["You would recycle"]],
+        [["Ils recycleraient"], ["They would recycle"]],
+        [["Elles recycleraient"], ["They would recycle"]]
       ],
       "-er verb",
       true
@@ -2358,34 +2358,29 @@
   "tenses": [
     [
       "Past Perfect",
-      ["J'ai/Je suis", "Il/Elle/on a/ ", "ha ", "hemos ", "habéis ", "han "],
       [
-        "ado",
-        "ado",
-        "ado",
-        "ado",
-        "ado",
-        "ado",
-        "ido",
-        "ido",
-        "ido",
-        "ido",
-        "ido",
-        "ido",
-        "ido",
-        "ido",
-        "ido",
-        "ido",
-        "ido",
-        "ido"
+        "J'ai",
+        "tu as",
+        "il/ell/on a",
+        "nous avons",
+        "vous avez",
+        "ils/elles ont"
       ],
-      "Used to talk about what you HAVE DONE.\nTake the correct form of the verb 'haber' (see column).\nThen look at the infinitive:\nIf it ends in -ar, delete it and add -ado.\nIf it ends in -er or -ir, delete that ending and add -ido.",
       [
-        "hablar (to talk) → he hablado = I have talked",
-        "correr (to run) → hemos corrido = we have run",
-        "compartir (to share) → habéis compartido = you all have shared"
+        "Je suis",
+        "tu es",
+        "il/ell/on est",
+        "nous sommes",
+        "vous êtes",
+        "ils/elles sont"
       ],
-      "Some irregulars include:\n'hacer' (he hecho), 'escribir' (he escrito) and 'ver' (he visto)",
+      "Used to talk about what you HAVE DONE.\n1. Take the correct form of the verb 'avoir' (notice some verbs use 'être' instead!)\n2. Take the infinitive and delete its ending (-er, -ir, -re)\n3. Add the correct ending: -é for -er verbs, -i for -ir verbs and -u for -re verbs",
+      [
+        "manger (to eat) → J'ai mangé = I have eaten",
+        "finir (to finish) → elle a fini = she has finished",
+        "aller (to go) → Je suis allé = I have gone"
+      ],
+      "Some irregulars include:\n'être' (J'ai été → I have been)\n'avoir' (J'ai eu → I have had)\n'faire' (J'ai fait → I have done)",
       true
     ],
     [
@@ -2398,7 +2393,7 @@
         "manger (to eat) → tu mangeais = you used to eat",
         "écouter (to listen) → il écoutait = he was listening"
       ],
-      "The imperfect has only 3 irregular verbs:\n'ir' (iba), 'ser' (era) and 'ver' (veía).",
+      "Some irregular verbs in the impefect include:\n'être' (to be), 'avoir' (to have),  'faire' (to do/to make) and aller (to go)",
       true
     ],
     [
@@ -2426,41 +2421,29 @@
       ],
       "Used to talk about what you NORMALLY DO.\nTake the infinitive, delete its ending (-er, -ir, -re) and add these endings:",
       [
-        "parlet (to talk) → je parle = I talk",
-        "finir (to finish) → finissons = we finish",
+        "parler (to talk) → Je parle = I talk",
+        "finir (to finish) → nous finissons = we finish",
         "vendre (to sell) → elles vendent = they (fem) sell"
       ],
-      "Some irregulars include:\n'ser' (soy), 'ir' (voy), 'querer' (quiero), 'hacer' (hago), 'estar' (estoy), 'tener' (tengo), 'poder' (puedo) or 'jugar' (juego).",
+      "Some irregular verbs in the impefect include:\n'être' (to be), 'avoir' (to have),  'faire' (to do/to make) and aller (to go)",
       true
     ],
     [
       "Immediate Future",
-      ["voy a ", "vas a ", "va a ", "vamos a ", "vais a ", "van a "],
       [
-        "ar",
-        "ar",
-        "ar",
-        "ar",
-        "ar",
-        "ar",
-        "er",
-        "er",
-        "er",
-        "er",
-        "er",
-        "er",
-        "ir",
-        "ir",
-        "ir",
-        "ir",
-        "ir",
-        "ir"
+        "Je vais",
+        "tu vas",
+        "il/elle/on va",
+        "nous allons",
+        "vous allez",
+        "ils/elles vont"
       ],
-      "Used to talk about what you ARE GOING TO DO.\nTake the correct form of the verb 'ir' (see column) + the word 'a' + the infinitive",
+      ["nothing here!"],
+      "Used to talk about what you ARE GOING TO DO.\nTake the correct form of the verb 'aller' (see column) + the infinitive",
       [
-        "cantar (to sing) → voy a cantar = I'm going to sing",
-        "aprender (to learn) → vas a aprender = you are going to learn",
-        "vivir (to live) → vamos a vivir = we are going to live"
+        "regarder (to watch) → Je vais regarder = I'm going to watch",
+        "parler (to talk) → il va parler = he is going to talk",
+        "visiter (to visit) → nous allons visiter = we are going to visit"
       ],
       "There are no irregular verbs in this tense!",
       true
@@ -2468,65 +2451,27 @@
     [
       "Simple Future",
       ["", "", "", "", "", ""],
+      ["ai", "as", "a", "ons", "ez", "ont"],
+      "Used to talk about what you WILL DO.\nTake the infinitive, DO NOT DELETE ITS ENDING, and add the correct ending from the table.\nFor '-re' verbs delete the final -e, and add the correct ending from the table",
       [
-        "aré",
-        "arás",
-        "ará",
-        "aremos",
-        "aréis",
-        "arán",
-        "eré",
-        "erás",
-        "erá",
-        "eremos",
-        "eréis",
-        "erán",
-        "iré",
-        "irás",
-        "irá",
-        "iremos",
-        "iréis",
-        "irán"
+        "parler (to talk) → Je parlerai = I will talk",
+        "partir (to leave) → tu partiras = you will leave",
+        "prendre (to take) → Je prendrai = I will take"
       ],
-      "Used to talk about what you WILL DO.\nTake the infinitive, DO NOT DELETE ITS ENDING (-ar, -er, -ir) and add these endings:",
-      [
-        "hablar (to talk) → hablaré = I will talk",
-        "correr (to run) → correrás = you will run",
-        "decidir (to decide) → decidirán = they will decide"
-      ],
-      "A few verbs change the root but keep the same endings.\nSome examples are 'querer' (querré), 'hacer' (haré), 'tener' (tendré) or 'poder' (podré)",
+      "A few verbs change the root but keep the same endings.\nSome examples are 'aller' (J'irai), 'avoir' (J'aurai), 'être' (Je serai) or 'faire' (Je ferai)",
       true
     ],
     [
       "Conditional",
       ["", "", "", "", "", ""],
+      ["ais", "ais", "ait", "ions", "iez", "aient"],
+      "Used to talk about what you WOULD DO.\nTake the infinitive, DO NOT DELETE ITS ENDING, and add the correct ending from the table.\nFor '-re' verbs delete the final -e, and add the correct ending from the table",
       [
-        "aría",
-        "arías",
-        "aría",
-        "aríamos",
-        "aríais",
-        "arían",
-        "ería",
-        "erías",
-        "ería",
-        "eríamos",
-        "eríais",
-        "erían",
-        "iría",
-        "irías",
-        "iría",
-        "iríamos",
-        "iríais",
-        "irían"
+        "donner (to give) → Je donnerais = I would give",
+        "visiter (to visit) → il visiterait = he would visit",
+        "prendre (to take) → Je prendrais = I would take"
       ],
-      "Used to talk about what you WOULD DO.\nTake the infinitive, DO NOT DELETE ITS ENDING (-ar, -er, -ir) and add these endings:",
-      [
-        "cantar (to sing) → cantaría = I would sing",
-        "beber (to drink) → bebería = he/she would drink",
-        "compartir (to share) → compartirían = they would share"
-      ],
-      "A few verbs change the root but keep the same endings.\nSome examples are 'querer' (querría), 'hacer' (haría), 'tener' (tendría) or 'poder' (podría)",
+      "A few verbs change the root but keep the same endings.\nSome examples are 'aller' (J'irais), 'avoir' (J'aurais), 'être' (Je serais) or 'faire' (Je ferais)",
       true
     ]
   ],

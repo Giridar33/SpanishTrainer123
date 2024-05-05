@@ -16,7 +16,7 @@ import MobilePersonsFr from './components/MobilePersonsFr';
 
 //Data file containing all verbs' info
 import data from './french-data.json';
-import ModalContent from './components/ModalContentSp';
+import ModalContentFr from './components/ModalContentFr';
 
 //Sound files
 import wrongSoundFile from './sound/wrong.mp3';
@@ -247,10 +247,10 @@ function FrenchApp() {
   const toggle_all_irregulars = () => {
     const updatedInfinitives = jsonData.infinitives.map(infinitive => {
       if (infinitive[7] === "irregular verb"){
-        if (infinitives[30][8] === false) {
+        if (infinitives[32][8] === false) {
           infinitive[8] = true;
           setAllIrregularsFalse(true);
-        } else if (infinitives[30][8] === true){
+        } else if (infinitives[32][8] === true){
           infinitive[8] = false;
           setAllIrregularsFalse(false);
         }  
@@ -269,12 +269,13 @@ function FrenchApp() {
   const toggle_individual_irregulars = (index) => {
     const updatedInfinitives = [...jsonData.infinitives];
     updatedInfinitives[index+24][8] = !updatedInfinitives[index+24][8];
+    console.log(updatedInfinitives[index+24]);
     setJsonData({ ... jsonData, infinitives: updatedInfinitives})
     //here we check whether we have set all verbs to false
     const allInfFalse = updatedInfinitives.every(infinitive => !infinitive[8]);
     setAllInfinitivesFalse(allInfFalse);
     //here we check whether we have set all irregulars to false
-    const allIrregularsFalse = updatedInfinitives.filter(infinitive => infinitive[7] === "irregular").every(infinitive => !infinitive[8])
+    const allIrregularsFalse = updatedInfinitives.filter(infinitive => infinitive[7] === "irregular verb").every(infinitive => !infinitive[8])
     setAllIrregularsFalse(!allIrregularsFalse)
 
     resetState();
@@ -393,10 +394,9 @@ function FrenchApp() {
           if (input !== "") {
             //tidy user input (set to lower case, delete accents, diacritics, etc)
             let newInput = input.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
-            let newFinalWord = finalWord[0][0].normalize("NFD").replace(/[\u0300-\u036f]/g, "")
-
-            //setInput('');
-            if (newInput === newFinalWord[0]) {
+            let newFinalWord = finalWord[0].normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase()
+            
+            if (newInput === newFinalWord) {
               playCorrectSound();
               setRightAnswer(true);
               setInput(finalWord[0]);
@@ -538,6 +538,7 @@ function FrenchApp() {
             infinitiveToAnswer={infinitiveToAnswer}
             showMobileInfinitives={showMobileInfinitives}
             toggleAllVerbOptions={toggleAllVerbOptions}
+            finalWord={finalWord}
             />
           <Tenses 
             tenses={tenses} 
@@ -574,7 +575,8 @@ function FrenchApp() {
             resetState={resetState}
             setLabelsOn={setLabelsOn}
             setInputOn={setInputOn}
-            infinitiveToAnswer={infinitiveToAnswer}z
+            infinitiveToAnswer={infinitiveToAnswer}
+            finalWord={finalWord}
             />
           <MobileTenses 
             showMobileTenses={showMobileTenses}
@@ -652,10 +654,10 @@ function FrenchApp() {
       {teacherMode && tenseToAnswer &&
         <div className='modal-2'>
           {isReflexive && <ReflexiveModal />}
-          <ModalContent
-          handleModal={handleModal}
-          tense={tenseToAnswer}
-          teacherMode={teacherMode}
+          <ModalContentFr
+            handleModal={handleModal}
+            tense={tenseToAnswer}
+            teacherMode={teacherMode}
           />
         </div>}
         

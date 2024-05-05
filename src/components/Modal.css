@@ -182,6 +182,14 @@ h4 {
     .column-table-reflexive p {
         margin: 3px 0px;
         padding: 3px 0px;
+        
+    }
+
+    .four-column-grid,
+    .two-column-grid,
+    .column-table-reflexive {
+        grid-auto-columns: 1rem 1rem; 
+
     }
 }
 

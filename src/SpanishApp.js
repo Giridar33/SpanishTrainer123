@@ -381,7 +381,6 @@ function SpanishApp() {
             let newInput = input.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
             let newFinalWord = finalWord.normalize("NFD").replace(/[\u0300-\u036f]/g, "")
 
-            //setInput('');
             if (newInput === newFinalWord) {
               playCorrectSound();
               setRightAnswer(true);

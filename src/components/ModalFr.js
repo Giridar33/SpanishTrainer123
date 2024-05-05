@@ -1,6 +1,6 @@
 import React from 'react';
 import './Modal.css'
-import ModalContent from './ModalContentSp';
+import ModalContent from './ModalContentFr';
 
 const Modal = ({ tense, handleModal, teacherMode, isReflexive }) => {
 
