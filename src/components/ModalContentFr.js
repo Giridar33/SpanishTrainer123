@@ -125,12 +125,12 @@ let modalContent = null;
                         <p>➕</p>
                     </div>
                     <div className='column-table'>
-                        <p>é</p>
-                        <p>ás</p>
-                        <p>á</p>
-                        <p>emos</p>
-                        <p>éis</p>
-                        <p>án</p>
+                        <p>ai</p>
+                        <p>ai</p>
+                        <p>a</p>
+                        <p>ons</p>
+                        <p>ez</p>
+                        <p>ont</p>
                     </div>
                     <div className='column-table'>
                         <>
@@ -155,12 +155,12 @@ let modalContent = null;
                         <p>➕</p>
                     </div>
                     <div className='column-table'>
-                        <p>ía</p>
-                        <p>ías</p>
-                        <p>ía</p>
-                        <p>íamos</p>
-                        <p>íais</p>
-                        <p>ían</p>
+                        <p>ais</p>
+                        <p>ais</p>
+                        <p>ait</p>
+                        <p>ions</p>
+                        <p>iez</p>
+                        <p>aient</p>
                     </div>
                     <div className='column-table'>
                         <>
