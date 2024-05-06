@@ -5,11 +5,12 @@ import './App.css';
 
 function App() {
 
-    const [language, setLanguage] = useState("French");
+    const [language, setLanguage] = useState("");
 
   return (
     <div className="App">
-        <div className='flag-container'>
+    {language === "" &&
+            <div className='flag-container'>
             <div className="spanish-flag" onClick={() => setLanguage("Spanish")}>
                 <div className='one'></div>
                 <div className='two'></div>
@@ -21,6 +22,8 @@ function App() {
                 <div className='three'></div>
             </div>
         </div>
+    }
+
 
         {language === "Spanish" && <Spanish />}
         {language === "French" && <French />}

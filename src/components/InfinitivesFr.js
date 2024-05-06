@@ -18,6 +18,7 @@ const Infinitives = ({  toggle_er,
 
     return (
         <div className="infinitive-list">
+            {/* If we are working with modal verbs we show the modal verb plus the extra infinitive */}
             {infinitiveToAnswer[7] === "modal verb" && 
                 <h2 onClick={toggleAllVerbOptions}>
                 {infinitiveToAnswer ? infinitiveToAnswer[0] + " + " + finalWord[0].substring(finalWord[0].lastIndexOf(" ") + 1) : "Select Verb"}

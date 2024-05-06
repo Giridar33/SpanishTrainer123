@@ -82,7 +82,7 @@ h4 {
 }
 
 .four-column-grid p, .two-column-grid p, .column-table-reflexive p {
-    margin: 5px;
+    margin: 0 auto;
     padding: 5px;
 }
 
@@ -132,8 +132,12 @@ h4 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 
+.column-table p, .two-column-grid p, .four-column-grid p {
+    white-space: nowrap;
+}
 
 
 .center {
@@ -154,7 +158,7 @@ h4 {
 
 
     .four-column-grid,
-    .two-column-grid {
+    .two-column-grid, .column-table-reflexive {
         padding: 5px;
         max-width: 400px;
         grid-column-gap: 0;
@@ -180,7 +184,7 @@ h4 {
     .four-column-grid p,
     .two-column-grid p,
     .column-table-reflexive p {
-        margin: 3px 0px;
+        margin: 3px 0.5rem;
         padding: 3px 0px;
         
     }
@@ -188,7 +192,7 @@ h4 {
     .four-column-grid,
     .two-column-grid,
     .column-table-reflexive {
-        grid-auto-columns: 1rem 1rem; 
+        width: fit-content;
 
     }
 }
@@ -196,7 +200,7 @@ h4 {
 @media (max-width: 370px) {
 
     .four-column-grid,
-    .two-column-grid {
+    .two-column-grid, .column-table-reflexive {
         padding: 2px;
     }
 
@@ -205,7 +209,7 @@ h4 {
 @media (max-width: 290px) {
 
     .four-column-grid,
-    .two-column-grid {
+    .two-column-grid, .column-table-reflexive {
         font-size: x-small;
         max-width: 270px;
         line-height: 0.5rem;
@@ -215,12 +219,12 @@ h4 {
 @media screen and (min-aspect-ratio: 4/3) and (max-aspect-ratio: 4/3) {
     /* CSS rules specific to 4:3 aspect ratio, commonly used in projectors in schools */
     .four-column-grid,
-    .two-column-grid {
+    .two-column-grid, .column-table-reflexive {
         padding: 0 10px;
 
     }
 
-    .four-column-grid{
+    .four-column-grid, .column-table-reflexive{
         line-height: 0.4rem;
 
     }

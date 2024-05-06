@@ -72,7 +72,8 @@ let modalContent = null;
                         <p>➕</p>
                     </div>
                     <div className='column-table center'>
-                        <p>-ado / -ido</p>
+                        <p>-ado</p>
+                        <p>-ido</p>
                     </div>
                 </div>
             );
@@ -99,7 +100,8 @@ let modalContent = null;
                         <p>➕</p>
                     </div>
                     <div className='column-table center'>
-                        <p>-ando / -iendo</p>
+                        <p>-ando</p>
+                        <p>-iendo</p>
                     </div>
                 </div>
             );
@@ -107,16 +109,6 @@ let modalContent = null;
         case "Immediate Future":
             modalContent = (
                 <div className='two-column-grid'>
-                    <div className='column-table'>
-                        <>
-                            <p className='bold'>I</p>
-                            <p className='bold'>You</p>
-                            <p className='bold'>He/She</p>
-                            <p className='bold'>We</p>
-                            <p className='bold'>You all</p>
-                            <p className='bold'>They</p>
-                        </>
-                    </div>
                     <div className='column-table'>
                         {tense[1].map((ending, index) => {
                             return <p key={index}>{ending.slice(0, -2)}</p>

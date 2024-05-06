@@ -2,7 +2,8 @@ import React from 'react';
 import data from '../spanish-data.json';
 
 const Infinitives = ({ toggle_ar, 
-                        toggle_er, toggle_ir, 
+                        toggle_er, 
+                        toggle_ir, 
                         toggle_reflexive, 
                         toggle_all_irregulars, 
                         toggle_individual_irregulars, 

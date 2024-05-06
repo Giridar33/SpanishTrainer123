@@ -21,7 +21,7 @@ import ModalContent from './components/ModalContentSp';
 //Sound files
 import wrongSoundFile from './sound/wrong.mp3';
 import correctSoundFile from './sound/correct.mp3';
-import ReflexiveModal from './components/ReflexiveModal';
+import ReflexiveModal from './components/ReflexiveModalSp';
 
 
 
@@ -459,7 +459,7 @@ function SpanishApp() {
       } else if (personToAnswer[0] === "tú → you"){
         return "you";
       } else if (personToAnswer[0] === "él/ella → he/she"){
-        return "he/she";
+        return "he / she";
       } else if (personToAnswer[0] === "nosotros → we"){
         return "we";
       } else if (personToAnswer[0] === "vosotros → you all"){
@@ -490,6 +490,13 @@ function SpanishApp() {
         {!teacherMode && <p className='tries'>{`Remaining tries: ${userTries}`}</p>}
 
         <div className="row1">
+          <Tenses 
+            tenses={tenses} 
+            toggleTense={toggleTense}
+            showMobileTenses={showMobileTenses}
+            toggleAllVerbOptions={toggleAllVerbOptions}
+            tenseToAnswer={tenseToAnswer}
+            />
           <Infinitives 
             infinitives={Infinitives} 
             toggle_ar={toggle_ar} 
@@ -503,13 +510,6 @@ function SpanishApp() {
             showMobileInfinitives={showMobileInfinitives}
             toggleAllVerbOptions={toggleAllVerbOptions}
             />
-          <Tenses 
-            tenses={tenses} 
-            toggleTense={toggleTense}
-            showMobileTenses={showMobileTenses}
-            toggleAllVerbOptions={toggleAllVerbOptions}
-            tenseToAnswer={tenseToAnswer}
-            />
           <Persons 
             persons={persons} 
             togglePerson={togglePerson}
@@ -521,6 +521,18 @@ function SpanishApp() {
         </div>
 
         <div className="mobile-row">
+          <MobileTenses 
+            showMobileTenses={showMobileTenses}
+            setShowMobileTenses={setShowMobileTenses}
+            setShowMobileInfinitives={setShowMobileInfinitives}
+            setShowMobilePersons={setShowMobilePersons}
+            tenses={tenses} 
+            toggleTense={toggleTense}
+            resetState={resetState}
+            setLabelsOn={setLabelsOn}
+            setInputOn={setInputOn}
+            tenseToAnswer={tenseToAnswer}
+            />
           <MobileInfinitives 
             showMobileInfinitives={showMobileInfinitives} 
             setShowMobileInfinitives={setShowMobileInfinitives}
@@ -539,18 +551,6 @@ function SpanishApp() {
             setInputOn={setInputOn}
             infinitiveToAnswer={infinitiveToAnswer}
             />
-          <MobileTenses 
-            showMobileTenses={showMobileTenses}
-            setShowMobileTenses={setShowMobileTenses}
-            setShowMobileInfinitives={setShowMobileInfinitives}
-            setShowMobilePersons={setShowMobilePersons}
-            tenses={tenses} 
-            toggleTense={toggleTense}
-            resetState={resetState}
-            setLabelsOn={setLabelsOn}
-            setInputOn={setInputOn}
-            tenseToAnswer={tenseToAnswer}
-            />
           <MobilePersons 
             showMobilePersons={showMobilePersons}
             setShowMobilePersons={setShowMobilePersons}
@@ -567,17 +567,6 @@ function SpanishApp() {
         </div>
 
         <div className="row2">
-
-          <div className='button-group'>
-            {!teacherMode && labelsOn && <button className='main-button squiggle' onClick={handleCheck}>Check</button>}
-            {teacherMode && labelsOn && <button className='main-button squiggle' onClick={showAnswer}>Show Answer</button>}
-            {teacherMode && !labelsOn && <div className='main-button dummy-button squiggle'>Dummy</div>}
-
-            <button className='main-button' onClick={handlePlay}>Play</button>
-
-            {teacherMode && <SetSeconds secondsByUser={secondsByUser} setSecondsByUser={setSecondsByUser}/>}
-            {!teacherMode && labelsOn && <button className='main-button squiggle' onClick={handleModal}>Cheatsheet</button>}
-          </div>
 
           {inputOn && 
             <input
@@ -603,6 +592,18 @@ function SpanishApp() {
           }
 
       </div>
+
+          <div className='button-group'>
+            {!teacherMode && labelsOn && <button className='main-button squiggle' onClick={handleCheck}>Check</button>}
+            {teacherMode && labelsOn && <button className='main-button squiggle' onClick={showAnswer}>Show Answer</button>}
+            {teacherMode && !labelsOn && <div className='main-button dummy-button squiggle'>Dummy</div>}
+
+            <button className='main-button' onClick={handlePlay}>Play</button>
+
+            {teacherMode && <SetSeconds secondsByUser={secondsByUser} setSecondsByUser={setSecondsByUser}/>}
+            {!teacherMode && labelsOn && <button className='main-button squiggle' onClick={handleModal}>Cheatsheet</button>}
+          </div>
+
       {showModal &&
         <Modal
           handleModal={handleModal}

@@ -32,7 +32,7 @@ export default function MobilePersons({ showMobilePersons,
                             className={`info-column-mobile ${person[1] ? 'active-option' : 'inactive-option'}`}
                             key={index}
                             onClick={() => togglePerson(index)}>
-                            {person[0]}
+                            {shortenPerson(person)}
                         </p>)
                 })}
             </div>

@@ -72,16 +72,7 @@ let modalContent = null;
         case "Past Perfect":
             modalContent = (
                 <div className='two-column-grid'>
-                    <div className='column-table'>
-                        <>
-                            <p className='bold'>I</p>
-                            <p className='bold'>you</p>
-                            <p className='bold'>he/she/we</p>
-                            <p className='bold'>we</p>
-                            <p className='bold'>you all</p>
-                            <p className='bold'>they</p>
-                        </>
-                    </div>
+
                     <div className='column-table'>
                         {tense[1].map((ending, index) => {
                             return <p key={index}>{ending}</p>
@@ -99,7 +90,9 @@ let modalContent = null;
                         <p>➕</p>
                     </div>
                     <div className='column-table center'>
-                        <p>-é / -i / -u</p>
+                        <p>-é</p>
+                        <p>-i</p>
+                        <p>-u</p>
                     </div>
                 </div>
             );
@@ -108,16 +101,6 @@ let modalContent = null;
         case "Immediate Future":
             modalContent = (
                 <div className='two-column-grid'>
-                    <div className='column-table'>
-                        <>
-                            <p className='bold'>I</p>
-                            <p className='bold'>you</p>
-                            <p className='bold'>he/she/we</p>
-                            <p className='bold'>we</p>
-                            <p className='bold'>you all</p>
-                            <p className='bold'>they</p>
-                        </>
-                    </div>
                     <div className='column-table'>
                         {tense[1].map((ending, index) => {
                             return <p key={index}>{ending}</p>

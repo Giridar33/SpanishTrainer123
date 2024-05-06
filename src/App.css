@@ -1,18 +1,13 @@
-/* <uniquifier>: Use a unique and descriptive class name
-<weight>: Use a value from 200 to 1000 */
+.user-counter p:hover{
+  color: transparent
+}
 
-/* .nunito-<uniquifier> {
-  font-family: "Nunito", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-} */
 
 .spanish-flag, .french-flag {
   height: 50px;
   width: 75px;
   cursor: pointer;
-  border: 10px solid transparent;
+  border: 5px solid transparent;
 }
 .spanish-flag:hover,
 .french-flag:hover {
@@ -107,6 +102,7 @@ h1.title {
   flex-direction: row;
   justify-content: space-around;
   height: auto;
+  margin-bottom: 1rem;
 }
 
 .infinitive-list h2, .tense-list h2, .person-list h2 {
@@ -139,6 +135,8 @@ h1.title {
   padding: 0;
   border: 1px solid transparent;
 }
+
+
 
 h2 {
   font-size: 1.3rem;
@@ -271,12 +269,13 @@ h2 {
 /*----------------------------- Buttons ----------------------*/
 
 .button-group {
+  width: 800px;
   height: 4vw;
   min-height: 60px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin: 1rem auto;
+  margin: 0 auto 1rem auto;
 }
 
 
@@ -318,8 +317,8 @@ h2 {
 }
 
 .dummy-button {
-  background-color: #070F2B;
-  color: #070F2B;
+  background-color: #5A5966;
+  color: #5A5966;
   border: 2px solid transparent;
   box-sizing: border-box;
   display: inline-block;
@@ -374,7 +373,7 @@ h2 {
 
 @media (max-width: 900px) {
 
-  .framework {
+  .framework, .button-group {
     max-width: 95vw;
   }
 

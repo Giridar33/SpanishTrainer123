@@ -21,7 +21,7 @@ import ModalContentFr from './components/ModalContentFr';
 //Sound files
 import wrongSoundFile from './sound/wrong.mp3';
 import correctSoundFile from './sound/correct.mp3';
-import ReflexiveModal from './components/ReflexiveModal';
+import ReflexiveModal from './components/ReflexiveModalFr';
 
 
 
@@ -269,7 +269,6 @@ function FrenchApp() {
   const toggle_individual_irregulars = (index) => {
     const updatedInfinitives = [...jsonData.infinitives];
     updatedInfinitives[index+24][8] = !updatedInfinitives[index+24][8];
-    console.log(updatedInfinitives[index+24]);
     setJsonData({ ... jsonData, infinitives: updatedInfinitives})
     //here we check whether we have set all verbs to false
     const allInfFalse = updatedInfinitives.every(infinitive => !infinitive[8]);
@@ -333,7 +332,7 @@ function FrenchApp() {
         randomInfinitiveIndex = Math.floor(Math.random() * infinitives.length);
         varInfinitiveToAnswer = infinitives[randomInfinitiveIndex];
     }
-    if (varInfinitiveToAnswer[7] === "reflexive") {
+    if (varInfinitiveToAnswer[7] === "reflexive verb") {
       setIsReflexive(true);
     }
 
@@ -525,6 +524,13 @@ function FrenchApp() {
         {!teacherMode && <p className='tries'>{`Remaining tries: ${userTries}`}</p>}
 
         <div className="row1">
+          <Tenses 
+            tenses={tenses} 
+            toggleTense={toggleTense}
+            showMobileTenses={showMobileTenses}
+            toggleAllVerbOptions={toggleAllVerbOptions}
+            tenseToAnswer={tenseToAnswer}
+            />
           <Infinitives 
             infinitives={Infinitives} 
             toggle_er={toggle_er} 
@@ -540,13 +546,6 @@ function FrenchApp() {
             toggleAllVerbOptions={toggleAllVerbOptions}
             finalWord={finalWord}
             />
-          <Tenses 
-            tenses={tenses} 
-            toggleTense={toggleTense}
-            showMobileTenses={showMobileTenses}
-            toggleAllVerbOptions={toggleAllVerbOptions}
-            tenseToAnswer={tenseToAnswer}
-            />
           <PersonsFr 
             persons={persons} 
             togglePerson={togglePerson}
@@ -558,6 +557,18 @@ function FrenchApp() {
         </div>
 
         <div className="mobile-row">
+          <MobileTenses 
+            showMobileTenses={showMobileTenses}
+            setShowMobileTenses={setShowMobileTenses}
+            setShowMobileInfinitives={setShowMobileInfinitives}
+            setShowMobilePersons={setShowMobilePersons}
+            tenses={tenses} 
+            toggleTense={toggleTense}
+            resetState={resetState}
+            setLabelsOn={setLabelsOn}
+            setInputOn={setInputOn}
+            tenseToAnswer={tenseToAnswer}
+            />
           <MobileInfinitives 
             showMobileInfinitives={showMobileInfinitives} 
             setShowMobileInfinitives={setShowMobileInfinitives}
@@ -578,18 +589,6 @@ function FrenchApp() {
             infinitiveToAnswer={infinitiveToAnswer}
             finalWord={finalWord}
             />
-          <MobileTenses 
-            showMobileTenses={showMobileTenses}
-            setShowMobileTenses={setShowMobileTenses}
-            setShowMobileInfinitives={setShowMobileInfinitives}
-            setShowMobilePersons={setShowMobilePersons}
-            tenses={tenses} 
-            toggleTense={toggleTense}
-            resetState={resetState}
-            setLabelsOn={setLabelsOn}
-            setInputOn={setInputOn}
-            tenseToAnswer={tenseToAnswer}
-            />
           <MobilePersonsFr 
             showMobilePersons={showMobilePersons}
             setShowMobilePersons={setShowMobilePersons}
@@ -606,17 +605,6 @@ function FrenchApp() {
         </div>
 
         <div className="row2">
-
-          <div className='button-group'>
-            {!teacherMode && labelsOn && <button className='main-button squiggle' onClick={handleCheck}>Check</button>}
-            {teacherMode && labelsOn && <button className='main-button squiggle' onClick={showAnswer}>Show Answer</button>}
-            {teacherMode && !labelsOn && <div className='main-button dummy-button squiggle'>Dummy</div>}
-
-            <button className='main-button' onClick={handlePlay}>Play</button>
-
-            {teacherMode && <SetSeconds secondsByUser={secondsByUser} setSecondsByUser={setSecondsByUser}/>}
-            {!teacherMode && labelsOn && <button className='main-button squiggle' onClick={handleModal}>Cheatsheet</button>}
-          </div>
 
           {inputOn && 
             <input
@@ -642,6 +630,18 @@ function FrenchApp() {
           }
 
       </div>
+
+      <div className='button-group'>
+          {!teacherMode && labelsOn && <button className='main-button squiggle' onClick={handleCheck}>Check</button>}
+          {teacherMode && labelsOn && <button className='main-button squiggle' onClick={showAnswer}>Show Answer</button>}
+          {teacherMode && !labelsOn && <div className='main-button dummy-button squiggle'>Dummy</div>}
+
+          <button className='main-button' onClick={handlePlay}>Play</button>
+
+          {teacherMode && <SetSeconds secondsByUser={secondsByUser} setSecondsByUser={setSecondsByUser}/>}
+          {!teacherMode && labelsOn && <button className='main-button squiggle' onClick={handleModal}>Cheatsheet</button>}
+        </div>
+        
       {showModal &&
         <Modal
           handleModal={handleModal}
