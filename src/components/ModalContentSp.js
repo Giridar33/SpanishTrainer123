@@ -1,8 +1,10 @@
 import React from 'react'
 
-const ModalContent = ({ tense, teacherMode }) => {
+const ModalContent = ({ tense, teacherMode, infinitiveToAnswer }) => {
 
 let modalContent = null;
+
+
 
     switch (tense[0]) {
         case "Preterite":
@@ -191,6 +193,79 @@ let modalContent = null;
             break;
         default:
             modalContent = null;
+    }
+
+        switch (infinitiveToAnswer[0]) {
+        case "ir":
+        case "estar":
+        case "ser":
+        case "tener":
+        case "poder":
+        case "hacer":
+        case "querer":
+        case "jugar":
+
+            modalContent = (
+                <div className='nine-column-grid'>
+                    <div className='irregulars-row'>
+                        <div className='column-table'>
+                            <p className='bold'>Preterite</p>
+                            {infinitiveToAnswer[1].map((thing, index) => {
+                                return <p key={index}>{thing[0]}</p>
+                            })}
+                        </div>
+                        <div className='column-table'>
+                            <p className='bold'>Imperfect</p>
+                            {infinitiveToAnswer[2].map((thing, index) => {
+                                return <p key={index}>{thing[0]}</p>
+                            })}
+                        </div>
+                        <div className='column-table'>
+                            <p className='bold'>Past Perfect</p>
+                            {infinitiveToAnswer[3].map((thing, index) => {
+                                return <p key={index}>{thing[0]}</p>
+                            })}
+                        </div>
+
+                        <div className='column-table'>
+                            <p className='bold'>Present</p>
+                            {infinitiveToAnswer[4].map((thing, index) => {
+                                return <p key={index}>{thing[0]}</p>
+                            })}
+                        </div>
+                    </div>
+
+                    <div className='irregulars-row'>
+                        <div className='column-table'>
+                            <p className='bold'>Present Continuous</p>
+                            {infinitiveToAnswer[5].map((thing, index) => {
+                                return <p key={index}>{thing[0]}</p>
+                            })}
+                        </div>
+                        <div className='column-table'>
+                            <p className='bold'>Immediate Future</p>
+                            {infinitiveToAnswer[6].map((thing, index) => {
+                                return <p key={index}>{thing[0]}</p>
+                            })}
+                        </div>
+                        <div className='column-table'>
+                            <p className='bold'>Simple Future</p>
+                            {infinitiveToAnswer[7].map((thing, index) => {
+                                return <p key={index}>{thing[0]}</p>
+                            })}
+                        </div>
+                        <div className='column-table'>
+                            <p className='bold'>Conditional</p>
+                            {infinitiveToAnswer[8].map((thing, index) => {
+                                return <p key={index}>{thing[0]}</p>
+                            })}
+                        </div>
+                    </div>
+                        
+                        
+                </div>
+            );
+            break;
     }
 
   return modalContent

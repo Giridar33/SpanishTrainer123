@@ -414,6 +414,7 @@ function SpanishApp() {
       setGameIsOn(false);
     }
   }
+  
 
   // useEffect to add event listeners to buttons
   useEffect(() => {
@@ -609,6 +610,7 @@ function SpanishApp() {
           handleModal={handleModal}
           tense={tenseToAnswer}
           isReflexive={isReflexive}
+          infinitiveToAnswer={infinitiveToAnswer}
         />}
       {showTutorial &&
         <Tutorial handleTutorial={handleTutorial}/>
@@ -620,6 +622,7 @@ function SpanishApp() {
           handleModal={handleModal}
           tense={tenseToAnswer}
           teacherMode={teacherMode}
+          infinitiveToAnswer={infinitiveToAnswer}
           />
         </div>}
         

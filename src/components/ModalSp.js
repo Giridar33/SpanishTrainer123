@@ -2,7 +2,7 @@ import React from 'react';
 import './Modal.css'
 import ModalContent from './ModalContentSp';
 
-const Modal = ({ tense, handleModal, teacherMode, isReflexive }) => {
+const Modal = ({ tense, handleModal, teacherMode, isReflexive, infinitiveToAnswer }) => {
 
     return (
         <div className='modal-backdrop' onClick={handleModal}>
@@ -12,7 +12,9 @@ const Modal = ({ tense, handleModal, teacherMode, isReflexive }) => {
                 <ModalContent 
                     handleModal={handleModal}
                     tense={tense}
-                    teacherMode={teacherMode}/>
+                    teacherMode={teacherMode}
+                    infinitiveToAnswer={infinitiveToAnswer}
+                    />
                 <p className='bold'>Examples</p>
                 {tense[4].map((example, index) => {
                     return <p key={index}>{example}</p>
