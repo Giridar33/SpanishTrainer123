@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ModalContentFr = ({ tense, teacherMode }) => {
+const ModalContentFr = ({ tense, teacherMode, infinitiveToAnswer }) => {
 
 let modalContent = null;
     switch (tense[0]) {
@@ -177,6 +177,112 @@ let modalContent = null;
             break;
         default:
             modalContent = null;
+    }
+
+    switch (infinitiveToAnswer[7]) {
+        case "irregular verb":
+
+            modalContent = (
+                <div className={`${teacherMode ? "nine-column-grid-teacherMode": "nine-column-grid"}`}>
+                    <div className='irregulars-row'>
+                        <div className='column-table'>
+                            <p className='bold'>Past Perfect</p>
+                            {infinitiveToAnswer[1].map((thing, index) => {
+                                //the next bit of code will happen in every map() function
+                                //it is basically to make sure the conjugated verb appears in the cheatsheet in
+                                //an shortened version
+                                //for example il/elle/on allé in one line instead of 3 lines
+                                if (index === 2 || index === 3 || index === 7) {
+                                    return null
+                                } else if (index === 4) {
+                                    return <p key={index}>Il / Elle / {thing[0]}</p>
+                                } else if (index === 8) {
+                                    return <p key={index}>Ils / {thing[0]}</p>
+                                } else {
+                                    return <p key={index}>{thing[0]}</p>
+                                }
+                            })}
+                        </div>
+                        <div className='column-table'>
+                            <p className='bold'>Imperfect</p>
+                            {infinitiveToAnswer[2].map((thing, index) => {
+                                if (index === 2 || index === 3 || index === 7) {
+                                    return null
+                                } else if (index === 4) {
+                                    return <p key={index}>Il / Elle / {thing[0]}</p>
+                                } else if (index === 8) {
+                                    return <p key={index}>Ils / {thing[0]}</p>
+                                } else {
+                                    return <p key={index}>{thing[0]}</p>
+                                }
+                            })}
+                        </div>
+
+                        <div className='column-table'>
+                            <p className='bold'>Present</p>
+                            {infinitiveToAnswer[3].map((thing, index) => {
+                                if (index === 2 || index === 3 || index === 7) {
+                                    return null
+                                } else if (index === 4) {
+                                    return <p key={index}>Il / Elle / {thing[0]}</p>
+                                } else if (index === 8) {
+                                    return <p key={index}>Ils / {thing[0]}</p>
+                                } else {
+                                    return <p key={index}>{thing[0]}</p>
+                                }
+                            })}
+                        </div>
+                    </div>
+
+                    <div className='irregulars-row'>
+                        <div className='column-table'>
+                            <p className='bold'>Immediate Future</p>
+                            {infinitiveToAnswer[4].map((thing, index) => {
+                                if (index === 2 || index === 3 || index === 7) {
+                                    return null
+                                } else if (index === 4) {
+                                    return <p key={index}>Il / Elle / {thing[0]}</p>
+                                } else if (index === 8) {
+                                    return <p key={index}>Ils / {thing[0]}</p>
+                                } else {
+                                    return <p key={index}>{thing[0]}</p>
+                                }
+                            })}
+                        </div>
+
+                        <div className='column-table'>
+                            <p className='bold'>Simple Future</p>
+                            {infinitiveToAnswer[5].map((thing, index) => {
+                                if (index === 2 || index === 3 || index === 7) {
+                                    return null
+                                } else if (index === 4) {
+                                    return <p key={index}>Il / Elle / {thing[0]}</p>
+                                } else if (index === 8) {
+                                    return <p key={index}>Ils / {thing[0]}</p>
+                                } else {
+                                    return <p key={index}>{thing[0]}</p>
+                                }
+                            })}
+                        </div>
+                        <div className='column-table'>
+                            <p className='bold'>Conditional</p>
+                            {infinitiveToAnswer[6].map((thing, index) => {
+                                if (index === 2 || index === 3 || index === 7) {
+                                    return null
+                                } else if (index === 4) {
+                                    return <p key={index}>Il / Elle / {thing[0]}</p>
+                                } else if (index === 8) {
+                                    return <p key={index}>Ils / {thing[0]}</p>
+                                } else {
+                                    return <p key={index}>{thing[0]}</p>
+                                }
+                            })}
+                        </div>
+
+                    </div>
+                </div>
+            );
+            break;
     }
 
   return modalContent

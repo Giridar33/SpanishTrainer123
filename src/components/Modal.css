@@ -144,7 +144,7 @@ h4 {
     justify-content: center;
 }
 
-.nine-column-grid {
+.nine-column-grid, .nine-column-grid-teacherMode {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -154,11 +154,11 @@ h4 {
     background-color: #efefef;
 }
 
-.nine-column-grid .irregulars-row {
+.nine-column-grid .irregulars-row, .nine-column-grid-teacherMode .irregulars-row {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding: 10px;
+        padding: 10px 10px;
 }
 
 /*----------------RESPONSIVENESS------------*/
@@ -233,7 +233,7 @@ h4 {
     }
 }
 
-@media screen and (min-aspect-ratio: 4/3) and (max-aspect-ratio: 4/3) {
+@media screen and (min-width: 1020px) and (max-width: 1030px) and (min-height: 600px) and (max-height: 768px) {
     /* CSS rules specific to 4:3 aspect ratio, commonly used in projectors in schools */
     .four-column-grid,
     .two-column-grid, .column-table-reflexive {
@@ -244,5 +244,18 @@ h4 {
     .four-column-grid, .column-table-reflexive{
         line-height: 0.4rem;
 
+    }
+
+    .nine-column-grid-teacherMode {
+        flex-direction: row;
+        margin: 10px;
+    }
+
+    .nine-column-grid-teacherMode .irregulars-row {
+            margin: 0;
+            padding: 0;
+        }
+    .column-table {
+        padding: 0 5px;
     }
 }

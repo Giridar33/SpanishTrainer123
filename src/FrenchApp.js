@@ -22,6 +22,7 @@ import ModalContentFr from './components/ModalContentFr';
 import wrongSoundFile from './sound/wrong.mp3';
 import correctSoundFile from './sound/correct.mp3';
 import ReflexiveModal from './components/ReflexiveModalFr';
+import SpecialCharactersFr from './components/SpecialCharactersFr';
 
 
 
@@ -298,7 +299,6 @@ function FrenchApp() {
 
   //Function that selects the random verb that the user needs to guess
   const handlePlay = () => {
-
     setLabelsOn(true); // we make sure the info labels and input bar appear
     setInputOn(true);
 
@@ -362,6 +362,7 @@ function FrenchApp() {
     setPersonToAnswer(varPersonToAnswer);
     setFinalWord(varFinalWord);
     setEnglishFinalWord(varEnglishFinalWord);
+    
 
     countdown = secondsByUser;
     if (!teacherMode) {
@@ -641,12 +642,17 @@ function FrenchApp() {
           {teacherMode && <SetSeconds secondsByUser={secondsByUser} setSecondsByUser={setSecondsByUser}/>}
           {!teacherMode && labelsOn && <button className='main-button squiggle' onClick={handleModal}>Cheatsheet</button>}
         </div>
+
+      {inputOn && !teacherMode &&
+        <SpecialCharactersFr setInput={setInput}/>
+      }
         
       {showModal &&
         <Modal
           handleModal={handleModal}
           tense={tenseToAnswer}
           isReflexive={isReflexive}
+          infinitiveToAnswer={infinitiveToAnswer}
         />}
       {showTutorial &&
         <Tutorial handleTutorial={handleTutorial}/>
@@ -658,6 +664,7 @@ function FrenchApp() {
             handleModal={handleModal}
             tense={tenseToAnswer}
             teacherMode={teacherMode}
+            infinitiveToAnswer={infinitiveToAnswer}
           />
         </div>}
         

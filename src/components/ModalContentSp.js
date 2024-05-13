@@ -195,18 +195,11 @@ let modalContent = null;
             modalContent = null;
     }
 
-        switch (infinitiveToAnswer[0]) {
-        case "ir":
-        case "estar":
-        case "ser":
-        case "tener":
-        case "poder":
-        case "hacer":
-        case "querer":
-        case "jugar":
+        switch (infinitiveToAnswer[9]) {
+        case "irregular":
 
             modalContent = (
-                <div className='nine-column-grid'>
+                <div className={`${teacherMode ? "nine-column-grid-teacherMode": "nine-column-grid"}`}>
                     <div className='irregulars-row'>
                         <div className='column-table'>
                             <p className='bold'>Preterite</p>
@@ -228,8 +221,8 @@ let modalContent = null;
                         </div>
 
                         <div className='column-table'>
-                            <p className='bold'>Present</p>
-                            {infinitiveToAnswer[4].map((thing, index) => {
+                            <p className='bold'>Present Continuous</p>
+                            {infinitiveToAnswer[5].map((thing, index) => {
                                 return <p key={index}>{thing[0]}</p>
                             })}
                         </div>
@@ -237,11 +230,12 @@ let modalContent = null;
 
                     <div className='irregulars-row'>
                         <div className='column-table'>
-                            <p className='bold'>Present Continuous</p>
-                            {infinitiveToAnswer[5].map((thing, index) => {
+                            <p className='bold'>Present</p>
+                            {infinitiveToAnswer[4].map((thing, index) => {
                                 return <p key={index}>{thing[0]}</p>
                             })}
                         </div>
+
                         <div className='column-table'>
                             <p className='bold'>Immediate Future</p>
                             {infinitiveToAnswer[6].map((thing, index) => {
@@ -261,8 +255,6 @@ let modalContent = null;
                             })}
                         </div>
                     </div>
-                        
-                        
                 </div>
             );
             break;

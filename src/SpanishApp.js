@@ -22,6 +22,7 @@ import ModalContent from './components/ModalContentSp';
 import wrongSoundFile from './sound/wrong.mp3';
 import correctSoundFile from './sound/correct.mp3';
 import ReflexiveModal from './components/ReflexiveModalSp';
+import SpecialCharactersSp from './components/SpecialCharactersSp';
 
 
 
@@ -594,16 +595,21 @@ function SpanishApp() {
 
       </div>
 
-          <div className='button-group'>
-            {!teacherMode && labelsOn && <button className='main-button squiggle' onClick={handleCheck}>Check</button>}
-            {teacherMode && labelsOn && <button className='main-button squiggle' onClick={showAnswer}>Show Answer</button>}
-            {teacherMode && !labelsOn && <div className='main-button dummy-button squiggle'>Dummy</div>}
+      <div className='button-group'>
+        {!teacherMode && labelsOn && <button className='main-button squiggle' onClick={handleCheck}>Check</button>}
+        {teacherMode && labelsOn && <button className='main-button squiggle' onClick={showAnswer}>Show Answer</button>}
+        {teacherMode && !labelsOn && <div className='main-button dummy-button squiggle'>Dummy</div>}
 
-            <button className='main-button' onClick={handlePlay}>Play</button>
+        <button className='main-button' onClick={handlePlay}>Play</button>
 
-            {teacherMode && <SetSeconds secondsByUser={secondsByUser} setSecondsByUser={setSecondsByUser}/>}
-            {!teacherMode && labelsOn && <button className='main-button squiggle' onClick={handleModal}>Cheatsheet</button>}
-          </div>
+        {teacherMode && <SetSeconds secondsByUser={secondsByUser} setSecondsByUser={setSecondsByUser}/>}
+        {!teacherMode && labelsOn && <button className='main-button squiggle' onClick={handleModal}>Cheatsheet</button>}
+      </div>
+      
+      {inputOn && !teacherMode &&
+        <SpecialCharactersSp setInput={setInput}/>
+      }
+      
 
       {showModal &&
         <Modal
