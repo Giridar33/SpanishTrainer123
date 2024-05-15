@@ -1484,12 +1484,12 @@
         ["están", "they are"]
       ],
       [
-        ["estoy", "I am"],
-        ["estás", "you are"],
-        ["está", "he/she is"],
-        ["estamos", "we are"],
-        ["estáis", "you all are"],
-        ["están", "they are"]
+        ["estoy estando", "I am being"],
+        ["estás estando", "you are being"],
+        ["está estando", "he/she is being"],
+        ["estamos estando", "we are being"],
+        ["estáis estando", "you all are being"],
+        ["están estando", "they are being"]
       ],
       [
         ["voy a estar", "I am going to be"],
