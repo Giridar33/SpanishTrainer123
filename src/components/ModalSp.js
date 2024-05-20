@@ -29,11 +29,11 @@ const Modal = ({ tense, handleModal, teacherMode, isReflexive, infinitiveToAnswe
 
                 {infinitiveToAnswer[9] != "irregular" && 
                     <>
-                        <p className='bold'>Examples</p>
+                        <p className='modal-section'>Examples</p>
                         {tense[4].map((example, index) => {
                             return <p key={index}>{example}</p>
                         })}
-                        <p className='bold'>Irregulars</p>
+                        <p className='modal-section'>Irregulars</p>
                         <p>{tense[5]}</p>
                         {isReflexive && 
                         <>

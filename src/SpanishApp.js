@@ -381,7 +381,8 @@ function SpanishApp() {
             //tidy user input (set to lower case, delete accents, diacritics, etc)
             let newInput = input.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
             let newFinalWord = finalWord.normalize("NFD").replace(/[\u0300-\u036f]/g, "")
-
+            
+            //case where the user enters the right answer
             if (newInput === newFinalWord) {
               playCorrectSound();
               setRightAnswer(true);
@@ -389,12 +390,39 @@ function SpanishApp() {
               setGameIsOn(false);
               setGameOver(true);
               setWrongAnswer(false);
-            } else if (newInput !== newFinalWord && userTries === 1) {
+              //case where the user enters the pronoun before the verb, which is unnecesary but not incorrect
+            } else if ('yo ' + newFinalWord === newInput || 
+                        'tu ' + newFinalWord === newInput || 
+                        'el ' + newFinalWord === newInput || 
+                        'ella ' + newFinalWord === newInput || 
+                        'nosotros ' + newFinalWord === newInput || 
+                        'vosotros ' + newFinalWord === newInput|| 
+                        'ellos ' + newFinalWord === newInput || 
+                        'ellas ' + newFinalWord === newInput
+            ) {playCorrectSound();
+              setRightAnswer(true);
+              setInput(finalWord + " (no need to write the pronoun!)");
+              setGameIsOn(false);
+              setGameOver(true);
+              setWrongAnswer(false);
+              //case where the user doesnt enter the reflexive pronoun when it is needed
+            // } else if (infinitiveToAnswer[9] === "reflexive" && !newInput.includes("me") && userTries > 1||
+            //           infinitiveToAnswer[9] === "reflexive" && !newInput.includes("te") && userTries > 1 ||
+            //           infinitiveToAnswer[9] === "reflexive" && !newInput.includes("se") && userTries > 1 ||
+            //           infinitiveToAnswer[9] === "reflexive" && !newInput.includes("nos") && userTries > 1 ||
+            //           infinitiveToAnswer[9] === "reflexive" && !newInput.includes("os") && userTries > 1) {
+            //   playWrongSound();
+            //   setWrongAnswer(true);
+            //   setInput(input + " (remember you need to add the reflexive pronoun!)");
+            //   setUserTries(prevTries => prevTries - 1)
+            //   //case where the user runs out of tries
+            }else if (newInput !== newFinalWord && userTries === 1) {
               playWrongSound();
               setUserTries(0)
               setWrongAnswer(true);
               setInput(`The answer was "${finalWord}"`)
               setGameOver(true);
+              //case where the user gets the wrong answer
             } else {
               playWrongSound();
               setWrongAnswer(true);
