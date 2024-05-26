@@ -32,7 +32,7 @@ export default function MobilePersons({
                         if (index === 2 || index === 7) {
                             return (
                                 <p 
-                                    className={`info-column-mobile ${person[1] ? 'active-option' : 'inactive-option'}`}
+                                    className={`info-column-mobile ${(person[0][0])}${index} ${person[1] ? 'active-option' : 'inactive-option'}`}
                                     key={index}
                                     onClick={() => {
                                         togglePerson(index);
@@ -51,7 +51,7 @@ export default function MobilePersons({
                         } else {
                             return (
                                 <p 
-                                    className={`info-column-mobile ${person[1] ? 'active-option' : 'inactive-option'}`}
+                                    className={`info-column-mobile ${(person[0][0])}${index} ${person[1] ? 'active-option' : 'inactive-option'}`}
                                     key={index}
                                     onClick={() => togglePerson(index)}>
                                     {shortenPerson(person)}

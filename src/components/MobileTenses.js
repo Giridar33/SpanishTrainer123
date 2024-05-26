@@ -28,7 +28,7 @@ const toggleMobileTenses = () => {
             {tenses.map((tense, index) => {
                 return (
                     <p 
-                        className={`info-column ${tense[6] ? 'active-option' : 'inactive-option'}`}
+                        className={`info-column Sp${(tense[0][0])}${index} ${tense[6] ? 'active-option' : 'inactive-option'}`}
                         key={index} 
                         onClick={() => toggleTense(index)}>
                         {tense[0]}

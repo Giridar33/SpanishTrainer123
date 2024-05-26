@@ -387,6 +387,36 @@ h2 {
   transform: translateY(-1px);
 }
 
+/*---------- Order of tenses and persons in mobile version--------------------*/
+
+.t1, .SpI1 {
+  order: 2;
+}
+
+.é2, .i2, .SpP2 {
+  order: 4;
+}
+
+.n3, .n5, .SpP3, .SpI3 {
+  order: 1
+}
+
+.v4, .v6, .SpI5, .SpS4 {
+  order: 3;
+}
+
+.e5, .i7, .SpS6, .SpC5 {
+  order: 5
+}
+
+.SpP4 {
+  order: 6
+}
+
+.SpC7 {
+  order: 7
+}
+
 /* ---------------------- Responsiveness ---------------------*/
 
 @media (max-width: 900px) {
