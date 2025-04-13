@@ -1,5 +1,4 @@
 import React from 'react';
-import data from '../spanish-data.json';
 
 export default function MobileInfinitives({ showMobileInfinitives, 
                                             setShowMobileInfinitives, 
@@ -17,8 +16,10 @@ export default function MobileInfinitives({ showMobileInfinitives,
                                             setInputOn,
                                             infinitiveToAnswer }) {
 
-    const { infinitives } = data;
-    let irreg_infinitives = infinitives.filter(irreg_infinitive => irreg_infinitive[9] === "irregular")                                          
+    const { infinitives } = infinitiveToAnswer || {};
+    // Add null check for infinitives
+    let irreg_infinitives = infinitives ? infinitives.filter(irreg_infinitive => 
+        irreg_infinitive && irreg_infinitive[9] === "irregular") : [];
 
     const toggleMobileInfinitives = () => {
         resetState();
@@ -36,21 +37,21 @@ export default function MobileInfinitives({ showMobileInfinitives,
       <div className='info-1'>
 
                 <div className='mobile-regular-infinitives-container'>
-                    <p className={`info-column ${infinitives[0][10] ? 'active-option' : 'inactive-option'}`}
+                    <p className={`info-column ${infinitives && infinitives[0] && infinitives[0][10] ? 'active-option' : 'inactive-option'}`}
                         onClick={() => toggle_ar()}>
                         -ar verbs
                     </p>
-                    <p className={`info-column ${infinitives[5][10] ? 'active-option' : 'inactive-option'}`}
+                    <p className={`info-column ${infinitives && infinitives[5] && infinitives[5][10] ? 'active-option' : 'inactive-option'}`}
                         onClick={() => toggle_er()}>
                         -er verbs
                     </p>
-                    <p className={`info-column ${infinitives[10][10] ? 'active-option' : 'inactive-option'}`}
+                    <p className={`info-column ${infinitives && infinitives[10] && infinitives[10][10] ? 'active-option' : 'inactive-option'}`}
                         onClick={() => toggle_ir()}>
                         -ir verbs
                     </p>
                 </div>
 
-                <p className={`info-column ${infinitives[15][10] ? 'active-option' : 'inactive-option'}`}
+                <p className={`info-column ${infinitives && infinitives[15] && infinitives[15][10] ? 'active-option' : 'inactive-option'}`}
                     onClick={() => toggle_reflexive()}>
                     Reflexive verbs
                 </p>

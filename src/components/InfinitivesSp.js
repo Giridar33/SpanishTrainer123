@@ -1,44 +1,50 @@
 import React from 'react';
-import data from '../spanish-data.json';
 
-const Infinitives = ({ toggle_ar, 
-                        toggle_er, 
-                        toggle_ir, 
-                        toggle_reflexive, 
-                        toggle_all_irregulars, 
-                        toggle_individual_irregulars, 
-                        allIrregularsFalse,
-                        showMobileInfinitives, 
-                        toggleAllVerbOptions,
-                        infinitiveToAnswer }) => {
-    const { infinitives } = data;
-    let irreg_infinitives = infinitives.filter(irreg_infinitive => irreg_infinitive[9] === "irregular")
+export default function Infinitives({ 
+    infinitives = [],
+    toggle_ar,
+    toggle_er,
+    toggle_ir,
+    toggle_reflexive,
+    toggle_all_irregulars,
+    toggle_individual_irregulars,
+    allIrregularsFalse,
+    infinitiveToAnswer,
+    showMobileInfinitives,
+    toggleAllVerbOptions
+}) {
+    // Add null check for infinitives
+    let irreg_infinitives = infinitives ? infinitives.filter(irreg_infinitive => 
+        irreg_infinitive && irreg_infinitive[9] === "irregular") : [];
 
     return (
-        <div className="infinitive-list">
-            <h2 onClick={toggleAllVerbOptions}>{infinitiveToAnswer ? infinitiveToAnswer[0] : "Select Verb"}</h2>
-            {showMobileInfinitives &&
+        <div className="infinitives">
+            <h2 onClick={toggleAllVerbOptions}>
+                {infinitiveToAnswer ? infinitiveToAnswer[0] : "Select Verb"}
+            </h2>
+            {showMobileInfinitives && 
             <div className='info-1'>
-                <p className={`info-column ${infinitives[0][10] ? 'active-option' : 'inactive-option'}`}
-                    onClick={() => toggle_ar()}>
-                    Regular -ar verbs
-                </p>
-                <p className={`info-column ${infinitives[5][10] ? 'active-option' : 'inactive-option'}`}
-                    onClick={() => toggle_er()}>
-                    Regular -er verbs
-                </p>
-                <p className={`info-column ${infinitives[10][10] ? 'active-option' : 'inactive-option'}`}
-                    onClick={() => toggle_ir()}>
-                    Regular -ir verbs
-                </p>
+                <div className='regular-infinitives-container'>
+                    <p className={`info-column ${infinitives[0] && infinitives[0][10] ? 'active-option' : 'inactive-option'}`}
+                        onClick={() => toggle_ar()}>
+                        -ar verbs
+                    </p>
+                    <p className={`info-column ${infinitives[5] && infinitives[5][10] ? 'active-option' : 'inactive-option'}`}
+                        onClick={() => toggle_er()}>
+                        -er verbs
+                    </p>
+                    <p className={`info-column ${infinitives[10] && infinitives[10][10] ? 'active-option' : 'inactive-option'}`}
+                        onClick={() => toggle_ir()}>
+                        -ir verbs
+                    </p>
+                </div>
 
-                <p className={`info-column ${infinitives[15][10] ? 'active-option' : 'inactive-option'}`}
+                <p className={`info-column ${infinitives[15] && infinitives[15][10] ? 'active-option' : 'inactive-option'}`}
                     onClick={() => toggle_reflexive()}>
                     Reflexive verbs
                 </p>
-
-                <div className={`irregulars-container ${allIrregularsFalse ? 'active-option' : 'inactive-option'}`}>
-                    <p className={`info-column ${allIrregularsFalse ? 'active-div' : 'inactive-div'}`}
+                <div className={`${allIrregularsFalse ? 'active-option' : 'inactive-option'}`}>
+                    <p className='info-column'
                         onClick={() => toggle_all_irregulars()}>
                         Irregular verbs
                     </p>
@@ -53,12 +59,7 @@ const Infinitives = ({ toggle_ar,
                         ))}
                     </div>
                 </div>
-
-            </div>
-            }
-
+            </div>}
         </div>
     )
 }
-
-export default Infinitives;

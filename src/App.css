@@ -55,7 +55,10 @@
   justify-content: flex-start;
   align-items: center;
   height: 100vh;
-  background-color: #5A5966;
+  background-image: url('../public/spain.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: #fff;
   text-align: center;
   font-family: "Nunito", sans-serif;
@@ -114,7 +117,6 @@ h1.title {
 }
 
 .info-1,
-.info-2,
 .info-3 {
   height: 80%;
   display: flex;
@@ -126,11 +128,24 @@ h1.title {
 }
 
 .info-1 p,
-.info-2 p,
-.info-3 p, .info-1-mobile p , .info-2-mobile p , .info-3-mobile p {
+.info-3 p, .info-1-mobile p, .info-3-mobile p {
   margin: 0;
   padding: 0;
   border: 1px solid transparent;
+}
+
+.tense-list {
+  min-width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5px;
+}
+
+.tense-list h2 {
+  margin: 5px;
+  font-size: 1.1rem;
+  color: #FFC400;
 }
 
 
@@ -315,21 +330,9 @@ h2 {
 }
 
 .dummy-button {
-  background-color: #5A5966;
-  color: #5A5966;
-  border: 2px solid transparent;
-  box-sizing: border-box;
-  display: inline-block;
-  font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 18px;
-  font-weight: 600;
-  padding: 5px auto;
-  margin: 1rem auto;
-  text-align: center;
-  cursor: initial;
-  min-height: 40px;
-  width: 18%;
-  min-width: 50px;
+  display: none;
+  pointer-events: none;
+  visibility: hidden;
 }
 
 .dummy-button:hover {

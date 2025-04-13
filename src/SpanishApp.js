@@ -1,9 +1,8 @@
-//Imports
 import { useState, useRef, useEffect } from 'react';
 import './App.css';
-import './components/Mobile.css'
+import './components/Mobile.css';
 
-//React components
+// React components
 import Infinitives from './components/InfinitivesSp';
 import Tenses from './components/Tenses';
 import Persons from './components/PersonsSp';
@@ -13,96 +12,106 @@ import SetSeconds from './components/SetSeconds';
 import MobileInfinitives from './components/MobileInfinitivesSp';
 import MobileTenses from './components/MobileTenses';
 import MobilePersons from './components/MobilePersonsSp';
-
-//Data file containing all verbs' info
-import data from './spanish-data.json'
 import ModalContent from './components/ModalContentSp';
-
-//Sound files
-import wrongSoundFile from './sound/wrong.mp3';
-import correctSoundFile from './sound/correct.mp3';
 import ReflexiveModal from './components/ReflexiveModalSp';
 import SpecialCharactersSp from './components/SpecialCharactersSp';
 
-
+// Data file
+import data from './spanish-data.json';
 
 function SpanishApp() {
-
-  // We create a ref for the input element (in order to have the input targeted when we click on Play)
   const inputRef = useRef(null);
-
-  //We deconstruct all information needed from the json file
   const { infinitives, tenses, persons } = data;
 
-  let countdown;
+  const initialData = {
+    ...data,
+    infinitives: data.infinitives.map((inf, index) =>
+      index === 0 ? [...inf.slice(0, 10), true] : inf
+    ),
+    tenses: data.tenses.map(tense => {
+      const enabled = tense.name === "present tense";
+      return {
+        ...tense,
+        [6]: enabled
+      };
+    }),
+    persons: data.persons.map((person, index) =>
+      index === 0 ? [person[0], true] : person
+    )
+  };
 
-  //----STATE------STATE----------STATE--------STATE--------STATE--------STATE-------STATE--------//
-
-  const [jsonData, setJsonData] = useState(data);
-
-  // sets whether the labels and input appear or not
+  const [jsonData, setJsonData] = useState(initialData);
   const [labelsOn, setLabelsOn] = useState(false);
   const [inputOn, setInputOn] = useState(false);
-
-  // Sets teacher mode on or off
-  const [teacherMode, setTeacherMode] = useState(false)
-  const [secondsByUser, setSecondsByUser] = useState(20); //seconds chosen by the user
-  const [countdownInterval, setCoundownInterval] = useState(null) //countdown
-
-  //These are here to store the user answer
+  const [teacherMode, setTeacherMode] = useState(false);
+  const [secondsByUser, setSecondsByUser] = useState(20);
+  const [countdownInterval, setCountdownInterval] = useState(null);
+  const [countdownDisplay, setCountdownDisplay] = useState('');
   const [input, setInput] = useState('');
-
-  // Having the gameOn mode will avoid unwanted behaviours when clicking on the Play and Check buttons
   const [gameIsOn, setGameIsOn] = useState(false);
   const [gameOver, setGameOver] = useState(true);
-
-  //These are the final infinitive, tense and person that the user needs to guess
   const [infinitiveToAnswer, setInfinitiveToAnswer] = useState('');
   const [tenseToAnswer, setTenseToAnswer] = useState('');
   const [personToAnswer, setPersonToAnswer] = useState();
-
-  //This is the definitive verb that the userNeeds to guess, and its translation
   const [finalWord, setFinalWord] = useState('');
   const [englishFinalWord, setEnglishFinalWord] = useState('');
-
-  //This will become true if the infinitive to guess happens to be a reflexive one
   const [isReflexive, setIsReflexive] = useState(false);
-
-  //This state changes the style of the text when you give the right/wrong answer
   const [rightAnswer, setRightAnswer] = useState(false);
   const [wrongAnswer, setWrongAnswer] = useState(false);
-
   const [userTries, setUserTries] = useState(3);
-
-  // Showing the modal or tutorial
   const [showModal, setShowModal] = useState(false);
   const [showTutorial, setShowTutorial] = useState(false);
-
-  // We store this value to true if the user has switched off all tenses, to avoid bugs
   const [allInfinitivesFalse, setAllInfinitivesFalse] = useState(false);
   const [allIrregularsFalse, setAllIrregularsFalse] = useState(false);
   const [allTensesFalse, setAllTensesFalse] = useState(false);
   const [allPersonsFalse, setAllPersonsFalse] = useState(false);
-
-  // State that controls the mobile version of the info row
   const [showMobileInfinitives, setShowMobileInfinitives] = useState(false);
   const [showMobileTenses, setShowMobileTenses] = useState(false);
   const [showMobilePersons, setShowMobilePersons] = useState(false);
 
-  // Sound-----------Sound---------------Sound----------------Sound---------------Sound--------------Sound---------
+  // Function to remove accents
+  const removeAccents = (str) => {
+    return str
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase();
+  };
 
-  //preload sounds to avoid delay
-  const wrongSound = new Audio(wrongSoundFile);
-  const correctSound = new Audio(correctSoundFile);
-
+  // Function to play wrong sound
   const playWrongSound = () => {
+    const wrongSound = new Audio(process.env.PUBLIC_URL + '/sound/wrong.mp3');
     wrongSound.currentTime = 0;
-    wrongSound.play();
-  }
-  const playCorrectSound = () => {
-    correctSound.currentTime = 0;
-    correctSound.play();
-  }
+    wrongSound.play().catch(e => console.log("Error playing wrong sound:", e));
+  };
+
+  // Function to play sound for the given word
+  const playSound = (word) => {
+    try {
+      const cleanWord = removeAccents(word);
+      const wordSound = new Audio(`${process.env.PUBLIC_URL}/sound/${cleanWord}.mp3`);
+      wordSound.currentTime = 0;
+      wordSound.play().catch((e) => console.log('Audio play failed:', e));
+    } catch (e) {
+      console.log('Sound error:', e);
+    }
+  };
+
+  // Play sound only when finalWord is set and answer is correct
+  useEffect(() => {
+    if (finalWord && rightAnswer) {
+      playSound(finalWord);
+      const timer = setTimeout(() => {
+        setRightAnswer(false); // reset after playing
+      }, 1000);
+      return () => clearTimeout(timer);
+    }
+  }, [finalWord, rightAnswer]);
+  
+
+
+
+
+  
 
   //-------FUNCTIONS----FUNCTIONS-------FUNCTIONS--------FUNCTIONS-------FUNCTIONS-------FUNCTIONS-----FUNCTIONS------
 
@@ -121,15 +130,15 @@ function SpanishApp() {
   }
 
   // Enables the functionality to toggle the tenses on or off
-  const toggleTense = (index) => {
-    const updatedTenses = [...jsonData.tenses];
-    updatedTenses[index][6] = !updatedTenses[index][6];
-    setJsonData({ ...jsonData, tenses: updatedTenses })
-
-    //We check whether all tenses have been set to false by the user
-    const allTFalse = updatedTenses.every(tense => !tense[6]);
-    setAllTensesFalse(allTFalse);
-    resetState(); // we reset the game
+    const toggleTense = (index) => {
+    const updatedTenses = jsonData.tenses.map(tense => {
+      // Only enable present tense, disable all others
+      tense[6] = tense.name === "present tense";
+      return tense;
+    });
+    setJsonData({ ...jsonData, tenses: updatedTenses });
+    setAllTensesFalse(false); // Always false since present tense is always enabled
+    resetState();
     setLabelsOn(false);
     setInputOn(false);
   }
@@ -260,8 +269,12 @@ function SpanishApp() {
     const allInfFalse = updatedInfinitives.every(infinitive => !infinitive[10]);
     setAllInfinitivesFalse(allInfFalse);
     //here we check whether we have set all irregulars to false
-    const allIrregularsFalse = updatedInfinitives.filter(infinitive => infinitive[9] === "irregular").every(infinitive => !infinitive[10])
-    setAllIrregularsFalse(!allIrregularsFalse)
+    const allIrregularsFalse = (updatedInfinitives || [])
+    .filter(infinitive => infinitive[9] === "irregular")
+    .every(infinitive => !infinitive[10]);
+  
+  setAllIrregularsFalse(!allIrregularsFalse);
+  
 
     resetState();
     setLabelsOn(false);
@@ -311,37 +324,85 @@ function SpanishApp() {
     }
 
     //choose infinitive
-    let randomInfinitiveIndex = Math.floor(Math.random() * infinitives.length);
-    let varInfinitiveToAnswer = infinitives[randomInfinitiveIndex];
-    //keep looping until we get a value that has not been switched off
-    while (varInfinitiveToAnswer[10] === false) {
-        randomInfinitiveIndex = Math.floor(Math.random() * infinitives.length);
-        varInfinitiveToAnswer = infinitives[randomInfinitiveIndex];
+    if (!infinitives || infinitives.length === 0) {
+      setInput('No infinitives available!');
+      setLabelsOn(false);
+      return;
     }
+    
+    // Get only active infinitives (where the last element is true)
+    const activeInfinitives = infinitives.filter(inf => inf[inf.length-1] === true);
+    
+    if (activeInfinitives.length === 0) {
+      setInput('No active infinitives available!');
+      setLabelsOn(false);
+      return;
+    }
+    
+    const randomInfinitiveIndex = Math.floor(Math.random() * activeInfinitives.length);
+    const varInfinitiveToAnswer = activeInfinitives[randomInfinitiveIndex];
+
+    if (!varInfinitiveToAnswer) {
+      setInput('No active infinitives available!');
+      setLabelsOn(false);
+      return;
+    }
+
     if (varInfinitiveToAnswer[9] === "reflexive") {
       setIsReflexive(true);
     }
 
-    //choose tense
-    let randomTenseIndex = Math.floor(Math.random() * tenses.length);
-    let varTenseToAnswer = tenses[randomTenseIndex];
-    //here we add a while loop to make sure we don't return a tense that has been turned off by the user
-    while (varTenseToAnswer[6] === false) {
-          randomTenseIndex = Math.floor(Math.random() * tenses.length);
-          varTenseToAnswer = tenses[randomTenseIndex];
+    // Default to present tense
+    if (!tenses || tenses.length === 0) {
+      setInput('No tenses available!');
+      setLabelsOn(false);
+      return;
+    }
+    console.log(tenses)
+    let varTenseToAnswer = tenses.find(tense => tense[0] === "present tense");
+
+    if (!varTenseToAnswer) {
+      setInput('Simple present tense not found!');
+      setLabelsOn(false);
+      return;
     }
 
     //choose person
-    let randomPersonIndex;
-    let varPersonToAnswer;
-    do {
-      randomPersonIndex = Math.floor(Math.random() * persons.length)
-      varPersonToAnswer = persons[randomPersonIndex];
-    } while (!varPersonToAnswer[1]); // We keep looping until we get a person that has not been deactivated by the user
+    if (!persons || persons.length === 0) {
+      setInput('No persons available!');
+      setLabelsOn(false);
+      return;
+    }
 
- 
-    let varFinalWord = varInfinitiveToAnswer[randomTenseIndex + 1][randomPersonIndex][0];
-    let varEnglishFinalWord = varInfinitiveToAnswer[randomTenseIndex + 1][randomPersonIndex][1];
+    // Get only active persons (where the second element is true)
+    const activePersons = persons.filter(p => p[1] === true);
+    
+    if (activePersons.length === 0) {
+      setInput('No active persons available!');
+      setLabelsOn(false);
+      return;
+    }
+
+    const randomPersonIndex = Math.floor(Math.random() * activePersons.length);
+    const varPersonToAnswer = activePersons[randomPersonIndex];
+
+    // Verify conjugation data exists
+    if (!varInfinitiveToAnswer[6] || !varInfinitiveToAnswer[6][randomPersonIndex]) {
+      setInput('Missing conjugation data!');
+      setLabelsOn(false);
+      return;
+    }
+
+    // Get the conjugation data (index 6 in infinitive array)
+    const conjugations = varInfinitiveToAnswer[6];
+    if (!conjugations || !conjugations[randomPersonIndex]) {
+      setInput('Missing conjugation data!');
+      setLabelsOn(false);
+      return;
+    }
+    
+    let varFinalWord = conjugations[randomPersonIndex][0];
+    let varEnglishFinalWord = conjugations[randomPersonIndex][1];
 
     //turn variables into state
     setInfinitiveToAnswer(varInfinitiveToAnswer);
@@ -349,26 +410,35 @@ function SpanishApp() {
     setPersonToAnswer(varPersonToAnswer);
     setFinalWord(varFinalWord);
     setEnglishFinalWord(varEnglishFinalWord);
+    // Play sound for the displayed verb
+    playSound(varFinalWord);
 
-    countdown = secondsByUser;
-    if (!teacherMode) {
-      // Focus the input element after setting the game
-      // It was necessary to include this on a setTimeout to make sure it happened immediately after first click
-      setTimeout(() => {
-        inputRef.current.focus();
-      }, 0);
-    } else {
-      setInput(secondsByUser);
-      setCoundownInterval(
-        setInterval(() => {
-          countdown--;
-          setInput(countdown.toString());
-          if (countdown <= 0) {
-            clearInterval(countdownInterval);
-            setGameIsOn(false);
-          }
-        }, 1000)
-      )
+    // Focus the input element after setting the game
+    setTimeout(() => {
+      inputRef.current.focus();
+    }, 0);
+
+    // Set up countdown if in teacher mode
+    if (teacherMode) {
+      let remainingTime = secondsByUser;
+      setCountdownDisplay(remainingTime.toString());
+      
+      // Clear any existing interval
+      if (countdownInterval) {
+        clearInterval(countdownInterval);
+      }
+      
+      const newInterval = setInterval(() => {
+        remainingTime--;
+        setCountdownDisplay(remainingTime.toString());
+        
+        if (remainingTime <= 0) {
+          clearInterval(newInterval);
+          setGameIsOn(false);
+        }
+      }, 1000);
+      
+      setCountdownInterval(newInterval);
     }
   }
 
@@ -384,7 +454,7 @@ function SpanishApp() {
             
             //case where the user enters the right answer
             if (newInput === newFinalWord) {
-              playCorrectSound();
+              playSound(newInput);
               setRightAnswer(true);
               setInput(finalWord);
               setGameIsOn(false);
@@ -399,23 +469,14 @@ function SpanishApp() {
                         'vosotros ' + newFinalWord === newInput|| 
                         'ellos ' + newFinalWord === newInput || 
                         'ellas ' + newFinalWord === newInput
-            ) {playCorrectSound();
+            ) {playSound();
               setRightAnswer(true);
               setInput(finalWord + " (no need to write the pronoun!)");
               setGameIsOn(false);
               setGameOver(true);
               setWrongAnswer(false);
               //case where the user doesnt enter the reflexive pronoun when it is needed
-            // } else if (infinitiveToAnswer[9] === "reflexive" && !newInput.includes("me") && userTries > 1||
-            //           infinitiveToAnswer[9] === "reflexive" && !newInput.includes("te") && userTries > 1 ||
-            //           infinitiveToAnswer[9] === "reflexive" && !newInput.includes("se") && userTries > 1 ||
-            //           infinitiveToAnswer[9] === "reflexive" && !newInput.includes("nos") && userTries > 1 ||
-            //           infinitiveToAnswer[9] === "reflexive" && !newInput.includes("os") && userTries > 1) {
-            //   playWrongSound();
-            //   setWrongAnswer(true);
-            //   setInput(input + " (remember you need to add the reflexive pronoun!)");
-            //   setUserTries(prevTries => prevTries - 1)
-            //   //case where the user runs out of tries
+            //case where the user runs out of tries
             }else if (newInput !== newFinalWord && userTries === 1) {
               playWrongSound();
               setUserTries(0)
@@ -508,12 +569,12 @@ function SpanishApp() {
       <div className="framework">
 
         <div className='title-row'>
-          <button className='top-button' onClick={handleTutorial}><span class="material-symbols-outlined">help</span></button>
+          <button className='top-button' onClick={handleTutorial}><span className="material-symbols-outlined">help</span></button>
           <h1 className="title">Spanish verbs trainer: {teacherMode ? "Teacher Mode" : "Student Mode"}</h1>
           <button 
             className='top-button'
             onClick={toggleTeacherMode}>
-            <span class="material-symbols-outlined">person_raised_hand</span>
+            <span className="material-symbols-outlined">person_raised_hand</span>
           </button>
         </div>
         
@@ -528,7 +589,7 @@ function SpanishApp() {
             tenseToAnswer={tenseToAnswer}
             />
           <Infinitives 
-            infinitives={Infinitives} 
+            infinitives={infinitives} 
             toggle_ar={toggle_ar} 
             toggle_er={toggle_er} 
             toggle_ir={toggle_ir}
@@ -568,7 +629,7 @@ function SpanishApp() {
             setShowMobileInfinitives={setShowMobileInfinitives}
             setShowMobileTenses={setShowMobileTenses}
             setShowMobilePersons={setShowMobilePersons}
-            infinitives={Infinitives} 
+            infinitives={infinitives} 
             toggle_ar={toggle_ar} 
             toggle_er={toggle_er} 
             toggle_ir={toggle_ir}
@@ -597,6 +658,11 @@ function SpanishApp() {
         </div>
 
         <div className="row2">
+          {teacherMode && inputOn && 
+            <div className="countdown-display">
+              Time remaining: {countdownDisplay}
+            </div>
+          }
 
           {inputOn && 
             <input

@@ -1,0 +1,2204 @@
+{
+  
+    "infinitives": [
+      [
+        "bailar",
+        [
+          ["bailé", "I danced"],
+          ["bailaste", "you danced"],
+          ["bailó", "he/she danced"],
+          ["bailamos", "we danced"],
+          ["bailasteis", "you all danced"],
+          ["bailaron", "they danced"]
+        ],
+        [
+          ["bailaba", "I used to dance"],
+          ["bailabas", "you used to dance"],
+          ["bailaba", "he/she used to dance"],
+          ["bailábamos", "we used to dance"],
+          ["bailabais", "you all used to dance"],
+          ["bailaban", "they used to dance"]
+        ],
+        [
+          ["he bailado", "I have danced"],
+          ["has bailado", "you have danced"],
+          ["ha bailado", "he/she has danced"],
+          ["hemos bailado", "we have danced"],
+          ["habéis bailado", "you all have danced"],
+          ["han bailado", "they have danced"]
+        ],
+        [
+          ["bailo", "I dance"],
+          ["bailas", "you dance"],
+          ["baila", "he/she dances"],
+          ["bailamos", "we dance"],
+          ["bailáis", "you all dance"],
+          ["bailan", "they dance"]
+        ],
+        [
+          ["estoy bailando", "I am dancing"],
+          ["estás bailando", "you are dancing"],
+          ["está bailando", "he/she is dancing"],
+          ["estamos bailando", "we are dancing"],
+          ["estáis bailando", "you all are dancing"],
+          ["están bailando", "they are dancing"]
+        ],
+        [
+          ["voy a bailar", "I am going to dance"],
+          ["vas a bailar", "you are going to dance"],
+          ["va a bailar", "he/she is going to dance"],
+          ["vamos a bailar", "we are going to dance"],
+          ["vais a bailar", "you all are going to dance"],
+          ["van a bailar", "they are going to dance"]
+        ],
+        [
+          ["bailaré", "I will dance"],
+          ["bailarás", "you will dance"],
+          ["bailará", "he/she will dance"],
+          ["bailaremos", "we will dance"],
+          ["bailaréis", "you all will dance"],
+          ["bailarán", "they will dance"]
+        ],
+        [
+          ["bailaría", "I would dance"],
+          ["bailarías", "you would dance"],
+          ["bailaría", "he/she would dance"],
+          ["bailaríamos", "we would dance"],
+          ["bailaríais", "you all would dance"],
+          ["bailarían", "they would dance"]
+        ],
+        "-ar verb",
+        true
+      ],
+      [
+        "cantar",
+        [
+          ["canté", "I sang"],
+          ["cantaste", "you sang"],
+          ["cantó", "he/she sang"],
+          ["cantamos", "we sang"],
+          ["cantasteis", "you all sang"],
+          ["cantaron", "they sang"]
+        ],
+        [
+          ["cantaba", "I used to sing"],
+          ["cantabas", "ou used to sing"],
+          ["cantaba", "he/she used to sing"],
+          ["cantábamos", "we used to sing"],
+          ["cantabais", "you all used to sing"],
+          ["cantaban", "they used to sing"]
+        ],
+        [
+          ["he cantado", "I have sung"],
+          ["has cantado", "you have sung"],
+          ["ha cantado", "he/she has sung"],
+          ["hemos cantado", "we have sung"],
+          ["habéis cantado", "you all have sung"],
+          ["han cantado", "they have sung"]
+        ],
+        [
+          ["canto", "I sing"],
+          ["cantas", "you sing"],
+          ["canta", "he/she sings"],
+          ["cantamos", "we sing"],
+          ["cantáis", "you all sing"],
+          ["cantan", "they sing"]
+        ],
+        [
+          ["estoy cantando", "I am singing"],
+          ["estás cantando", "you are singing"],
+          ["está cantando", "he/she is singing"],
+          ["estamos cantando", "we are singing"],
+          ["estáis cantando", "you all are singing"],
+          ["están cantando", "they are singing"]
+        ],
+        [
+          ["voy a cantar", "I am going to sing"],
+          ["vas a cantar", "you are going to sing"],
+          ["va a cantar", "he/she is going to sing"],
+          ["vamos a cantar", "we are going to sing"],
+          ["vais a cantar", "you all are going to sing"],
+          ["van a cantar", "they are going to sing"]
+        ],
+        [
+          ["cantaré", "I will sing"],
+          ["cantarás", "you will sing"],
+          ["cantará", "he/she will sing"],
+          ["cantaremos", "we will sing"],
+          ["cantaréis", "you all will sing"],
+          ["cantarán", "they will sing"]
+        ],
+        [
+          ["cantaría", "I would sing"],
+          ["cantarías", "you would sing"],
+          ["cantaría", "he/she would sing"],
+          ["cantaríamos", "we would sing"],
+          ["cantaríais", "you all would sing"],
+          ["cantarían", "they would sing"]
+        ],
+        "-ar verb",
+        true
+      ],
+      [
+        "hablar",
+        [
+          ["hablé", "I spoke"],
+          ["hablaste", "you spoke"],
+          ["habló", "he/she spoke"],
+          ["hablamos", "we spoke"],
+          ["hablasteis", "you all spoke"],
+          ["hablaron", "they spoke"]
+        ],
+        [
+          ["hablaba", "I used to speak"],
+          ["hablabas", "you used to speak"],
+          ["hablaba", "he/she used to speak"],
+          ["hablábamos", "we used to speak"],
+          ["hablabais", "you all used to speak"],
+          ["hablaban", "they used to speak"]
+        ],
+        [
+          ["he hablado", "I have spoken"],
+          ["has hablado", "you have spoken"],
+          ["ha hablado", "he/she has spoken"],
+          ["hemos hablado", "we have spoken"],
+          ["habéis hablado", "you all have spoken"],
+          ["han hablado", "they have spoken"]
+        ],
+        [
+          ["hablo", "I speak"],
+          ["hablas", "you speak"],
+          ["habla", "he/she speaks"],
+          ["hablamos", "we speak"],
+          ["habláis", "you all speak"],
+          ["hablan", "they speak"]
+        ],
+        [
+          ["estoy hablando", "I am speaking"],
+          ["estás hablando", "you are speaking"],
+          ["está hablando", "he/she is speaking"],
+          ["estamos hablando", "we are speaking"],
+          ["estáis hablando", "you all are speaking"],
+          ["están hablando", "they are speaking"]
+        ],
+        [
+          ["voy a hablar", "I am going to speak"],
+          ["vas a hablar", "you are going to speak"],
+          ["va a hablar", "he/she is going to speak"],
+          ["vamos a hablar", "we are going to speak"],
+          ["vais a hablar", "you all are going to speak"],
+          ["van a hablar", "they are going to speak"]
+        ],
+        [
+          ["hablaré", "I will speak"],
+          ["hablarás", "you will speak"],
+          ["hablará", "he/she will speak"],
+          ["hablaremos", "we will speak"],
+          ["hablaréis", "you all will speak"],
+          ["hablarán", "they will speak"]
+        ],
+        [
+          ["hablaría", "I would speak"],
+          ["hablarías", "you would speak"],
+          ["hablaría", "he/she would speak"],
+          ["hablaríamos", "we would speak"],
+          ["hablaríais", "you all would speak"],
+          ["hablarían", "they would speak"]
+        ],
+        "-ar verb",
+        true
+      ],
+      [
+        "estudiar",
+        [
+          ["estudié", "I studied"],
+          ["estudiaste", "you studied"],
+          ["estudió", "he/she studied"],
+          ["estudiamos", "we studied"],
+          ["estudiasteis", "you all studied"],
+          ["estudiaron", "they studied"]
+        ],
+        [
+          ["estudiaba", "I used to study"],
+          ["estudiabas", "you used to study"],
+          ["estudiaba", "he/she used to study"],
+          ["estudiábamos", "we used to study"],
+          ["estudiabais", "you all used to study"],
+          ["estudiaban", "they used to study"]
+        ],
+        [
+          ["he estudiado", "I have studied"],
+          ["has estudiado", "you have studied"],
+          ["ha estudiado", "he/she has studied"],
+          ["hemos estudiado", "we have studied"],
+          ["habéis estudiado", "you all have studied"],
+          ["han estudiado", "they have studied"]
+        ],
+        [
+          ["estudio", "I study"],
+          ["estudias", "you study"],
+          ["estudia", "he/she studies"],
+          ["estudiamos", "we study"],
+          ["estudiáis", "you all study"],
+          ["estudian", "they study"]
+        ],
+        [
+          ["estoy estudiando", "I am studying"],
+          ["estás estudiando", "you are studying"],
+          ["está estudiando", "he/she is studying"],
+          ["estamos estudiando", "we are studying"],
+          ["estáis estudiando", "you all are studying"],
+          ["están estudiando", "they are studying"]
+        ],
+        [
+          ["voy a estudiar", "I am going to study"],
+          ["vas a estudiar", "you are going to study"],
+          ["va a estudiar", "he/she is going to study"],
+          ["vamos a estudiar", "we are going to study"],
+          ["vais a estudiar", "you all are going to study"],
+          ["van a estudiar", "they are going to study"]
+        ],
+        [
+          ["estudiaré", "I will study"],
+          ["estudiarás", "you will study"],
+          ["estudiará", "he/she will study"],
+          ["estudiaremos", "we will study"],
+          ["estudiaréis", "you all will study"],
+          ["estudiarán", "they will study"]
+        ],
+        [
+          ["estudiaría", "I would study"],
+          ["estudiarías", "you would study"],
+          ["estudiaría", "he/she would study"],
+          ["estudiaríamos", "we would study"],
+          ["estudiaríais", "you all would study"],
+          ["estudiarían", "they would study"]
+        ],
+        "-ar verb",
+        true
+      ],
+      [
+        "estudiar",
+        [
+          ["estudié", "I studied"],
+          ["estudiaste", "you studied"],
+          ["estudió", "he/she studied"],
+          ["estudiamos", "we studied"],
+          ["estudiasteis", "you all studied"],
+          ["estudiaron", "they studied"]
+        ],
+        [
+          ["estudiaba", "I used to study"],
+          ["estudiabas", "you used to study"],
+          ["estudiaba", "he/she used to study"],
+          ["estudiábamos", "we used to study"],
+          ["estudiabais", "you all used to study"],
+          ["estudiaban", "they used to study"]
+        ],
+        [
+          ["he estudiado", "I have studied"],
+          ["has estudiado", "you have studied"],
+          ["ha estudiado", "he/she has studied"],
+          ["hemos estudiado", "we have studied"],
+          ["habéis estudiado", "you all have studied"],
+          ["han estudiado", "they have studied"]
+        ],
+        [
+          ["estudio", "I study"],
+          ["estudias", "you study"],
+          ["estudia", "he/she studies"],
+          ["estudiamos", "we study"],
+          ["estudiáis", "you all study"],
+          ["estudian", "they study"]
+        ],
+        [
+          ["estoy estudiando", "I am studying"],
+          ["estás estudiando", "you are studying"],
+          ["está estudiando", "he/she is studying"],
+          ["estamos estudiando", "we are studying"],
+          ["estáis estudiando", "you all are studying"],
+          ["están estudiando", "they are studying"]
+        ],
+        [
+          ["voy a estudiar", "I am going to study"],
+          ["vas a estudiar", "you are going to study"],
+          ["va a estudiar", "he/she is going to study"],
+          ["vamos a estudiar", "we are going to study"],
+          ["vais a estudiar", "you all are going to study"],
+          ["van a estudiar", "they are going to study"]
+        ],
+        [
+          ["estudiaré", "I will study"],
+          ["estudiarás", "you will study"],
+          ["estudiará", "he/she will study"],
+          ["estudiaremos", "we will study"],
+          ["estudiaréis", "you all will study"],
+          ["estudiarán", "they will study"]
+        ],
+        [
+          ["estudiaría", "I would study"],
+          ["estudiarías", "you would study"],
+          ["estudiaría", "he/she would study"],
+          ["estudiaríamos", "we would study"],
+          ["estudiaríais", "you all would study"],
+          ["estudiarían", "they would study"]
+        ],
+        "-ar verb",
+        true
+      ],
+      [
+        "aprender",
+        [
+          ["aprendí", "I learned"],
+          ["aprendiste", "you learned"],
+          ["aprendió", "he/she learned"],
+          ["aprendimos", "we learned"],
+          ["aprendisteis", "you all learned"],
+          ["aprendieron", "they learned"]
+        ],
+        [
+          ["aprendía", "I used to learn"],
+          ["aprendías", "you used to learn"],
+          ["aprendía", "he/she used to learn"],
+          ["aprendíamos", "we used to learn"],
+          ["aprendíais", "you all used to learn"],
+          ["aprendían", "they used to learn"]
+        ],
+        [
+          ["he aprendido", "I have learned"],
+          ["has aprendido", "you have learned"],
+          ["ha aprendido", "he/she has learned"],
+          ["hemos aprendido", "we have learned"],
+          ["habéis aprendido", "you all have learned"],
+          ["han aprendido", "they have learned"]
+        ],
+        [
+          ["aprendo", "I learn"],
+          ["aprendes", "you learn"],
+          ["aprende", "he/she learns"],
+          ["aprendemos", "we learn"],
+          ["aprendéis", "you all learn"],
+          ["aprenden", "they learn"]
+        ],
+        [
+          ["estoy aprendiendo", "I am learning"],
+          ["estás aprendiendo", "you are learning"],
+          ["está aprendiendo", "he/she is learning"],
+          ["estamos aprendiendo", "we are learning"],
+          ["estáis aprendiendo", "you all are learning"],
+          ["están aprendiendo", "they are learning"]
+        ],
+        [
+          ["voy a aprender", "I am going to learn"],
+          ["vas a aprender", "you are going to learn"],
+          ["va a aprender", "he/she is going to learn"],
+          ["vamos a aprender", "we are going to learn"],
+          ["vais a aprender", "you all are going to learn"],
+          ["van a aprender", "they are going to learn"]
+        ],
+        [
+          ["aprenderé", "I will learn"],
+          ["aprenderás", "you will learn"],
+          ["aprenderá", "he/she will learn"],
+          ["aprenderemos", "we will learn"],
+          ["aprenderéis", "you all will learn"],
+          ["aprenderán", "they will learn"]
+        ],
+        [
+          ["aprendería", "I would learn"],
+          ["aprenderías", "you would learn"],
+          ["aprendería", "he/she would learn"],
+          ["aprenderíamos", "we would learn"],
+          ["aprenderíais", "you all would learn"],
+          ["aprenderían", "they would learn"]
+        ],
+        "-er verb",
+        true
+      ],
+      [
+        "beber",
+        [
+          ["bebí", "I drank"],
+          ["bebiste", "you drank"],
+          ["bebió", "he/she drank"],
+          ["bebimos", "we drank"],
+          ["bebisteis", "you all drank"],
+          ["bebieron", "they drank"]
+        ],
+        [
+          ["bebía", "I used to drink"],
+          ["bebías", "you used to drink"],
+          ["bebía", "he/she used to drink"],
+          ["bebíamos", "we used to drink"],
+          ["bebíais", "you all used to drink"],
+          ["bebían", "they used to drink"]
+        ],
+        [
+          ["he bebido", "I have drunk"],
+          ["has bebido", "you have drunk"],
+          ["ha bebido", "he/she has drunk"],
+          ["hemos bebido", "we have drunk"],
+          ["habéis bebido", "you all have drunk"],
+          ["han bebido", "they have drunk"]
+        ],
+        [
+          ["bebo", "I drink"],
+          ["bebes", "you drink"],
+          ["bebe", "he/she drinks"],
+          ["bebemos", "we drink"],
+          ["bebéis", "you all drink"],
+          ["beben", "they drink"]
+        ],
+        [
+          ["estoy bebiendo", "I am drinking"],
+          ["estás bebiendo", "you are drinking"],
+          ["está bebiendo", "he/she is drinking"],
+          ["estamos bebiendo", "we are drinking"],
+          ["estáis bebiendo", "you all are drinking"],
+          ["están bebiendo", "they are drinking"]
+        ],
+        [
+          ["voy a beber", "I am going to drink"],
+          ["vas a beber", "you are going to drink"],
+          ["va a beber", "he/she is going to drink"],
+          ["vamos a beber", "we are going to drink"],
+          ["vais a beber", "you all are going to drink"],
+          ["van a beber", "they are going to drink"]
+        ],
+        [
+          ["beberé", "I will drink"],
+          ["beberás", "you will drink"],
+          ["beberá", "he/she will drink"],
+          ["beberemos", "we will drink"],
+          ["beberéis", "you all will drink"],
+          ["beberán", "they will drink"]
+        ],
+        [
+          ["bebería", "I would drink"],
+          ["beberías", "you would drink"],
+          ["bebería", "he/she would drink"],
+          ["beberíamos", "we would drink"],
+          ["beberíais", "you all would drink"],
+          ["beberían", "they would drink"]
+        ],
+        "-er verb",
+        true
+      ],
+      [
+        "comer",
+        [
+          ["comí", "I ate"],
+          ["comiste", "you ate"],
+          ["comió", "he/she ate"],
+          ["comimos", "we ate"],
+          ["comisteis", "you all ate"],
+          ["comieron", "they ate"]
+        ],
+        [
+          ["comía", "I used to eat"],
+          ["comías", "you used to eat"],
+          ["comía", "he/she used to eat"],
+          ["comíamos", "we used to eat"],
+          ["comíais", "you all used to eat"],
+          ["comían", "they used to eat"]
+        ],
+        [
+          ["he comido", "I have eaten"],
+          ["has comido", "you have eaten"],
+          ["ha comido", "he/she has eaten"],
+          ["hemos comido", "we have eaten"],
+          ["habéis comido", "you all have eaten"],
+          ["han comido", "they have eaten"]
+        ],
+        [
+          ["como", "I eat"],
+          ["comes", "you eat"],
+          ["come", "he/she eats"],
+          ["comemos", "we eat"],
+          ["coméis", "you all eat"],
+          ["comen", "they eat"]
+        ],
+        [
+          ["estoy comiendo", "I am eating"],
+          ["estás comiendo", "you are eating"],
+          ["está comiendo", "he/she is eating"],
+          ["estamos comiendo", "we are eating"],
+          ["estáis comiendo", "you all are eating"],
+          ["están comiendo", "they are eating"]
+        ],
+        [
+          ["voy a comer", "I am going to eat"],
+          ["vas a comer", "you are going to eat"],
+          ["va a comer", "he/she is going to eat"],
+          ["vamos a comer", "we are going to eat"],
+          ["vais a comer", "you all are going to eat"],
+          ["van a comer", "they are going to eat"]
+        ],
+        [
+          ["comeré", "I will eat"],
+          ["comerás", "you will eat"],
+          ["comerá", "he/she will eat"],
+          ["comeremos", "we will eat"],
+          ["comeréis", "you all will eat"],
+          ["comerán", "they will eat"]
+        ],
+        [
+          ["comería", "I would eat"],
+          ["comerías", "you would eat"],
+          ["comería", "he/she would eat"],
+          ["comeríamos", "we would eat"],
+          ["comeríais", "you all would eat"],
+          ["comerían", "they would eat"]
+        ],
+        "-er verb",
+        true
+      ],
+      [
+        "correr",
+        [
+          ["corrí", "I ran"],
+          ["corriste", "you ran"],
+          ["corrió", "he/she ran"],
+          ["corrimos", "we ran"],
+          ["corristeis", "you all ran"],
+          ["corrieron", "they ran"]
+        ],
+        [
+          ["corría", "I used to run"],
+          ["corrías", "you used to run"],
+          ["corría", "he/she used to run"],
+          ["corríamos", "we used to run"],
+          ["corríais", "you all used to run"],
+          ["corrían", "they used to run"]
+        ],
+        [
+          ["he corrido", "I have run"],
+          ["has corrido", "you have run"],
+          ["ha corrido", "he/she has run"],
+          ["hemos corrido", "we have run"],
+          ["habéis corrido", "you all have run"],
+          ["han corrido", "they have run"]
+        ],
+        [
+          ["corro", "I run"],
+          ["corres", "you run"],
+          ["corre", "he/she runs"],
+          ["corremos", "we run"],
+          ["corréis", "you all run"],
+          ["corren", "they run"]
+        ],
+        [
+          ["estoy corriendo", "I am running"],
+          ["estás corriendo", "you are running"],
+          ["está corriendo", "he/she is running"],
+          ["estamos corriendo", "we are running"],
+          ["estáis corriendo", "you all are running"],
+          ["están corriendo", "they are running"]
+        ],
+        [
+          ["voy a correr", "I am going to run"],
+          ["vas a correr", "you are going to run"],
+          ["va a correr", "he/she is going to run"],
+          ["vamos a correr", "we are going to run"],
+          ["vais a correr", "you all are going to run"],
+          ["van a correr", "they are going to run"]
+        ],
+        [
+          ["correré", "I will run"],
+          ["correrás", "you will run"],
+          ["correrá", "he/she will run"],
+          ["correremos", "we will run"],
+          ["correréis", "you all will run"],
+          ["correrán", "they will run"]
+        ],
+        [
+          ["correría", "I would run"],
+          ["correrías", "you would run"],
+          ["correría", "he/she would run"],
+          ["correríamos", "we would run"],
+          ["correríais", "you all would run"],
+          ["correrían", "they would run"]
+        ],
+        "-er verb",
+        true
+      ],
+      [
+        "vender",
+        [
+          ["vendí", "I sold"],
+          ["vendiste", "you sold"],
+          ["vendió", "he/she sold"],
+          ["vendimos", "we sold"],
+          ["vendisteis", "you all sold"],
+          ["vendieron", "they sold"]
+        ],
+        [
+          ["vendía", "I used to sell"],
+          ["vendías", "you used to sell"],
+          ["vendía", "he/she used to sell"],
+          ["vendíamos", "we used to sell"],
+          ["vendíais", "you all used to sell"],
+          ["vendían", "they used to sell"]
+        ],
+        [
+          ["he vendido", "I have sold"],
+          ["has vendido", "you have sold"],
+          ["ha vendido", "he/she has sold"],
+          ["hemos vendido", "we have sold"],
+          ["habéis vendido", "you all have sold"],
+          ["han vendido", "they have sold"]
+        ],
+        [
+          ["vendo", "I sell"],
+          ["vendes", "you sell"],
+          ["vende", "he/she sells"],
+          ["vendemos", "we sell"],
+          ["vendéis", "you all sell"],
+          ["venden", "they sell"]
+        ],
+        [
+          ["estoy vendiendo", "I am selling"],
+          ["estás vendiendo", "you are selling"],
+          ["está vendiendo", "he/she is selling"],
+          ["estamos vendiendo", "we are selling"],
+          ["estáis vendiendo", "you all are selling"],
+          ["están vendiendo", "they are selling"]
+        ],
+        [
+          ["voy a vender", "I am going to sell"],
+          ["vas a vender", "you are going to sell"],
+          ["va a vender", "he/she is going to sell"],
+          ["vamos a vender", "we are going to sell"],
+          ["vais a vender", "you all are going to sell"],
+          ["van a vender", "they are going to sell"]
+        ],
+        [
+          ["venderé", "I will sell"],
+          ["venderás", "you will sell"],
+          ["venderá", "he/she will sell"],
+          ["venderemos", "we will sell"],
+          ["venderéis", "you all will sell"],
+          ["venderán", "they will sell"]
+        ],
+        [
+          ["vendería", "I would sell"],
+          ["venderías", "you would sell"],
+          ["vendería", "he/she would sell"],
+          ["venderíamos", "we would sell"],
+          ["venderíais", "you all would sell"],
+          ["venderían", "they would sell"]
+        ],
+        "-er verb",
+        true
+      ],
+      [
+        "compartir",
+        [
+          ["compartí", "I shared"],
+          ["compartiste", "you shared"],
+          ["compartió", "he/she shared"],
+          ["compartimos", "we shared"],
+          ["compartisteis", "you all shared"],
+          ["compartieron", "they shared"]
+        ],
+        [
+          ["compartía", "I used to share"],
+          ["compartías", "you used to share"],
+          ["compartía", "he/she used to share"],
+          ["compartíamos", "we used to share"],
+          ["compartíais", "you all used to share"],
+          ["compartían", "they used to share"]
+        ],
+        [
+          ["he compartido", "I have shared"],
+          ["has compartido", "you have shared"],
+          ["ha compartido", "he/she has shared"],
+          ["hemos compartido", "we have shared"],
+          ["habéis compartido", "you all have shared"],
+          ["han compartido", "they have shared"]
+        ],
+        [
+          ["comparto", "I share"],
+          ["compartes", "you share"],
+          ["comparte", "he/she shares"],
+          ["compartimos", "we share"],
+          ["compartís", "you all share"],
+          ["comparten", "they share"]
+        ],
+        [
+          ["estoy compartiendo", "I am sharing"],
+          ["estás compartiendo", "you are sharing"],
+          ["está compartiendo", "he/she is sharing"],
+          ["estamos compartiendo", "we are sharing"],
+          ["estáis compartiendo", "you all are sharing"],
+          ["están compartiendo", "they are sharing"]
+        ],
+        [
+          ["voy a compartir", "I am going to share"],
+          ["vas a compartir", "you are going to share"],
+          ["va a compartir", "he/she is going to share"],
+          ["vamos a compartir", "we are going to share"],
+          ["vais a compartir", "you all are going to share"],
+          ["van a compartir", "they are going to share"]
+        ],
+        [
+          ["compartiré", "I will share"],
+          ["compartirás", "you will share"],
+          ["compartirá", "he/she will share"],
+          ["compartiremos", "we will share"],
+          ["compartiréis", "you all will share"],
+          ["compartirán", "they will share"]
+        ],
+        [
+          ["compartiría", "I would share"],
+          ["compartirías", "you would share"],
+          ["compartiría", "he/she would share"],
+          ["compartiríamos", "we would share"],
+          ["compartiríais", "you all would share"],
+          ["compartirían", "they would share"]
+        ],
+        "-ir verb",
+        true
+      ],
+      [
+        "decidir",
+        [
+          ["decidí", "I decided"],
+          ["decidiste", "you decided"],
+          ["decidió", "he/she decided"],
+          ["decidimos", "we decided"],
+          ["decidisteis", "you all decided"],
+          ["decidieron", "they decided"]
+        ],
+        [
+          ["decidía", "I used to decide"],
+          ["decidías", "you used to decide"],
+          ["decidía", "he/she used to decide"],
+          ["decidíamos", "we used to decide"],
+          ["decidíais", "you all used to decide"],
+          ["decidían", "they used to decide"]
+        ],
+        [
+          ["he decidido", "I have decided"],
+          ["has decidido", "you have decided"],
+          ["ha decidido", "he/she has decided"],
+          ["hemos decidido", "we have decided"],
+          ["habéis decidido", "you all have decided"],
+          ["han decidido", "they have decided"]
+        ],
+        [
+          ["decido", "I decide"],
+          ["decides", "you decide"],
+          ["decide", "he/she decides"],
+          ["decidimos", "we decide"],
+          ["decidís", "you all decide"],
+          ["deciden", "they decide"]
+        ],
+        [
+          ["estoy decidiendo", "I am deciding"],
+          ["estás decidiendo", "you are deciding"],
+          ["está decidiendo", "he/she is deciding"],
+          ["estamos decidiendo", "we are deciding"],
+          ["estáis decidiendo", "you all are deciding"],
+          ["están decidiendo", "they are deciding"]
+        ],
+        [
+          ["voy a decidir", "I am going to decide"],
+          ["vas a decidir", "you are going to decide"],
+          ["va a decidir", "he/she is going to decide"],
+          ["vamos a decidir", "we are going to decide"],
+          ["vais a decidir", "you all are going to decide"],
+          ["van a decidir", "they are going to decide"]
+        ],
+        [
+          ["decidiré", "I will decide"],
+          ["decidirás", "you will decide"],
+          ["decidirá", "he/she will decide"],
+          ["decidiremos", "we will decide"],
+          ["decidiréis", "you all will decide"],
+          ["decidirán", "they will decide"]
+        ],
+        [
+          ["decidiría", "I would decide"],
+          ["decidirías", "you would decide"],
+          ["decidiría", "he/she would decide"],
+          ["decidiríamos", "we would decide"],
+          ["decidiríais", "you all would decide"],
+          ["decidirían", "they would decide"]
+        ],
+        "-ir verb",
+        true
+      ],
+      [
+        "vivir",
+        [
+          ["viví", "I lived"],
+          ["viviste", "you lived"],
+          ["vivió", "he/she lived"],
+          ["vivimos", "we lived"],
+          ["vivisteis", "you all lived"],
+          ["vivieron", "they lived"]
+        ],
+        [
+          ["vivía", "I used to live"],
+          ["vivías", "you used to live"],
+          ["vivía", "he/she used to live"],
+          ["vivíamos", "we used to live"],
+          ["vivíais", "you all used to live"],
+          ["vivían", "they used to live"]
+        ],
+        [
+          ["he vivido", "I have lived"],
+          ["has vivido", "you have lived"],
+          ["ha vivido", "he/she has lived"],
+          ["hemos vivido", "we have lived"],
+          ["habéis vivido", "you all have lived"],
+          ["han vivido", "they have lived"]
+        ],
+        [
+          ["vivo", "I live"],
+          ["vives", "you live"],
+          ["vive", "he/she lives"],
+          ["vivimos", "we live"],
+          ["vivís", "you all live"],
+          ["viven", "they live"]
+        ],
+        [
+          ["estoy viviendo", "I am living"],
+          ["estás viviendo", "you are living"],
+          ["está viviendo", "he/she is living"],
+          ["estamos viviendo", "we are living"],
+          ["estáis viviendo", "you all are living"],
+          ["están viviendo", "they are living"]
+        ],
+        [
+          ["voy a vivir", "I am going to live"],
+          ["vas a vivir", "you are going to live"],
+          ["va a vivir", "he/she is going to live"],
+          ["vamos a vivir", "we are going to live"],
+          ["vais a vivir", "you all are going to live"],
+          ["van a vivir", "they are going to live"]
+        ],
+        [
+          ["viviré", "I will live"],
+          ["vivirás", "you will live"],
+          ["vivirá", "he/she will live"],
+          ["viviremos", "we will live"],
+          ["viviréis", "you all will live"],
+          ["vivirán", "they will live"]
+        ],
+        [
+          ["viviría", "I would live"],
+          ["vivirías", "you would live"],
+          ["viviría", "he/she would live"],
+          ["viviríamos", "we would live"],
+          ["viviríais", "you all would live"],
+          ["vivirían", "they would live"]
+        ],
+        "-ir verb",
+        true
+      ],
+      [
+        "recibir",
+        [
+          ["recibí", "I received"],
+          ["recibiste", "you received"],
+          ["recibió", "he/she received"],
+          ["recibimos", "we received"],
+          ["recibisteis", "you all received"],
+          ["recibieron", "they received"]
+        ],
+        [
+          ["recibía", "I used to receive"],
+          ["recibías", "you used to receive"],
+          ["recibía", "he/she used to receive"],
+          ["recibíamos", "we used to receive"],
+          ["recibíais", "you all used to receive"],
+          ["recibían", "they used to receive"]
+        ],
+        [
+          ["he recibido", "I have received"],
+          ["has recibido", "you have received"],
+          ["ha recibido", "he/she has received"],
+          ["hemos recibido", "we have received"],
+          ["habéis recibido", "you all have received"],
+          ["han recibido", "they have received"]
+        ],
+        [
+          ["recibo", "I receive"],
+          ["recibes", "you receive"],
+          ["recibe", "he/she receives"],
+          ["recibimos", "we receive"],
+          ["recibís", "you all receive"],
+          ["reciben", "they receive"]
+        ],
+        [
+          ["estoy recibiendo", "I am receiving"],
+          ["estás recibiendo", "you are receiving"],
+          ["está recibiendo", "he/she is receiving"],
+          ["estamos recibiendo", "we are receiving"],
+          ["estáis recibiendo", "you all are receiving"],
+          ["están recibiendo", "they are receiving"]
+        ],
+        [
+          ["voy a recibir", "I am going to receive"],
+          ["vas a recibir", "you are going to receive"],
+          ["va a recibir", "he/she is going to receive"],
+          ["vamos a recibir", "we are going to receive"],
+          ["vais a recibir", "you all are going to receive"],
+          ["van a recibir", "they are going to receive"]
+        ],
+        [
+          ["recibiré", "I will receive"],
+          ["recibirás", "you will receive"],
+          ["recibirá", "he/she will receive"],
+          ["recibiremos", "we will receive"],
+          ["recibiréis", "you all will receive"],
+          ["recibirán", "they will receive"]
+        ],
+        [
+          ["recibiría", "I would receive"],
+          ["recibirías", "you would receive"],
+          ["recibiría", "he/she would receive"],
+          ["recibiríamos", "we would receive"],
+          ["recibiríais", "you all would receive"],
+          ["recibirían", "they would receive"]
+        ],
+        "-ir verb",
+        true
+      ],
+      [
+        "pulir",
+        [
+          ["pulí", "I polished"],
+          ["puliste", "you polished"],
+          ["pulió", "he/she polished"],
+          ["pulimos", "we polished"],
+          ["pulisteis", "you all polished"],
+          ["pulieron", "they polished"]
+        ],
+        [
+          ["pulía", "I used to polish"],
+          ["pulías", "you used to polish"],
+          ["pulía", "he/she used to polish"],
+          ["pulíamos", "we used to polish"],
+          ["pulíais", "you all used to polish"],
+          ["pulían", "they used to polish"]
+        ],
+        [
+          ["he pulido", "I have polished"],
+          ["has pulido", "you have polished"],
+          ["ha pulido", "he/she has polished"],
+          ["hemos pulido", "we have polished"],
+          ["habéis pulido", "you all have polished"],
+          ["han pulido", "they have polished"]
+        ],
+        [
+          ["pulo", "I polish"],
+          ["pules", "you polish"],
+          ["pule", "he/she polishes"],
+          ["pulimos", "we polish"],
+          ["pulís", "you all polish"],
+          ["pulen", "they polish"]
+        ],
+        [
+          ["estoy puliendo", "I am polishing"],
+          ["estás puliendo", "you are polishing"],
+          ["está puliendo", "he/she is polishing"],
+          ["estamos puliendo", "we are polishing"],
+          ["estáis puliendo", "you all are polishing"],
+          ["están puliendo", "they are polishing"]
+        ],
+        [
+          ["voy a pulir", "I am going to polish"],
+          ["vas a pulir", "you are going to polish"],
+          ["va a pulir", "he/she is going to polish"],
+          ["vamos a pulir", "we are going to polish"],
+          ["vais a pulir", "you all are going to polish"],
+          ["van a pulir", "they are going to polish"]
+        ],
+        [
+          ["puliré", "I will polish"],
+          ["pulirás", "you will polish"],
+          ["pulirá", "he/she will polish"],
+          ["puliremos", "we will polish"],
+          ["puliréis", "you all will polish"],
+          ["pulirán", "they will polish"]
+        ],
+        [
+          ["puliría", "I would polish"],
+          ["pulirías", "you would polish"],
+          ["puliría", "he/she would polish"],
+          ["puliríamos", "we would polish"],
+          ["puliríais", "you all would polish"],
+          ["pulirían", "they would polish"]
+        ],
+        "-ir verb",
+        true
+      ],
+      [
+        "levantarse",
+        [
+          ["me levanté", "I got up"],
+          ["te levantaste", "you got up"],
+          ["se levantó", "he/she got up"],
+          ["nos levantamos", "we got up"],
+          ["os levantasteis", "you all got up"],
+          ["se levantaron", "they got up"]
+        ],
+        [
+          ["me levantaba", "I used to get up"],
+          ["te levantabas", "you used to get up"],
+          ["se levantaba", "he/she used to get up"],
+          ["nos levantábamos", "we used to get up"],
+          ["os levantabais", "you all used to get up"],
+          ["se levantaban", "they used to get up"]
+        ],
+        [
+          ["me he levantado", "I have got up"],
+          ["te has levantado", "you have got up"],
+          ["se ha levantado", "he/she has got up"],
+          ["nos hemos levantado", "we have got up"],
+          ["os habéis levantado", "you all have got up"],
+          ["se han levantado", "they have got up"]
+        ],
+        [
+          ["me levanto", "I get up"],
+          ["te levantas", "you get up"],
+          ["se levanta", "he/she gets up"],
+          ["nos levantamos", "we get up"],
+          ["os levantáis", "you all get up"],
+          ["se levantan", "they get up"]
+        ],
+        [
+          ["me estoy levantando", "I am getting up"],
+          ["te estás levantando", "you are getting up"],
+          ["se está levantando", "he/she is getting up"],
+          ["nos estamos levantando", "we are getting up"],
+          ["os estáis levantando", "you all are getting up"],
+          ["se están levantando", "they are getting up"]
+        ],
+        [
+          ["me voy a levantar", "I am going to get up"],
+          ["te vas a levantar", "you are going to get up"],
+          ["se va a levantar", "he/she is going to get up"],
+          ["nos vamos a levantar", "we are going to get up"],
+          ["os vais a levantar", "you all are going to get up"],
+          ["se van a levantar", "they are going to get up"]
+        ],
+        [
+          ["me levantaré", "I will get up"],
+          ["te levantarás", "you will get up"],
+          ["se levantará", "he/she will get up"],
+          ["nos levantaremos", "we will get up"],
+          ["os levantaréis", "you all will get up"],
+          ["se levantarán", "they will get up"]
+        ],
+        [
+          ["me levantaría", "I would get up"],
+          ["te levantarías", "you would get up"],
+          ["se levantaría", "he/she would get up"],
+          ["nos levantaríamos", "we would get up"],
+          ["os levantaríais", "you all would get up"],
+          ["se levantarían", "they would get up"]
+        ],
+        "reflexive",
+        false
+      ],
+      [
+        "peinarse",
+        [
+          ["me peiné", "I combed my hair"],
+          ["te peinaste", "you combed your hair"],
+          ["se peinó", "he/she combed his/her hair"],
+          ["nos peinamos", "we combed our hair"],
+          ["os peinasteis", "you all combed your hair"],
+          ["se peinaron", "they combed their hair"]
+        ],
+        [
+          ["me peinaba", "I used to comb my hair"],
+          ["te peinabas", "you used to comb your hair"],
+          ["se peinaba", "he/she used to comb his/her hair"],
+          ["nos peinábamos", "we used to comb our hair"],
+          ["os peinabais", "you all used to comb your hair"],
+          ["se peinaban", "they used to comb their hair"]
+        ],
+        [
+          ["me he peinado", "I have combed my hair"],
+          ["te has peinado", "you have combed your hair"],
+          ["se ha peinado", "he/she has combed his/her hair"],
+          ["nos hemos peinado", "we have combed our hair"],
+          ["os habéis peinado", "you all have combed your hair"],
+          ["se han peinado", "they have combed their hair"]
+        ],
+        [
+          ["me peino", "I comb my hair"],
+          ["te peinas", "you comb your hair"],
+          ["se peina", "he/she combs his/her hair"],
+          ["nos peinamos", "we comb our hair"],
+          ["os peináis", "you all comb your hair"],
+          ["se peinan", "they comb their hair"]
+        ],
+        [
+          ["me estoy peinando", "I am combing my hair"],
+          ["te estás peinando", "you are combing your hair"],
+          ["se está peinando", "he/she is combing his/her hair"],
+          ["nos estamos peinando", "we are combing our hair"],
+          ["os estáis peinando", "you all are combing your hair"],
+          ["se están peinando", "they are combing their hair"]
+        ],
+        [
+          ["me voy a peinar", "I am going to comb my hair"],
+          ["te vas a peinar", "you are going to comb your hair"],
+          ["se va a peinar", "he/she is going to comb his/her hair"],
+          ["nos vamos a peinar", "we are going to comb our hair"],
+          ["os vais a peinar", "you all are going to comb your hair"],
+          ["se van a peinar", "they are going to comb their hair"]
+        ],
+        [
+          ["me peinaré", "I will comb my hair"],
+          ["te peinarás", "you will comb your hair"],
+          ["se peinará", "he/she will comb his/her hair"],
+          ["nos peinaremos", "we will comb our hair"],
+          ["os peinaréis", "you all will comb your hair"],
+          ["se peinarán", "they will comb their hair"]
+        ],
+        [
+          ["me peinaría", "I would comb my hair"],
+          ["te peinarías", "you would comb your hair"],
+          ["se peinaría", "he/she would comb his/her hair"],
+          ["nos peinaríamos", "we would comb our hair"],
+          ["os peinaríais", "you all would comb your hair"],
+          ["se peinarían", "they would comb their hair"]
+        ],
+        "reflexive",
+        false
+      ],
+      [
+        "ducharse",
+        [
+          ["me duché", "I showered"],
+          ["te duchaste", "you showered"],
+          ["se duchó", "he/she showered"],
+          ["nos duchamos", "we showered"],
+          ["os duchasteis", "you all showered"],
+          ["se ducharon", "they showered"]
+        ],
+        [
+          ["me duchaba", "I used to shower"],
+          ["te duchabas", "you used to shower"],
+          ["se duchaba", "he/she used to shower"],
+          ["nos duchábamos", "we used to shower"],
+          ["os duchabais", "you all used to shower"],
+          ["se duchaban", "they used to shower"]
+        ],
+        [
+          ["me he duchado", "I have showered"],
+          ["te has duchado", "you have showered"],
+          ["se ha duchado", "he/she has showered"],
+          ["nos hemos duchado", "we have showered"],
+          ["os habéis duchado", "you all have showered"],
+          ["se han duchado", "they have showered"]
+        ],
+        [
+          ["me ducho", "I shower"],
+          ["te duchas", "you shower"],
+          ["se ducha", "he/she showers"],
+          ["nos duchamos", "we shower"],
+          ["os ducháis", "you all shower"],
+          ["se duchan", "they shower"]
+        ],
+        [
+          ["me estoy duchando", "I am showering"],
+          ["te estás duchando", "you are showering"],
+          ["se está duchando", "he/she is showering"],
+          ["nos estamos duchando", "we are showering"],
+          ["os estáis duchando", "you all are showering"],
+          ["se están duchando", "they are showering"]
+        ],
+        [
+          ["me voy a duchar", "I am going to shower"],
+          ["te vas a duchar", "you are going to shower"],
+          ["se va a duchar", "he/she is going to shower"],
+          ["nos vamos a duchar", "we are going to shower"],
+          ["os vais a duchar", "you all are going to shower"],
+          ["se van a duchar", "they are going to shower"]
+        ],
+        [
+          ["me ducharé", "I will shower"],
+          ["te ducharás", "you will shower"],
+          ["se duchará", "he/she will shower"],
+          ["nos ducharemos", "we will shower"],
+          ["os ducharéis", "you all will shower"],
+          ["se ducharán", "they will shower"]
+        ],
+        [
+          ["me ducharía", "I would shower"],
+          ["te ducharías", "you would shower"],
+          ["se ducharía", "he/she would shower"],
+          ["nos ducharíamos", "we would shower"],
+          ["os ducharíais", "you all would shower"],
+          ["se ducharían", "they would shower"]
+        ],
+        "reflexive",
+        false
+      ],
+      [
+        "lavarse",
+        [
+          ["me lavé", "I washed myself"],
+          ["te lavaste", "you washed yourself"],
+          ["se lavó", "he/she washed himself/herself"],
+          ["nos lavamos", "we washed ourselves"],
+          ["os lavasteis", "you all washed yourselves"],
+          ["se lavaron", "they washed themselves"]
+        ],
+        [
+          ["me lavaba", "I used to wash myself"],
+          ["te lavabas", "you used to wash yourself"],
+          ["se lavaba", "he/she used to wash himself/herself"],
+          ["nos lavábamos", "we used to wash ourselves"],
+          ["os lavabais", "you all used to wash yourselves"],
+          ["se lavaban", "they used to wash themselves"]
+        ],
+        [
+          ["me he lavado", "I have washed myself"],
+          ["te has lavado", "you have washed yourself"],
+          ["se ha lavado", "he/she has washed himself/herself"],
+          ["nos hemos lavado", "we have washed ourselves"],
+          ["os habéis lavado", "you all have washed yourselves"],
+          ["se han lavado", "they have washed themselves"]
+        ],
+        [
+          ["me lavo", "I wash myself"],
+          ["te lavas", "you wash yourself"],
+          ["se lava", "he/she washes himself/herself"],
+          ["nos lavamos", "we wash ourselves"],
+          ["os laváis", "you all wash yourselves"],
+          ["se lavan", "they wash themselves"]
+        ],
+        [
+          ["me estoy lavando", "I am washing myself"],
+          ["te estás lavando", "you are washing yourself"],
+          ["se está lavando", "he/she is washing himself/herself"],
+          ["nos estamos lavando", "we are washing ourselves"],
+          ["os estáis lavando", "you all are washing yourselves"],
+          ["se están lavando", "they are washing themselves"]
+        ],
+        [
+          ["me voy a lavar", "I am going to wash myself"],
+          ["te vas a lavar", "you are going to wash yourself"],
+          ["se va a lavar", "he/she is going to wash himself/herself"],
+          ["nos vamos a lavar", "we are going to wash ourselves"],
+          ["os vais a lavar", "you all are going to wash yourselves"],
+          ["se van a lavar", "they are going to wash themselves"]
+        ],
+        [
+          ["me lavaré", "I will wash myself"],
+          ["te lavarás", "you will wash yourself"],
+          ["se lavará", "he/she will wash himself/herself"],
+          ["nos lavaremos", "we will wash ourselves"],
+          ["os lavaréis", "you all will wash yourselves"],
+          ["se lavarán", "they will wash themselves"]
+        ],
+        [
+          ["me lavaría", "I would wash myself"],
+          ["te lavarías", "you would wash yourself"],
+          ["se lavaría", "he/she would wash himself/herself"],
+          ["nos lavaríamos", "we would wash ourselves"],
+          ["os lavaríais", "you all would wash yourselves"],
+          ["se lavarían", "they would wash themselves"]
+        ],
+        "reflexive",
+        false
+      ],
+      [
+        "vestirse",
+        [
+          ["me vestí", "I got dressed"],
+          ["te vestiste", "you got dressed"],
+          ["se vistió", "he/she got dressed"],
+          ["nos vestimos", "we got dressed"],
+          ["os vestisteis", "you all got dressed"],
+          ["se vistieron", "they got dressed"]
+        ],
+        [
+          ["me vestía", "I used to get dressed"],
+          ["te vestías", "you used to get dressed"],
+          ["se vestía", "he/she used to get dressed"],
+          ["nos vestíamos", "we used to get dressed"],
+          ["os vestíais", "you all used to get dressed"],
+          ["se vestían", "they used to get dressed"]
+        ],
+        [
+          ["me he vestido", "I have gotten dressed"],
+          ["te has vestido", "you have gotten dressed"],
+          ["se ha vestido", "he/she has gotten dressed"],
+          ["nos hemos vestido", "we have gotten dressed"],
+          ["os habéis vestido", "you all have gotten dressed"],
+          ["se han vestido", "they have gotten dressed"]
+        ],
+        [
+          ["me visto", "I get dressed"],
+          ["te vistes", "you get dressed"],
+          ["se viste", "he/she gets dressed"],
+          ["nos vestimos", "we get dressed"],
+          ["os vestís", "you all get dressed"],
+          ["se visten", "they get dressed"]
+        ],
+        [
+          ["me estoy vistiendo", "I am getting dressed"],
+          ["te estás vistiendo", "you are getting dressed"],
+          ["se está vistiendo", "he/she is getting dressed"],
+          ["nos estamos vistiendo", "we are getting dressed"],
+          ["os estáis vistiendo", "you all are getting dressed"],
+          ["se están vistiendo", "they are getting dressed"]
+        ],
+        [
+          ["me voy a vestir", "I am going to get dressed"],
+          ["te vas a vestir", "you are going to get dressed"],
+          ["se va a vestir", "he/she is going to get dressed"],
+          ["nos vamos a vestir", "we are going to get dressed"],
+          ["os vais a vestir", "you all are going to get dressed"],
+          ["se van a vestir", "they are going to get dressed"]
+        ],
+        [
+          ["me vestiré", "I will get dressed"],
+          ["te vestirás", "you will get dressed"],
+          ["se vestirá", "he/she will get dressed"],
+          ["nos vestiremos", "we will get dressed"],
+          ["os vestiréis", "you all will get dressed"],
+          ["se vestirán", "they will get dressed"]
+        ],
+        [
+          ["me vestiría", "I would get dressed"],
+          ["te vestirías", "you would get dressed"],
+          ["se vestiría", "he/she would get dressed"],
+          ["nos vestiríamos", "we would get dressed"],
+          ["os vestiríais", "you all would get dressed"],
+          ["se vestirían", "they would get dressed"]
+        ],
+        "reflexive",
+        false
+      ],
+      [
+        "ser",
+        [
+          ["fui", "I was"],
+          ["fuiste", "you were"],
+          ["fue", "he/she was"],
+          ["fuimos", "we were"],
+          ["fuisteis", "you all were"],
+          ["fueron", "they were"]
+        ],
+        [
+          ["era", "I used to be"],
+          ["eras", "you used to be"],
+          ["era", "he/she used to be"],
+          ["éramos", "we used to be"],
+          ["erais", "you all used to be"],
+          ["eran", "they used to be"]
+        ],
+        [
+          ["he sido", "I have been"],
+          ["has sido", "you have been"],
+          ["ha sido", "he/she has been"],
+          ["hemos sido", "we have been"],
+          ["habéis sido", "you all have been"],
+          ["han sido", "they have been"]
+        ],
+        [
+          ["soy", "I am"],
+          ["eres", "you are"],
+          ["es", "he/she is"],
+          ["somos", "we are"],
+          ["sois", "you all are"],
+          ["son", "they are"]
+        ],
+        [
+          ["estoy siendo", "I am being"],
+          ["estás siendo", "you are being"],
+          ["está siendo", "he/she is being"],
+          ["estamos siendo", "we are being"],
+          ["estáis siendo", "you all are being"],
+          ["están siendo", "they are being"]
+        ],
+        [
+          ["voy a ser", "I am going to be"],
+          ["vas a ser", "you are going to be"],
+          ["va a ser", "he/she is going to be"],
+          ["vamos a ser", "we are going to be"],
+          ["vais a ser", "you all are going to be"],
+          ["van a ser", "they are going to be"]
+        ],
+        [
+          ["seré", "I will be"],
+          ["serás", "you will be"],
+          ["será", "he/she will be"],
+          ["seremos", "we will be"],
+          ["seréis", "you all will be"],
+          ["serán", "they will be"]
+        ],
+        [
+          ["sería", "I would be"],
+          ["serías", "you would be"],
+          ["sería", "he/she would be"],
+          ["seríamos", "we would be"],
+          ["seríais", "you all would be"],
+          ["serían", "they would be"]
+        ],
+        "irregular",
+        false
+      ],
+      [
+        "estar",
+        [
+          ["estuve", "I was"],
+          ["estuviste", "you were"],
+          ["estuvo", "he/she was"],
+          ["estuvimos", "we were"],
+          ["estuvisteis", "you all were"],
+          ["estuvieron", "they were"]
+        ],
+        [
+          ["estaba", "I used to be"],
+          ["estabas", "you used to be"],
+          ["estaba", "he/she used to be"],
+          ["estábamos", "we used to be"],
+          ["estabais", "you all used to be"],
+          ["estaban", "they used to be"]
+        ],
+        [
+          ["he estado", "I have been"],
+          ["has estado", "you have been"],
+          ["ha estado", "he/she has been"],
+          ["hemos estado", "we have been"],
+          ["habéis estado", "you all have been"],
+          ["han estado", "they have been"]
+        ],
+        [
+          ["estoy", "I am"],
+          ["estás", "you are"],
+          ["está", "he/she is"],
+          ["estamos", "we are"],
+          ["estáis", "you all are"],
+          ["están", "they are"]
+        ],
+        [
+          ["estoy estando", "I am being"],
+          ["estás estando", "you are being"],
+          ["está estando", "he/she is being"],
+          ["estamos estando", "we are being"],
+          ["estáis estando", "you all are being"],
+          ["están estando", "they are being"]
+        ],
+        [
+          ["voy a estar", "I am going to be"],
+          ["vas a estar", "you are going to be"],
+          ["va a estar", "he/she is going to be"],
+          ["vamos a estar", "we are going to be"],
+          ["vais a estar", "you all are going to be"],
+          ["van a estar", "they are going to be"]
+        ],
+        [
+          ["estaré", "I will be"],
+          ["estarás", "you will be"],
+          ["estará", "he/she will be"],
+          ["estaremos", "we will be"],
+          ["estaréis", "you all will be"],
+          ["estarán", "they will be"]
+        ],
+        [
+          ["estaría", "I would be"],
+          ["estarías", "you would be"],
+          ["estaría", "he/she would be"],
+          ["estaríamos", "we would be"],
+          ["estaríais", "you all would be"],
+          ["estarían", "they would be"]
+        ],
+        "irregular",
+        false
+      ],
+      [
+        "ir",
+        [
+          ["fui", "I went"],
+          ["fuiste", "you went"],
+          ["fue", "he/she went"],
+          ["fuimos", "we went"],
+          ["fuisteis", "you all went"],
+          ["fueron", "they went"]
+        ],
+        [
+          ["iba", "I used to go"],
+          ["ibas", "you used to go"],
+          ["iba", "he/she used to go"],
+          ["íbamos", "we used to go"],
+          ["ibais", "you all used to go"],
+          ["iban", "they used to go"]
+        ],
+        [
+          ["he ido", "I have gone"],
+          ["has ido", "you have gone"],
+          ["ha ido", "he/she has gone"],
+          ["hemos ido", "we have gone"],
+          ["habéis ido", "you all have gone"],
+          ["han ido", "they have gone"]
+        ],
+        [
+          ["voy", "I go"],
+          ["vas", "you go"],
+          ["va", "he/she goes"],
+          ["vamos", "we go"],
+          ["vais", "you all go"],
+          ["van", "they go"]
+        ],
+        [
+          ["estoy yendo", "I am going"],
+          ["estás yendo", "you are going"],
+          ["está yendo", "he/she is going"],
+          ["estamos yendo", "we are going"],
+          ["estáis yendo", "you all are going"],
+          ["están yendo", "they are going"]
+        ],
+        [
+          ["voy a ir", "I am going to go"],
+          ["vas a ir", "you are going to go"],
+          ["va a ir", "he/she is going to go"],
+          ["vamos a ir", "we are going to go"],
+          ["vais a ir", "you all are going to go"],
+          ["van a ir", "they are going to go"]
+        ],
+        [
+          ["iré", "I will go"],
+          ["irás", "you will go"],
+          ["irá", "he/she will go"],
+          ["iremos", "we will go"],
+          ["iréis", "you all will go"],
+          ["irán", "they will go"]
+        ],
+        [
+          ["iría", "I would go"],
+          ["irías", "you would go"],
+          ["iría", "he/she would go"],
+          ["iríamos", "we would go"],
+          ["iríais", "you all would go"],
+          ["irían", "they would go"]
+        ],
+        "irregular",
+        false
+      ],
+      [
+        "tener",
+        [
+          ["tuve", "I had"],
+          ["tuviste", "you had"],
+          ["tuvo", "he/she had"],
+          ["tuvimos", "we had"],
+          ["tuvisteis", "you all had"],
+          ["tuvieron", "they had"]
+        ],
+        [
+          ["tenía", "I used to have"],
+          ["tenías", "you used to have"],
+          ["tenía", "he/she used to have"],
+          ["teníamos", "we used to have"],
+          ["teníais", "you all used to have"],
+          ["tenían", "they used to have"]
+        ],
+        [
+          ["he tenido", "I have had"],
+          ["has tenido", "you have had"],
+          ["ha tenido", "he/she has had"],
+          ["hemos tenido", "we have had"],
+          ["habéis tenido", "you all have had"],
+          ["han tenido", "they have had"]
+        ],
+        [
+          ["tengo", "I have"],
+          ["tienes", "you have"],
+          ["tiene", "he/she has"],
+          ["tenemos", "we have"],
+          ["tenéis", "you all have"],
+          ["tienen", "they have"]
+        ],
+        [
+          ["estoy teniendo", "I am having"],
+          ["estás teniendo", "you are having"],
+          ["está teniendo", "he/she is having"],
+          ["estamos teniendo", "we are having"],
+          ["estáis teniendo", "you all are having"],
+          ["están teniendo", "they are having"]
+        ],
+        [
+          ["voy a tener", "I am going to have"],
+          ["vas a tener", "you are going to have"],
+          ["va a tener", "he/she is going to have"],
+          ["vamos a tener", "we are going to have"],
+          ["vais a tener", "you all are going to have"],
+          ["van a tener", "they are going to have"]
+        ],
+        [
+          ["tendré", "I will have"],
+          ["tendrás", "you will have"],
+          ["tendrá", "he/she will have"],
+          ["tendremos", "we will have"],
+          ["tendréis", "you all will have"],
+          ["tendrán", "they will have"]
+        ],
+        [
+          ["tendría", "I would have"],
+          ["tendrías", "you would have"],
+          ["tendría", "he/she would have"],
+          ["tendríamos", "we would have"],
+          ["tendríais", "you all would have"],
+          ["tendrían", "they would have"]
+        ],
+        "irregular",
+        false
+      ],
+      [
+        "querer",
+        [
+          ["quise", "I wanted"],
+          ["quisiste", "you wanted"],
+          ["quiso", "he/she wanted"],
+          ["quisimos", "we wanted"],
+          ["quisisteis", "you all wanted"],
+          ["quisieron", "they wanted"]
+        ],
+        [
+          ["quería", "I used to want"],
+          ["querías", "you used to want"],
+          ["quería", "he/she used to want"],
+          ["queríamos", "we used to want"],
+          ["queríais", "you all used to want"],
+          ["querían", "they used to want"]
+        ],
+        [
+          ["he querido", "I have wanted"],
+          ["has querido", "you have wanted"],
+          ["ha querido", "he/she has wanted"],
+          ["hemos querido", "we have wanted"],
+          ["habéis querido", "you all have wanted"],
+          ["han querido", "they have wanted"]
+        ],
+        [
+          ["quiero", "I want"],
+          ["quieres", "you want"],
+          ["quiere", "he/she wants"],
+          ["queremos", "we want"],
+          ["queréis", "you all want"],
+          ["quieren", "they want"]
+        ],
+        [
+          ["estoy queriendo", "I am wanting"],
+          ["estás queriendo", "you are wanting"],
+          ["está queriendo", "he/she is wanting"],
+          ["estamos queriendo", "we are wanting"],
+          ["estáis queriendo", "you all are wanting"],
+          ["están queriendo", "they are wanting"]
+        ],
+        [
+          ["voy a querer", "I am going to want"],
+          ["vas a querer", "you are going to want"],
+          ["va a querer", "he/she is going to want"],
+          ["vamos a querer", "we are going to want"],
+          ["vais a querer", "you all are going to want"],
+          ["van a querer", "they are going to want"]
+        ],
+        [
+          ["querré", "I will want"],
+          ["querrás", "you will want"],
+          ["querrá", "he/she will want"],
+          ["querremos", "we will want"],
+          ["querréis", "you all will want"],
+          ["querrán", "they will want"]
+        ],
+        [
+          ["querría", "I would want"],
+          ["querrías", "you would want"],
+          ["querría", "he/she would want"],
+          ["querríamos", "we would want"],
+          ["querríais", "you all would want"],
+          ["querrían", "they would want"]
+        ],
+        "irregular",
+        false
+      ],
+      [
+        "poder",
+        [
+          ["pude", "I could"],
+          ["pudiste", "you could"],
+          ["pudo", "he/she could"],
+          ["pudimos", "we could"],
+          ["pudisteis", "you all could"],
+          ["pudieron", "they could"]
+        ],
+        [
+          ["podía", "I could"],
+          ["podías", "you could"],
+          ["podía", "he/she could"],
+          ["podíamos", "we could"],
+          ["podíais", "you all could"],
+          ["podían", "they could"]
+        ],
+        [
+          ["he podido", "I have been able"],
+          ["has podido", "you have been able"],
+          ["ha podido", "he/she has been able"],
+          ["hemos podido", "we have been able"],
+          ["habéis podido", "you all have been able"],
+          ["han podido", "they have been able"]
+        ],
+        [
+          ["puedo", "I can"],
+          ["puedes", "you can"],
+          ["puede", "he/she can"],
+          ["podemos", "we can"],
+          ["podéis", "you all can"],
+          ["pueden", "they can"]
+        ],
+        [
+          ["estoy pudiendo", "I am able"],
+          ["estás pudiendo", "you are able"],
+          ["está pudiendo", "he/she is able"],
+          ["estamos pudiendo", "we are able"],
+          ["estáis pudiendo", "you all are able"],
+          ["están pudiendo", "they are able"]
+        ],
+        [
+          ["voy a poder", "I am going to be able"],
+          ["vas a poder", "you are going to be able"],
+          ["va a poder", "he/she is going to be able"],
+          ["vamos a poder", "we are going to be able"],
+          ["vais a poder", "you all are going to be able"],
+          ["van a poder", "they are going to be able"]
+        ],
+        [
+          ["podré", "I will be able"],
+          ["podrás", "you will be able"],
+          ["podrá", "he/she will be able"],
+          ["podremos", "we will be able"],
+          ["podréis", "you all will be able"],
+          ["podrán", "they will be able"]
+        ],
+        [
+          ["podría", "I could"],
+          ["podrías", "you could"],
+          ["podría", "he/she could"],
+          ["podríamos", "we could"],
+          ["podríais", "you all could"],
+          ["podrían", "they could"]
+        ],
+        "irregular",
+        false
+      ],
+      [
+        "hacer",
+        [
+          ["hice", "I did"],
+          ["hiciste", "you did"],
+          ["hizo", "he/she did"],
+          ["hicimos", "we did"],
+          ["hicisteis", "you all did"],
+          ["hicieron", "they did"]
+        ],
+        [
+          ["hacía", "I used to do"],
+          ["hacías", "you used to do"],
+          ["hacía", "he/she used to do"],
+          ["hacíamos", "we used to do"],
+          ["hacíais", "you all used to do"],
+          ["hacían", "they used to do"]
+        ],
+        [
+          ["he hecho", "I have done"],
+          ["has hecho", "you have done"],
+          ["ha hecho", "he/she has done"],
+          ["hemos hecho", "we have done"],
+          ["habéis hecho", "you all have done"],
+          ["han hecho", "they have done"]
+        ],
+        [
+          ["hago", "I do"],
+          ["haces", "you do"],
+          ["hace", "he/she does"],
+          ["hacemos", "we do"],
+          ["hacéis", "you all do"],
+          ["hacen", "they do"]
+        ],
+        [
+          ["estoy haciendo", "I am doing"],
+          ["estás haciendo", "you are doing"],
+          ["está haciendo", "he/she is doing"],
+          ["estamos haciendo", "we are doing"],
+          ["estáis haciendo", "you all are doing"],
+          ["están haciendo", "they are doing"]
+        ],
+        [
+          ["voy a hacer", "I am going to do"],
+          ["vas a hacer", "you are going to do"],
+          ["va a hacer", "he/she is going to do"],
+          ["vamos a hacer", "we are going to do"],
+          ["vais a hacer", "you all are going to do"],
+          ["van a hacer", "they are going to do"]
+        ],
+        [
+          ["haré", "I will do"],
+          ["harás", "you will do"],
+          ["hará", "he/she will do"],
+          ["haremos", "we will do"],
+          ["haréis", "you all will do"],
+          ["harán", "they will do"]
+        ],
+        [
+          ["haría", "I would do"],
+          ["harías", "you would do"],
+          ["haría", "he/she would do"],
+          ["haríamos", "we would do"],
+          ["haríais", "you all would do"],
+          ["harían", "they would do"]
+        ],
+        "irregular",
+        false
+      ],
+      [
+        "jugar",
+        [
+          ["jugué", "I played"],
+          ["jugaste", "you played"],
+          ["jugó", "he/she played"],
+          ["jugamos", "we played"],
+          ["jugasteis", "you all played"],
+          ["jugaron", "they played"]
+        ],
+        [
+          ["jugaba", "I used to play"],
+          ["jugabas", "you used to play"],
+          ["jugaba", "he/she used to play"],
+          ["jugábamos", "we used to play"],
+          ["jugabais", "you all used to play"],
+          ["jugaban", "they used to play"]
+        ],
+        [
+          ["he jugado", "I have played"],
+          ["has jugado", "you have played"],
+          ["ha jugado", "he/she has played"],
+          ["hemos jugado", "we have played"],
+          ["habéis jugado", "you all have played"],
+          ["han jugado", "they have played"]
+        ],
+        [
+          ["juego", "I play"],
+          ["juegas", "you play"],
+          ["juega", "he/she plays"],
+          ["jugamos", "we play"],
+          ["jugáis", "you all play"],
+          ["juegan", "they play"]
+        ],
+        [
+          ["estoy jugando", "I am playing"],
+          ["estás jugando", "you are playing"],
+          ["está jugando", "he/she is playing"],
+          ["estamos jugando", "we are playing"],
+          ["estáis jugando", "you all are playing"],
+          ["están jugando", "they are playing"]
+        ],
+        [
+          ["voy a jugar", "I am going to play"],
+          ["vas a jugar", "you are going to play"],
+          ["va a jugar", "he/she is going to play"],
+          ["vamos a jugar", "we are going to play"],
+          ["vais a jugar", "you all are going to play"],
+          ["van a jugar", "they are going to play"]
+        ],
+        [
+          ["jugaré", "I will play"],
+          ["jugarás", "you will play"],
+          ["jugará", "he/she will play"],
+          ["jugaremos", "we will play"],
+          ["jugaréis", "you all will play"],
+          ["jugarán", "they will play"]
+        ],
+        [
+          ["jugaría", "I would play"],
+          ["jugarías", "you would play"],
+          ["jugaría", "he/she would play"],
+          ["jugaríamos", "we would play"],
+          ["jugaríais", "you all would play"],
+          ["jugarían", "they would play"]
+        ],
+        "irregular",
+        false
+      ]
+    ],
+    "tenses": [
+      [
+        "Preterite",
+        ["", "", "", "", "", ""],
+        [
+          "é",
+          "aste",
+          "ó",
+          "amos",
+          "asteis",
+          "aron",
+          "í",
+          "iste",
+          "ió",
+          "imos",
+          "isteis",
+          "ieron",
+          "í",
+          "iste",
+          "ió",
+          "imos",
+          "isteis",
+          "ieron"
+        ],
+        "Used to talk about what you DID.\nTake the infinitive, delete its ending (-ar, -er, -ir) and add these endings:",
+        [
+          "bailar (to dance) → bailé = I danced",
+          "aprender (to learn) → aprendió = he/she learnt",
+          "decidir (to decide) → decidimos = we decided"
+        ],
+        "The preterite has many irregular verbs:\n such as 'ser' (fui), 'ir' (fui), 'querer' (quise), 'hacer' (hice), 'estar' (estuve), 'tener' (tuve), 'poder' (pude), 'jugar' (jugué), etc.",
+        true
+      ],
+      [
+        "Imperfect",
+        ["", "", "", "", "", ""],
+        [
+          "aba",
+          "abas",
+          "aba",
+          "ábamos",
+          "abais",
+          "aban",
+          "ía",
+          "ías",
+          "ía",
+          "íamos",
+          "íais",
+          "ían",
+          "ía",
+          "ías",
+          "ía",
+          "íamos",
+          "íais",
+          "ían"
+        ],
+        "Used to talk about what you USED TO DO or WERE DOING.\nTake the infinitive, delete its ending (-ar, -er, -ir) and add these endings:",
+        [
+          "cantar (to sing) → cantaba = I used to sing",
+          "beber (to drink) → bebías = you used to drink",
+          "vivir (to live) → vivían = they used to live"
+        ],
+        "The imperfect has only 3 irregular verbs:\n'ir' (iba), 'ser' (era) and 'ver' (veía).",
+        true
+      ],
+      [
+        "Past Perfect",
+        ["he ", "has ", "ha ", "hemos ", "habéis ", "han "],
+        [
+          "ado",
+          "ado",
+          "ado",
+          "ado",
+          "ado",
+          "ado",
+          "ido",
+          "ido",
+          "ido",
+          "ido",
+          "ido",
+          "ido",
+          "ido",
+          "ido",
+          "ido",
+          "ido",
+          "ido",
+          "ido"
+        ],
+        "Used to talk about what you HAVE DONE.\nTake the correct form of the verb 'haber' (see column).\nThen look at the infinitive:\nIf it ends in -ar, delete it and add -ado.\nIf it ends in -er or -ir, delete that ending and add -ido.",
+        [
+          "hablar (to talk) → he hablado = I have talked",
+          "correr (to run) → hemos corrido = we have run",
+          "compartir (to share) → habéis compartido = you all have shared"
+        ],
+        "Some irregulars include:\n'hacer' (he hecho), 'escribir' (he escrito) and 'ver' (he visto)",
+        true
+      ],
+      [
+        "Present",
+        ["", "", "", "", "", ""],
+        [
+          "o",
+          "as",
+          "a",
+          "amos",
+          "áis",
+          "an",
+          "o",
+          "es",
+          "e",
+          "emos",
+          "éis",
+          "en",
+          "o",
+          "es",
+          "e",
+          "imos",
+          "ís",
+          "en"
+        ],
+        "Used to talk about what you NORMALLY DO.\nTake the infinitive, delete its ending (-ar, -er, -ir) and add these endings:",
+        [
+          "hablar (to talk) → hablo = I talk",
+          "aprender (to learn) → aprendemos = we learn",
+          "vivir (to live) → vivís = you all live"
+        ],
+        "Some irregulars include:\n'ser' (soy), 'ir' (voy), 'querer' (quiero), 'hacer' (hago), 'estar' (estoy), 'tener' (tengo), 'poder' (puedo) or 'jugar' (juego).",
+        true
+      ],
+      [
+        "Present Continuous",
+        ["estoy ", "estás ", "está ", "estamos ", "estáis ", "están "],
+        [
+          "ando",
+          "ando",
+          "ando",
+          "ando",
+          "ando",
+          "ando",
+          "iendo",
+          "iendo",
+          "iendo",
+          "iendo",
+          "iendo",
+          "iendo",
+          "iendo",
+          "iendo",
+          "iendo",
+          "iendo",
+          "iendo",
+          "iendo"
+        ],
+        "Used to talk about what you ARE DOING.\nTake the correct form of 'estar' (see column) and add the gerund.\nYou form the gerund by taking the infinitive and deleting its ending.\nIf the ending was -ar add -ando.\nIf the ending was -er or -ir add -iendo",
+        [
+          "bailar (to dance) → estoy bailando = I'm dancing",
+          "beber (to drink) → está bebiendo = he/she is drinking",
+          "compartir (to share) → estamos compartiendo = we are sharing"
+        ],
+        "There are very few irregulars in this tense:\nExamples: 'ir' (estoy yendo), 'decir' (estoy diciendo)",
+        true
+      ],
+      [
+        "Immediate Future",
+        ["voy a ", "vas a ", "va a ", "vamos a ", "vais a ", "van a "],
+        [
+          "ar",
+          "ar",
+          "ar",
+          "ar",
+          "ar",
+          "ar",
+          "er",
+          "er",
+          "er",
+          "er",
+          "er",
+          "er",
+          "ir",
+          "ir",
+          "ir",
+          "ir",
+          "ir",
+          "ir"
+        ],
+        "Used to talk about what you ARE GOING TO DO.\nTake the correct form of the verb 'ir' (see column) + the word 'a' + the infinitive",
+        [
+          "cantar (to sing) → voy a cantar = I'm going to sing",
+          "aprender (to learn) → vas a aprender = you are going to learn",
+          "vivir (to live) → vamos a vivir = we are going to live"
+        ],
+        "There are no irregular verbs in this tense!",
+        true
+      ],
+      [
+        "Simple Future",
+        ["", "", "", "", "", ""],
+        [
+          "aré",
+          "arás",
+          "ará",
+          "aremos",
+          "aréis",
+          "arán",
+          "eré",
+          "erás",
+          "erá",
+          "eremos",
+          "eréis",
+          "erán",
+          "iré",
+          "irás",
+          "irá",
+          "iremos",
+          "iréis",
+          "irán"
+        ],
+        "Used to talk about what you WILL DO.\nTake the infinitive, DO NOT DELETE ITS ENDING (-ar, -er, -ir) and add these endings:",
+        [
+          "hablar (to talk) → hablaré = I will talk",
+          "correr (to run) → correrás = you will run",
+          "decidir (to decide) → decidirán = they will decide"
+        ],
+        "A few verbs change the root but keep the same endings.\nSome examples are 'querer' (querré), 'hacer' (haré), 'tener' (tendré) or 'poder' (podré)",
+        true
+      ],
+      [
+        "Conditional",
+        ["", "", "", "", "", ""],
+        [
+          "aría",
+          "arías",
+          "aría",
+          "aríamos",
+          "aríais",
+          "arían",
+          "ería",
+          "erías",
+          "ería",
+          "eríamos",
+          "eríais",
+          "erían",
+          "iría",
+          "irías",
+          "iría",
+          "iríamos",
+          "iríais",
+          "irían"
+        ],
+        "Used to talk about what you WOULD DO.\nTake the infinitive, DO NOT DELETE ITS ENDING (-ar, -er, -ir) and add these endings:",
+        [
+          "cantar (to sing) → cantaría = I would sing",
+          "beber (to drink) → bebería = he/she would drink",
+          "compartir (to share) → compartirían = they would share"
+        ],
+        "A few verbs change the root but keep the same endings.\nSome examples are 'querer' (querría), 'hacer' (haría), 'tener' (tendría) or 'poder' (podría)",
+        true
+      ]
+    ],
+    "persons": [
+      ["yo → I", true],
+      ["tú → you", true],
+      ["él/ella → he/she", true],
+      ["nosotros → we", true],
+      ["vosotros → you all", true],
+      ["ellos → they", true]
+    ]
+  }
+  
